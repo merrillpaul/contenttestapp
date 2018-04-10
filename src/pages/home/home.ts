@@ -2,6 +2,8 @@ import { Component } from "@angular/core";
 import { NavController, LoadingController, Platform, AlertController } from "ionic-angular";
 import { Pro, DeployInfo, DeployConfig } from "@ionic/pro";
 import { HttpClient } from '@angular/common/http';
+import { Subject } from "rxjs/Subject";
+import { BehaviorSubject } from "rxjs";
 
 const TESTS = [
   'bbcs-4',
@@ -20,6 +22,8 @@ const CONTENT_CHANNEL = `Master`
 })
 export class HomePage {
   private initialConfig: DeployConfig;
+  private tests: string[] = TESTS;
+  private processedTests: BehaviorSubject<string[]> = new BehaviorSubject([]);
   constructor(
     public navCtrl: NavController,
     public loadingCtrl: LoadingController,    
@@ -59,6 +63,33 @@ export class HomePage {
     return new Promise<boolean> ((res) => {
       setTimeout(()=>res(true), 2000);
     });
+  }
+
+  async showTests() {
+    let procTests = [];
+    for(let t of TESTS) {
+      try {
+        let test = await this.http.get(`assets/battery/${t}/test-json/${t}.json`).toPromise();
+        procTests.push(test);
+      } catch(e) {
+        // ignored
+        console.log(`Test ${t} not found`);
+      }
+    }
+    this.processedTests.next(procTests);
+  }
+
+  async showTestInfo(test: any) {
+    let alert = this.alertCtrl.create({
+      title: `Test ${test.displayName}`,
+      subTitle: JSON.stringify(test, null, 5),
+      buttons: [
+        {
+          text: 'Ok'
+        }
+      ]
+    });
+    alert.present();
   }
 
   async downloadContent() {
