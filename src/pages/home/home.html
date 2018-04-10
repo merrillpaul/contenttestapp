@@ -16,9 +16,9 @@
 
   <button ion-button secondary menuToggle>Toggle Menu</button>
   <button ion-button (click)="downloadAndUpdate()">Login & Update</button>
-  <button ion-button (click)="showTests()">Show Tests</button>
+  <button ion-button color="danger" (click)="showTests()">Show Tests</button>
   <ion-card *ngFor="let test of processedTests | async">
-    <button ion-button (click)="showTestInfo(test)">{{test.displayName}}</button>
+    <button ion-button outline color="danger" (click)="showTestInfo(test)">{{test.displayName}}</button>
   </ion-card>
  
 
