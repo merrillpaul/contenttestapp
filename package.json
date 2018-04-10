@@ -10,8 +10,7 @@
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
-    "reset_platform": "ionic cordova platform remove ios && ionic cordova platform add ios",
-    "prebuild": "npm run reset_platform"
+    "reset_platform": "ionic cordova platform remove ios && ionic cordova platform add ios"
   },
   "dependencies": {
     "@angular/animations": "5.2.9",
