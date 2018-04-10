@@ -1,0 +1,908 @@
+{
+  "subtestId": 1180,
+  "subtestGUID": "dd1183aee5ca452096538d8141c12a70",
+  "title": "RAVLT Short Delay",
+  "displayName": "Short Delay",
+  "abbr": "RAVLT Short Delay",
+  "testType": "cvlt",
+  "testTitle": "RAVLT",
+  "testDisplayName": "RAVLT",
+  "normType": "ravlt",
+  "testGUID": "b6a026e7446e44778b3b8d5f52ce64cd",
+  "subtestType": "cvlt",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/ravlt/ravlt_short_delay",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 90,
+          "month": 0
+        }
+      }
+    ],
+    "subtestCategory": "Learning and Memory",
+    "averageDuration": 13,
+    "descriptionCS": "RAVLT research version"
+  },
+  "questions": 
+  [
+    {
+      "id": "ravlt-trial-i",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ravlt/ravlt_short_delay/ravlt-trial-i",
+      "subtestName": "RAVLT Short Delay",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Trial I",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ravlt/ravlt_short_delay/ravlt-trial-i/ravlt-trial-iPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "primaryList": {
+            "displayName": "List A",
+            "words": 
+            [
+              {
+                "word": "Drum",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Curtain",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Bell",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Coffee",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "School",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Parent",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Moon",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Garden",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Hat",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Farmer",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Nose",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Turkey",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Color",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "House",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "River",
+                "category": "Correct Responses"
+              }
+            ]
+          }
+        },
+        "superType": null,
+        "type": "wordList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "ravlt-trial-ii",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ravlt/ravlt_short_delay/ravlt-trial-ii",
+      "subtestName": "RAVLT Short Delay",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Trial II",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ravlt/ravlt_short_delay/ravlt-trial-ii/ravlt-trial-iiPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "primaryList": {
+            "displayName": "List A",
+            "words": 
+            [
+              {
+                "word": "Drum",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Curtain",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Bell",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Coffee",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "School",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Parent",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Moon",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Garden",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Hat",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Farmer",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Nose",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Turkey",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Color",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "House",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "River",
+                "category": "Correct Responses"
+              }
+            ]
+          }
+        },
+        "superType": null,
+        "type": "wordList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "ravlt-trial-iii",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ravlt/ravlt_short_delay/ravlt-trial-iii",
+      "subtestName": "RAVLT Short Delay",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Trial III",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ravlt/ravlt_short_delay/ravlt-trial-iii/ravlt-trial-iiiPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "primaryList": {
+            "displayName": "List A",
+            "words": 
+            [
+              {
+                "word": "Drum",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Curtain",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Bell",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Coffee",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "School",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Parent",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Moon",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Garden",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Hat",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Farmer",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Nose",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Turkey",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Color",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "House",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "River",
+                "category": "Correct Responses"
+              }
+            ]
+          }
+        },
+        "superType": null,
+        "type": "wordList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "ravlt-trial-iv",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ravlt/ravlt_short_delay/ravlt-trial-iv",
+      "subtestName": "RAVLT Short Delay",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Trial IV",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ravlt/ravlt_short_delay/ravlt-trial-iv/ravlt-trial-ivPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "primaryList": {
+            "displayName": "List A",
+            "words": 
+            [
+              {
+                "word": "Drum",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Curtain",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Bell",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Coffee",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "School",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Parent",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Moon",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Garden",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Hat",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Farmer",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Nose",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Turkey",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Color",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "House",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "River",
+                "category": "Correct Responses"
+              }
+            ]
+          }
+        },
+        "superType": null,
+        "type": "wordList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "ravlt-trial-v",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ravlt/ravlt_short_delay/ravlt-trial-v",
+      "subtestName": "RAVLT Short Delay",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Trial V",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ravlt/ravlt_short_delay/ravlt-trial-v/ravlt-trial-vPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "primaryList": {
+            "displayName": "List A",
+            "words": 
+            [
+              {
+                "word": "Drum",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Curtain",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Bell",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Coffee",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "School",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Parent",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Moon",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Garden",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Hat",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Farmer",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Nose",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Turkey",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Color",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "House",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "River",
+                "category": "Correct Responses"
+              }
+            ]
+          }
+        },
+        "superType": null,
+        "type": "wordList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "ravlt-trial-b",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ravlt/ravlt_short_delay/ravlt-trial-b",
+      "subtestName": "RAVLT Short Delay",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "List B Trial",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ravlt/ravlt_short_delay/ravlt-trial-b/ravlt-trial-bPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "primaryList": {
+            "displayName": "List B",
+            "words": 
+            [
+              {
+                "word": "Desk",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Ranger",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Bird",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Shoe",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Stove",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Mountain",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Glasses",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Towel",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Cloud",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Boat",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Lamb",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Gun",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Pencil",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Church",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Fish",
+                "category": "Correct Responses"
+              }
+            ]
+          },
+          "referenceList": {
+            "displayName": "List A",
+            "words": 
+            [
+              {
+                "word": "Drum",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Curtain",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Bell",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Coffee",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "School",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Parent",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Moon",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Garden",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Hat",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Farmer",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Nose",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Turkey",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Color",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "House",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "River",
+                "category": "Correct Responses"
+              }
+            ]
+          }
+        },
+        "superType": null,
+        "type": "wordList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "ravlt-trial-vi",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ravlt/ravlt_short_delay/ravlt-trial-vi",
+      "subtestName": "RAVLT Short Delay",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Trial VI",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ravlt/ravlt_short_delay/ravlt-trial-vi/ravlt-trial-viPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "primaryList": {
+            "displayName": "List A",
+            "words": 
+            [
+              {
+                "word": "Drum",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Curtain",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Bell",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Coffee",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "School",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Parent",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Moon",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Garden",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Hat",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Farmer",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Nose",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Turkey",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Color",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "House",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "River",
+                "category": "Correct Responses"
+              }
+            ]
+          },
+          "referenceList": {
+            "displayName": "List B",
+            "words": 
+            [
+              {
+                "word": "Desk",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Ranger",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Bird",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Shoe",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Stove",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Mountain",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Glasses",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Towel",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Cloud",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Boat",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Lamb",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Gun",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Pencil",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Church",
+                "category": "Correct Responses"
+              },
+              {
+                "word": "Fish",
+                "category": "Correct Responses"
+              }
+            ]
+          }
+        },
+        "superType": null,
+        "type": "wordList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}
