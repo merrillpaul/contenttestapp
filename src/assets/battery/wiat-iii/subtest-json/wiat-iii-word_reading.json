@@ -1,0 +1,1386 @@
+{
+  "subtestId": 554,
+  "subtestGUID": "c7d6bdeb98f14e139899207b48f8d6e3",
+  "title": "Word Reading",
+  "displayName": "Word Reading",
+  "abbr": "wr",
+  "testType": "wiat",
+  "testTitle": "WIAT-III",
+  "testDisplayName": "WIAT-III",
+  "normType": "wiat-iii",
+  "testGUID": "be9ba998f6db9f59e040a8c042016bc8",
+  "subtestType": "WordReading",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wiat-iii/word_reading",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 50,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Basic Reading",
+    "averageDuration": 2,
+    "minGradeLevel": 2,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee reads aloud from a list of words that increase in difficulty."
+  },
+  "questions": 
+  [
+    {
+      "id": "wiatiii-wordreading-items",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/word_reading/wiatiii-wordreading-items",
+      "subtestName": "Word Reading",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Test Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "hasPortraitStim": true,
+      "hasMultiPageStim": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wiat-iii/word_reading/wiatiii-wordreading-items/wiatiii-wordreading-itemsPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "showPronunciations": false,
+          "errorCategories": 
+          [
+            "Insertions",
+            "Mis-Sequence of Sounds",
+            "Whole Word Error",
+            "Common Prefixes/ Word Beginnings",
+            "Common Suffixes/ Word Endings",
+            "VCE Syllables",
+            "Irregular Vowels",
+            "Single Short Vowels",
+            "Single Long Vowels",
+            "Schwa Vowel Sounds",
+            "Vowel Digraphs",
+            "Diphthongs",
+            "R-Controlled Vowels",
+            "Silent Vowels",
+            "Consonant Digraphs",
+            "Single Consonants",
+            "Double Consonants",
+            "S as \\z\\ or \\zh\\",
+            "T as \\sh\\ or \\ch\\",
+            "C as \\sh\\",
+            "R-Family Blends",
+            "L-Family Blends",
+            "S-Family Blends",
+            "Consonant (Vowel) Blends/Clusters",
+            "Silent Consonants"
+          ],
+          "pages": 
+          [
+            {
+              "wordFormat": "small",
+              "words": 
+              [
+                {
+                  "label": "in",
+                  "pronunciation": "in",
+                  "errors": 
+                  [
+                    "Single Short Vowels (i)",
+                    "Single Consonants (n)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "to",
+                  "pronunciation": "to",
+                  "errors": 
+                  [
+                    "Single Consonants (t)",
+                    "Irregular Vowels (o)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "my",
+                  "pronunciation": "my",
+                  "errors": 
+                  [
+                    "Single Consonants (m)",
+                    "Irregular Vowels (y)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "they",
+                  "pronunciation": "they",
+                  "errors": 
+                  [
+                    "Consonant Digraphs (th)",
+                    "Vowel Digraphs (ey)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "cow",
+                  "pronunciation": "cow",
+                  "errors": 
+                  [
+                    "Single Consonants (c)",
+                    "Diphthongs (ow)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "when",
+                  "pronunciation": "when",
+                  "errors": 
+                  [
+                    "Consonant Digraphs (wh)",
+                    "Single Short Vowels (e)",
+                    "Single Consonants (n)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "bear",
+                  "pronunciation": "bear",
+                  "errors": 
+                  [
+                    "Single Consonants (b)",
+                    "Vowel Digraphs (ea)",
+                    "Single Consonants (r)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "don't",
+                  "pronunciation": "don't",
+                  "errors": 
+                  [
+                    "Single Consonants (d)",
+                    "Single Long Vowels (o)",
+                    "Consonant (Vowel) Blends/Clusters (nt)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "shop",
+                  "pronunciation": "shop",
+                  "errors": 
+                  [
+                    "Consonant Digraphs (sh)",
+                    "Single Short Vowels (o)",
+                    "Single Consonants (p)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "other",
+                  "pronunciation": "other",
+                  "errors": 
+                  [
+                    "Schwa Vowel Sounds (o)",
+                    "Consonant Digraphs (th)",
+                    "R-Controlled Vowels (er)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "stone",
+                  "pronunciation": "stone",
+                  "errors": 
+                  [
+                    "S-Family Blends (st)",
+                    "VCE Syllables (o_e)",
+                    "Single Consonants (n)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "sky",
+                  "pronunciation": "sky",
+                  "errors": 
+                  [
+                    "S-Family Blends (sk)",
+                    "Irregular Vowels (y)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "breeze",
+                  "pronunciation": "breeze",
+                  "errors": 
+                  [
+                    "R-Family Blends (br)",
+                    "Vowel Digraphs (ee)",
+                    "Single Consonants (z)",
+                    "Silent Vowels (e)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "fight",
+                  "pronunciation": "fight",
+                  "errors": 
+                  [
+                    "Single Consonants (f)",
+                    "Single Long Vowels (i)",
+                    "Silent Consonants (gh)",
+                    "Single Consonants (t)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "between",
+                  "pronunciation": "between",
+                  "errors": 
+                  [
+                    "Single Consonants (b)",
+                    "Single Long Vowels (e)",
+                    "Consonant (Vowel) Blends/Clusters (tw)",
+                    "Vowel Digraphs (ee)",
+                    "Single Consonants (n)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "goat",
+                  "pronunciation": "goat",
+                  "errors": 
+                  [
+                    "Single Consonants (g)",
+                    "Vowel Digraphs (oa)",
+                    "Single Consonants (t)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "foot",
+                  "pronunciation": "foot",
+                  "errors": 
+                  [
+                    "Single Consonants (f)",
+                    "Vowel Digraphs (oo)",
+                    "Single Consonants (t)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "wrong",
+                  "pronunciation": "wrong",
+                  "errors": 
+                  [
+                    "Silent Consonants (w)",
+                    "Single Consonants (r)",
+                    "Irregular Vowels (o)",
+                    "Consonant Digraphs (ng)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "seat",
+                  "pronunciation": "seat",
+                  "errors": 
+                  [
+                    "Single Consonants (s)",
+                    "Vowel Digraphs (ea)",
+                    "Single Consonants (t)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "cloud",
+                  "pronunciation": "cloud",
+                  "errors": 
+                  [
+                    "L-Family Blends (cl)",
+                    "Diphthongs (ou)",
+                    "Single Consonants (d)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "depend",
+                  "pronunciation": "depend",
+                  "errors": 
+                  [
+                    "Single Consonants (d)",
+                    "Irregular Vowels (e)",
+                    "Single Consonants (p)",
+                    "Single Short Vowels (e)",
+                    "Consonant (Vowel) Blends/Clusters (nd)",
+                    "Common Prefixes/ Word Beginnings (de)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "frozen",
+                  "pronunciation": "frozen",
+                  "errors": 
+                  [
+                    "R-Family Blends (fr)",
+                    "Single Long Vowels (o)",
+                    "Single Consonants (z)",
+                    "Schwa Vowel Sounds (e)",
+                    "Common Suffixes/ Word Endings (en)",
+                    "Single Consonants (n)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "knife",
+                  "pronunciation": "knife",
+                  "errors": 
+                  [
+                    "Silent Consonants (k)",
+                    "Single Consonants (n)",
+                    "VCE Syllables (i_e)",
+                    "Single Consonants (f)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "distance",
+                  "pronunciation": "distance",
+                  "errors": 
+                  [
+                    "Single Consonants (d)",
+                    "Single Short Vowels (i)",
+                    "S-Family Blends (st)",
+                    "Schwa Vowel Sounds (a)",
+                    "Consonant (Vowel) Blends/Clusters (nc)",
+                    "Silent Vowels (e)",
+                    "Common Suffixes/ Word Endings (ance)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                }
+              ]
+            },
+            {
+              "wordFormat": "small",
+              "words": 
+              [
+                {
+                  "label": "equipment",
+                  "pronunciation": "equipment",
+                  "errors": 
+                  [
+                    "Irregular Vowels (e)",
+                    "Consonant (Vowel) Blends/Clusters (qu)",
+                    "Single Short Vowels (i)",
+                    "Single Consonants (p)",
+                    "Single Consonants (m)",
+                    "Schwa Vowel Sounds (e)",
+                    "Consonant (Vowel) Blends/Clusters (nt)",
+                    "Common Prefixes/ Word Beginnings (equi)",
+                    "Common Suffixes/ Word Endings (ment)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "manage",
+                  "pronunciation": "manage",
+                  "errors": 
+                  [
+                    "Single Consonants (m)",
+                    "Single Short Vowels (a)",
+                    "Single Consonants (n)",
+                    "Irregular Vowels (a)",
+                    "Single Consonants (g)",
+                    "Silent Vowels (e)",
+                    "Common Prefixes/ Word Beginnings (man)",
+                    "Common Suffixes/ Word Endings (age)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "photograph",
+                  "pronunciation": "photograph",
+                  "errors": 
+                  [
+                    "Consonant Digraphs (ph)",
+                    "Single Long Vowels (o)",
+                    "Single Consonants (t)",
+                    "Schwa Vowel Sounds (o)",
+                    "R-Family Blends (gr)",
+                    "Single Short Vowels (a)",
+                    "Consonant Digraphs (ph)",
+                    "Common Prefixes/ Word Beginnings (photo)",
+                    "Common Suffixes/ Word Endings (graph)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "crumb",
+                  "pronunciation": "crumb",
+                  "errors": 
+                  [
+                    "R-Family Blends (cr)",
+                    "Schwa Vowel Sounds (u)",
+                    "Single Consonants (m)",
+                    "Silent Consonants (b)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "playfully",
+                  "pronunciation": "playfully",
+                  "errors": 
+                  [
+                    "L-Family Blends (pl)",
+                    "Vowel Digraphs (ay)",
+                    "Single Consonants (f)",
+                    "Schwa Vowel Sounds (u)",
+                    "Double Consonants (ll)",
+                    "Irregular Vowels (y)",
+                    "Common Suffixes/ Word Endings (ful)",
+                    "Common Suffixes/ Word Endings (ly)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "rhyme",
+                  "pronunciation": "rhyme",
+                  "errors": 
+                  [
+                    "Single Consonants (r)",
+                    "Silent Consonants (h)",
+                    "VCE Syllables (y_e)",
+                    "Single Consonants (m)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "posed",
+                  "pronunciation": "posed",
+                  "errors": 
+                  [
+                    "Single Consonants (p)",
+                    "VCE Syllables (o_e)",
+                    "S as \\z\\ or \\zh\\ (s)",
+                    "Single Consonants (d)",
+                    "Common Suffixes/ Word Endings (ed)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "budge",
+                  "pronunciation": "budge",
+                  "errors": 
+                  [
+                    "Single Consonants (b)",
+                    "Schwa Vowel Sounds (u)",
+                    "Consonant Digraphs (dg)",
+                    "Silent Vowels (e)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "ruin",
+                  "pronunciation": "ruin",
+                  "errors": 
+                  [
+                    "Single Consonants (r)",
+                    "Irregular Vowels (u)",
+                    "Schwa Vowel Sounds (i)",
+                    "Single Consonants (n)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "tough",
+                  "pronunciation": "tough",
+                  "errors": 
+                  [
+                    "Single Consonants (t)",
+                    "Schwa Vowel Sounds (ou)",
+                    "Consonant Digraphs (gh)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "garnish",
+                  "pronunciation": "garnish",
+                  "errors": 
+                  [
+                    "Single Consonants (g)",
+                    "R-Controlled Vowels (ar)",
+                    "Single Consonants (n)",
+                    "Single Short Vowels (i)",
+                    "Consonant Digraphs (sh)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "ridiculous",
+                  "pronunciation": "ridiculous",
+                  "errors": 
+                  [
+                    "Single Consonants (r)",
+                    "Schwa Vowel Sounds (i)",
+                    "Single Consonants (d)",
+                    "Single Short Vowels (i)",
+                    "Single Consonants (c)",
+                    "Schwa Vowel Sounds (u)",
+                    "Single Consonants (l)",
+                    "Schwa Vowel Sounds (ou)",
+                    "Single Consonants (s)",
+                    "Common Suffixes/ Word Endings (ous)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "interject",
+                  "pronunciation": "interject",
+                  "errors": 
+                  [
+                    "Single Short Vowels (i)",
+                    "Consonant (Vowel) Blends/Clusters (nt)",
+                    "R-Controlled Vowels (er)",
+                    "Single Consonants (j)",
+                    "Single Short Vowels (e)",
+                    "Consonant (Vowel) Blends/Clusters (ct)",
+                    "Common Prefixes/ Word Beginnings (inter)",
+                    "Common Suffixes/ Word Endings (ject)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "radiant",
+                  "pronunciation": "radiant",
+                  "errors": 
+                  [
+                    "Single Consonants (r)",
+                    "Single Long Vowels (a)",
+                    "Single Consonants (d)",
+                    "Irregular Vowels (i)",
+                    "Schwa Vowel Sounds (a)",
+                    "Consonant (Vowel) Blends/Clusters (nt)",
+                    "Common Suffixes/ Word Endings (ant)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "poise",
+                  "pronunciation": "poise",
+                  "errors": 
+                  [
+                    "Single Consonants (p)",
+                    "Diphthongs (oi)",
+                    "S as \\z\\ or \\zh\\ (s)",
+                    "Silent Vowels (e)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "custodian",
+                  "pronunciation": "custodian",
+                  "errors": 
+                  [
+                    "Single Consonants (c)",
+                    "Schwa Vowel Sounds (u)",
+                    "S-Family Blends (st)",
+                    "Single Long Vowels (o)",
+                    "Single Consonants (d)",
+                    "Irregular Vowels (i)",
+                    "Schwa Vowel Sounds (a)",
+                    "Single Consonants (n)",
+                    "Common Suffixes/ Word Endings (an)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "pier",
+                  "pronunciation": "pier",
+                  "errors": 
+                  [
+                    "Single Consonants (p)",
+                    "Vowel Digraphs (ie)",
+                    "Single Consonants (r)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "choir",
+                  "pronunciation": "choir",
+                  "errors": 
+                  [
+                    "Consonant Digraphs (ch)",
+                    "Irregular Vowels (oi)",
+                    "Single Consonants (r)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "surgery",
+                  "pronunciation": "surgery",
+                  "errors": 
+                  [
+                    "Single Consonants (s)",
+                    "R-Controlled Vowels (ur)",
+                    "Single Consonants (g)",
+                    "R-Controlled Vowels (er)",
+                    "Irregular Vowels (y)",
+                    "Common Suffixes/ Word Endings (y)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "idealism",
+                  "pronunciation": "idealism",
+                  "errors": 
+                  [
+                    "Single Long Vowels (i)",
+                    "Single Consonants (d)",
+                    "Single Long Vowels (e)",
+                    "Schwa Vowel Sounds (a)",
+                    "Single Consonants (l)",
+                    "Single Short Vowels (i)",
+                    "S as \\z\\ or \\zh\\ (s)",
+                    "Single Consonants (m)",
+                    "Common Suffixes/ Word Endings (ism)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "hymn",
+                  "pronunciation": "hymn",
+                  "errors": 
+                  [
+                    "Single Consonants (h)",
+                    "Irregular Vowels (y)",
+                    "Single Consonants (m)",
+                    "Silent Consonants (n)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "philosophy",
+                  "pronunciation": "philosophy",
+                  "errors": 
+                  [
+                    "Consonant Digraphs (ph)",
+                    "Schwa Vowel Sounds (i)",
+                    "Single Consonants (l)",
+                    "Single Short Vowels (o)",
+                    "Single Consonants (s)",
+                    "Schwa Vowel Sounds (o)",
+                    "Consonant Digraphs (ph)",
+                    "Irregular Vowels (y)",
+                    "Common Prefixes/ Word Beginnings (phil)",
+                    "Common Suffixes/ Word Endings (y)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "magnetic",
+                  "pronunciation": "magnetic",
+                  "errors": 
+                  [
+                    "Single Consonants (m)",
+                    "Single Short Vowels (a)",
+                    "Single Consonants (g)",
+                    "Single Consonants (n)",
+                    "Single Short Vowels (e)",
+                    "Single Consonants (t)",
+                    "Single Short Vowels (i)",
+                    "Single Consonants (c)",
+                    "Common Prefixes/ Word Beginnings (magnet)",
+                    "Common Suffixes/ Word Endings (ic)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "acquaintance",
+                  "pronunciation": "acquaintance",
+                  "errors": 
+                  [
+                    "Schwa Vowel Sounds (a)",
+                    "Silent Consonants (c)",
+                    "Consonant (Vowel) Blends/Clusters (qu)",
+                    "Vowel Digraphs (ai)",
+                    "Consonant (Vowel) Blends/Clusters (nt)",
+                    "Schwa Vowel Sounds (a)",
+                    "Consonant (Vowel) Blends/Clusters (nc)",
+                    "Silent Vowels (e)",
+                    "Common Suffixes/ Word Endings (ance)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                }
+              ]
+            },
+            {
+              "wordFormat": "small",
+              "words": 
+              [
+                {
+                  "label": "suspicious",
+                  "pronunciation": "suspicious",
+                  "errors": 
+                  [
+                    "Single Consonants (s)",
+                    "Schwa Vowel Sounds (u)",
+                    "S-Family Blends (sp)",
+                    "Single Short Vowels (i)",
+                    "C as \\sh\\ (c)",
+                    "Schwa Vowel Sounds (iou)",
+                    "Single Consonants (s)",
+                    "Common Prefixes/ Word Beginnings (sus)",
+                    "Common Suffixes/ Word Endings (ious)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "inflection",
+                  "pronunciation": "inflection",
+                  "errors": 
+                  [
+                    "Single Short Vowels (i)",
+                    "Single Consonants (n)",
+                    "L-Family Blends (fl)",
+                    "Single Short Vowels (e)",
+                    "Single Consonants (c)",
+                    "T as \\sh\\ or \\ch\\ (t)",
+                    "Schwa Vowel Sounds (io)",
+                    "Single Consonants (n)",
+                    "Common Suffixes/ Word Endings (tion)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "technique",
+                  "pronunciation": "technique",
+                  "errors": 
+                  [
+                    "Single Consonants (t)",
+                    "Single Short Vowels (e)",
+                    "Consonant Digraphs (ch)",
+                    "Single Consonants (n)",
+                    "Irregular Vowels (i)",
+                    "Single Consonants (q)",
+                    "Silent Vowels (ue)",
+                    "Common Suffixes/ Word Endings (ique)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "insignificant",
+                  "pronunciation": "insignificant",
+                  "errors": 
+                  [
+                    "Single Short Vowels (i)",
+                    "Single Consonants (n)",
+                    "Single Consonants (s)",
+                    "Single Short Vowels (i)",
+                    "Single Consonants (g)",
+                    "Single Consonants (n)",
+                    "Single Short Vowels (i)",
+                    "Single Consonants (f)",
+                    "Single Short Vowels (i)",
+                    "Single Consonants (c)",
+                    "Schwa Vowel Sounds (a)",
+                    "Consonant (Vowel) Blends/Clusters (nt)",
+                    "Common Prefixes/ Word Beginnings (in)",
+                    "Common Suffixes/ Word Endings (ant)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "elude",
+                  "pronunciation": "elude",
+                  "errors": 
+                  [
+                    "Single Long Vowels (e)",
+                    "Single Consonants (l)",
+                    "VCE Syllables (u_e)",
+                    "Single Consonants (d)",
+                    "Common Prefixes/ Word Beginnings (e)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "symphony",
+                  "pronunciation": "symphony",
+                  "errors": 
+                  [
+                    "Single Consonants (s)",
+                    "Irregular Vowels (y)",
+                    "Single Consonants (m)",
+                    "Consonant Digraphs (ph)",
+                    "Schwa Vowel Sounds (o)",
+                    "Single Consonants (n)",
+                    "Irregular Vowels (y)",
+                    "Common Prefixes/ Word Beginnings (sym)",
+                    "Common Suffixes/ Word Endings (y)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "allure",
+                  "pronunciation": "allure",
+                  "errors": 
+                  [
+                    "Schwa Vowel Sounds (a)",
+                    "Double Consonants (ll)",
+                    "VCE Syllables (u_e)",
+                    "Single Consonants (r)",
+                    "Common Suffixes/ Word Endings (ure)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "synthesis",
+                  "pronunciation": "synthesis",
+                  "errors": 
+                  [
+                    "Single Consonants (s)",
+                    "Irregular Vowels (y)",
+                    "Single Consonants (n)",
+                    "Consonant Digraphs (th)",
+                    "Schwa Vowel Sounds (e)",
+                    "Single Consonants (s)",
+                    "Schwa Vowel Sounds (i)",
+                    "Single Consonants (s)",
+                    "Common Prefixes/ Word Beginnings (syn)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "momentary",
+                  "pronunciation": "momentary",
+                  "errors": 
+                  [
+                    "Single Consonants (m)",
+                    "Single Long Vowels (o)",
+                    "Single Consonants (m)",
+                    "Schwa Vowel Sounds (e)",
+                    "Consonant (Vowel) Blends/Clusters (nt)",
+                    "R-Controlled Vowels (ar)",
+                    "Irregular Vowels (y)",
+                    "Common Suffixes/ Word Endings (ary)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "adolescent",
+                  "pronunciation": "adolescent",
+                  "errors": 
+                  [
+                    "Single Short Vowels (a)",
+                    "Single Consonants (d)",
+                    "Schwa Vowel Sounds (o)",
+                    "Single Consonants (l)",
+                    "Single Short Vowels (e)",
+                    "Single Consonants (s)",
+                    "Silent Consonants (c)",
+                    "Schwa Vowel Sounds (e)",
+                    "Consonant (Vowel) Blends/Clusters (nt)",
+                    "Common Prefixes/ Word Beginnings (ad)",
+                    "Common Suffixes/ Word Endings (ent)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "sarcasm",
+                  "pronunciation": "sarcasm",
+                  "errors": 
+                  [
+                    "Single Consonants (s)",
+                    "R-Controlled Vowels (ar)",
+                    "Single Consonants (c)",
+                    "Single Short Vowels (a)",
+                    "S as \\z\\ or \\zh\\ (s)",
+                    "Single Consonants (m)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "vestibule",
+                  "pronunciation": "vestibule",
+                  "errors": 
+                  [
+                    "Single Consonants (v)",
+                    "Single Short Vowels (e)",
+                    "S-Family Blends (st)",
+                    "Schwa Vowel Sounds (i)",
+                    "Single Consonants (b)",
+                    "VCE Syllables (u_e)",
+                    "Single Consonants (l)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "degenerative",
+                  "pronunciation": "degenerative",
+                  "errors": 
+                  [
+                    "Single Consonants (d)",
+                    "Single Long Vowels (e)",
+                    "Single Consonants (g)",
+                    "Schwa Vowel Sounds (e)",
+                    "Single Consonants (n)",
+                    "R-Controlled Vowels (er)",
+                    "Schwa Vowel Sounds (a)",
+                    "Single Consonants (t)",
+                    "Single Short Vowels (i)",
+                    "Single Consonants (v)",
+                    "Silent Vowels (e)",
+                    "Common Prefixes/ Word Beginnings (de)",
+                    "Common Suffixes/ Word Endings (ive)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "choreography",
+                  "pronunciation": "choreography",
+                  "errors": 
+                  [
+                    "Consonant Digraphs (ch)",
+                    "R-Controlled Vowels (or)",
+                    "Single Long Vowels (e)",
+                    "Single Short Vowels (o)",
+                    "R-Family Blends (gr)",
+                    "Schwa Vowel Sounds (a)",
+                    "Consonant Digraphs (ph)",
+                    "Irregular Vowels (y)",
+                    "Common Suffixes/ Word Endings (y)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "isthmic",
+                  "pronunciation": "isthmic",
+                  "errors": 
+                  [
+                    "Single Short Vowels (i)",
+                    "Consonant (Vowel) Blends/Clusters (s_m)",
+                    "Silent Consonants (th)",
+                    "Single Short Vowels (i)",
+                    "Single Consonants (c)",
+                    "Common Suffixes/ Word Endings (ic)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "plethora",
+                  "pronunciation": "plethora",
+                  "errors": 
+                  [
+                    "L-Family Blends (pl)",
+                    "Single Short Vowels (e)",
+                    "Consonant Digraphs (th)",
+                    "R-Controlled Vowels (or)",
+                    "Schwa Vowel Sounds (a)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "manipulative",
+                  "pronunciation": "manipulative",
+                  "errors": 
+                  [
+                    "Single Consonants (m)",
+                    "Schwa Vowel Sounds (a)",
+                    "Single Consonants (n)",
+                    "Single Short Vowels (i)",
+                    "Single Consonants (p)",
+                    "Schwa Vowel Sounds (u)",
+                    "Single Consonants (l)",
+                    "Schwa Vowel Sounds (a)",
+                    "Single Consonants (t)",
+                    "Single Short Vowels (i)",
+                    "Single Consonants (v)",
+                    "Silent Vowels (e)",
+                    "Common Prefixes/ Word Beginnings (man)",
+                    "Common Suffixes/ Word Endings (ive)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "vacillate",
+                  "pronunciation": "vacillate",
+                  "errors": 
+                  [
+                    "Single Consonants (v)",
+                    "Single Short Vowels (a)",
+                    "Single Consonants (c)",
+                    "Schwa Vowel Sounds (i)",
+                    "Double Consonants (ll)",
+                    "VCE Syllables (a_e)",
+                    "Single Consonants (t)",
+                    "Common Suffixes/ Word Endings (ate)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "sanguine",
+                  "pronunciation": "sanguine",
+                  "errors": 
+                  [
+                    "Single Consonants (s)",
+                    "Single Short Vowels (a)",
+                    "Consonant Digraphs (ng)",
+                    "Consonant (Vowel) Blends/Clusters (gu)",
+                    "Schwa Vowel Sounds (i)",
+                    "Single Consonants (n)",
+                    "Silent Vowels (e)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "vociferous",
+                  "pronunciation": "vociferous",
+                  "errors": 
+                  [
+                    "Single Consonants (v)",
+                    "Single Long Vowels (o)",
+                    "Single Consonants (c)",
+                    "Single Short Vowels (i)",
+                    "Single Consonants (f)",
+                    "R-Controlled Vowels (er)",
+                    "Schwa Vowel Sounds (ou)",
+                    "Single Consonants (s)",
+                    "Common Suffixes/ Word Endings (ous)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "hierarchy",
+                  "pronunciation": "hierarchy",
+                  "errors": 
+                  [
+                    "Single Consonants (h)",
+                    "Single Long Vowels (i)",
+                    "R-Controlled Vowels (er)",
+                    "R-Controlled Vowels (ar)",
+                    "Consonant Digraphs (ch)",
+                    "Irregular Vowels (y)",
+                    "Common Suffixes/ Word Endings (y)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "euphonious",
+                  "pronunciation": "euphonious",
+                  "errors": 
+                  [
+                    "Vowel Digraphs (eu)",
+                    "Consonant Digraphs (ph)",
+                    "Single Long Vowels (o)",
+                    "Single Consonants (n)",
+                    "Irregular Vowels (i)",
+                    "Schwa Vowel Sounds (ou)",
+                    "Single Consonants (s)",
+                    "Common Prefixes/ Word Beginnings (eu)",
+                    "Common Suffixes/ Word Endings (ious)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "autonomous",
+                  "pronunciation": "autonomous",
+                  "errors": 
+                  [
+                    "Diphthongs (au)",
+                    "Single Consonants (t)",
+                    "Single Short Vowels (o)",
+                    "Single Consonants (n)",
+                    "Schwa Vowel Sounds (o)",
+                    "Single Consonants (m)",
+                    "Schwa Vowel Sounds (ou)",
+                    "Single Consonants (s)",
+                    "Common Prefixes/ Word Beginnings (auto)",
+                    "Common Suffixes/ Word Endings (ous)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "demagogue",
+                  "pronunciation": "demagogue",
+                  "errors": 
+                  [
+                    "Single Consonants (d)",
+                    "Schwa Vowel Sounds (e)",
+                    "Single Consonants (m)",
+                    "Schwa Vowel Sounds (a)",
+                    "Single Consonants (g)",
+                    "Single Short Vowels (o)",
+                    "Single Consonants (g)",
+                    "Silent Vowels (ue)",
+                    "Common Prefixes/ Word Beginnings (dem)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                }
+              ]
+            },
+            {
+              "wordFormat": "small",
+              "words": 
+              [
+                {
+                  "label": "vicissitude",
+                  "pronunciation": "vicissitude",
+                  "errors": 
+                  [
+                    "Single Consonants (v)",
+                    "Schwa Vowel Sounds (i)",
+                    "Single Consonants (c)",
+                    "Single Short Vowels (i)",
+                    "Double Consonants (ss)",
+                    "Schwa Vowel Sounds (i)",
+                    "Single Consonants (t)",
+                    "VCE Syllables (u_e)",
+                    "Single Consonants (d)",
+                    "Common Suffixes/ Word Endings (tude)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "vitiate",
+                  "pronunciation": "vitiate",
+                  "errors": 
+                  [
+                    "Single Consonants (v)",
+                    "Single Short Vowels (i)",
+                    "T as \\sh\\ or \\ch\\ (t)",
+                    "Irregular Vowels (i)",
+                    "VCE Syllables (a_e)",
+                    "Single Consonants (t)",
+                    "Common Suffixes/ Word Endings (ate)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                },
+                {
+                  "label": "quincuncial",
+                  "pronunciation": "quincuncial",
+                  "errors": 
+                  [
+                    "Consonant (Vowel) Blends/Clusters (qu)",
+                    "Single Short Vowels (i)",
+                    "Single Consonants (n)",
+                    "Single Consonants (c)",
+                    "Schwa Vowel Sounds (u)",
+                    "Single Consonants (n)",
+                    "C as \\sh\\ (c)",
+                    "Schwa Vowel Sounds (ia)",
+                    "Single Consonants (l)",
+                    "Common Prefixes/ Word Beginnings (quin)",
+                    "Common Suffixes/ Word Endings (al)",
+                    "Insertions",
+                    "Mis-Sequence of Sounds",
+                    "Whole Word Error"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "WordReading"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    }
+  ],
+  "GradeBasedStartingPointRule": {
+    "numPrevious": 0,
+    "showAllStaringPoints": false,
+    "startingPoints": 
+    [
+      {
+        "label": null,
+        "gradeLevels": 
+        [
+          "Grade 1"
+        ],
+        "questionId": "wiatiii-wordreading-items"
+      }
+    ]
+  },
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

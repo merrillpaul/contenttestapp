@@ -1,0 +1,2808 @@
+{
+  "subtestId": 530,
+  "subtestGUID": "36218300dbbd4982a9497713fd0d6b12",
+  "title": "Oral Expression",
+  "displayName": "Oral Expression",
+  "abbr": "oe",
+  "testType": "wiat",
+  "testTitle": "WIAT-III",
+  "testDisplayName": "WIAT-III",
+  "normType": "wiat-iii",
+  "testGUID": "be9ba998f6db9f59e040a8c042016bc8",
+  "subtestType": "wiat",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wiat-iii/oral_expression",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": {
+    "questionScoreIsHighestTrialScore": false,
+    "onlySkipSampleItems": false
+  },
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 50,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Oral Language",
+    "averageDuration": 9,
+    "minGradeLevel": 0,
+    "maxGradeLevel": 13,
+    "descriptionCS": "On Expressive Vocabulary, the examinee says the word that best corresponds to a given picture and definition. On Oral Word Fluency, the examinee names as many things as possible belonging to a given category (i.e., animals, colors) within 60 seconds. On Sentence Repetition the examinee listens to sentences that increase in length and complexity and repeats each sentence verbatim."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Expressive Vocabulary",
+      "abbr": "ev",
+      "hideStimWhenLeavingItemGroup": true,
+      "isUsingCustomIButton": true,
+      "baseUrl": "battery/wiat-iii/oral_expression/expressive_vocabulary",
+      "isUsingCustomSpeechBubble": true,
+      "questions": 
+      [
+        {
+          "id": "wiatiii-expressivevocabulary-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item1",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 1. Toothbrush",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Score 0. Point to the toothbrush and say, <span class=\"speechBlue\">What is this?<\u002fspan><\u002fp>\r\n\r\n<p>If the examinee does not answer correctly, say,&nbsp;<span class=\"speechBlue\">This is a toothbrush. Let&#39;s try again. Tell me the word that means <em>a brush for cleaning teeth. <\u002fem><\u002fspan><\u002fp>\r\n\r\n<p>Encourage the examinee to provide the correct response, and then proceed to Item 2 by saying, <span class=\"speechBlue\">Let&#39;s try some more. <\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Look at this picture. Tell me the word that means&nbsp;<em>a brush for cleaning teeth<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Toothbrush",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item2",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 2. Butterfly",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>a flying insect with large, brightly colored wings<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Butterfly",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Moth",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item3",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 3. Closet",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>a small place where clothes are stored<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Closet",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Wardrobe",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item4",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 4. Crawl",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>to move on hands and knees<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Crawl",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Crawling",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item5",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 5. Calculator",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>a small electronic device used to do math problems<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Cell phone; Palm pilot",
+                      "triggersQuery": true,
+                      "popoverText": "Say, <span class=\"speechBlue\">Tell me another word that means <em>a small electronic device used to do math problems<\u002fem>.<\u002fspan>",
+                      "displayPopoverTextAsHtml": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Calculator",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item6",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 6. Straight",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>not crooked<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Straight",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item7",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 7. Measure",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me that word that means&nbsp;<em>to find how long something is<\u002fem>.&nbsp;<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Measure",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Measuring",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item8",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 8. Keys",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>the part of the piano played with the fingers<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Keys",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Keyboard",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item9",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 9. Intersection",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>the place where two roads cross<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Crossroad; Corner",
+                      "triggersQuery": true,
+                      "popoverText": "Say, <span class=\"speechBlue\">Tell me another word that means <em>the place where two roads cross<\u002fem>.<\u002fspan>",
+                      "displayPopoverTextAsHtml": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Intersection",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item10",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 10. Vote",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>to make your choice known in an election<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Vote",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Voting",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item11",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 11. Disguise",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>to change the way you look, so others won&#39;t recognize you<\u002fem>.&nbsp;<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Mask",
+                      "triggersQuery": true,
+                      "popoverText": "Say, <span class=\"speechBlue\">Tell me another word that means <em>to change the way you look, so others won't recognize you<\u002fem>.<\u002fspan>",
+                      "displayPopoverTextAsHtml": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Disguise",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Masquerade",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item12",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 12. Escape",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>to break loose or get free<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Escape",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Liberate",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Emancipate",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Extricate",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item13",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 13. Pedestrian",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>a person who is walking<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Walker",
+                      "triggersQuery": true,
+                      "popoverText": "Say, <span class=\"speechBlue\">Tell me another word that means <em>a person who is walking<\u002fem>.<\u002fspan>",
+                      "displayPopoverTextAsHtml": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Pedestrian",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item14",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 14. Peninsula",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>a long piece of land that juts out into a sea or lake<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Peninsula",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item15",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 15. Ambidextrous",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>able to use both hands equally well<\u002fem>.&nbsp;<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Ambidextrous",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item16",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 16. Oasis",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>a fertile, green area where water can be found in a desert<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Oasis",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-expressivevocabulary-item17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-expressivevocabulary-item17",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Expressive Vocabulary Item 17. Centenarian",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Tell me the word that means&nbsp;<em>a person who is at least 100 years old<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Centenarian",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ],
+      "GradeBasedStartingPointRule": {
+        "numPrevious": 0,
+        "showAllStaringPoints": false,
+        "startingPoints": 
+        [
+          {
+            "label": "",
+            "gradeLevels": 
+            [
+              "Grade PK"
+            ],
+            "questionId": "wiatiii-expressivevocabulary-item1"
+          }
+        ]
+      },
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 4,
+        "description": "This subtest  discontinues after 4 consecutive scores of 0 points",
+        "countsDemoItems": false
+      }
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Oral Word Fluency",
+      "abbr": "ow",
+      "isUsingCustomIButton": true,
+      "baseUrl": "battery/wiat-iii/oral_expression/oral_word_fluency",
+      "isUsingCustomSpeechBubble": true,
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralwordfluency-item1",
+          "shouldUseTimer": true,
+          "maxTime": 60,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-oralwordfluency-item1",
+          "subtestName": "Oral Expression",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Word Fluency Item 1. Animals",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_expression/wiatiii-oralwordfluency-item1/wiatiii-oralwordfluency-item1Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "useCreditNoCredit": true,
+              "numColumns": 4,
+              "timeInterval": 15
+            },
+            "superType": null,
+            "type": "verbalFluency"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-oralwordfluency-item2",
+          "shouldUseTimer": true,
+          "maxTime": 60,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiatiii-oralwordfluency-item2",
+          "subtestName": "Oral Expression",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Word Fluency Item 2. Colors",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_expression/wiatiii-oralwordfluency-item2/wiatiii-oralwordfluency-item2Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "useCreditNoCredit": true,
+              "numColumns": 4,
+              "timeInterval": 15
+            },
+            "superType": null,
+            "type": "verbalFluency"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 4,
+        "description": "Subtest requires 4 consecutive scores of 0 points",
+        "countsDemoItems": false
+      }
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Sentence Repetition",
+      "abbr": "sr",
+      "isUsingCustomIButton": true,
+      "baseUrl": "battery/wiat-iii/oral_expression/sentence_repetition",
+      "isUsingCustomSpeechBubble": true,
+      "questions": 
+      [
+        {
+          "id": "wiat-iii-sentence-rep-samplea",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-samplea",
+          "subtestName": "Oral Expression",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sample A",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "promptBlocks": 
+              [
+              ],
+              "id": "wiat-iii-sentence-rep-samplea-10717",
+              "title": "Sentence Repetition Sample A Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "choiceList": 
+                  [
+                    {
+                      "disableTextHighlight": true,
+                      "shouldShowIncorrectItemsFirst": false,
+                      "disableBlueFont": true,
+                      "question": "<p>Say,&nbsp;<span class=\"speechBlue\">I am going to say some sentences. I want you to repeat exactly what I say. Just say what I say. Let&#39;s try.<\u002fspan><\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\">&nbsp;The boy smiled.<\u002fspan><\u002fp>\r\n",
+                      "correct": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Let&#39;s try some more. Remember to say exactly what I say.<\u002fspan><\u002fp>\r\n",
+                      "wrong": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Let&#39;s try again.<\u002fspan><\u002fp>\r\n"
+                    }
+                  ],
+                  "isClueTypeQuestion": false,
+                  "dataType": "html",
+                  "behaviorName": "forcedChoice"
+                },
+                "superType": null,
+                "type": "forcedRecognition"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "DK",
+                  "guid": "54fccacc43864aaea854f9f9b70145c5",
+                  "abbreviation": "DK"
+                },
+                {
+                  "name": "NR",
+                  "guid": "80b62087aca14dfd807069b86307f358",
+                  "abbreviation": "NR"
+                },
+                {
+                  "name": "P",
+                  "guid": "eb7c6a7597694902a017391974b8429c",
+                  "abbreviation": "P"
+                },
+                {
+                  "name": "R",
+                  "guid": "c973a426598d48b3a5a2395535685c1c",
+                  "abbreviation": "R"
+                }
+              ],
+              "usesStims": true
+            },
+            {
+              "promptBlocks": 
+              [
+              ],
+              "id": "wiat-iii-sentence-rep-samplea-10718",
+              "title": "Sentence Repetition Sample A Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "choiceList": 
+                  [
+                    {
+                      "disableTextHighlight": true,
+                      "shouldShowIncorrectItemsFirst": false,
+                      "disableBlueFont": true,
+                      "question": "<p>Say,<span class=\"speechBlue\">&nbsp;Say exactly what I say.<\u002fspan><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">The boy smiled.<\u002fspan><\u002fp>\r\n",
+                      "correct": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Let&#39;s try some more. Remember to say exactly what I say.<\u002fspan><\u002fp>\r\n",
+                      "wrong": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">You need to say,&nbsp;<em>The boy smiled.<\u002fem><\u002fspan><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Let&#39;s try some more. Remember to say exactly what I say.<\u002fspan>&nbsp;<\u002fp>\r\n"
+                    }
+                  ],
+                  "isClueTypeQuestion": false,
+                  "dataType": "html",
+                  "behaviorName": "forcedChoice"
+                },
+                "superType": null,
+                "type": "forcedRecognition"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "DK",
+                  "guid": "54fccacc43864aaea854f9f9b70145c5",
+                  "abbreviation": "DK"
+                },
+                {
+                  "name": "NR",
+                  "guid": "80b62087aca14dfd807069b86307f358",
+                  "abbreviation": "NR"
+                },
+                {
+                  "name": "P",
+                  "guid": "eb7c6a7597694902a017391974b8429c",
+                  "abbreviation": "P"
+                },
+                {
+                  "name": "R",
+                  "guid": "c973a426598d48b3a5a2395535685c1c",
+                  "abbreviation": "R"
+                }
+              ],
+              "usesStims": true
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item1",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">Games are fun.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "3+ errors"
+                },
+                {
+                  "score": 1,
+                  "label": "1-2 errors"
+                },
+                {
+                  "score": 2,
+                  "label": "No errors"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item2",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">Cats don&#39;t like to swim.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "3+ errors"
+                },
+                {
+                  "score": 1,
+                  "label": "1-2 errors"
+                },
+                {
+                  "score": 2,
+                  "label": "No errors"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item3",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">That is mine, but this one is yours.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "<p>3+ errors<\u002fp>\r\n"
+                },
+                {
+                  "score": 1,
+                  "label": "<p>1-2 errors<\u002fp>\r\n"
+                },
+                {
+                  "score": 2,
+                  "label": "<p>No errors<\u002fp>\r\n"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item4",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">It is cold outside and many of the roads are icy.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "3+ errors"
+                },
+                {
+                  "score": 1,
+                  "label": "1-2 errors"
+                },
+                {
+                  "score": 2,
+                  "label": "No errors"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item5",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">When you go climbing, watch for falling rocks.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "3+ errors"
+                },
+                {
+                  "score": 1,
+                  "label": "1-2 errors"
+                },
+                {
+                  "score": 2,
+                  "label": "No errors"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item6",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">The bird escaped from the cage and flew out the window.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "3+ errors"
+                },
+                {
+                  "score": 1,
+                  "label": "1-2 errors"
+                },
+                {
+                  "score": 2,
+                  "label": "No errors"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item7",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">Unless you have permission, you are not allowed to go swimming.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "3+ errors"
+                },
+                {
+                  "score": 1,
+                  "label": "1-2 errors"
+                },
+                {
+                  "score": 2,
+                  "label": "No errors"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item8",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">I walked to the store and bought a sandwich, an apple, and a drink.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "3+ errors"
+                },
+                {
+                  "score": 1,
+                  "label": "1-2 errors"
+                },
+                {
+                  "score": 2,
+                  "label": "No errors"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item9",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 9",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">The cat was asleep by the window while the dog chased butterflies in the grass.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "3+ errors"
+                },
+                {
+                  "score": 1,
+                  "label": "1-2 errors"
+                },
+                {
+                  "score": 2,
+                  "label": "No errors"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item10",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 10",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">I studied every day this week for the exam, so I think I will get a good grade.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "<p>3+ errors<\u002fp>\r\n"
+                },
+                {
+                  "score": 1,
+                  "label": "<p>1-2 errors<\u002fp>\r\n"
+                },
+                {
+                  "score": 2,
+                  "label": "<p>No errors<\u002fp>\r\n"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item11",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 11",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">That restaurant has become popular since it moved to a new location last summer.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "3+ errors"
+                },
+                {
+                  "score": 1,
+                  "label": "1-2 errors"
+                },
+                {
+                  "score": 2,
+                  "label": "No errors"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item12",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 12",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">The man wanted to keep the wallet he found on the ground, yet he knew it was not the right thing to do.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "3+ errors"
+                },
+                {
+                  "score": 1,
+                  "label": "1-2 errors"
+                },
+                {
+                  "score": 2,
+                  "label": "No errors"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item13",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 13",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">The animals at the zoo had gone inside because of the heat, so we did not see a single one.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "3+ errors"
+                },
+                {
+                  "score": 1,
+                  "label": "1-2 errors"
+                },
+                {
+                  "score": 2,
+                  "label": "No errors"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item14",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 14",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">The baby always used to cry when her mother left the room, and nothing but her mother&#39;s return would stop her crying.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "3+ errors"
+                },
+                {
+                  "score": 1,
+                  "label": "1-2 errors"
+                },
+                {
+                  "score": 2,
+                  "label": "No errors"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiat-iii-sentence-rep-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_expression/wiat-iii-sentence-rep-item15",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sentence Repetition Item 15",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span style=\"color: rgb(2, 149, 165);\">The driver charged everyone the same fee for the trip, but when the bus got stuck in the mud all the money had to be refunded.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "3+ errors"
+                },
+                {
+                  "score": 1,
+                  "label": "1-2 errors"
+                },
+                {
+                  "score": 2,
+                  "label": "No errors"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "png"
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 4,
+        "description": "This subtest discontinues after 4 consecutive scores of 0 points",
+        "countsDemoItems": false
+      }
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

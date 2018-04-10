@@ -1,0 +1,132 @@
+{
+  "subtestId": 538,
+  "subtestGUID": "7832caca4318403b9f058a39733981c6",
+  "title": "Math Fluency - Subtraction",
+  "displayName": "Math Fluency - Subtraction",
+  "abbr": "ms",
+  "testType": "wiat",
+  "testTitle": "WIAT-III",
+  "testDisplayName": "WIAT-III",
+  "normType": "wiat-iii",
+  "testGUID": "be9ba998f6db9f59e040a8c042016bc8",
+  "subtestType": "wiat",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wiat-iii/math_fluency_-_subtraction",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 50,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Math Fluency",
+    "averageDuration": 1,
+    "minGradeLevel": 2,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee solves written subtraction problems within a 60-second time limit."
+  },
+  "questions": 
+  [
+    {
+      "id": "wiat-iii-mathfluency-subtraction-testitem",
+      "shouldUseTimer": true,
+      "maxTime": 60,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_fluency_-_subtraction/wiat-iii-mathfluency-subtraction-testitem",
+      "subtestName": "Math Fluency - Subtraction",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Test Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wiat-iii/math_fluency_-_subtraction/wiat-iii-mathfluency-subtraction-testitem/wiat-iii-mathfluency-subtraction-testitemPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "maxScore": 48,
+          "isCalculationRequired": false,
+          "useTimeAsRawScore": false,
+          "hasSetErrors": false,
+          "hasRotationErrors": false,
+          "hasScorePopover": false,
+          "useWordCountTitle": false
+        },
+        "superType": null,
+        "type": "manual"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "GradeBasedStartingPointRule": {
+    "numPrevious": 0,
+    "showAllStaringPoints": false,
+    "startingPoints": 
+    [
+      {
+        "label": null,
+        "gradeLevels": 
+        [
+          "Grade PK"
+        ],
+        "questionId": "wiat-iii-mathfluency-subtraction-testitem"
+      }
+    ]
+  },
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

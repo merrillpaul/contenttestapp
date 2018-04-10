@@ -1,0 +1,5034 @@
+{
+  "subtestId": 1765,
+  "subtestGUID": "2ea4c91478e54797a574de492aee3acb",
+  "title": "Colors",
+  "displayName": "Assessment Lab",
+  "abbr": "al",
+  "testType": "celf5",
+  "testTitle": "BBCS-4",
+  "testDisplayName": "Bracken 4",
+  "normType": "bracken",
+  "testGUID": "f30366e81b0b432f909975d470b1c55b",
+  "subtestType": "Celf5",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/bbcs-4/colors",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 3,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 7,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Language",
+    "averageDuration": 0,
+    "descriptionCS": "fpo"
+  },
+  "questions": 
+  [
+    {
+      "id": "bbcs4_assessmentlab_trial1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_trial1",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Trial Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p style=\"margin:0in; margin-bottom:.0001pt\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say to the child, <\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Now I am going to show you some pictures. I will read something to you, and I want you to point to the picture that shows what I say. <\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n\r\n<p style=\"margin:0in; margin-bottom:.0001pt\">&nbsp;<\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p style=\"margin:0in; margin-bottom:.0001pt\">&nbsp;<\u002fp>\r\n\r\n<p style=\"margin:0in; margin-bottom:.0001pt\"><span style=\"white-space:pre-wrap\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Direct the child&rsquo;s attention to the pictures by saying, <\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\"><span class=\"speechBlue\">Let&rsquo;s look at each of these pictures. Look at this picture, and this picture, and this one, and this one.<\u002fspan> <\u002fspan><\u002fb><span style=\"white-space:pre-wrap\">Point to pictures 1&ndash;4 in turn. Say, <\u002fspan><b><span style=\"white-space:pre-wrap\"><span class=\"speechBlue\">Show me the ball.<\u002fspan> <\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n\r\n<p style=\"margin:0in; margin-bottom:.0001pt\">&nbsp;<\u002fp>\r\n\r\n<p style=\"margin:0in; margin-bottom:.0001pt\"><span style=\"white-space:pre-wrap\"><span style=\"white-space:pre-wrap\">If the child points to the ball, say, <\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Good, you looked at all of the pictures and pointed to the ball. Now let&rsquo;s do some more. Listen carefully to what I say and then point to the picture that shows what I say. I can say it again if you need me to. <\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n\r\n<p style=\"margin:0in; margin-bottom:.0001pt\">&nbsp;<\u002fp>\r\n\r\n<p style=\"margin:0in; margin-bottom:.0001pt\"><span style=\"white-space:pre-wrap\"><span style=\"white-space:pre-wrap\">Proceed to Item 1. <\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item1",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 1. red",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the colors. Show me which color is red.<\u002fspan><\u002fspan><\u002fb><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item2",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 2. blue",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the colors. Show me which color is blue.<\u002fspan><\u002fspan><\u002fb><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item3",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 3. green",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the colors. Show me which color is green.<\u002fspan><\u002fspan><\u002fb><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item4",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 4. black",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the colors. Show me which color is black.<\u002fspan><\u002fspan><\u002fb><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item5",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 5. yellow",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the colors. Show me which color is yellow.<\u002fspan><\u002fspan><\u002fb><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item6",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 6. pink",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the colors. Show me which color is pink.<\u002fspan><\u002fspan><\u002fb><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item7",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 7. orange",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the colors. Show me which color is orange.<\u002fspan><\u002fspan><\u002fb><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item8",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 8. purple",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the colors. Show me which color is purple.<\u002fspan><\u002fspan><\u002fb><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item9",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 9. white",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the colors. Show me which color is white.<\u002fspan><\u002fspan><\u002fb><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item10",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 10. brown",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the colors. Show me which color is brown.<\u002fspan><\u002fspan><\u002fb><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item11",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 11. A",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the A.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item12",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 12. W",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the W.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item13",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 13. X",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the X.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item14",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 14. S",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the S.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item15",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 15. K",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the K.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item16",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 16. H",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the H.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item17",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 17. Q",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the Q.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item18",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item18",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 18. D",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the D.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item19",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item19",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 19. m",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the m.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item20",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item20",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 20. i",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the i.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item21",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item21",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 21. b",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the b.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item22",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item22",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 22. e",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the e.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item23",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item23",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 23. t",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the t.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "ppvt-5-formb-item24",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/ppvt-5-formb-item24",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 24. j",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the j.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item25",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item25",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 25. g",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the letters. Show me the g.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item26",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item26",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 26. one",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me the one.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item27",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item27",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 27. three",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me the three.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item28",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item28",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 28. two",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me the two.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item29",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item29",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 29. four",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me the four.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item30",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item30",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 30. zero",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me the zero.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item31",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item31",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 31. three flowers",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me three flowers.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item32",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item32",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 32. six ducks",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me six ducks.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item33",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item33",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 33. nine ants",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\"><span style=\"color:black\">Say,<span class=\"speechBlue\"> <\u002fspan><\u002fspan><\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me nine ants.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item34",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item34",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 34. five",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me the five.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item35",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item35",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 35. seven",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me the seven.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item36",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item36",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 36. eight",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me the eight.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item37",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item37",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 37. six",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\">Say, <strong><span class=\"speechBlue\">Look at all of the numbers/pictures. Show me the six.<\u002fspan><\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item38a",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item38a",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 38. nine",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span style=\"font-family:Times New Roman,Times,serif;\"><strong><span class=\"speechBlue\">Look at all of the numbers/pictures. Show me the nine.<\u002fspan><\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item39",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item39",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 39. forty-one",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <strong><span class=\"speechBlue\">Look at all of the numbers/pictures. Show me the forty-one.<\u002fspan><\u002fstrong><\u002fspan><\u002fspan><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item40",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item40",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 40. eleven",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me the eleven.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item41",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item41",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 41. ninety-five",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me the ninety-five.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item42",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item42",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 42. twenty-seven",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me the twenty-seven.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item43",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item43",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 43. fifty-three",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"line-height:200%\"><span style=\"font-size:11.0pt\"><span style=\"line-height:200%\"><span style=\"color:black\">Say, <\u002fspan><\u002fspan><\u002fspan><span class=\"speechBlue\"><b><span style=\"white-space:pre-wrap\">Look at all of the numbers/pictures. Show me the fifty-three.<\u002fspan><\u002fb><\u002fspan><\u002fspan><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item44",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item44",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 44. big",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which animal is big.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item45",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item45",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 45. long",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which girl has long hair.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item46",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item46",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 46. same",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which balloons are the same.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item47",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item47",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 47. star",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me the star.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item48",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item48",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 48. circle",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me the circle.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item49",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item49",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "item 49. line",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which children are in a line.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item50",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item50",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 50. square",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me the square.<\u002fspan><\u002fspan><\u002fb><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item51",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item51",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 51. triangle",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me the triangle.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item52",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item52",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 52. diamond",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me the diamond.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item53",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item53",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 53. oval",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me the oval.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item54",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item54",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 54. rectangle",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me the rectangle.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item55",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item55",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 55. closed",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which door is closed.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item56",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item56",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 56. under",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which child is under the blanket.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item57",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item57",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 57. apart",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which puzzle is apart.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item58",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item58",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 58. crying",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which child is crying.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item59",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item59",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 59. laughing",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which child is laughing.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item60",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item60",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 60. angry",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which person is angry.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item61",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item61",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 61. dark",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which paint is dark.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item62",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item62",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 62. wood",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which one is made of wood.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item63",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item63",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 63. sharp",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which one is sharp.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item64",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item64",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 64. whole",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me a whole pizza.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item65",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item65",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 65. none",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which child has none.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item66",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item66",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 66. both",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me where both dogs are asleep.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item67",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item67",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 67. finished",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which child has finished drinking.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item68",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item68",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 68. last",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which child has taken the last apple.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "bbcs4_assessmentlab_item69",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/bbcs-4/colors/bbcs4_assessmentlab_item69",
+      "subtestName": "Colors",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 69. through",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span style=\"font-family:Times New Roman,Times,serif;\"><span style=\"font-size:11.0pt\"><span style=\"color:black\">Say<\u002fspan><\u002fspan><b><span style=\"white-space:pre-wrap\">, <span class=\"speechBlue\">Look at all of the pictures. Show me which children are through with the puzzle.<\u002fspan><\u002fspan><\u002fb><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

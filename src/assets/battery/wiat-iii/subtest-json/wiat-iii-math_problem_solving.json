@@ -1,0 +1,3742 @@
+{
+  "subtestId": 537,
+  "subtestGUID": "90ed0611251948da89b3fe0164504cb6",
+  "title": "Math Problem Solving",
+  "displayName": "Math Problem Solving",
+  "abbr": "mp",
+  "testType": "wiat",
+  "testTitle": "WIAT-III",
+  "testDisplayName": "WIAT-III",
+  "normType": "wiat-iii",
+  "testGUID": "be9ba998f6db9f59e040a8c042016bc8",
+  "subtestType": "DerivedSkillsAnalysis",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wiat-iii/math_problem_solving",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 50,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Mathematics",
+    "averageDuration": 12,
+    "minGradeLevel": 0,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee solves untimed math problems in the following domains: basic concepts, everyday applications, geometry, and algebra."
+  },
+  "questions": 
+  [
+    {
+      "id": "wiatiii-mathproblemsolving-introduction",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-introduction",
+      "subtestName": "Math Problem Solving",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Introduction",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "startWritingClosed": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-introduction/wiatiii-mathproblemsolving-introductionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": 
+        [
+        ],
+        "superType": null,
+        "type": "namingStimuli"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wiat-iii-math-problem-solving-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiat-iii-math-problem-solving-item1",
+      "subtestName": "Math Problem Solving",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Score the item 0 points and say,&nbsp;<span class=\"speechBlue\">Ready? Watch me.<\u002fspan><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">One<\u002fspan>, as you hold up one finger; then say,&nbsp;<span class=\"speechBlue\">Two<\u002fspan>, as you hold up the second finger. Keeping both fingers raised, say,&nbsp;<span class=\"speechBlue\">How many fingers am I holding up?<\u002fspan><\u002fp>\r\n",
+      "topInstructionsHTML": "<p>Say,&nbsp;<span class=\"speechBlue\">Ready? Watch me.<\u002fspan><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">One<\u002fspan>, as you hold up one finger; then say,&nbsp;<span class=\"speechBlue\">Two<\u002fspan>, as you hold up the second finger. Keeping both fingers raised, say,&nbsp;<span class=\"speechBlue\">How many fingers am I holding up?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "2"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wiat-iii-mathproblemsolving-items2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiat-iii-mathproblemsolving-items2",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Touch&nbsp;the circle.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item3",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Touch&nbsp;the empty glass.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item4",
+      "subtestName": "Math Problem Solving",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say,&nbsp;<span class=\"speechBlue\">This time there are no pictures. Just watch me.<\u002fspan>&nbsp;Raise three fingers, one at a time, without counting them, and say,&nbsp;<span class=\"speechBlue\">How many fingers am I holding up?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "3"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item5",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Touch the number 9.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item6",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Touch the number 5.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item7",
+      "subtestName": "Math Problem Solving",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say,&nbsp;<span class=\"speechBlue\">This time there are no pictures. Let&#39;s count to six. I&#39;ll start and then you go on. Remember, count to six. Ready? One, two, three... what comes after three?<\u002fspan><\u002fp>\r\n\r\n<p>Do not penalize for counting beyond six.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "4-5-6 (All three in order)"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item8",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Touch the hand holding the most balloons.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item9",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">How many wagons are there?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "4"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item10",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Touch the longest line.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item11",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the number 2 and say,&nbsp;<span class=\"speechBlue\">What is this number?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "2"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item12",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 12",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Touch the triangle.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item13",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Count aloud all the chips and tell me how many there are.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "9"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item14",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 14",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Which number is less?<\u002fspan>&nbsp;Encourage the examinee to touch the screen.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item15",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 15",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Which two hands have the same number of balloons?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgMultipleSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item16",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 16",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the number 7 and say,&nbsp;<span class=\"speechBlue\">What is this number?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "7"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item17",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 17",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the number 10 and say,&nbsp;<span class=\"speechBlue\">What is this number?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "10"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item18",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item18",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 18",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">A group of students were asked which toys they liked best. This graph shows the choices of the students.&nbsp;<\u002fspan>Point to each row as you name the toy:&nbsp;<span class=\"speechBlue\">Some students chose bears. Some chose bikes. Others chose balls. Each toy equals one student. How many students like the bears best?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "3"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item19",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item19",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 19",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Which number is more?&nbsp;<\u002fspan>Encourage the examinee to touch the screen.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item20",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item20",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 20",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Which number is less?&nbsp;<\u002fspan>Encourage the examinee to touch the screen.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item21",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item21",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 21",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Use your hand to cover up three birds. How many birds are left uncovered?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "5"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item22",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item22",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 22",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">How many shapes in all?&nbsp;<\u002fspan>Point in a circular motion across the entire page.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "10"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item23",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item23",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 23",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><strong>Touch the second apple from the bowl.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item24",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item24",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 24",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">If you are counting in order, which of these numbers would you say first?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item25",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item25",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 25",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">How many inches long is the pencil?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "5"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item26",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item26",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 26",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">If you are counting in order, which of these numbers would you say first?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item27",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item27",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 27",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">And which of these numbers would come next?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item28",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item28",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 28",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">If two of these ducks flew away, how many would be left?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "5"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item29",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item29",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 29",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">If all the dots on the line had numbers, what number would go here?&nbsp;<\u002fspan>Point to the A.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "30"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiat-iii-mathproblemsolving-item30",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiat-iii-mathproblemsolving-item30",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*Item 30",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" />&nbsp;<\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">On what day of the week is the 14th?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "T (Q)*"
+            },
+            {
+              "value": 1,
+              "label": "Tuesday"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "d72c2668edd4450cbfa4608e63b12d77",
+          "abbreviation": "sq",
+          "isPopover": true
+        }
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item31",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item31",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 31",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Neal had five marbles and was given three more. How many marbles does Neal have now?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "8"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item32",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item32",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 32",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">These beads form a pattern on the pegs. How many beads should be put on the empty peg to complete this pattern?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "4"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item33",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item33",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 33",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">How many pennies does it take to equal the value of one dime?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "10"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item34",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item34",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 34",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">This graph shows the number of books given to the city library by students from four different schools. Going across the bottom of the graph, the schools are&nbsp;<\u002fspan>(point to each bar as you name the school)<span class=\"speechBlue\">&nbsp;Central, Johnson, West, and Eastman. The numbers on the side&nbsp;<\u002fspan>(point to the&nbsp;y-axis)<span class=\"speechBlue\">&nbsp;show the number of books given by each school. How many books did Eastman School give?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "40"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item35",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item35",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 35",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">What number goes here<\u002fspan>&nbsp;(point to the empty circle)<span class=\"speechBlue\">?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "7"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item36",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item36",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 36",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">What time is shown on this clock?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "8:15;<\u002fbr>\r\nQuarter after/past 8;<\u002fbr>\r\n15 minutes after/past 8;<\u002fbr>\r\n15 after/past 8"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item37",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item37",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 37",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Which is worth more: seven pennies, six nickels, or one quarter?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "6 nickels"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item38",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item38",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 38",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">This graph shows the number of people who rode each fair ride. The rides were<\u002fspan>&nbsp;(point to each bar as you name the ride)&nbsp;<span class=\"speechBlue\">the Ferris wheel, roller coaster, merry-go-round, water slide, pirate ship, and train. The numbers on the side<\u002fspan>&nbsp;(point to the y-axis)&nbsp;<span class=\"speechBlue\">show the number of people who rode each ride. How many people rode the Ferris wheel?<\u002fspan>&nbsp;Point to Ferris wheel.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "Any one of the following:<\u002fbr>\r\n14; 15; 16"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item39",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item39",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 39",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Which number is in the tens place?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item40",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item40",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 40",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Which number is in the hundred-thousands place?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item41",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item41",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 41",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Robert has six toys. Together Robert and Max have 15 toys. How many toys does Max have?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "9"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item42",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item42",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 42",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">If you flipped a coin 10 times, how many times would you expect the coin to land on heads?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "5"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item43",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item43",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 43",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Mrs. Rivera served cake for dessert. She cut the cake into six equal pieces. If Carlos eats two pieces and Jenna eats one piece, what fraction of the cake would be left?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "Half; 1/2; 3/6"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item44",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item44",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 44",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">A classroom has four rows of desks. Each row has the same number of desks. There are a total of 24 desks. How many desks are in each row?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "6"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item45",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item45",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 45",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">If today is the 3rd of the month, and Anita&#39;s cousin will come to visit on the 17th, how many weeks must Anita wait until her cousin arrives?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "2"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item46",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item46",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 46",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">If you cut a cake into six equal pieces, what fraction of the cake would each piece be?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "One-sixth; 1/6"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item47",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item47",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 47",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Which choice<\u002fspan>&nbsp;(sweep finger across answer choices)&nbsp;<span class=\"speechBlue\">shows what this triangle<\u002fspan>&nbsp;(point to the top triangle)&nbsp;<span class=\"speechBlue\">will look like if the graph paper is rotated 90 degrees to the right?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": "A"
+            },
+            {
+              "correctOrder": 1,
+              "label": "B"
+            },
+            {
+              "correctOrder": null,
+              "label": "C"
+            },
+            {
+              "correctOrder": null,
+              "label": "D"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiat-iii-mathproblemsolving-item48",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiat-iii-mathproblemsolving-item48",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 48",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Touch or say&nbsp;these fractions in order from smallest to largest.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 3,
+              "label": "<sup>1<\u002fsup>&frasl;<sub>3<\u002fsub>"
+            },
+            {
+              "correctOrder": 2,
+              "label": "<sup>1<\u002fsup>&frasl;<sub>4<\u002fsub>"
+            },
+            {
+              "correctOrder": 4,
+              "label": "<sup>1<\u002fsup>&frasl;<sub>2<\u002fsub>"
+            },
+            {
+              "correctOrder": 1,
+              "label": "<sup>1<\u002fsup>&frasl;<sub>5<\u002fsub>"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgSelectionSequence"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item49",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item49",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 49",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Find the perimeter in meters.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "18"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item50",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item50",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 50",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">What is the next number in this pattern?<\u002fspan>&nbsp;Point to the &quot;?&quot; in the pattern.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "120"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item51",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item51",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 51",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Assuming angle A is 90 degrees and angle B is 20 degrees, what is the number of degrees in angle C?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "70"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item52",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item52",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 52",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Kurt went to sleep at 10:30 p.m. and woke up at 7:00 a.m. the next morning. How long did Kurt sleep?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "8 1/2 hours;<\u002fbr>8 hours, 30 minutes"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item53",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item53",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 53",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Paul has scores of 95, 80, 85, and 80 on his first four math tests. What is his average test score?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "85"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item54",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item54",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 54",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Which choice<\u002fspan>&nbsp;(sweep finger across answer choices)&nbsp;<span class=\"speechBlue\">shows what this figure<\u002fspan>&nbsp;(point to the top figure)&nbsp;<span class=\"speechBlue\">will look like if the graph paper is rotated 180 degrees?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item55",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item55",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 55",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Mary had 200 dollars. Then she bought four tires. Each tire cost 35 dollars and 50 cents, plus 3 dollars each for balancing. How much money did she have left?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "$46.00"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item56",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item56",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 56",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Which decimal is closest in value to 5/6?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item57",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item57",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 57",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">This pie chart shows the money made by each booth at a fair. Which booth raised&nbsp;exactly 90 dollars?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelection"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item58",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item58",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 58",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">The charity drive reached one-fourth of its goal in March, one-third of its goal in April, and one-sixth of its goal in May. What part of the goal was reached during these three months?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "75 percent;<\u002fbr>9/12;<\u002fbr>3/4"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item59",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item59",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 59",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">What is the solution to this problem?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "48"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item60",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item60",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "*Item 60",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Of these numbers, which ones are prime numbers?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 3,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 4,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgMultipleSelection"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Less than Four",
+          "guid": "4d79c9b21a10416889e630c31d747af1",
+          "abbreviation": "sq",
+          "isPopover": true
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item61",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item61",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 61",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">A bank charges a monthly fee of eight dollars. You may write 20 checks a month for free. After 20 checks, you are charged 30 cents for each additional check you write. What will your charges be for a month in which you write 40 checks?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "$14.00"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item62",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item62",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 62",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">How many different kinds of sandwiches can Kevin make using one kind of bread, one kind of meat, and one kind of cheese? For his sandwich, Kevin can choose from two types of bread, two types of meat, and two types of cheese.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "8"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item63",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item63",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 63",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">What is the maximum number of two inch by two inch pieces that can be cut from a 10 inch by 8 inch cake?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "20"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item64",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item64",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 64",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">The Carver baseball team bought 10 dozen candy bars at 3 dollars and 75 cents per dozen. They sold the candy as a money-making project for 50 cents per bar. What was their profit?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "$22.50"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item65",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item65",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 65",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">What are the mean, median, and mode for these test scores?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "mean = 16.8, median = 16.5, mode = 17"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item66",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item66",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 66",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">What are the slope and y-intercept for the red line?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "Slope = 2/3<\u002fbr>\r\ny-intercept = 2"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item67",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item67",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 67",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">To answer this question, you may wish to use one or more of these formulas<\u002fspan>&nbsp;(point to formulas)<span class=\"speechBlue\">. If this ball were to roll exactly 100 complete revolutions, approximately how far would it travel in inches?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "3,140"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item68",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item68",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 68",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Jessica is mowing the lawn with a mower that has a 30-inch wide cut. If her lawn is 100 feet by 50 feet, what is the fewest number of trips needed, from one end to the other, to complete the job?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "20"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item69",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item69",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 69",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">What is the probability that both spinners will stop on blue on the first spin?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "0.05; 5 percent; 1/20"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item70",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item70",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 70",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">How many different ways are there to arrange four books on a shelf?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "24"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item71",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item71",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 71",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Scuba Bob is planning to dive to a depth of 60 feet, and his scuba tanks will last 19.5 minutes while on the surface. Assuming Scuba Bob can safely descend and rise to the surface at 2 feet per second, and at a depth of 60 feet he uses 10% more air, how many minutes can he safely stay on the bottom?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "16.65 to 16.82 minutes;<\u002fbr>\r\n16 minutes, 39 to 49 seconds"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wiatiii-mathproblemsolving-item72",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/math_problem_solving/wiatiii-mathproblemsolving-item72",
+      "subtestName": "Math Problem Solving",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 72",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">To answer this question, you may wish to use one or more of these formulas<\u002fspan>&nbsp;(point to formulas)<span class=\"speechBlue\">. Assume that each unit of the grid is two inches by two inches and only paths that do not pass through a red square are possible. What is the shortest distance between point A and point B? Round your answer to the nearest inch.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "19"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 4,
+    "description": "This subtest discontinues after 4 consecutive scores of 0 points.",
+    "countsDemoItems": false
+  },
+  "GradeBasedStartingPointRule": {
+    "numPrevious": 14,
+    "showAllStaringPoints": false,
+    "startingPoints": 
+    [
+      {
+        "label": "Grade PK: Item 1",
+        "gradeLevels": 
+        [
+          "Grade PK"
+        ],
+        "questionId": "wiat-iii-math-problem-solving-item1"
+      },
+      {
+        "label": "Grade K: Item 8",
+        "gradeLevels": 
+        [
+          "Grade K"
+        ],
+        "questionId": "wiatiii-mathproblemsolving-item8"
+      },
+      {
+        "label": "Grades 1-2: Item 16",
+        "gradeLevels": 
+        [
+          "Grade 1",
+          "Grade 2"
+        ],
+        "questionId": "wiatiii-mathproblemsolving-item16"
+      },
+      {
+        "label": "Grade 3: Item 26",
+        "gradeLevels": 
+        [
+          "Grade 3"
+        ],
+        "questionId": "wiatiii-mathproblemsolving-item26"
+      },
+      {
+        "label": "Grades 4-5: Item 30",
+        "gradeLevels": 
+        [
+          "Grade 4",
+          "Grade 5"
+        ],
+        "questionId": "wiat-iii-mathproblemsolving-item30"
+      },
+      {
+        "label": "Grades 6-8: Item 34",
+        "gradeLevels": 
+        [
+          "Grade 6",
+          "Grade 7",
+          "Grade 8"
+        ],
+        "questionId": "wiatiii-mathproblemsolving-item34"
+      },
+      {
+        "label": "Grades 9-10: Item 35",
+        "gradeLevels": 
+        [
+          "Grade 9",
+          "Grade 10"
+        ],
+        "questionId": "wiatiii-mathproblemsolving-item35"
+      },
+      {
+        "label": "Grades 11-12+: Item 40",
+        "gradeLevels": 
+        [
+          "Grade 11",
+          "Grade 12+"
+        ],
+        "questionId": "wiatiii-mathproblemsolving-item40"
+      }
+    ]
+  },
+  "ODCFirstItemsIncorrectReverseRule": {
+    "numItemsToTrigger": 3,
+    "numItemsToResume": 3
+  },
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

@@ -1,0 +1,2495 @@
+{
+  "subtestId": 616,
+  "subtestGUID": "f074c70c27424c7c9a6831fff39beaad",
+  "title": "Early Reading Skills",
+  "displayName": "Early Reading Skills",
+  "abbr": "er",
+  "testType": "wiat",
+  "testTitle": "WIAT-III",
+  "testDisplayName": "WIAT-III",
+  "normType": "wiat-iii",
+  "testGUID": "be9ba998f6db9f59e040a8c042016bc8",
+  "subtestType": "DerivedSkillsAnalysis",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wiat-iii/early_reading_skills",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "RequireGradeAndTermRule": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 50,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Total Achievement",
+    "averageDuration": 6,
+    "minGradeLevel": 0,
+    "maxGradeLevel": 4,
+    "descriptionCS": "The examinee names letters of the alphabet, identifies and generates rhyming words, and completes other tasks deemed important for developing reading skills."
+  },
+  "singleCardItemLists": 
+  [
+    {
+      "title": "Items 1-6",
+      "itemGroups": 
+      [
+        {
+          "shouldSuppressCoverSheet": false,
+          "shouldSuppressScore": false,
+          "isOptional": false,
+          "title": "Items 1-6",
+          "abbr": null,
+          "isUsingCustomSpeechBubble": true,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/items_1-6",
+          "questions": 
+          [
+            {
+              "id": "wiat-iii-early-reading-skills-item1",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/early_reading_skills/wiat-iii-early-reading-skills-item1",
+              "subtestName": "Early Reading Skills",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 1. o",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>o<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "DK",
+                  "guid": "54fccacc43864aaea854f9f9b70145c5",
+                  "abbreviation": "DK"
+                },
+                {
+                  "name": "NR",
+                  "guid": "80b62087aca14dfd807069b86307f358",
+                  "abbreviation": "NR"
+                }
+              ]
+            },
+            {
+              "id": "wiat-iii-early-reading-skills-item2",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/early_reading_skills/wiat-iii-early-reading-skills-item2",
+              "subtestName": "Early Reading Skills",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 2. s",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>s<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "DK",
+                  "guid": "54fccacc43864aaea854f9f9b70145c5",
+                  "abbreviation": "DK"
+                },
+                {
+                  "name": "NR",
+                  "guid": "80b62087aca14dfd807069b86307f358",
+                  "abbreviation": "NR"
+                }
+              ]
+            },
+            {
+              "id": "wiat-iii-early-reading-skills-item3",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/early_reading_skills/wiat-iii-early-reading-skills-item3",
+              "subtestName": "Early Reading Skills",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 3. z",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>z<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "DK",
+                  "guid": "54fccacc43864aaea854f9f9b70145c5",
+                  "abbreviation": "DK"
+                },
+                {
+                  "name": "NR",
+                  "guid": "80b62087aca14dfd807069b86307f358",
+                  "abbreviation": "NR"
+                }
+              ]
+            },
+            {
+              "id": "wiat-iii-early-reading-skills-item4",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/early_reading_skills/wiat-iii-early-reading-skills-item4",
+              "subtestName": "Early Reading Skills",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 4. e",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>e<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "DK",
+                  "guid": "54fccacc43864aaea854f9f9b70145c5",
+                  "abbreviation": "DK"
+                },
+                {
+                  "name": "NR",
+                  "guid": "80b62087aca14dfd807069b86307f358",
+                  "abbreviation": "NR"
+                }
+              ]
+            },
+            {
+              "id": "wiat-iii-early-reading-skills-item5",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/early_reading_skills/wiat-iii-early-reading-skills-item5",
+              "subtestName": "Early Reading Skills",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 5. w",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>w<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "DK",
+                  "guid": "54fccacc43864aaea854f9f9b70145c5",
+                  "abbreviation": "DK"
+                },
+                {
+                  "name": "NR",
+                  "guid": "80b62087aca14dfd807069b86307f358",
+                  "abbreviation": "NR"
+                }
+              ]
+            },
+            {
+              "id": "wiat-iii-early-reading-skills-item6",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/early_reading_skills/wiat-iii-early-reading-skills-item6",
+              "subtestName": "Early Reading Skills",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 6. m",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>m<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "DK",
+                  "guid": "54fccacc43864aaea854f9f9b70145c5",
+                  "abbreviation": "DK"
+                },
+                {
+                  "name": "NR",
+                  "guid": "80b62087aca14dfd807069b86307f358",
+                  "abbreviation": "NR"
+                }
+              ]
+            }
+          ],
+          "hasInstructionsHtml": true,
+          "itemGroupStimFilename": "wiat-iii-early_reading_skills-items_1-6-item-group-stim.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Items 7-11",
+      "startingItemListDisplayIndex": 7,
+      "itemGroups": 
+      [
+        {
+          "shouldSuppressCoverSheet": false,
+          "shouldSuppressScore": false,
+          "isOptional": false,
+          "title": "Items 7-11",
+          "abbr": null,
+          "isUsingCustomSpeechBubble": true,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/items_7-11",
+          "questions": 
+          [
+            {
+              "id": "wiat-iii-early-reading-skills",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/early_reading_skills/wiat-iii-early-reading-skills",
+              "subtestName": "Early Reading Skills",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 7. a",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>a<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "DK",
+                  "guid": "54fccacc43864aaea854f9f9b70145c5",
+                  "abbreviation": "DK"
+                },
+                {
+                  "name": "NR",
+                  "guid": "80b62087aca14dfd807069b86307f358",
+                  "abbreviation": "NR"
+                }
+              ]
+            },
+            {
+              "id": "wiat-iii-early-reading-skills-item8",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/early_reading_skills/wiat-iii-early-reading-skills-item8",
+              "subtestName": "Early Reading Skills",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 8. u",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>u<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "DK",
+                  "guid": "54fccacc43864aaea854f9f9b70145c5",
+                  "abbreviation": "DK"
+                },
+                {
+                  "name": "NR",
+                  "guid": "80b62087aca14dfd807069b86307f358",
+                  "abbreviation": "NR"
+                }
+              ]
+            },
+            {
+              "id": "wiat-iii-early-reading-skills-item9",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/early_reading_skills/wiat-iii-early-reading-skills-item9",
+              "subtestName": "Early Reading Skills",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 9. d",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>d<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "DK",
+                  "guid": "54fccacc43864aaea854f9f9b70145c5",
+                  "abbreviation": "DK"
+                },
+                {
+                  "name": "NR",
+                  "guid": "80b62087aca14dfd807069b86307f358",
+                  "abbreviation": "NR"
+                }
+              ]
+            },
+            {
+              "id": "wiat-iii-early-reading-skills-item10",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/early_reading_skills/wiat-iii-early-reading-skills-item10",
+              "subtestName": "Early Reading Skills",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 10. g",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>g<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "DK",
+                  "guid": "54fccacc43864aaea854f9f9b70145c5",
+                  "abbreviation": "DK"
+                },
+                {
+                  "name": "NR",
+                  "guid": "80b62087aca14dfd807069b86307f358",
+                  "abbreviation": "NR"
+                }
+              ]
+            },
+            {
+              "id": "wiat-iii-early-reading-skills-item11",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/early_reading_skills/wiat-iii-early-reading-skills-item11",
+              "subtestName": "Early Reading Skills",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 11. b",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>b<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "DK",
+                  "guid": "54fccacc43864aaea854f9f9b70145c5",
+                  "abbreviation": "DK"
+                },
+                {
+                  "name": "NR",
+                  "guid": "80b62087aca14dfd807069b86307f358",
+                  "abbreviation": "NR"
+                }
+              ]
+            }
+          ],
+          "hasInstructionsHtml": true,
+          "itemGroupStimFilename": "wiat-iii-early_reading_skills-items_7-11-item-group-stim.jpg"
+        }
+      ]
+    }
+  ],
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Item 12-34",
+      "abbr": null,
+      "isUsingCustomSpeechBubble": true,
+      "baseUrl": "battery/wiat-iii/early_reading_skills/item_12-34",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-earlyreadingskills-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item12",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 12. \\a\\",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item12/wiatiii-earlyreadingskills-item12Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item13",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 13. \\g\\",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item13/wiatiii-earlyreadingskills-item13Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item14",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 14. hat, mat, sun (sun)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">When words rhyme, the sounds at the end of the words are the same. Say the words with me: hat,&nbsp;mat, sun. Hat and mat rhyme because they both end with \\at\\. So the word that does not rhyme&nbsp;with the others is <em>sun<\u002fem>. Let&rsquo;s try another one.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item14/wiatiii-earlyreadingskills-item14Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-early-reading-skills-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiat-iii-early-reading-skills-item15",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": true,
+          "title": "Item 15. fish, duck, dish (duck)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">This time there are no pictures. Just listen. Fish, duck, dish.&nbsp;<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one does not rhyme with the others?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "Duck"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item16",
+          "subtestName": "Early Reading Skills",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 16. rhymes with fly",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Now, tell me a word that rhymes with&nbsp;<em>fly<\u002fem>.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "Any rhyming word / nonword (e.g., sky, kie)"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item17",
+          "subtestName": "Early Reading Skills",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 17. rhymes with star",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Tell me a word that rhymes with&nbsp;<em>star<\u002fem>.&nbsp;<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "Any rhyming word / nonword (e.g., far, lar)"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item18",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item18",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 18. bat, bike, truck (\\b\\–)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Bat and bike begin with the \\b\\ sound, but truck does not. Now you say bat and bike.<\u002fspan> Pause for the examinee to repeat the words.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item18/wiatiii-earlyreadingskills-item18Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 2,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgMultipleSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item19",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item19",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 19. man, van, mud (\\m\\–)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item19/wiatiii-earlyreadingskills-item19Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 2,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgMultipleSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item20",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item20",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 20. flag, frog, freeze (\\fr\\–)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item20/wiatiii-earlyreadingskills-item20Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 2,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgMultipleSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item21",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item21",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 21. clock, cat, clip (\\kl\\–)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item21/wiatiii-earlyreadingskills-item21Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 2,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgMultipleSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item22",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item22",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 22. clip, plum, drip (–\\p\\)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item22/wiatiii-earlyreadingskills-item22Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 2,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgMultipleSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item23",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item23",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 23. fish, clock, duck (–\\k\\)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item23/wiatiii-earlyreadingskills-item23Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 2,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgMultipleSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item24",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item24",
+          "subtestName": "Early Reading Skills",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 24. \\p\\ \\an\\",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Listen again: \\p\\ \\an\\. The word is pan.<\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">This time there are no pictures. I am going to say a word in two parts. Listen carefully to the&nbsp;parts, then put them together to make a word.<\u002fspan><\u002fstrong>&nbsp;(Pause for 1 second between the two word parts.)&nbsp;<strong><span class=\"speechBlue\">Listen: \\p\\ \\an\\. What is the word?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "Pan"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item25",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item25",
+          "subtestName": "Early Reading Skills",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 25. \\m\\ \\op\\",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Put these parts together to make a word.<\u002fspan>&nbsp;<\u002fstrong>(Pause for 1 second between the two word parts.)&nbsp;<strong><span class=\"speechBlue\">Listen: \\m\\ \\op\\. What is the word?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "Mop"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item26",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item26",
+          "subtestName": "Early Reading Skills",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 26. \\sh\\ \\ell\\",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Put these parts together to make a word.<\u002fstrong>&nbsp;<\u002fspan>(Pause for 1 second between the two word parts.)&nbsp;<strong><span class=\"speechBlue\">Listen: \\sh\\ \\ell\\. What is the word?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "Shell"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item27",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item27",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 27. sh",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item27/wiatiii-earlyreadingskills-item27Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item28",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item28",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 28. st",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item28/wiatiii-earlyreadingskills-item28Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item29",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item29",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 29. dr",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item29/wiatiii-earlyreadingskills-item29Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item30",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item30",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 30. green",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item30/wiatiii-earlyreadingskills-item30Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item31",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item31",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 31. on",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item31/wiatiii-earlyreadingskills-item31Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item32",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item32",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 32. red box",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item32/wiatiii-earlyreadingskills-item32Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item33",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item33",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 33. ball",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item33/wiatiii-earlyreadingskills-item33Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiatiii-earlyreadingskills-item34",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item34",
+          "subtestName": "Early Reading Skills",
+          "usesStims": true,
+          "shouldShowStimTouches": true,
+          "isWritingRequired": false,
+          "title": "Item 34. two fish",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/early_reading_skills/wiatiii-earlyreadingskills-item34/wiatiii-earlyreadingskills-item34Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        }
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

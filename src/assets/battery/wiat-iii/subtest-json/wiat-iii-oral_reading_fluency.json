@@ -1,0 +1,2403 @@
+{
+  "subtestId": 529,
+  "subtestGUID": "6548d9aa10914836b1ab3a5e1173ceea",
+  "title": "Oral Reading Fluency",
+  "displayName": "Oral Reading Fluency",
+  "abbr": "or",
+  "testType": "wiat",
+  "testTitle": "WIAT-III",
+  "testDisplayName": "WIAT-III",
+  "normType": "wiat-iii",
+  "testGUID": "be9ba998f6db9f59e040a8c042016bc8",
+  "subtestType": "OralReadingFluency",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wiat-iii/oral_reading_fluency",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 50,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Reading Comprehension and Fluency",
+    "averageDuration": 8,
+    "minGradeLevel": 2,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee reads passages aloud, and then orally responds to comprehension questions after each passage"
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Introduction",
+      "abbr": "Introduction",
+      "questions": 
+      [
+        {
+          "id": "wiat-iii-oralreadingfluency-introduction",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiat-iii-oralreadingfluency-introduction",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Introduction",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiat-iii-oralreadingfluency-introduction/wiat-iii-oralreadingfluency-introductionPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": 
+            [
+            ],
+            "superType": null,
+            "type": "namingStimuli"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage A",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passagea-passage",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagea-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage A",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagea-passage/wiatiii-oralreadingfluency-passagea-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 33,
+              "numOfImages": 1
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passagea-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagea-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question A",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;Which three animals were seen?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>Cat, Fish,&nbsp;Dog<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage B",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passageb-passage",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passageb-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage B",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passageb-passage/wiatiii-oralreadingfluency-passageb-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 93,
+              "numOfImages": 2
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passageb-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passageb-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question B",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;Where did Pat put the little ball?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>In the box<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage C",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passagec-passage",
+          "shouldUseTimer": true,
+          "maxTime": 180,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagec-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage C",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagec-passage/wiatiii-oralreadingfluency-passagec-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 97,
+              "numOfImages": 2
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passagec-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagec-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question C",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;When young turtles come out of their nests, what do they look for?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>Bright lights<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage D",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passaged-passage",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passaged-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage D",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passaged-passage/wiatiii-oralreadingfluency-passaged-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 96,
+              "numOfImages": 2
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passaged-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passaged-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question D",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;According to the passage, what should you bring with you when exploring caves?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>Flashlight, extra batteries and light bulbs<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage E",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passagee-passage",
+          "shouldUseTimer": true,
+          "maxTime": 150,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagee-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage E",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagee-passage/wiatiii-oralreadingfluency-passagee-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 99,
+              "numOfImages": 3
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passagee-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagee-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question E",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;According to the passage, what kind of tree might you find in a healthy forest?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>Snag / dead tree<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage F",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passagef-passage",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagef-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage F",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagef-passage/wiatiii-oralreadingfluency-passagef-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 113,
+              "numOfImages": 3
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passagef-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagef-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question F",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;What did Maria&#39;s great grandfather strap to the pigeons?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>(Tiny) camera(s)<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage G",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passageg-passage",
+          "shouldUseTimer": true,
+          "maxTime": 120,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passageg-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage G",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passageg-passage/wiatiii-oralreadingfluency-passageg-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 119,
+              "numOfImages": 3
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passageg-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passageg-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question G",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;What does the author like to do by moonlight?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>Take a walk<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage H",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passageh-passage",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passageh-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage H",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passageh-passage/wiatiii-oralreadingfluency-passageh-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 136,
+              "numOfImages": 3
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passageh-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passageh-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question H",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;According to the passage, what happens to a peacock&#39;s feathers every spring?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>They are renewed / They grow back<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage I",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passagei-passage",
+          "shouldUseTimer": true,
+          "maxTime": 180,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagei-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage I",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagei-passage/wiatiii-oralreadingfluency-passagei-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 201,
+              "numOfImages": 5
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passagei-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagei-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question I",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;What does the passage say people should stay away from while walking along the beach?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>Logs<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage J",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passagej-passage",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagej-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage J",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagej-passage/wiatiii-oralreadingfluency-passagej-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 258,
+              "numOfImages": 6
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passagej-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagej-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question J",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;Why did the boy steal Mark Twain&#39;s boots?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>To become a great writer<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage K",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passagek-passage",
+          "shouldUseTimer": true,
+          "maxTime": 180,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagek-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage K",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagek-passage/wiatiii-oralreadingfluency-passagek-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 213,
+              "numOfImages": 5
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passagek-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagek-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question K",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;According to the passage, what problems did oceans cause for people in the past?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>Made travel and trade difficult<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage L",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passagel-passage",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagel-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage L",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagel-passage/wiatiii-oralreadingfluency-passagel-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 207,
+              "numOfImages": 5
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passagel-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagel-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question L",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;According to the passage, how do greyhounds tend to act around strangers?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>Shy<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage M",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passagem-passage",
+          "shouldUseTimer": true,
+          "maxTime": 210,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagem-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage M",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagem-passage/wiatiii-oralreadingfluency-passagem-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 298,
+              "numOfImages": 6
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passagem-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagem-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question M",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;What mistake did the author make when building a fish tank?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>Stuck the glass in upside down<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage N",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passagen-passage",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagen-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage N",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagen-passage/wiatiii-oralreadingfluency-passagen-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 194,
+              "numOfImages": 5
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passagen-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagen-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question N",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;According to the passage, why is Antarctica called the most peaceful place on Earth?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>No wars; No country rules over it; Anyone can visit<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage O",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passageo-passage",
+          "shouldUseTimer": true,
+          "maxTime": 150,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passageo-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage O",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passageo-passage/wiatiii-oralreadingfluency-passageo-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 212,
+              "numOfImages": 5
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passageo-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passageo-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question O",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;According to the passage, what do many people mistakenly believe comes out of an active volcano?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>Smoke and flame<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Passage P",
+      "abbr": null,
+      "itemGroupType": "OralReadingFluency",
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oralreadingfluency-passagep-passage",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagep-passage",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Passage P",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "hasPortraitStim": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagep-passage/wiatiii-oralreadingfluency-passagep-passagePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "wordCount": 163,
+              "numOfImages": 4
+            },
+            "superType": null,
+            "type": "ImageAnnotation"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "png"
+        },
+        {
+          "id": "wiatiii-oralreadingfluency-passagep-question",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/oral_reading_fluency/wiatiii-oralreadingfluency-passagep-question",
+          "subtestName": "Oral Reading Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Question P",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "disableTextHighlight": true,
+                  "shouldShowIncorrectItemsFirst": false,
+                  "disableBlueFont": true,
+                  "question": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will ask you a question about what you just read.&nbsp;According to the passage, what was the purpose of the Chicago Transit Posters?<\u002fspan><\u002fp>\r\n",
+                  "correct": "<p>Advertise the &quot;L&quot; train; Encourage people to ride the &quot;L&quot; more<\u002fp>\r\n",
+                  "wrong": ""
+                }
+              ],
+              "isClueTypeQuestion": false,
+              "dataType": "html",
+              "behaviorName": "oralReadingFluency"
+            },
+            "superType": null,
+            "type": "forcedRecognition"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ItemSetReverseRule": {
+    "startingPoints": 
+    [
+      {
+        "label": "Grade 1: Passage A and B",
+        "gradeLevels": 
+        [
+          "Grade 1"
+        ],
+        "skipToQuestionId": "wiatiii-oralreadingfluency-passagea-passage",
+        "stopAtQuestionId": "wiatiii-oralreadingfluency-passageb-question"
+      },
+      {
+        "label": "Grade 2: Passage C and D",
+        "gradeLevels": 
+        [
+          "Grade 2"
+        ],
+        "skipToQuestionId": "wiatiii-oralreadingfluency-passagec-passage",
+        "stopAtQuestionId": "wiatiii-oralreadingfluency-passaged-question"
+      },
+      {
+        "label": "Grade 3: Passage  E and F",
+        "gradeLevels": 
+        [
+          "Grade 3"
+        ],
+        "skipToQuestionId": "wiatiii-oralreadingfluency-passagee-passage",
+        "stopAtQuestionId": "wiatiii-oralreadingfluency-passagef-question"
+      },
+      {
+        "label": "Grade 4: Passage  G and H",
+        "gradeLevels": 
+        [
+          "Grade 4"
+        ],
+        "skipToQuestionId": "wiatiii-oralreadingfluency-passageg-passage",
+        "stopAtQuestionId": "wiatiii-oralreadingfluency-passageh-question"
+      },
+      {
+        "label": "Grade 5: Passage  I and J",
+        "gradeLevels": 
+        [
+          "Grade 5"
+        ],
+        "skipToQuestionId": "wiatiii-oralreadingfluency-passagei-passage",
+        "stopAtQuestionId": "wiatiii-oralreadingfluency-passagej-question"
+      },
+      {
+        "label": "Grade 6: Passage K and L",
+        "gradeLevels": 
+        [
+          "Grade 6"
+        ],
+        "skipToQuestionId": "wiatiii-oralreadingfluency-passagek-passage",
+        "stopAtQuestionId": "wiatiii-oralreadingfluency-passagel-question"
+      },
+      {
+        "label": "Grade 7 - 8: Passage M  and N",
+        "gradeLevels": 
+        [
+          "Grade 7",
+          "Grade 8"
+        ],
+        "skipToQuestionId": "wiatiii-oralreadingfluency-passagem-passage",
+        "stopAtQuestionId": "wiatiii-oralreadingfluency-passagen-question"
+      },
+      {
+        "label": "Grade 9 - 12+: Passage O and P",
+        "gradeLevels": 
+        [
+          "Grade 9"
+        ],
+        "skipToQuestionId": "wiatiii-oralreadingfluency-passageo-passage",
+        "stopAtQuestionId": "wiatiii-oralreadingfluency-passagep-question"
+      }
+    ]
+  },
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "Prosody",
+      "guid": "d650499502c343e98a0c5573fb068a7a",
+      "abbreviation": "py",
+      "isPopover": true,
+      "hasInteractiveContent": true,
+      "interactiveType": "prosody"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

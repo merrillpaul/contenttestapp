@@ -1,0 +1,126 @@
+{
+  "subtestId": 550,
+  "subtestGUID": "703058e0dc66493bbf1bfd9cc710dd24",
+  "title": "Alphabet Writing Fluency",
+  "displayName": "Alphabet Writing Fluency",
+  "abbr": "aw",
+  "testType": "wiat",
+  "testTitle": "WIAT-III",
+  "testDisplayName": "WIAT-III",
+  "normType": "wiat-iii",
+  "testGUID": "be9ba998f6db9f59e040a8c042016bc8",
+  "subtestType": "wiat",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wiat-iii/alphabet_writing_fluency",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 50,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Written Expression",
+    "averageDuration": 1,
+    "minGradeLevel": 0,
+    "maxGradeLevel": 4,
+    "descriptionCS": "The examinee writes as many letters of the alphabet as possible within a 30-second time limit."
+  },
+  "questions": 
+  [
+    {
+      "id": "wiat-iii-alphabet-writing-fluency",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wiat-iii/alphabet_writing_fluency/wiat-iii-alphabet-writing-fluency",
+      "subtestName": "Alphabet Writing Fluency",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Test Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wiat-iii/alphabet_writing_fluency/wiat-iii-alphabet-writing-fluency/wiat-iii-alphabet-writing-fluencyPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": 
+        [
+        ],
+        "superType": null,
+        "type": "AlphabetWriting"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "GradeBasedStartingPointRule": {
+    "numPrevious": 0,
+    "showAllStaringPoints": false,
+    "startingPoints": 
+    [
+      {
+        "label": null,
+        "gradeLevels": 
+        [
+          "Grade PK"
+        ],
+        "questionId": "wiat-iii-alphabet-writing-fluency"
+      }
+    ]
+  },
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

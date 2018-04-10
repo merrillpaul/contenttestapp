@@ -1,0 +1,4143 @@
+{
+  "subtestId": 541,
+  "subtestGUID": "5605ed166f5940fabace07dfc5b87895",
+  "title": "Listening Comprehension",
+  "displayName": "Listening Comprehension",
+  "abbr": "lc",
+  "testType": "wiat",
+  "testTitle": "WIAT-III",
+  "testDisplayName": "WIAT-III",
+  "normType": "wiat-iii",
+  "testGUID": "be9ba998f6db9f59e040a8c042016bc8",
+  "subtestType": "wiat",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wiat-iii/listening_comprehension",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "subtestStims": 
+  [
+    {
+      "id": 2454,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-0.jpg"
+    },
+    {
+      "id": 2638,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-1.svg"
+    },
+    {
+      "id": 2639,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-2.svg"
+    },
+    {
+      "id": 2640,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-3.svg"
+    },
+    {
+      "id": 2641,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-4.svg"
+    },
+    {
+      "id": 2642,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-5.svg"
+    },
+    {
+      "id": 2643,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-6.svg"
+    },
+    {
+      "id": 2644,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-7.svg"
+    },
+    {
+      "id": 2645,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-8.svg"
+    },
+    {
+      "id": 2646,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-9.svg"
+    },
+    {
+      "id": 2647,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-10.svg"
+    },
+    {
+      "id": 2648,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-11.svg"
+    },
+    {
+      "id": 2649,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-12.svg"
+    },
+    {
+      "id": 2650,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-13.svg"
+    },
+    {
+      "id": 2651,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-14.svg"
+    },
+    {
+      "id": 2652,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-15.svg"
+    },
+    {
+      "id": 2653,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-16.svg"
+    },
+    {
+      "id": 2654,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-17.svg"
+    },
+    {
+      "id": 2655,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-18.svg"
+    },
+    {
+      "id": 2656,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-19.svg"
+    },
+    {
+      "id": 2842,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-20.m4a"
+    },
+    {
+      "id": 2843,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-21.m4a"
+    },
+    {
+      "id": 2844,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-22.m4a"
+    },
+    {
+      "id": 2845,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-23.m4a"
+    },
+    {
+      "id": 2846,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-24.m4a"
+    },
+    {
+      "id": 2847,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-25.m4a"
+    },
+    {
+      "id": 2848,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-26.m4a"
+    },
+    {
+      "id": 2849,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-27.m4a"
+    },
+    {
+      "id": 2850,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-28.m4a"
+    },
+    {
+      "id": 2851,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-29.m4a"
+    },
+    {
+      "id": 2852,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-30.m4a"
+    },
+    {
+      "id": 2853,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-31.m4a"
+    },
+    {
+      "id": 2854,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-32.m4a"
+    },
+    {
+      "id": 2855,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-33.m4a"
+    },
+    {
+      "id": 2856,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-34.m4a"
+    },
+    {
+      "id": 2857,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-35.m4a"
+    },
+    {
+      "id": 2858,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-36.m4a"
+    },
+    {
+      "id": 2859,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-37.m4a"
+    },
+    {
+      "id": 2860,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-38.m4a"
+    },
+    {
+      "id": 2861,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-39.m4a"
+    },
+    {
+      "id": 2862,
+      "filepath": "battery/stims/wiat-iii-listening_comprehension-40.m4a"
+    }
+  ],
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 50,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Oral Language",
+    "averageDuration": 13,
+    "minGradeLevel": 0,
+    "maxGradeLevel": 13,
+    "descriptionCS": "On Receptive Vocabulary, the examinee points to the picture that best illustrates the meaning of each word he or she hears. On Oral Discourse Comprehension, the examinee listens to sentences and passages and orally responds to comprehension questions."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Receptive Vocabulary",
+      "abbr": "rv",
+      "hideStimWhenLeavingItemGroup": true,
+      "isUsingCustomIButton": true,
+      "baseUrl": "battery/wiat-iii/listening_comprehension/receptive_vocabulary",
+      "isUsingCustomSpeechBubble": true,
+      "questions": 
+      [
+        {
+          "id": "wiat-iii-receptive-vocab-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item1",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 1. Empty",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Point to the correct picture&nbsp;and say, <span class=\"speechBlue\">This picture shows <em>empty<\u002fem> because this box has no more pizza in it. It is <em>empty<\u002fem>. None of the other pictures show an <em>empty<\u002fem> box. Let&rsquo;s try again. Point to the picture that shows <em>empty<\u002fem>.<\u002fspan> Encourage the examinee&nbsp;to provide the correct response, and then proceed to Item 2 by saying, <span class=\"speechBlue\">Let&rsquo;s try some more.<\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Empty. Touch the picture that shows&nbsp;<em>empty<\u002fem>.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2638
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item2",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 2. Jar",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch)&nbsp;jar.<\u002fspan><\u002fp>\r\n\r\n<p>Administration directions in parentheses are optional when the examinee has demonstrated sufficient task comprehension. Older or more mature examinees may be encouraged to provide the letter that corresponds to the picture, rather than touching.<\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2639
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": 1,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item3",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 3. Pair",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) pair.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2640
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item4",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 4. Doze",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch)&nbsp;doze.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2641
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item5",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 5. Pen",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) pen.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2642
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item6",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 6. Festive",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) festive.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2643
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item7",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 7. Exhausted",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch)&nbsp;exhausted.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2644
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": 1,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item8",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 8. Identical",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) identical.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2645
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item9",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 9. Canine",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) canine.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2646
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item10",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 10. Astounded",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) astounded.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2647
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item11",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 11. Currency",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) currency.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2648
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": 1,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item12",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 12. Descending",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) descending.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2649
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": 1,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item13",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 13. Ravine",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) ravine.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2650
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item14",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 14. Tethered",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) tethered.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2651
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item15",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 15. Pinnacle",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) pinnacle.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2652
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": 1,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item16",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 16. Opaque",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) opaque.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2653
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item17",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 17. Solitary",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) solitary.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2654
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item18",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item18",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 18. Bucolic",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) bucolic.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2655
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiat-iii-receptive-vocab-item19",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-receptive-vocab-item19",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Receptive Vocabulary Item 19. Ponderous",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">(Touch) ponderous.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2656
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": "A"
+                },
+                {
+                  "correctOrder": 1,
+                  "label": "B"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "C"
+                },
+                {
+                  "correctOrder": null,
+                  "label": "D"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        }
+      ],
+      "GradeBasedStartingPointRule": {
+        "numPrevious": 0,
+        "showAllStaringPoints": false,
+        "startingPoints": 
+        [
+          {
+            "label": null,
+            "gradeLevels": 
+            [
+              "Grade PK"
+            ],
+            "questionId": "wiat-iii-receptive-vocab-item1"
+          }
+        ]
+      },
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 4,
+        "description": "This subtest discontinues after 4 consecutive scores of 0 points.",
+        "countsDemoItems": false
+      }
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Oral Discourse Comprehension",
+      "abbr": "od",
+      "isUsingCustomIButton": true,
+      "baseUrl": "battery/wiat-iii/listening_comprehension/oral_discourse_comprehension",
+      "isUsingCustomSpeechBubble": true,
+      "questions": 
+      [
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-audio",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-audio",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Audio Calibration",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "questionStimIds": 
+          [
+            2454,
+            2842
+          ],
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-audio/wiatiii-oraldiscoursecomprehension-audioPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": 
+            [
+            ],
+            "superType": null,
+            "type": "namingStimuli"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "wiat-iii-oral-discourse-comprehension-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-oral-discourse-comprehension-item1",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2843\" data-prompt=\"Play Track 2.\" data-transcript=\"The bird sings in the tree.\" data-transcript-title=\"Track 2\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Where does the bird sing?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2843
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "In the tree",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item2",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2844\" data-prompt=\"Play Track 3\" data-transcript=\"The boy is running.\" data-transcript-title=\"Track 3\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Who is running?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2844
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "The boy",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item3",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2845\" data-prompt=\"Play Track 4\" data-transcript=\"It was raining this morning.\" data-transcript-title=\"Track 4\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">When was it raining?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2845
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "This morning",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item4",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2846\" data-prompt=\"Play Track 5\" data-transcript=\"The people want to plant a tree in the park.\" data-transcript-title=\"Track 5\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">What do the people want to plant?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2846
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A tree",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiat-iii-oral-discourse-comprehension-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiat-iii-oral-discourse-comprehension-item5",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2847\" data-prompt=\"Play Track 6.\" data-transcript=\"Lee saw a duck in the water. Then she saw a frog.\" data-transcript-title=\"Track 6\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">What did Lee see first?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2847
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Water",
+                      "triggersQuery": true,
+                      "popoverText": "Say, <span class=\"speechBlue\">Tell me more. <\u002fspan>",
+                      "displayPopoverTextAsHtml": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A duck",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item6",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2848\" data-prompt=\"Play Track 7\" data-transcript=\"Sally is doing her homework today because tomorrow her family is going to Grandma’s house for Sunday dinner.\" data-transcript-title=\"Track 7\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">What day is Sally visiting Grandma?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2848
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Sunday / Tomorrow",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item7",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2849\" data-prompt=\"Play Track 8\" data-transcript=\"Jackie plans to get her brother a puppy for his birthday. First, she must get her parents’ permission. If they say yes, she will go to the animal shelter and make her choice.\" data-transcript-title=\"Track 8\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">What does Jackie have to do before she goes to the animal shelter?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2849
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Get her parents' permission",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Ask her parents",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item8",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2850\" data-prompt=\"Play Track 9\" data-transcript=\"“Grandfather, look! My kitten climbed high up into the tree! Come down kitty!” “Don’t worry, Amy. She’s alright.” “I called to her, but she didn’t move. I’m going to climb up there and help her down.” “No, Amy. You don’t need to climb up there. Your kitten will come down when she’s ready.”\" data-transcript-title=\"Track 9\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Why did Amy want to climb the tree?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2850
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "To get her kitten",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To save the kitten",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To bring down her cat",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Her kitten is in the tree",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Other similar response",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item9",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 9",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"true\" data-media-id=\"2850\" data-prompt=\" \" data-transcript=\"“Grandfather, look! My kitten climbed high up into the tree! Come down kitty!” “Don’t worry, Amy. She’s alright.” “I called to her, but she didn’t move. I’m going to climb up there and help her down.” “No, Amy. You don’t need to climb up there. Your kitten will come down when she’s ready.”\" data-transcript-title=\"Track 9\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">What reason did Amy&#39;s grandfather give for her not climbing the tree?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2850
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "(He said) her kitten will come down when she's ready",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item10",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 10",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2851\" data-prompt=\"Play Track 10\" data-transcript=\"Hey kids, how would you like your very own mug free? Choose from four see-through plastic mugs. Each mug has a picture of one of your favorite wild animals: There’s a gorilla... a kangaroo... a giraffe... and a lion. To get your animal mug, have Mom or Dad pick up a gallon of Dairy Princess milk at any grocery store. Remember: Dairy Princess is the best milk for growing kids. And it’s the only milk that gives you a free animal mug.\" data-transcript-title=\"Track 10\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">What do you get free?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2851
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Mug(s) / Cup(s)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item11",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 11",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"true\" data-media-id=\"2851\" data-transcript=\"Hey kids, how would you like your very own mug free? Choose from four see-through plastic mugs. Each mug has a picture of one of your favorite wild animals: There’s a gorilla... a kangaroo... a giraffe... and a lion. To get your animal mug, have Mom or Dad pick up a gallon of Dairy Princess milk at any grocery store. Remember: Dairy Princess is the best milk for growing kids. And it’s the only milk that gives you a free animal mug.\" data-transcript-title=\"Track 10\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Name two of the animals shown on the mugs.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2851
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Names only one correct animal",
+                      "triggersQuery": true,
+                      "popoverText": "Say, <span class=\"speechBlue\">Tell me another animal shown on mugs.<\u002fspan>",
+                      "displayPopoverTextAsHtml": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Gorilla",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Kangaroo",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Giraffe",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Lion",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "conditionalText": "Names at least two of the following:"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item12",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 12",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2852\" data-prompt=\"Play Track 11\" data-transcript=\"Richard and his sister went to the circus. First, they saw a woman taming a lion. Then, they watched elephants doing tricks. Finally, they saw people standing on horses’ backs as the people rode them. And all the while, clowns were making faces and doing tricks for the crowd.\" data-transcript-title=\"Track 11\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Which animal did Richard see last?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2852
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Horse(s)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item13",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 13",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2853\" data-prompt=\"Play Track 12\" data-transcript=\"Julie enjoys watching sports on television, especially soccer. She also likes to play basketball with her big sister. Still, she would give up both of these to play volleyball at the park with her friends.\" data-transcript-title=\"Track 12\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Which sport does Julie most like to watch on television?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2853
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Soccer",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item14",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 14",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2854\" data-prompt=\"Play Track 13\" data-transcript=\"Hey kids, don’t pass up this offer. You could spend all day at the zoo absolutely free. Cut out the word CHEWIES from three specially marked bags of CHEWIES. The word CHEWIES from any size bag will be accepted, but no individual CHEWIES wrappers, please. Send the three cutouts to the address on the specially marked bag. Then we’ll send you a free pass to the zoo. And when you go to the zoo, pick up a bag of CHEWIES to chew on. But don’t feed CHEWIES to the animals. CHEWIES are only for people. Limit one pass per customer. Allow four weeks for delivery.\" data-transcript-title=\"Track 13\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">How many cutouts do you need to send in to get a free pass?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2854
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Three",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item15",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 15",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"true\" data-media-id=\"2854\" data-transcript=\"Hey kids, don’t pass up this offer. You could spend all day at the zoo absolutely free. Cut out the word CHEWIES from three specially marked bags of CHEWIES. The word CHEWIES from any size bag will be accepted, but no individual CHEWIES wrappers, please. Send the three cutouts to the address on the specially marked bag. Then we’ll send you a free pass to the zoo. And when you go to the zoo, pick up a bag of CHEWIES to chew on. But don’t feed CHEWIES to the animals. CHEWIES are only for people. Limit one pass per customer. Allow four weeks for delivery.\" data-transcript-title=\"Track 13\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">After you send in the cutouts, what is the longest time you will have to wait for the free pass?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2854
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Four weeks",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item16",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 16",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2855\" data-prompt=\"Play Track 14\" data-transcript=\"The Fourth of July is Troy’s favorite holiday. Every year his family watches the morning parade downtown. In the afternoon they have a picnic at River Park. In the evening they all go to the fireworks display at the high school. The fireworks are Troy’s favorite part of the day.\" data-transcript-title=\"Track 14\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">What is the first event Troy&#39;s family goes to on the Fourth of July?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2855
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Parade",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item17",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 17",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2856\" data-prompt=\"Play Track 15\" data-transcript=\"The proposed office building has several advantages over the current one: it is closer to a major highway, it has a more efficient heating and cooling system, it is better insulated, and it has better parking.\" data-transcript-title=\"Track 15\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Name two advantages given for the proposed building.<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2856
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Comparative terms not used (e.g., the student says, \"Good parking\")",
+                      "triggersQuery": true,
+                      "popoverText": "Say, <span class=\"speechBlue\">Name two advantages that make the proposed building better than the current one.<\u002fspan>",
+                      "displayPopoverTextAsHtml": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Closer to a major highway",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "More efficient heating and cooling system",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Better insulated",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Better parking",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "conditionalText": "Names at least two of the following, using the comparative terms listed:"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item18",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item18",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 18",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2857\" data-prompt=\"Play Track 16\" data-transcript=\"Gerald has three main reasons for running for class vice-president. First, he wants to make a contribution to the class. Second, he has never been the class vice-president before. Third, and most important to Gerald, he wants to be in politics when he is an adult, and this election will give him good experience.\" data-transcript-title=\"Track 16\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">What office is Gerald running for?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2857
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "(Class) vice-president",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item19",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item19",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 19",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"true\" data-media-id=\"2857\" data-transcript=\"Gerald has three main reasons for running for class vice-president. First, he wants to make a contribution to the class. Second, he has never been the class vice-president before. Third, and most important to Gerald, he wants to be in politics when he is an adult, and this election will give him good experience.\" data-transcript-title=\"Track 16\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">To Gerald, what is the most important reason for running for office?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2857
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "He wants to be in politics (in the future)",
+                      "triggersQuery": true,
+                      "popoverText": "Say, <span class=\"speechBlue\">Tell me more.<\u002fspan>",
+                      "displayPopoverTextAsHtml": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Experience (for the future)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item20",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item20",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 20",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2858\" data-prompt=\"Play Track 17\" data-transcript=\"Walking is good exercise for people of all ages. It requires no expensive equipment or clothing, and it can be done at any time of day and in almost any place. Unlike running, there is no stress put on the walker’s joints. Best of all, it stimulates the heart and lungs and helps condition many different muscle groups.\" data-transcript-title=\"Track 17\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">What advantage does walking have over running?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2858
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "No stress on (the walker's) joints",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item21",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item21",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 21",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"true\" data-media-id=\"2858\" data-transcript=\"Walking is good exercise for people of all ages. It requires no expensive equipment or clothing, and it can be done at any time of day and in almost any place. Unlike running, there is no stress put on the walker’s joints. Best of all, it stimulates the heart and lungs and helps condition many different muscle groups.\" data-transcript-title=\"Track 17\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Besides health, what is one reason given in support of walking?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2858
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "(Walking) is good exercise",
+                      "triggersQuery": true,
+                      "popoverText": "Say, <span class=\"speechBlue\">Name one reason why.<\u002fspan>",
+                      "displayPopoverTextAsHtml": true
+                    },
+                    {
+                      "text": "Examinee gives a health related reason",
+                      "triggersQuery": true,
+                      "popoverText": "Repeat the question, emphasizing <span class=\"speechBlue\">Besides...<\u002fspan>",
+                      "displayPopoverTextAsHtml": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Requires no expensive equipment / clothing",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Can be done at any time of day",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Can be done in almost any place",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item22",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item22",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 22",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2859\" data-prompt=\"Play Track 18\" data-transcript=\"Here’s an amazing offer. Get a copy of The Complete Handbook of Olympic Sports absolutely free. Just join the Sportswriters’ Book Series, a continuing collection of the finest books on sports, written by top sportswriters and carefully selected by our staff. You’ll be billed only sixteen ninety-five for each book you receive—far less than you’d expect to pay in a bookstore. And for a limited time only, we’ll send you the first book in the series, Runners and Running, at less than half price. Just imagine: Less than half price for the first book, plus your Olympic sports handbook absolutely free. Don’t wait. Send seven ninety-five today, or call toll free to use your credit card. We’ll rush your first book and your free handbook within three weeks. Each month thereafter, we’ll send a new book in the series. Cancel any time after the first book. Operators are standing by. Pick up the phone and call now.\" data-transcript-title=\"Track 18\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">What is the first book in the series about?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2859
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Runners / Running",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item23",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item23",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 23",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"true\" data-media-id=\"2859\" data-transcript=\"Here’s an amazing offer. Get a copy of The Complete Handbook of Olympic Sports absolutely free. Just join the Sportswriters’ Book Series, a continuing collection of the finest books on sports, written by top sportswriters and carefully selected by our staff. You’ll be billed only sixteen ninety-five for each book you receive—far less than you’d expect to pay in a bookstore. And for a limited time only, we’ll send you the first book in the series, Runners and Running, at less than half price. Just imagine: Less than half price for the first book, plus your Olympic sports handbook absolutely free. Don’t wait. Send seven ninety-five today, or call toll free to use your credit card. We’ll rush your first book and your free handbook within three weeks. Each month thereafter, we’ll send a new book in the series. Cancel any time after the first book. Operators are standing by. Pick up the phone and call now.\" data-transcript-title=\"Track 18\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">How much do you have to spend before you get the free item?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2859
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Seven ninety-five / Seven dollars and ninety-five cents",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item24",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item24",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 24",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2860\" data-prompt=\"Play Track 19\" data-transcript=\"Ms. Franklin has always loved trains. She hopes to win a train trip across southern Canada. The trip begins on the West Coast, at Vancouver, and takes passengers nearly three thousand miles across Canada to Toronto. Because the trip takes an entire week, the prize includes a plane trip back home.\" data-transcript-title=\"Track 19\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">In what direction would Ms. Franklin be traveling for most of the train trip that she wants to win?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2860
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "East / Toward Toronto",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item25",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item25",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 25",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2861\" data-prompt=\"Play Track 20\" data-transcript=\"Unemployment in the state declined by three-quarters of one percent in one month. Officials in the Department of Labor attributed the decline to job opportunities created by students returning to school and to increases in the demand for unskilled and skilled workers in service industries across the state.\" data-transcript-title=\"Track 20\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">By how much did unemployment change in one month, and in what direction?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2861
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "(It) decreased",
+                      "triggersQuery": true,
+                      "popoverText": "Say, <span class=\"speechBlue\">And by how much did unemployment change in one month?<\u002fspan>",
+                      "displayPopoverTextAsHtml": true
+                    },
+                    {
+                      "text": "By three-quarters of one percent",
+                      "triggersQuery": true,
+                      "popoverText": "Say, <span class=\"speechBlue\">And in what direction did unemployment change in one month?<\u002fspan>",
+                      "displayPopoverTextAsHtml": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Decreased by three-quarters of one percent",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item26",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item26",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 26",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"true\" data-media-id=\"2861\" data-transcript=\"Unemployment in the state declined by three-quarters of one percent in one month. Officials in the Department of Labor attributed the decline to job opportunities created by students returning to school and to increases in the demand for unskilled and skilled workers in service industries across the state.\" data-transcript-title=\"Track 20\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">What effect did students have on unemployment in one month?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2861
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Their return to school created job opportunities / made more jobs available",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        },
+        {
+          "id": "wiatiii-oraldiscoursecomprehension-item27",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wiat-iii/listening_comprehension/wiatiii-oraldiscoursecomprehension-item27",
+          "subtestName": "Listening Comprehension",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Oral Discourse Comprehension Item 27",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_audioPrompt\" data-hide-controls=\"false\" data-media-id=\"2862\" data-prompt=\"Play Track 21\" data-transcript=\"Beginning in 1984, the United States Census Bureau began counting robots as well as people. More than five thousand robots were produced in the United States in 1984, at a total selling price of more than three hundred million dollars. Most of the robots were sold to the automotive industry.\" data-transcript-title=\"Track 21\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">In 1984, how many robots were produced in the United States?<\u002fspan><\u002fp>\r\n",
+          "questionStimIds": 
+          [
+            2862
+          ],
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "More than five thousand",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            }
+          ],
+          "imageExtension": "m4a"
+        }
+      ],
+      "ODCFirstItemsIncorrectReverseRule": {
+        "numItemsToTrigger": 3,
+        "numItemsToResume": 3
+      },
+      "GradeBasedStartingPointRule": {
+        "numPrevious": 1,
+        "showAllStaringPoints": false,
+        "startingPoints": 
+        [
+          {
+            "label": "Grades PK-3: Item 1",
+            "gradeLevels": 
+            [
+              "Grade PK",
+              "Grade K",
+              "Grade 1",
+              "Grade 2",
+              "Grade 3"
+            ],
+            "questionId": "wiat-iii-oral-discourse-comprehension-item1"
+          },
+          {
+            "label": "Grades 4-12+: Item 6",
+            "gradeLevels": 
+            [
+              "Grade 4"
+            ],
+            "questionId": "wiatiii-oraldiscoursecomprehension-item6"
+          }
+        ]
+      },
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 4,
+        "description": "This subtest discontinues after 4 consecutive scores of 0 points.",
+        "countsDemoItems": false
+      }
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

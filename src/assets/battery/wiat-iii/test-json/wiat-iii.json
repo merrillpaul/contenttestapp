@@ -1,0 +1,28 @@
+{
+   "normType": "wiat-iii",
+   "testGUID": "be9ba998f6db9f59e040a8c042016bc8",
+   "displayName": "WIAT-III",
+   "testType": "wiat",
+   "title": "WIAT-III",
+   "gradeLevels": [
+      "Grade PK",
+      "Grade K",
+      "Grade 1",
+      "Grade 2",
+      "Grade 3",
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11",
+      "Grade 12+"
+   ],
+   "gradeTerms": [
+      "Fall",
+      "Winter",
+      "Spring"
+   ]
+}

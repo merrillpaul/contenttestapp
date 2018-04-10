@@ -1,0 +1,3165 @@
+{
+  "subtestId": 612,
+  "subtestGUID": "f8dd22e4d433411aa8b4530f5f878585",
+  "title": "Numerical Operations",
+  "displayName": "Numerical Operations",
+  "abbr": "no",
+  "testType": "wiat",
+  "testTitle": "WIAT-III",
+  "testDisplayName": "WIAT-III",
+  "normType": "wiat-iii",
+  "testGUID": "be9ba998f6db9f59e040a8c042016bc8",
+  "subtestType": "DerivedSkillsAnalysis",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wiat-iii/numerical_operations",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 50,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Mathematics",
+    "averageDuration": 9,
+    "minGradeLevel": 1,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee solves math calculation problems in the Response Booklet."
+  },
+  "singleCardItemLists": 
+  [
+    {
+      "title": "Test Items",
+      "DiscontinueConsecutiveZerosRule": {
+        "numZeros": 4
+      },
+      "GradeBasedReverseRule": {
+        "numberFullScores": 3,
+        "ascendingOrder": true,
+        "startPoints": 
+        [
+          {
+            "minGrade": "Grade K",
+            "startQuestionId": "wiat-iii-numerical-ops-item-1",
+            "label": "Grades K-1: Item 1"
+          },
+          {
+            "minGrade": "Grade 2",
+            "startQuestionId": "wiat-iii-numerical-ops-item-14",
+            "label": "Grades 2-4: Item 14"
+          },
+          {
+            "minGrade": "Grade 5",
+            "startQuestionId": "wiat-iii-numerical-ops-item-18",
+            "label": "Grades 5-12+: Item 18"
+          }
+        ]
+      },
+      "itemGroups": 
+      [
+        {
+          "shouldSuppressCoverSheet": false,
+          "shouldSuppressScore": false,
+          "isOptional": false,
+          "title": "Items 1-7",
+          "abbr": null,
+          "questions": 
+          [
+            {
+              "id": "wiat-iii-numerical-ops-item-1",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-1",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 1. How many balls are there?",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>Point to Item 1 and say, <span class=\"speechBlue\">Here are some balls. Count them. How many balls are there?<\u002fspan><\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "5",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-2",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-2",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 2. Write the number of balls.",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>Point to the box beside Item 2 and say, <span class=\"speechBlue\">Write that number here. Write the number of balls you counted.&nbsp;<\u002fspan><\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "Penalize for reversed and unrecognizable numbers.",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "5",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-3",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-3",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 3. Circle the numbers.",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>Point to Item 3 and say, <span class=\"speechBlue\">Here are some letters and numbers. Draw a circle&nbsp;around each number. Circle only the numbers.<\u002fspan><\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "No letters, circles all numbers: 3, 2, 5, 4",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-4",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-4",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 4. Draw a circle around the group of 6 triangles.",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>Point to each box in Item 4 and say, <span class=\"speechBlue\">Here are groups of triangles. Draw a circle&nbsp;around the group of 6 triangles.<\u002fspan><\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "Circles 6 triangles (bottom left)",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-5",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-5",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 5. Write the number that was left out.",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>Point to Item 5 and say, <span class=\"speechBlue\">Here are numbers from 1 to 10, but one number has&nbsp;been left out. <\u002fspan>Point to the blank line. <span class=\"speechBlue\">Write the number that was left out.<\u002fspan><\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "8",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-6",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-6",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 6. Point to the one that means “add” or “plus.”",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>Sweep your finger from left to right across the row for Items 6&ndash;7 and say, <span class=\"speechBlue\">Look at&nbsp;each of these. Point to the one that means &ldquo;add&rdquo; or &ldquo;plus.&rdquo;<\u002fspan><\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "+",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-7",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-7",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 7. Point to the one that means “subtract” or “take away.”",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>Again, sweep your finger from left to right across the row for Items 6&ndash;7 and say, <span class=\"speechBlue\">Look&nbsp;at each of these again. Point to the one that means &ldquo;subtract&rdquo; or &ldquo;take away.&rdquo;<\u002fspan><\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "–",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            }
+          ],
+          "hasInstructionsHtml": true
+        },
+        {
+          "shouldSuppressCoverSheet": false,
+          "shouldSuppressScore": false,
+          "isOptional": false,
+          "title": "Items 8-61",
+          "abbr": null,
+          "questions": 
+          [
+            {
+              "id": "wiat-iii-numerical-ops-item-8",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-8",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 8. 1 + 1",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p><strong>For Grades K-1 only:<\u002fstrong> Say, <strong><span class=\"speechBlue\">Now I want you to solve some math problems.<\u002fspan><\u002fstrong> Point to the Item 8 in the Response Booklet and say, <strong><span class=\"speechBlue\">Start here and&nbsp;work the problems in <em>this<\u002fem> order.<\u002fspan><\u002fstrong> Sweep your finger from left to right across the first row and then across the next row. Say, <strong><span class=\"speechBlue\">If you come to a problem you don&rsquo;t know, just skip it. If you finish this page, turn to the next page. Tell me when you&rsquo;re finished.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>If the student needs help reading any words, read those words aloud to the student; do not help with number problems.<\u002fp>\r\n\r\n<p>1 + 1<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "2",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-9",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-9",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 9. 1 + 2",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>1 + 2<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "3",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-10",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-10",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 10. 3 + 1",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>3 + 1<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "4",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-11",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-11",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 11. 3 + 3",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>3 + 3<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "6",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-12",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-12",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 12. 4 + 1",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>4 + 1<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "5",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-13",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-13",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 13. 5 + 5",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>5 + 5<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "10",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-14",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-14",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 14. 3 – 1",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p><strong>For Grades 2-4 only:<\u002fstrong> To begin administration, give the student a pencil without an eraser and say, <strong><span class=\"speechBlue\">You will be using a pencil without an eraser, so if you make a mistake, just cross it out.<\u002fspan><\u002fstrong> Open the Response Booklet to Item 14 of Numerical Operations and hand it to the student.<\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">I want you to solve some math problems.<\u002fspan><\u002fstrong> Point to the Item 14 in the Response Booklet and say, <strong><span class=\"speechBlue\">Start here and&nbsp;work the problems in <em>this<\u002fem> order.<\u002fspan><\u002fstrong> Sweep your finger from left to right across the first row and then across the next row. Say, <strong><span class=\"speechBlue\">If you come to a problem you don&rsquo;t know, just skip it. If you finish this page, turn to the next page. Tell me when you&rsquo;re finished.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>If the student needs help reading any words, read those words aloud to the student; do not help with number problems.<\u002fp>\r\n\r\n<p>3 - 1<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "2",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-15",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-15",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 15. 6 – 2",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>6 - 2<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "4",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-16",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-16",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 16. 5 + 1 + 5 + 2",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>5 + 1 + 5 + 2<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "13",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-17",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-17",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 17. 7 + 6",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>7 + 6<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "13",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-18",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-18",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 18. 12 – 5",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p><strong>For Grades 5-12+ only:<\u002fstrong> To begin administration, give the student a pencil without an eraser and say, <strong><span class=\"speechBlue\">You will be using a pencil without an eraser, so if you make a mistake, just cross it out.<\u002fspan><\u002fstrong> Open the Response Booklet to Item 18&nbsp;of Numerical Operations and hand it to the student.<\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">I want you to solve some math problems.<\u002fspan><\u002fstrong> Point to the Item 18 in the Response Booklet and say, <strong><span class=\"speechBlue\">Start here and&nbsp;work the problems in <em>this<\u002fem> order.<\u002fspan><\u002fstrong> Sweep your finger from left to right across the first row and then across the next row. Say, <strong><span class=\"speechBlue\">If you come to a problem you don&rsquo;t know, just skip it. If you finish this page, turn to the next page. Tell me when you&rsquo;re finished.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>If the student needs help reading any words, read those words aloud to the student; do not help with number problems.<\u002fp>\r\n\r\n<p>12 - 5<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "7",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-19",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-19",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 19. 63 + 16",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>63 + 16<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "79",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-20",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-20",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 20. 5 x 5",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>5&nbsp;&times; 5<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "25",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-21",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-21",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 21. 4 x 3",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>4&nbsp;&times; 3<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "12",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-22",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-22",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 22. 6 x 5",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>6 &times; 5<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "30",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-23",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-23",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 23. 865 + 236",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>865 + 236<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "1101",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-24",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-24",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 24. 70 – 24",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>70 - 24<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "46",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-25",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-25",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 25. 140 – 15",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>140 - 15<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "125",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-26",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-26",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 26. 24 ÷ 6",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>24 &divide; 6<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "4",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-27",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-27",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 27. 29 x 6",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>29 &times; 6<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "174",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-28",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-28",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 28. 7 x 9",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>7&nbsp;&times; 9<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "63",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-29",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-29",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 29. 49 ÷ 7 + 3",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>49 &divide; 7 + 3<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "10",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-30",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-30",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 30. 6/7 + 3/7",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>6/7 + 3/7<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "9/7 or 1 2/7",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-31",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-31",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 31. 72 ÷ 3",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>72 &divide; 3<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "24",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-32",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-32",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 32. 4z + 1 = 9",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>4<em>z<\u002fem> + 1 = 9<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "2",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-33",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-33",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 33. 906 – 488",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>906 - 488<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "418",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-34",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-34",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 34. –25 + (–2)",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>-25 + (-2)<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "-27",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-35",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-35",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 35. 834 ÷ 6",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>834 &divide; 6<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "139",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-36",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-36",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 36. pi",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>pi<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "3.14",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-37",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-37",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 37. simplify 10/55",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>Simplify 10/55<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "2/11",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-38",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-38",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 38. 5z – 3 = 11 + 3z",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>5<em>z<\u002fem> - 3 = 11 + 3<em>z<\u002fem><\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "7",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-39",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-39",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 39. 594 ÷ 22",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>594 &divide; 22<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "27",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-40",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-40",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 40. 12x – 6 = 6x + 18",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>12<em>x<\u002fem> - 6 = 6<em>x<\u002fem> + 18<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "4",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-41",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-41",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 41. 408 x 321",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>408 &times; 321<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "130,968",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-42",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-42",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 42. 2/3 x 30",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>2/3 &times; 30<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "20",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-43",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-43",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 43. order of operations",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>order of operations<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "225",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-44",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-44",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 44. (z + 2)(z – 1) = 0",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>(<em>z<\u002fem> + 2)(<em>z<\u002fem> - 1) = 0<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "-2, 1",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-45",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-45",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 45. 400% of 80",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>400% of 80<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "320",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-46",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-46",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 46. 4/5 ÷ 2/10",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>4/5 &divide; 2/10<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "4",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-47",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-47",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 47. area of triangle",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>area of triangle<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "50 (sq. inches)",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-48",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-48",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 48. solve for x and y",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>solve for <em>x<\u002fem> and <em>y<\u002fem><\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "<em>x<\u002fem> = 15  <em>y<\u002fem> = 3",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-49",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-49",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 49. algebra",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>algebra<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "Solves all three: AB = 12  BC = 12  AC = 6",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-50",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-50",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 50. find f(1)",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>find <em>f&nbsp;<\u002fem>(1)<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "0",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-51",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-51",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 51. simplify",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>simplify<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "<em>b<\u002fem><sup>5<\u002fsup>",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-52",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-52",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 52. 21.5 ÷ 4",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>21.5 &divide; 4<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "5.375",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-53",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-53",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 53. geometry",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>geometry<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "17",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-54",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-54",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 54. logarithm",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>logarithm<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "16",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-55",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-55",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 55. simplify",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>simplify<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "<em>z<\u002fem><sup>9<\u002fsup>",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-56",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-56",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 56. trigonometry",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>trigonometry<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "Solves all three: tan A = 4/3  sin B = 3/5  cos A = 3/5",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-57",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-57",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 57. factor",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>factor<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "3<em>xy<\u002fem> (<em>xy<\u002fem> + 2<em>y<\u002fem> - 1)",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-58",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-58",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 58. find the limit",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>find the limit<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "0",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-59",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-59",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 59. find the limit",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>find the limit<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "0",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-60",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-60",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 60. differentiate",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>differentiate<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "15 (5<em>x<\u002fem> - 4)<sup>2<\u002fsup>",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            },
+            {
+              "id": "wiat-iii-numerical-ops-item-61",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/wiat-iii/numerical_operations/wiat-iii-numerical-ops-item-61",
+              "subtestName": "Numerical Operations",
+              "usesStims": false,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 61. integrate",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>integrate<\u002fp>\r\n",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "10.5 or 10 1/2 or 21/2",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "itemGroups": 
+  [
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    }
+  ],
+  "shouldShowStartPoints": null
+}
