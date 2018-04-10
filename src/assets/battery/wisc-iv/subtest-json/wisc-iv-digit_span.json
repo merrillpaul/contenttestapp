@@ -1,0 +1,1675 @@
+{
+  "subtestId": 78,
+  "subtestGUID": "b9f7a72b810e8306e040a8c04201157d",
+  "title": "Digit Span",
+  "displayName": "Digit Span",
+  "abbr": "Digit Span",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": "digitSpan",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-iv/digit_span",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Working Memory",
+    "averageDuration": 4,
+    "descriptionCS": "For Digit Span Forward, the child repeats numbers in the same order as read aloud by the examiner. For Digit Span Backward, the child repeats numbers in the reverse order of that presented aloud by the examiner."
+  },
+  "scoringScaleName": "Working Memory Index (WMI)",
+  "scoringScaleAbbr": "WMI",
+  "isScaledScoreOptional": false,
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Forward",
+      "abbr": "Forward",
+      "questions": 
+      [
+        {
+          "id": "wisciv-digitspan-forward1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-forward1",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>2 - 9<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/wisciv-digitspan-forward1/wisciv-digitspan-forward1-1Prompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward1-1",
+              "title": "Forward Item 1 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 - 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>4 - 6<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward1-2",
+              "title": "Forward Item 1 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "4 - 6"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-forward2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-forward2",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>3 - 8 - 6<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward2-592",
+              "title": "Forward Item 2 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "3 - 8 - 6"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>6 - 1 - 2<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward2-599",
+              "title": "Forward Item 2 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "6 - 1 - 2"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-forward3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-forward3",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>3 - 4 - 1 - 7<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward3-593",
+              "title": "Forward Item 3 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "3 - 4 - 1 - 7"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>6 - 1 - 5 - 8<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward3-602",
+              "title": "Forward Item 3 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "6 - 1 - 5 - 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-forward4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-forward4",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>8 - 4 - 2 - 3 - 9<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward4-594",
+              "title": "Forward Item 4 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "8 - 4 - 2 - 3 - 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 - 2 - 1 - 8 - 6<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward4-603",
+              "title": "Forward Item 4 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "5 - 2 - 1 - 8 - 6"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-forward5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-forward5",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>3 - 8 - 9 - 1 - 7 - 4<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward5-595",
+              "title": "Forward Item 5 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "3 - 8 - 9 - 1 - 7 - 4"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>7 - 9 - 6 - 4 - 8 - 3<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward5-604",
+              "title": "Forward Item 5 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "7 - 9 - 6 - 4 - 8 - 3"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-forward6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-forward6",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 - 1 - 7 - 4 - 2 - 3 - 8<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward6-596",
+              "title": "Forward Item 6 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "5 - 1 - 7 - 4 - 2 - 3 - 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>9 - 8 - 5 - 2 - 1 - 6 - 3<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward6-605",
+              "title": "Forward Item 6 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "9 - 8 - 5 - 2 - 1 - 6 - 3"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-forward7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-forward7",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>1 - 8 - 4 - 5 - 9 - 7 - 6 - 3<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward7-597",
+              "title": "Forward Item 7 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 - 8 - 4 - 5 - 9 - 7 - 6 - 3"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>2 - 9 - 7 - 6 - 3 - 1 - 5 - 4<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward7-606",
+              "title": "Forward Item 7 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 - 9 - 7 - 6 - 3 - 1 - 5 - 4"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-forward8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-forward8",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 - 3 - 8 - 7 - 1 - 2 - 4 - 6 - 9<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward8-600",
+              "title": "Forward Item 8 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "5 - 3 - 8 - 7 - 1 - 2 - 4 - 6 - 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>4 - 2 - 6 - 9 - 1 - 7 - 8 - 3 - 5<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/forwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-forward8-601",
+              "title": "Forward Item 8 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "4 - 2 - 6 - 9 - 1 - 7 - 8 - 3 - 5"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 1,
+        "description": "This subtest discontinues after scores of 0 on both trials of an item.",
+        "countsDemoItems": false
+      },
+      "hasInstructionsHtml": true
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Backward",
+      "abbr": "Backward",
+      "questions": 
+      [
+        {
+          "id": "wisciv-digitspan-sample",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-sample",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Sample Item",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">That&rsquo;s right.<\u002fspan><\u002fp>\r\n\r\n<p>Introduce Trial 2:<\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Let<\u002fspan><span style=\"color: rgb(2, 149, 165);\">&rsquo;<\u002fspan><span class=\"speechBlue\">s try these numbers. &nbsp;Remember, you are to say them backward: 5 - 6.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">That&rsquo;s not quite right. I said 8 - 2, so to say it backward, you should say 2 - 8.<\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">Let&rsquo;s try again: 8 - 2.<\u002fspan><\u002fp>\r\n\r\n<p>[For second attempt] &nbsp;<\u002fp>\r\n\r\n<p>Correct response: Say,&nbsp;<span class=\"speechBlue\">That<\u002fspan><span style=\"color: rgb(2, 149, 165);\">&rsquo;<\u002fspan><span class=\"speechBlue\">s right.<\u002fspan><\u002fp>\r\n\r\n<p>Incorrect response: Say,&nbsp;<span class=\"speechBlue\">That&rsquo;s not quite right. I said 8 - 2, so to say it backward, you should say 2 - 8.<\u002fspan><\u002fp>\r\n\r\n<p>Introduce Trial 2:<\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Let<\u002fspan><span style=\"color: rgb(2, 149, 165);\">&rsquo;<\u002fspan><span class=\"speechBlue\">s try these numbers. &nbsp;Remember, you are to say them backward: 5 - 6.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>8 - 2<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/wisciv-digitspan-sample/wisciv-digitspan-sample-607Prompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-sample-607",
+              "title": "Backward Sample Item Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 - 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">That&rsquo;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">That&rsquo;s not quite right. I said 5 - 6, so to say it backward, you should say 6 - 5.<\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">Let&rsquo;s try again: 5 - 6.<\u002fspan><\u002fp>\r\n\r\n<p>[For second attempt] &nbsp;<\u002fp>\r\n\r\n<p>Correct response: Say,&nbsp;<span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n\r\n<p>Incorrect response: Say,&nbsp;<span class=\"speechBlue\">That&rsquo;s not quite right. I said 5 - 6, so to say it backward, you should say 6 - 5.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 - 6<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/wisciv-digitspan-sample/wisciv-digitspan-sample-608Prompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-sample-608",
+              "title": "Backward Sample Item Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "6 - 5"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-backward1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-backward1",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>2 - 1<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward1-609",
+              "title": "Backward Item 1 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 - 2"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>1 - 3 <\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward1-610",
+              "title": "Backward Item 1 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "3 - 1"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-backward2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-backward2",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>3 - 5<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward2-611",
+              "title": "Backward Item 2 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "5 - 3"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>6 - 4<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward2-612",
+              "title": "Backward Item 2 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "4 - 6"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-backward3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-backward3",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 - 7 - 4<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward3-614",
+              "title": "Backward Item 3 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "4 - 7 - 5"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>2 - 5 - 9<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward3-615",
+              "title": "Backward Item 3 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "9 - 5 - 2"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-backward4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-backward4",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>7 - 2 - 9 - 6<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward4-616",
+              "title": "Backward Item 4 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "6 - 9 - 2 - 7"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>8 - 4 -  9 - 3<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward4-617",
+              "title": "Backward Item 4 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "3 - 9 - 4 - 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-backward5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-backward5",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>4 - 1 - 3 - 5 - 7 <\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward5-619",
+              "title": "Backward Item 5 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "7 - 5 - 3 - 1 - 4"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>9 - 7 - 8 - 5 - 2 <\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward5-620",
+              "title": "Backward Item 5 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 - 5 - 8 - 7 - 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-backward6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-backward6",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>1 - 6 - 5 - 2 - 9 - 8 <\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward6-621",
+              "title": "Backward Item 6 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "8 - 9 - 2 -  5 - 6 -1"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>3 - 6 - 7 - 1 - 9 - 4  <\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward6-622",
+              "title": "Backward Item 6 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "4 - 9 - 1 - 7 - 6 - 3"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-backward7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-backward7",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>8 - 5 - 9 - 2 - 3 - 4 - 6 <\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward7-623",
+              "title": "Backward Item 7 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "6 - 4 - 3 - 2 - 9 - 5 - 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>4 - 5 - 7 - 9 - 2 - 8 - 1<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward7-624",
+              "title": "Backward Item 7 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 - 8 - 2 - 9 - 7 - 5 - 4"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisciv-digitspan-backward8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/digit_span/wisciv-digitspan-backward8",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>6 - 9 - 1 - 7 - 3 - 2 - 5 - 8 <\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward8-625",
+              "title": "Backward Item 8 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "8 - 5 - 2 - 3 - 7 - 1 - 9 - 6"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>3 - 1 - 7 - 9 - 5 - 4 - 8 - 2 <\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/digit_span/backwardPrompts.html"
+                }
+              ],
+              "id": "wisciv-digitspan-backward8-626",
+              "title": "Backward Item 8 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 - 8 - 4 - 5 - 9 - 7 - 1 - 3"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 1,
+        "description": "This subtest discontinues after scores of 0 on both trials of an item.",
+        "countsDemoItems": false
+      },
+      "hasInstructionsHtml": true
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

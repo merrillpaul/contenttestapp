@@ -1,0 +1,3454 @@
+{
+  "subtestId": 84,
+  "subtestGUID": "b9f7ae0f2c44e96de040a8c042011657",
+  "title": "Comprehension",
+  "displayName": "Comprehension",
+  "abbr": "Comprehension",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": null,
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-iv/comprehension",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Verbal Comprehension",
+    "averageDuration": 11,
+    "descriptionCS": "The child answers questions based on his or her understanding of general principles and social situations."
+  },
+  "scoringScaleName": "Verbal Comprehension Index (VCI)",
+  "scoringScaleAbbr": "VCI",
+  "isScaledScoreOptional": false,
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Items 1-21",
+      "abbr": "Items 1-21",
+      "questions": 
+      [
+        {
+          "id": "wisciv-comp-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item1",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 1. Teeth",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item1/wisciv-comp-item1Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "It’s good",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "If you eat candy or drink pop",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Brush teeth to go to the dentist",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "People will think you’re gross if you don’t",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "You are supposed to; Parents make you",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "So you don’t have to go to the dentist; So dentist bill isn’t high",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It’s good for (them, teeth, gums, your mouth)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So teeth don’t get (damaged, hurt)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So teeth don’t have bugs on them",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So your teeth don’t fall out; So you don’t lose your teeth",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that brushing one’s teeth cleans the teeth; prevents decay, disease, cavities, and other dental problems; or improves one’s appearance",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "To keep their hygiene; It’s hygienic",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Kills germs; Gets germs off of teeth",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Keep them clean; So they won’t get dirty",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To prevent getting (cavities, gum disease)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So your (teeth, gums) can be healthy",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So teeth will not (decay, rot)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So (plaque, tarter) won’t build up",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So you don’t get (sores, diseases)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To protect your teeth",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So teeth will be (stronger, in better condition)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So they (stay white, won’t turn yellow)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To keep breath smelling good",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that brushing one’s teeth cleans the teeth; prevents decay, disease, cavities, and other dental problems; or improves one’s appearance",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "labels": {
+                "sharedCategoryLabel": "",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "†Teaching",
+              "guid": "4521d202a885482e89cb13ace65bf513",
+              "abbreviation": "tc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-comp-item2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item2",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 2. Vegetables",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item2/wisciv-comp-item2Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Prevent death; To stay alive",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So you won’t be hungry; Tastes good",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Gain weight; Keep from getting too thin",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Parents say so",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To look good",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To get dessert",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "They are good for you; Helps your body",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Lose weight; To be thin; Weight control",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Helps you see better; So you can see in the dark",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Prevents problems with (cramps, upset stomach)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "If they just ate (candy, junk food) they would get sick",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that vegetables are part of a nutritious diet and are necessary for proper health, energy, strength, or growth",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "For a balanced diet; To eat something from each food group",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Contain (vitamins, nutrients, fiber, protein); Contain things that our body needs",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It’s healthy; Keeps you healthy",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Prevents (disease, cancer, heart attack)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "For (strength, energy); To make you (strong, energized)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Helps your (digestion, eyes, bones, memory) [Names specific body part or function]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To (grow, get big)",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that vegetables are part of a nutritious diet and are necessary for proper health, energy, strength, or growth",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "labels": {
+                "sharedCategoryLabel": "",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-comp-item3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item3",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 3. Seatbelts",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item3/wisciv-comp-item3Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Lock yourself in",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Keeps the airbag from hurting you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So you won’t get in a car accident",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Goes across our chest or lap",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Parents make me",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So you can wear them",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "To save people’s lives [No mention of accident]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "In case of an accident",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It’s the law; So you don’t get a ticket; Police will pull you over",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that seatbelts are safety precautions to protect people from harm or to restrain them in an accident",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "To prevent people from getting hurt in a car accident; Reduce injury in a wreck",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So you won’t fly out the windshield; So you don’t fall out during an accident",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To keep people safe in a car accident; To be safe; As a safety precaution",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To protect people in a wreck; For protection",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So you don’t hit (the dash, the steering wheel, your head); To restrain us in an accident",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It holds you in one spot; It keeps you in; Keeps you from flying forward",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Can save your life in an accident",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that seatbelts are safety precautions to protect people from harm or to restrain them in an accident",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "labels": {
+                "sharedCategoryLabel": "",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-comp-item4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item4",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 4. Smoke",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item4/wisciv-comp-item4Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Call the operator",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Go next door",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "(Stay, Run) away",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Yell “Fire”",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Put the fire out",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Break the window to let the smoke out",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Wait for the firemen",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Stop, drop, and roll",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Panic",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "sharedCategories": {
+                "answerGroups": 
+                [
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "Call 911; Report to (fire, police) department",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Ask adult to call (fire, police) department",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Set off the fire alarm; Pull down handle in fire box",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Call and (answer the dispatcher's questions, give them the address)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Drive to (police, fire) station and tell them",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Have the fire department or police department notified",
+                    "answerGroupLabel": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "Call for help; Get help",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Call (ambulance, hospital)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Tell my (mom, dad); Get my parents to (help, check it out) [Notify adult]",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Warn neighbors; Bang on door and tell them that their house is on fire",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Go see if they are OK; Check on the neighbors [Verify safety of neighbors]",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Get them out of the house; See if everyone is out [Evacuate neighbors]",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Go see what's wrong; Check and see if there really is a fire; Make sure it isn't a barbecue",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Go help; Help them",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Get everyone out of your house because it could catch fire [Evacuate your own house]",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Stay away so you won't get hurt",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Get a fire extinguisher; Get a water hose",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Perform some action until the fire department arrives",
+                    "answerGroupLabel": "Response reflects both of the general ideas\r\n"
+                  }
+                ],
+                "scoreList": 
+                [
+                  {
+                    "value": 1,
+                    "label": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "value": 2,
+                    "label": "Response reflects both of the general ideas\r\n"
+                  }
+                ]
+              },
+              "labels": {
+                "sharedCategoryLabel": "General Concepts",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*<2 General Concepts",
+              "guid": "006a6a57492e44c2911bed13c9b08b1d",
+              "abbreviation": "lc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-comp-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item5",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 5. Wallet",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item5/wisciv-comp-item5Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Don’t keep it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Pick it up",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Give it to my (mom, dad)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Ask store personnel if it is theirs",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Leave it there; Put it back [Take no action]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Give it to the postman; Drop it in a mailbox",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Shout; Tell them",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Throw it away",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Keep it; See how much money is in it",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Check for (identification, name, phone number)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Try to find the owner",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Give it back; Return it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Ask people nearby if they lost it; Hand it to them if they dropped it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Give it to my mom and she’ll find the owner",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Take it to their house; Call them",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Put it on a flyer; Put it in the newspaper",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Try to return it to the owner, either by looking for identification of the owner and returning it or by giving it to store personnel or a policeman",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Check for ID and (return it to them, call them) [Must contain both parts]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Try to find who it belongs to and return it; Find them and give it back [Must contain both parts]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Take it to the police",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Mail it if there is an ID",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Turn it in; Turn in to the (counter, Lost and Found, cashier, security guard)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Announce it on the loudspeaker",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Try to return it to the owner, either by looking for identification of the owner and returning it or by giving it to store personnel or a policeman",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "labels": {
+                "sharedCategoryLabel": "",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-comp-item6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item6",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 6. Police",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item6/wisciv-comp-item6Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "To take on their role as police officers; Part of the job",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So they can (help people, give tickets, take people to jail)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So we will be nice to them",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So they look neat",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "They have (metal, vests) under their uniform so a bullet won’t hurt them",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So they can carry all their stuff",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So they can carry a gun; So they can shoot back",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So they won’t get their clothes dirty",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "[Any response that refers to firemen]",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "So you know they are (on duty, working)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So people won’t do something bad; To deter (bad, criminal) behavior",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So people will cooperate",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So you know you are safe; To feel secure",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Clear indication that the uniform is a means of easily identifying police officers and enhances their ability to enforce the laws",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "So you can tell who they are; To identify them in case of an emergency",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So people know they are (genuine, real); To prove they’re police",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It gives them honor and respect; So people won’t be disrespectful",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So people can tell that they are the enforcers of the laws; To show their authority",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Clear indication that the uniform is a means of easily identifying police officers and enhances their ability to enforce the laws",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "labels": {
+                "sharedCategoryLabel": "",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-comp-item7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item7",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 7. Fight",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item7/wisciv-comp-item7Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Nothing; Don’t do anything",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Stop them",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "I’d just let him fight",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Say you’re sorry; Apologize; Give them what they want",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Tell my (teacher, mom, dad)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Call for help",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Say “I’m telling on you”",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "You’ll get in trouble if you fight",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Hold him down; Hit her lightly; Shove him away",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Tell them to leave me alone or else",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Play fight; Wear them out without hurting them",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Punch, Fight, Punish) them; Hit them",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Tell them you don’t want to hurt them",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Calm myself down; Talk myself out of fighting",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Tell them to (go away, leave you alone, forget it)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Tell them to (stop, quit, settle down, not fight, be nice)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Ask (a parent, the teacher) to stop them",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Take the initiative of not fighting with him or her (self-restraint)",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Don’t (fight, beat her up, hurt him, hit back)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Violence doesn’t solve anything; Fighting isn’t good",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Talk to them sensibly; Find out what’s the matter; See what the problem is; Try stopping the fight",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Tell them you don’t want to fight; Teach them not to fight; Calm them down",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Leave him alone; Ignore them",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Avoid the fight; (Walk, Turn, Go) away",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Take the initiative of not fighting with him or her (self-restraint)",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "labels": {
+                "sharedCategoryLabel": "",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-comp-item8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item8",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 8. Apologize",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item8/wisciv-comp-item8Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "It’s (nice, kind)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It’s the right thing to do; It is wrong not to",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "You would want them to apologize; Treat them right so they treat you right; Golden rule",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Because you did it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So you won’t do it again; To keep you from doing it again",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So your life will be better",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Because you (have to, should, need to)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So you won’t (stay mad, look bad)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "You may want something later",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "If you were a friend they won’t be mad",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Teacher, Parents) will be mad",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So you won’t get in trouble; So they won’t tell",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "So they won’t (be mad at you, stay mad forever, think you’re mean)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Keeps the problem from getting worse; Improves the situation; Makes the problem smaller",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Because it was your fault; You were wrong to do that",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Because you (upset them, made them cry); So you don’t hurt their feelings",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "You should respect their feelings; Shows respect",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It is (polite, good manners); It’s rude not to",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "To maintain a friendship by admitting fault and attempting to make the other person feel better by awareness of your sorrow and seeking forgiveness",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "So they feel better; So the person will be healed; So they won’t (feel bad, stay hurt)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So they know (you’re sorry, you accept you were wrong, you care)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To keep the peace; So there are no bad feelings",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Good for both of you to work things out",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So you can get back to being friends; To keep friends",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So you (have a clear conscience, won’t feel guilty)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So they will forgive you; To regain their trust",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "To maintain a friendship by admitting fault and attempting to make the other person feel better by awareness of your sorrow and seeking forgiveness",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "labels": {
+                "sharedCategoryLabel": "",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-comp-item9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item9",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 9. Lights",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item9/wisciv-comp-item9Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "So they won’t turn your electricity off",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So you don’t (start a fire, burn the house down)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Safer",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Might blow a fuse; Light bulb could explode",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So power lines don’t explode; So lightning doesn’t hit you",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Your parents get mad if you don’t",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Someone might rob your house",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "sharedCategories": {
+                "answerGroups": 
+                [
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "So you won’t waste electricity; To save (electricity, fuel, power, energy)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "You might need electricity in the future and would not have any left",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "So we don’t run out of power; So power won’t (go, run) out",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Decrease pollution created by power plants; Hurts the environment if you don’t\r\n",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition of the conservation of energy or environmental resources",
+                    "answerGroupLabel": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "So you won’t run up the electric bill; Otherwise the bill would be high",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "To save money; Won’t have to pay as much; Wastes money",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Costs a lot of money to burn them; Costs money",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Will use up light bulbs; Light bulb could go out",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "So lights won’t (go, turn) off",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition of the conservation of financial resources",
+                    "answerGroupLabel": "Response reflects both of the general ideas"
+                  }
+                ],
+                "scoreList": 
+                [
+                  {
+                    "value": 1,
+                    "label": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "value": 2,
+                    "label": "Response reflects both of the general ideas"
+                  }
+                ]
+              },
+              "labels": {
+                "sharedCategoryLabel": "General Concepts",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*<2 General Concepts",
+              "guid": "da35b1182a9b4c53ab70a802393c913e",
+              "abbreviation": "lc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-comp-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item10",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 10. Exercise",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item10/wisciv-comp-item10Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Have a happier life; Makes you happy",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "To (grow, get big)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It gives you something to do",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "You are supposed to",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Fun; Enjoyable",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Stay in shape; Keep fit",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Good for (you, your body); It can hurt your body if you don’t",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "(Lose, Gain) weight; To (get thin, burn fat); Maintain weight",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Increase your metabolism",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Look better; Improves how you look",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Feel better about self; You feel better",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Avoid (sickness, injury); You will live longer",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "For (energy, endurance)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Good for your (bones, muscles, legs, joints)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Helps you (sleep, relax); Reduces stress",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "You get stronger; Muscles get (bigger, stronger)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Improves flexibility; Loosens you up",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Helps you play sports better; Do stuff better than people who don’t exercise",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So you won’t become (lazy, a couch potato); So you can do more things",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that exercise improves health, cardiovascular fitness, and physical condition",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "(Be, Keep, Stay) healthy",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Cardiovascular fitness; Lower heart rate",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Less risk of heart attack; Keep blood pressure low",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Good for your (heart, lungs, circulation)",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that exercise improves health, cardiovascular fitness, and physical condition",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "labels": {
+                "sharedCategoryLabel": "",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-comp-item11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item11",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 11. Libraries",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item11/wisciv-comp-item11Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "(Get, Look at) books; Books",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "More people can come to a public library",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It’s a quiet place to think; No one bothers you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It helps meet the needs of people",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Fun; For entertainment",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It keeps you out of trouble; Gives you something good to do",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Librarian, Someone) is there to help you",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "sharedCategories": {
+                "answerGroups": 
+                [
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "Enables all people to have access to books and information; People without money can (read, learn) for free; You can check out a book instead of buying it",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "The computers are free to use",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Everyone can use them",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition that public libraries allow free, public access to information",
+                    "answerGroupLabel": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "You can (check out, borrow) books; You can take books home",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "It’s a place to (study, read, work, do research); Get information for a report",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "You can find out more than from the books in your (school, home); Multiple copies of the same source",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "To learn; You can (read and learn more, get an education)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "You can (study things you like, read about interesting things, find information about anything you want)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "You can go anytime and read; It is convenient",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "So you can be a better reader; Helps you read more; Learn to read",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "You can use computers there; Use computer to do research",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Community can come together; You can (attend library activities, join book clubs); Place to meet people",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition that public libraries are a place to find information for school, work, research; to increase personal knowledge; or to gather as a community",
+                    "answerGroupLabel": "Response reflects both of the general ideas"
+                  }
+                ],
+                "scoreList": 
+                [
+                  {
+                    "value": 1,
+                    "label": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "value": 2,
+                    "label": "Response reflects both of the general ideas"
+                  }
+                ]
+              },
+              "labels": {
+                "sharedCategoryLabel": "General Concepts",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*<2 General Concepts",
+              "guid": "1e35bcf9c491445889be1bca902f3697",
+              "abbreviation": "lc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-comp-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item12",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 12. Inspect",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item12/wisciv-comp-item12Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "To inspect the meat",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "To make sure people who work there know how to wrap meat",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So companies won’t get sued",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Make sure it is meat",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Might (be raw, have blood in it, have bones)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So it will stay cold",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So they know they are out and need to get more",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "So people won’t (get sick, die)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Otherwise might endanger people’s lives",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "For safety; To make it safe",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It could have (germs, diseases); Meat could be (spoiled, rotten, poisoned)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Make sure (nothing is wrong with it, meat is good); Meat could be bad",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It could have (bugs, hair, razors) in it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Make sure it’s (edible, fresh, not old, not outdated)",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Reflects an awareness of the importance of meat inspectors to the public as a whole (i.e., that many people are protected by them or would be adversely affected if they did not exist)",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "To ensure the quality of the meat; Bad quality might endanger people’s lives",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To prevent an epidemic; Infectious diseases could be passed on",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To ensure that people are sold good meat; So stores don’t sell (rotten, bad) meat; Can’t let bad meat into the store",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So we don’t get (diseases, mad cow disease, food poisoning, salmonella); So people don’t get sick from bad meat",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Reflects an awareness of the importance of meat inspectors to the public as a whole (i.e., that many people are protected by them or would be adversely affected if they did not exist)",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "labels": {
+                "sharedCategoryLabel": "",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-comp-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item13",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 13. Newspaper",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item13/wisciv-comp-item13Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Better coverage; Get other news",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Get (comics, coupons)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Improves vocabulary; Helps you read",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "You can read it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Save electricity; Save on electricity bill",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It’s cheaper",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "You can recycle it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "You’ll get it earlier; Takes more time on TV",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Not as (violent, graphic) as TV",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Better for your (eyes, brain, health)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Newspaper is more accurate; TV lies",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "sharedCategories": {
+                "answerGroups": 
+                [
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "Newspaper (tells you more, has more details)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Fit more (words, facts) into it; There is no limit to how much they can write",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "TV is brief",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition of the greater depth of coverage in a newspaper",
+                    "answerGroupLabel": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "Wider variety of things in newspaper",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "More (stories, views, information, news, ideas) in newspaper",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Newspaper has local news; Read more about the city you live in",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Get (birth and marriage announcements, obituaries, crime report, sports) in newspaper",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition of the greater breadth of coverage in a newspaper",
+                    "answerGroupLabel": "Response reflects at least two of the three general ideas"
+                  },
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "Can read it any time; Can (reread, refer back to) it",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Take it wherever you go; Can take it with you",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Newspaper has no time limit; Read it as long as you want; You may miss the news",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Don’t have to wait, like for news programs; Can find what you want without waiting",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Pick and choose what to read; Only read stories you are interested in",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "If you’re deaf you can read it, instead of getting news on captioned TV",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "You can (share, loan, borrow) a newspaper; Newspaper is written down so can show to others",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition of the convenience of having printed material",
+                    "answerGroupLabel": ""
+                  }
+                ],
+                "scoreList": 
+                [
+                  {
+                    "value": 1,
+                    "label": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "value": 2,
+                    "label": "Response reflects at least two of the three general ideas"
+                  }
+                ]
+              },
+              "labels": {
+                "sharedCategoryLabel": "General Concepts",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*<2 General Concepts",
+              "guid": "2fcea5d1e0e346fa9ef608182442e403",
+              "abbreviation": "lc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-comp-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item14",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 14. Doctors",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item14/wisciv-comp-item14Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "So they know what to do; So they don’t make mistakes",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So they can get smarter",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So they can teach others",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Get a higher degree; To become a doctor",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "They have to; Required",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "To make more money",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So people can feel better",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Know how to make medicine",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "sharedCategories": {
+                "answerGroups": 
+                [
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "Keep up with new (treatments, research, medical information)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Learn ways to cure new illnesses",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Learn to use new (equipment, technology); To perform new procedures",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Because new medications are always coming along\r\n",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognizes the need to keep current with new technology, research, and medications",
+                    "answerGroupLabel": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "To provide better care for their patients; To be a better doctor",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "To (learn, know) more; To learn everything they can to cure diseases; There are more things to learn about medicine; Need to know more about how the body works",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Strengthen their training; To get more (experience, practice)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "To review their studies; To brush up on their skills; To learn what they might have forgotten",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "So they are taught in their specific field; To specialize in an area of medicine",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "So they can get a certain amount of (hours, credits); To keep their license; So they can continue to practice",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Required by state board",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition that doctors should continue education in order to provide better care to patients, to increase or maintain skills or knowledge, or maintain licensure requirements",
+                    "answerGroupLabel": "Response reflects both of the general ideas"
+                  }
+                ],
+                "scoreList": 
+                [
+                  {
+                    "value": 1,
+                    "label": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "value": 2,
+                    "label": "Response reflects both of the general ideas"
+                  }
+                ]
+              },
+              "labels": {
+                "sharedCategoryLabel": "General Concepts",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*<2 General Concepts",
+              "guid": "773fc5323a084d23874416581be27d93",
+              "abbreviation": "lc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-comp-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item15",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 15. Copyrights",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item15/wisciv-comp-item15Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "It’s fair",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "They did the work",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So we don’t use them the wrong way",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "There may be (mistakes, errors)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "They did a good job",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "So they can prove it is their idea",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So you know who (made, wrote, invented) it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So people do not invent the same thing",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So you know (when, where) it was made",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So they can make (money, a profit)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To keep records of things; So it is documented and recorded; Provides a public record",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that copyrights and patents provide legal protection and give proper credit for intellectual property",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "To protect their (creativity, originality, intellectual property)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So they get the credit for what they did",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So that nobody else (steals, copies) their ideas; So others can’t take credit for what they did; It wouldn’t be fair if someone took their idea",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So no one else can make money off of something someone else came up with",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Provides legal protection for their work",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that copyrights and patents provide legal protection and give proper credit for intellectual property",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "labels": {
+                "sharedCategoryLabel": "",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-comp-items16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-items16",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 16. Promise",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-items16/wisciv-comp-items16Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "It’s your word",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It’s (moral, ethical, honest)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It’s not fair if you don’t",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Others know what kind of person you are",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "If you don’t keep promises (bad things can happen, they can get mad, you can get fired)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It’s the right thing to do; Promises shouldn’t be broken; It’s not nice to break a promise",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "You’d be lying",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It’s a secret; Don’t tell secrets",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "That person did not want others to know; It might be personal",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "So people will trust you; It’s a matter of trust; Shows you are trustworthy",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "You gave your word and it would be a lie to break it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "People will think you’re a liar; People won’t believe you",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It shows you (mean what you say, have integrity)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To (keep, stay) friends; So you don’t lose friends",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So you won’t hurt another person’s feelings; Don’t let someone down",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "People are (depending, counting, relying) on you",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that a promise is a basis of faith and mutual trust and has a mutual or reciprocal advantage; recognition that a promise has the status of an implied contract",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A promise is (your word of honor, a commitment)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "People have to be able to trust each other",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Because if nobody keeps their promises, nobody can believe them",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "They are trusting you and you want their trust; To keep faith in yourself and so they have faith in you",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Then the other person will trust you and if you value that person’s friendship you’ll keep it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Agreement between two people is really a contract and should be honored; A promise is a social contract",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Our social system is based on faith in words and deeds",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that a promise is a basis of faith and mutual trust and has a mutual or reciprocal advantage; recognition that a promise has the status of an implied contract",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "labels": {
+                "sharedCategoryLabel": "",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-comp-item17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item17",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 17. Stamps",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item17/wisciv-comp-item17Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "For mailing; Mail; Send; To send",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It’s the law",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Show how much (it weighs, is in it)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To show it went to the post office",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "For the postman to see it and stamp it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So they can tell where the letter is going; So it goes to the right address",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Know who it is from; Shows what country or state it came from",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Pay money; Pay for them",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "So the person getting the letter won’t have to pay for it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It’s a form of tax; To pay the government",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "If you don’t, it won’t be (mailed, delivered, shipped)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "If there is no stamp it will be sent back to you; You can’t send something without a stamp",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "The mailman won’t take things that don’t have a stamp; So the mailman will pick it up",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that the purchase of a stamp pays for the cost of mailing a letter or that the letter may not be delivered without a stamp (even if the child does not specifically state that the stamp pays for mailing costs)",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "To pay for (mailing, postage, delivery of letters)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It’s a mailing (fee, charge, cost); Covers cost to ship it; Pays for shipping and handling",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Stamps are a sign you paid the post office money",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Pay government to (mail, ship) stuff; Tax you pay to mail something",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To (support the postal system, pay for the mailman, give the post office money)",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Recognition that the purchase of a stamp pays for the cost of mailing a letter or that the letter may not be delivered without a stamp (even if the child does not specifically state that the stamp pays for mailing costs)",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "labels": {
+                "sharedCategoryLabel": "",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-comp-item18",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item18",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 18. Owning",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item18/wisciv-comp-item18Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "People would get bored",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "They would (own, take over) the city",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Not fair",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Costs too much; Gets expensive",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "They would get all the (ratings, credit)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It would be easier to manage",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "sharedCategories": {
+                "answerGroups": 
+                [
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "There would be no other sources to get the information; You would only hear one side of the story",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "There would be no variety; All the information would be the same; So people can\r\nhave choices",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "So there isn’t only one opinion; So people can express different views",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "They could print whatever they want you to read or hear; Makes freedom of speech useless",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Competition (improves quality, makes things better); Competition results in more\r\nprecise facts",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "So more people can advertise; So advertisements would not be restricted",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Decreases sources and quality of information",
+                    "answerGroupLabel": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "So there won’t be a monopoly",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "So there can be competition",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "So that more than one company can make money; So they don’t put everyone else out of business; Because other companies would not survive",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "The more companies there are, the more people can work; Jobs would be limited if there was a monopoly; Less jobs would be available",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Competition creates lower prices; They can raise prices",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Against antitrust law; It’s illegal",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Decreases economic competition and promotes illegal monopolies",
+                    "answerGroupLabel": "Response reflects both of the general ideas"
+                  }
+                ],
+                "scoreList": 
+                [
+                  {
+                    "value": 1,
+                    "label": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "value": 2,
+                    "label": "Response reflects both of the general ideas"
+                  }
+                ]
+              },
+              "labels": {
+                "sharedCategoryLabel": "General Concepts",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*<2 General Concepts",
+              "guid": "f92df25b860543eb9b0e9ebcb3bf9446",
+              "abbreviation": "lc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-comp-item19",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item19",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 19. Democracy",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item19/wisciv-comp-item19Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "It’s in the (Bill of Rights, Constitution, First Amendment)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Without freedom of speech this would not be a democracy",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "What we have in America; What our country is founded on",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Can’t go to jail for it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "You can do or say whatever you want",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So you (know, understand) what people are saying",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Causes riots; Gets people in trouble",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "sharedCategories": {
+                "answerGroups": 
+                [
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "So that all voices can be heard on an issue; Can express differences; Can communicate with others about problems",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "People can (speak their mind, say what they think); Share your (opinions, views); Everyone has their own opinions",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "It allows dissent; Can (disagree with the government, protest injustices)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "You can criticize others without being arrested",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition of the right of all citizens to express opinions [A response reflecting this idea must not suggest self-expression without regard for the rights of others.]",
+                    "answerGroupLabel": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "What you say can (lead to, influence) changes; What you say can (change, influence) others\r\n",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Can back or oppose candidates",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Lobby for or against issues",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Way to influence government",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Provides a way to (control, balance) power of the government",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Provides feedback for government representatives; Tells government what people want",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "So secrets won’t be kept from the people; If government does something bad, people will know",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition of the right of citizens to participate in the political process",
+                    "answerGroupLabel": "Response reflects both of the general ideas"
+                  }
+                ],
+                "scoreList": 
+                [
+                  {
+                    "value": 1,
+                    "label": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "value": 2,
+                    "label": "Response reflects both of the general ideas"
+                  }
+                ]
+              },
+              "labels": {
+                "sharedCategoryLabel": "General Concepts",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*<2 General Concepts",
+              "guid": "a5f0767a42c2465d850b1d385a1e60e5",
+              "abbreviation": "lc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-comp-item20",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item20",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 20. Technology",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item20/wisciv-comp-item20Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Evolving too fast; Too many changes too fast",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Causes job loss; Replaces people with robots",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Old technology leaves too quickly",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "The more we can do good or bad",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Keep having to (change, learn new things)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Could become dependent on technology",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "We could (destroy the environment, cause pollution)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Change is bad; Technology makes things worse",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "sharedCategories": {
+                "answerGroups": 
+                [
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "We would be getting ahead of ourselves; Consequences may not have been thought of",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Fast advances in technology can have glitches; We can make mistakes if we go too fast",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Create things that are controversial, like cloning; Could create harmful things by accident\r\n",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "If we go too fast, we might forget important things we learned a long time ago",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "The world isn’t ready for some changes",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition that rapid change may create unforeseen consequences and reduce consideration of past experiences",
+                    "answerGroupLabel": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "We don’t have enough time to learn things; Not everyone can keep up; It is harder for some people to change if they aren’t in school",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Facts and knowledge change too quickly; Difficult to keep information in books current",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Have to keep buying equipment; You buy something and they come out with a newer thing; There is no use for the old because it is outdated",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "It is a waste of money; We waste a lot of money and time",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "People can lose their jobs if they don’t have new skills; Technology can do jobs that people used to do",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition that rapid changes create difficulties in maintaining current knowledge and technology",
+                    "answerGroupLabel": "Response reflects both of the general ideas"
+                  }
+                ],
+                "scoreList": 
+                [
+                  {
+                    "value": 1,
+                    "label": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "value": 2,
+                    "label": "Response reflects both of the general ideas"
+                  }
+                ]
+              },
+              "labels": {
+                "sharedCategoryLabel": "General Concepts",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*<2 General Concepts",
+              "guid": "8e41d49fab4449aab9fd6c5a0b1e739f",
+              "abbreviation": "lc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-comp-item21",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/comprehension/wisciv-comp-item21",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 21. Communication",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/comprehension/wisciv-comp-item21/wisciv-comp-item21Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Harder to (censor, control) information",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Gives them more (freedom, independence)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Makes them lose (power, control)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Show things that are secret",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "People could organize against him",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "The Internet is hard to stop",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Can brainwash you; Give false information",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Total freedom to do what you want",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "They might decide to (flee, go somewhere else)",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "Indicates a fundamental misconception",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "sharedCategories": {
+                "answerGroups": 
+                [
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "Because it is harder for dictatorships to give misinformation when other people are giving the correct information",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Harder for them to use propaganda",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "People can let the outside world know what is happening; People will find out what he did wrong",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "People will hear about what they (did, are doing)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Allows people to hear the true story of what’s going on there",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "The people can speak out against (him, the government)",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition that communication tools threaten a dictator’s ability to censor information about his or her government and area of influence",
+                    "answerGroupLabel": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "People can share their (ideas, opinions, values); People start communicating with each other",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "People are exposed to new (ideas, opinions, values)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "People would start thinking for themselves",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Can see what is going on in other places; Learn how other countries work; People are more aware of how things can be",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "People learn about other forms of government; People start communicating with people in (free, democratic) countries; They show what freedom of speech is like\r\n",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition that communication tools promote exchange of ideas, individual thought and expression",
+                    "answerGroupLabel": "Response reflects both of the general ideas"
+                  }
+                ],
+                "scoreList": 
+                [
+                  {
+                    "value": 1,
+                    "label": "Response reflects one of the general ideas"
+                  },
+                  {
+                    "value": 2,
+                    "label": "Response reflects both of the general ideas"
+                  }
+                ]
+              },
+              "labels": {
+                "sharedCategoryLabel": "General Concepts",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*<2 General Concepts",
+              "guid": "43ed4c5b20494dfebfdc5dc78b455cd6",
+              "abbreviation": "lc",
+              "isPopover": true
+            }
+          ]
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 4,
+        "description": "This subtest discontinues after 4 consecutive scores of 0.",
+        "countsDemoItems": false
+      },
+      "hasInstructionsHtml": true
+    }
+  ],
+  "reverseRule": 
+  [
+    {
+      "minAge": 9,
+      "maxAge": 11,
+      "skipFromQuestionID": "wisciv-comp-item1",
+      "skipToQuestionID": "wisciv-comp-item3",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 12,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisciv-comp-item1",
+      "skipToQuestionID": "wisciv-comp-item5",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    },
+    {
+      "name": "Q",
+      "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+      "abbreviation": "Q"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

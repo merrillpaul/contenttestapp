@@ -1,0 +1,5179 @@
+{
+  "subtestId": 789,
+  "subtestGUID": "f2739e00f9a64224afab9bde2265f3d8",
+  "title": "Nonsense Word Decoding",
+  "displayName": "Nonsense Word Decoding",
+  "abbr": "nwd",
+  "testType": "ktea3",
+  "testTitle": "KTEA-3",
+  "testDisplayName": "KTEA-3 Form A",
+  "normType": "ktea-3a",
+  "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+  "subtestType": "WordPronunciation",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/ktea-3/nonsense_word_decoding",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 25,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Reading",
+    "averageDuration": 4,
+    "minGradeLevel": 2,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee reads nonsense words."
+  },
+  "singleCardItemLists": 
+  [
+    {
+      "title": "Items 1-6",
+      "startingItemListDisplayIndex": 1,
+      "DiscontinueRollupRule": {
+      },
+      "type": "ErrorAnalysis",
+      "itemGroups": 
+      [
+        {
+          "shouldSuppressCoverSheet": true,
+          "shouldSuppressScore": false,
+          "isOptional": false,
+          "title": "Items 1-6",
+          "abbr": null,
+          "questions": 
+          [
+            {
+              "id": "ktea3a-nonsenseworddecoding-item1",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item1",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "†Item 1",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>af<\u002fp>\r\n\r\n<p><font color=\"#505150\"><span style=\"font-size: 15.454545021057129px;\">a f<\u002fspan><\u002ffont><\u002fp>\r\n",
+                  "skillsAnalysisLabel": "af",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "†Teaching",
+                  "guid": "6932cd3f278042de980dedf611bb4c2d",
+                  "abbreviation": "tc",
+                  "isPopover": true
+                }
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Short vowel (a)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (f)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item2",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item2",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "†Item 2",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>vip&nbsp;<\u002fp>\r\n\r\n<p><span style=\"color: rgb(80, 81, 80); font-size: 15.454545021057129px;\">v ih p<\u002fspan><\u002fp>\r\n",
+                  "skillsAnalysisLabel": "vip",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+                {
+                  "name": "†Teaching",
+                  "guid": "6932cd3f278042de980dedf611bb4c2d",
+                  "abbreviation": "tc",
+                  "isPopover": true
+                }
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (v)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (i)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (p)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item3",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item3",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 3",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>ko<\u002fp>\r\n\r\n<p class=\"smallGray\">k oh<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "ko",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (k)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Long vowel (o)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item4",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item4",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 4",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>hapt<\u002fp>\r\n\r\n<p class=\"smallGray\">h a p t<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "hapt",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (h)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (a)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (pt)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item5",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item5",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 5",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>mab<\u002fp>\r\n\r\n<p class=\"smallGray\">m a b<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "mab",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (m)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (a)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (b)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item6",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item6",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 6",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>pem<\u002fp>\r\n\r\n<p class=\"smallGray\">p e m<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "pem",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (p)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (m)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            }
+          ],
+          "hasInstructionsHtml": true,
+          "itemGroupStimFilename": "ktea-3-nonsense_word_decoding-items_1-6-item-group-stim.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Items 7-12",
+      "startingItemListDisplayIndex": 7,
+      "DiscontinueRollupRule": {
+      },
+      "type": "ErrorAnalysis",
+      "itemGroups": 
+      [
+        {
+          "shouldSuppressCoverSheet": true,
+          "shouldSuppressScore": false,
+          "isOptional": false,
+          "title": "Items 7-12",
+          "abbr": null,
+          "questions": 
+          [
+            {
+              "id": "ktea3a-nonsenseworddecoding-item7",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item7",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 7",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>pob<\u002fp>\r\n\r\n<p class=\"smallGray\">p ah b<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "pob",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (p)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (o)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (b)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item8",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item8",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 8",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>tesk<\u002fp>\r\n\r\n<p class=\"smallGray\">t e s k<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "tesk",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (t)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (sk)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item9",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item9",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 9",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>glux<\u002fp>\r\n\r\n<p class=\"smallGray\">g l uh k s<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "glux",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (gl)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (u)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (x)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item10",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item10",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 10",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>sharb<\u002fp>\r\n\r\n<p class=\"smallGray\">sh ar b<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "sharb",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Consonant digraph (sh)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "R-controlled vowel (a)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (r)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (b)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item11",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item11",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 11",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>trame<\u002fp>\r\n\r\n<p class=\"smallGray\">t r ay m<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "trame",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (tr)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Long vowel (a)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (m)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Silent letter (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item12",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item12",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 12",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>fayter<\u002fp>\r\n\r\n<p class=\"smallGray\">FAY tur<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "fayter",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (f)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (ay)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (t)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (er)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            }
+          ],
+          "hasInstructionsHtml": true,
+          "itemGroupStimFilename": "ktea-3-nonsense_word_decoding-items_7-12-item-group-stim.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Items 13-18",
+      "startingItemListDisplayIndex": 13,
+      "DiscontinueRollupRule": {
+      },
+      "type": "ErrorAnalysis",
+      "itemGroups": 
+      [
+        {
+          "shouldSuppressCoverSheet": true,
+          "shouldSuppressScore": false,
+          "isOptional": false,
+          "title": "Items 13-18",
+          "abbr": null,
+          "questions": 
+          [
+            {
+              "id": "ktea3a-nonsenseworddecoding-item13",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item13",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 13",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>mawn<\u002fp>\r\n\r\n<p class=\"smallGray\">m aw n<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "mawn",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (m)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (aw)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (n)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item14",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item14",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 14",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>thept<\u002fp>\r\n\r\n<p class=\"smallGray\">th e p t<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "thept",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Consonant digraph (th)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (pt)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item15",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item15",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 15",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>dompest<\u002fp>\r\n\r\n<p class=\"smallGray\">DOMP ist<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "dompest",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (d)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (o)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (mp)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (est)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item16",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item16",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 16",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>trowful<\u002fp>\r\n\r\n<p class=\"smallGray\">TROH ful<br />\r\nTROU ful<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "trowful",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (tr)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (ow)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ful)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item17",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item17",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 17",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>blerve<\u002fp>\r\n\r\n<p class=\"smallGray\">b l ur v<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "blerve",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (bl)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "R-controlled vowel (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (r)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (v)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Silent letter (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item18",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item18",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 18",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>frelp<\u002fp>\r\n\r\n<p class=\"smallGray\">f r e l p<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "frelp",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (fr)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (lp)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            }
+          ],
+          "hasInstructionsHtml": true,
+          "itemGroupStimFilename": "ktea-3-nonsense_word_decoding-items_13-18-item-group-stim.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Items 19-24",
+      "startingItemListDisplayIndex": 19,
+      "DiscontinueRollupRule": {
+      },
+      "type": "ErrorAnalysis",
+      "itemGroups": 
+      [
+        {
+          "shouldSuppressCoverSheet": true,
+          "shouldSuppressScore": false,
+          "isOptional": false,
+          "title": "Items 19-24",
+          "abbr": null,
+          "questions": 
+          [
+            {
+              "id": "ktea3a-nonsenseworddecoding-item19",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item19",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 19",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>frapperless<\u002fp>\r\n\r\n<p class=\"smallGray\">FRAP ur lis<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "frapperless",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (fr)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (a)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (pp)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (er)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (less)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item20",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item20",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 20",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>mainted<\u002fp>\r\n\r\n<p class=\"smallGray\">MAYN tid<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "mainted",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (m)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (ai)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (nt)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ed)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item21",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item21",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 21",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>quimping<\u002fp>\r\n\r\n<p class=\"smallGray\">KWIMP ing<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "quimping",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (qu)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (i)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (mp)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ing)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item22",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item22",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 22",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>smale<\u002fp>\r\n\r\n<p class=\"smallGray\">s m ay ul<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "smale",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (sm)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Long vowel (a)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (l)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Silent letter (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item23",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item23",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 23",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>shreed<\u002fp>\r\n\r\n<p class=\"smallGray\">sh r ee d<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "shreed",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (shr)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (ee)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (d)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item24",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item24",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 24",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>glounded<\u002fp>\r\n\r\n<p class=\"smallGray\">GLOUN did<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "glounded",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (gl)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (ou)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (nd)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ed)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            }
+          ],
+          "hasInstructionsHtml": true,
+          "itemGroupStimFilename": "ktea-3-nonsense_word_decoding-items_19-24-item-group-stim.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Items 25-30",
+      "startingItemListDisplayIndex": 25,
+      "DiscontinueRollupRule": {
+      },
+      "type": "ErrorAnalysis",
+      "itemGroups": 
+      [
+        {
+          "shouldSuppressCoverSheet": true,
+          "shouldSuppressScore": false,
+          "isOptional": false,
+          "title": "Items 25-30",
+          "abbr": null,
+          "questions": 
+          [
+            {
+              "id": "ktea3a-nonsenseworddecoding-item25",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item25",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 25",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>plewness<\u002fp>\r\n\r\n<p class=\"smallGray\">PLOO nis<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "plewness",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (pl)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (ew)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ness)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item26",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item26",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 26",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>swaining<\u002fp>\r\n\r\n<p class=\"smallGray\">SWAY ning<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "swaining",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (sw)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (ai)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (n)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ing)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item27",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item27",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 27",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>twirding<\u002fp>\r\n\r\n<p class=\"smallGray\">TWUR ding<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "twirding",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (tw)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "R-controlled vowel (i)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (r)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (d)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ing)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item28",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item28",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 28",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>bloundering<\u002fp>\r\n\r\n<p class=\"smallGray\">BLOUN dur ing<br />\r\nBLOUN dring<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "bloundering",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (bl)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (ou)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (nd)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (er)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ing)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item29",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item29",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 29",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>blointed<\u002fp>\r\n\r\n<p class=\"smallGray\">BLOYN tid<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "blointed",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (bl)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (oi)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (nt)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ed)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item30",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item30",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 30",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>chaul<\u002fp>\r\n\r\n<p class=\"smallGray\">ch aw l<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "chaul",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Consonant digraph (ch)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (au)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (l)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            }
+          ],
+          "hasInstructionsHtml": true,
+          "itemGroupStimFilename": "ktea-3-nonsense_word_decoding-items_25-30-item-group-stim.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Items 31-36",
+      "startingItemListDisplayIndex": 31,
+      "DiscontinueRollupRule": {
+      },
+      "type": "ErrorAnalysis",
+      "itemGroups": 
+      [
+        {
+          "shouldSuppressCoverSheet": true,
+          "shouldSuppressScore": false,
+          "isOptional": false,
+          "title": "Items 31-36",
+          "abbr": null,
+          "questions": 
+          [
+            {
+              "id": "ktea3a-nonsenseworddecoding-item31",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item31",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 31",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>knurtle<\u002fp>\r\n\r\n<p class=\"smallGray\">NUR tul<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "knurtle",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Silent letter (k)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (n)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "R-controlled vowel (u)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (r)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (t)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (le)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item32",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item32",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 32",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>smeys<\u002fp>\r\n\r\n<p class=\"smallGray\">s m ay z<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "smeys",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (sm)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (ey)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (s)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item33",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item33",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 33",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>phopped<\u002fp>\r\n\r\n<p class=\"smallGray\">f ah p t<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "phopped",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Consonant digraph (ph)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (o)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (pp)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ed)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item34",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item34",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 34",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>disenquoyment<\u002fp>\r\n\r\n<p class=\"smallGray\">dis en KWOY ment<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "disenquoyment",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (dis)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (en)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (qu)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (oy)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ment)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item35",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item35",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 35",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>sulfemn<\u002fp>\r\n\r\n<p class=\"smallGray\">SUL fem<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "sulfemn",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (s)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (u)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (lf)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (m)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Silent letter (n)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item36",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item36",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 36",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>thoobles<\u002fp>\r\n\r\n<p class=\"smallGray\">THOO bulz<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "thoobles",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Consonant digraph (th)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (oo)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (b)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (le)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (s)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            }
+          ],
+          "hasInstructionsHtml": true,
+          "itemGroupStimFilename": "ktea-3-nonsense_word_decoding-items_31-36-item-group-stim.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Items 37-42",
+      "startingItemListDisplayIndex": 37,
+      "DiscontinueRollupRule": {
+      },
+      "type": "ErrorAnalysis",
+      "itemGroups": 
+      [
+        {
+          "shouldSuppressCoverSheet": true,
+          "shouldSuppressScore": false,
+          "isOptional": false,
+          "title": "Items 37-42",
+          "abbr": null,
+          "questions": 
+          [
+            {
+              "id": "ktea3a-nonsenseworddecoding-item37",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item37",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 37",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>dortioned<\u002fp>\r\n\r\n<p class=\"smallGray\">DOR shund<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "dortioned",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (d)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "R-controlled vowel (o)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (r)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (tion)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ed)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item38",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item38",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 38",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>guarpal<\u002fp>\r\n\r\n<p class=\"smallGray\">GWAR pul<br />\r\nGWOR pul<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "guarpal",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (g)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (ua)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (r)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (p)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (al)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item39",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item39",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 39",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>cheigh<\u002fp>\r\n\r\n<p class=\"smallGray\">ch ay<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "cheigh",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Consonant digraph (ch)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (ei)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Silent letter (gh)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item40",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item40",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 40",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>gemnissent<\u002fp>\r\n\r\n<p class=\"smallGray\">jem NIS ent<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "gemnissent",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (g)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (m)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (n)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (i)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (ss)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ent)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item41",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item41",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 41",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>phrimb<\u002fp>\r\n\r\n<p class=\"smallGray\">f r i m<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "phrimb",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Consonant digraph (ph)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (r)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (i)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (m)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Silent letter (b)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item42",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item42",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 42",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>quintabulent<\u002fp>\r\n\r\n<p class=\"smallGray\">kwin TAB yoo lent<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "quintabulent",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (qu)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (i)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (nt)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (a)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (b)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Long vowel (u)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (l)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ent)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            }
+          ],
+          "hasInstructionsHtml": true,
+          "itemGroupStimFilename": "ktea-3-nonsense_word_decoding-items_37-42-item-group-stim.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Items 43-48",
+      "startingItemListDisplayIndex": 43,
+      "DiscontinueRollupRule": {
+      },
+      "type": "ErrorAnalysis",
+      "itemGroups": 
+      [
+        {
+          "shouldSuppressCoverSheet": true,
+          "shouldSuppressScore": false,
+          "isOptional": false,
+          "title": "Items 43-48",
+          "abbr": null,
+          "questions": 
+          [
+            {
+              "id": "ktea3a-nonsenseworddecoding-item43",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item43",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 43",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>wredgiest<\u002fp>\r\n\r\n<p class=\"smallGray\">REJ ee ist<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "wredgiest",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Consonant digraph (wr)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Consonant digraph (dg)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Unpredictable pattern (i)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (est)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item44",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item44",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 44",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>norpesious<\u002fp>\r\n\r\n<p class=\"smallGray\">nor PEZ ee us<br />\r\nnor PESH us<br />\r\nnor PES ee us<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "norpesious",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (n)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "R-controlled vowel (o)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (r)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (p)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (s)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Unpredictable pattern (i)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ous)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item45",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item45",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 45",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>novign<\u002fp>\r\n\r\n<p class=\"smallGray\">nuh VINE<br />\r\nno VINE<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "novign",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (n)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Long vowel (o)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (v)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Long vowel (i)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Silent letter (g)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (n)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item46",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item46",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 46",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>sydalogue<\u002fp>\r\n\r\n<p class=\"smallGray\">SID uh log<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "sydalogue",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (s)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (y)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (d)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (a)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (l)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (o)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (g)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Silent letter (ue)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item47",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item47",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 47",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>slield<\u002fp>\r\n\r\n<p class=\"smallGray\">s l ee l d<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "slield",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (sl)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (ie)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (ld)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item48",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item48",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 48",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>cyctarious<\u002fp>\r\n\r\n<p class=\"smallGray\">sik TAR ee us<br />\r\nsik TAIR ee us<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "cyctarious",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Single/Double consonant (c)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (y)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (c)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (t)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "R-controlled vowel (a)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (r)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Unpredictable pattern (i)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ous)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            }
+          ],
+          "hasInstructionsHtml": true,
+          "itemGroupStimFilename": "ktea-3-nonsense_word_decoding-items_43-48-item-group-stim.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Items 49-52",
+      "startingItemListDisplayIndex": 49,
+      "DiscontinueRollupRule": {
+      },
+      "type": "ErrorAnalysis",
+      "itemGroups": 
+      [
+        {
+          "shouldSuppressCoverSheet": true,
+          "shouldSuppressScore": false,
+          "isOptional": false,
+          "title": "Items 49-52",
+          "abbr": null,
+          "questions": 
+          [
+            {
+              "id": "ktea3a-nonsenseworddecoding-item49",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item49",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 49",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>pnoutiest<\u002fp>\r\n\r\n<p class=\"smallGray\">NOW tee ist<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "pnoutiest",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Silent letter (p)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (n)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (ou)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (t)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Unpredictable pattern (i)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (est)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item50",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item50",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 50",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>shresplenescent<\u002fp>\r\n\r\n<p class=\"smallGray\">shres pluh NES ent<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "shresplenescent",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (shr)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Medial/Final blend (spl)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (n)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (s)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Silent letter (c)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (ent)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item51",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item51",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 51",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>panpaudiatory<\u002fp>\r\n\r\n<p class=\"smallGray\">pan PAW dee uh tor ee<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "panpaudiatory",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (pan)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (p)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Vowel team/Diphthong (au)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (d)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Unpredictable pattern (i)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Short vowel (a)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (tory)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Wrong vowel",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            },
+            {
+              "id": "ktea3a-nonsenseworddecoding-item52",
+              "shouldUseTimer": false,
+              "forceReloadBefore": false,
+              "baseUrl": "battery/ktea-3/nonsense_word_decoding/ktea3a-nonsenseworddecoding-item52",
+              "subtestName": "Nonsense Word Decoding",
+              "usesStims": true,
+              "shouldShowStimTouches": false,
+              "isWritingRequired": false,
+              "title": "Item 52",
+              "nameElements": 
+              [
+              ],
+              "questionType": "Score",
+              "isTeachingItem": false,
+              "useTimedSwitch": false,
+              "isShowInstruction": false,
+              "useDashboard": false,
+              "hideStimWhenLeavingItem": false,
+              "promptBlocks": 
+              [
+              ],
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "message": "<p>squertious<\u002fp>\r\n\r\n<p class=\"smallGray\">SKWUR shus<\u002fp>\r\n",
+                  "skillsAnalysisLabel": "squertious",
+                  "contextualButtonPresent": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "score": 0,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    },
+                    {
+                      "score": 1,
+                      "label": "",
+                      "shouldHighlightButton": false,
+                      "useRedButton": false
+                    }
+                  ]
+                },
+                "superType": "SingleCardItems",
+                "type": "StackScoringRow"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "errorCategories": 
+              [
+                {
+                  "label": "Initial blend (squ)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "R-controlled vowel (e)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Single/Double consonant (r)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Prefix/Word beginning and Suffix/Inflection (tious)",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Hard/Soft C, G, S",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Initial/Final sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Syllable insertions/omissions",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Misordered sounds",
+                  "isAutomatic": false
+                },
+                {
+                  "label": "Whole word",
+                  "isAutomatic": false
+                }
+              ]
+            }
+          ],
+          "hasInstructionsHtml": true,
+          "itemGroupStimFilename": "ktea-3-nonsense_word_decoding-items_49-52-item-group-stim.jpg"
+        }
+      ]
+    }
+  ],
+  "itemGroups": 
+  [
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 4,
+    "description": "This subtest discontinues after 4 consecutive scores of 0 points.",
+    "countsDemoItems": false
+  },
+  "GradeBasedStartingPointRule": {
+    "numPrevious": 0,
+    "showAllStaringPoints": false,
+    "startingPoints": 
+    [
+      {
+        "label": "Grade 1-12+: Item 1",
+        "gradeLevels": 
+        [
+          "Grade 1"
+        ],
+        "questionId": "ktea3a-nonsenseworddecoding-item1"
+      }
+    ]
+  },
+  "errorCategories": 
+  [
+    {
+      "label": "Single/Double consonant",
+      "isAutomatic": false
+    },
+    {
+      "label": "Initial blend",
+      "isAutomatic": false
+    },
+    {
+      "label": "Medial/Final blend",
+      "isAutomatic": false
+    },
+    {
+      "label": "Consonant digraph",
+      "isAutomatic": false
+    },
+    {
+      "label": "Wrong vowel",
+      "isAutomatic": false
+    },
+    {
+      "label": "Short vowel",
+      "isAutomatic": false
+    },
+    {
+      "label": "Long vowel",
+      "isAutomatic": false
+    },
+    {
+      "label": "Vowel team/Diphthong",
+      "isAutomatic": false
+    },
+    {
+      "label": "R-controlled vowel",
+      "isAutomatic": false
+    },
+    {
+      "label": "Silent letter",
+      "isAutomatic": false
+    },
+    {
+      "label": "Prefix/Word beginning and Suffix/Inflection",
+      "isAutomatic": false
+    },
+    {
+      "label": "Hard/Soft C, G, S",
+      "isAutomatic": false
+    },
+    {
+      "label": "Unpredictable pattern",
+      "isAutomatic": false
+    },
+    {
+      "label": "Initial/Final sounds",
+      "isAutomatic": false
+    },
+    {
+      "label": "Syllable insertions/omissions",
+      "isAutomatic": false
+    },
+    {
+      "label": "Misordered sounds",
+      "isAutomatic": false
+    },
+    {
+      "label": "Whole word",
+      "isAutomatic": false
+    }
+  ],
+  "observations": 
+  [
+    {
+      "guid": "37644ba01bf9473dadc09b8f6a860f19",
+      "type": "Selection",
+      "label": "Guessed at words based on initial letter",
+      "isFirstInGroup": true
+    },
+    {
+      "guid": "c41835ee1dd444b49de130a04c6c75ca",
+      "type": "Selection",
+      "label": "Read nonwords as visually similar real words (tesk as task, frop as frog)"
+    },
+    {
+      "guid": "d07bb12e07f243588502fdbf544903e0",
+      "type": "Selection",
+      "label": "Misread words based on letter orientation (confused b/d)"
+    },
+    {
+      "guid": "3af9f145b46442e2b2ab864a253172ba",
+      "type": "Selection",
+      "label": "Tended to misplace the accent on multisyllabic words"
+    },
+    {
+      "guid": "626d2c9b96284419822a7065276db70e",
+      "type": "Selection",
+      "label": "Tended to read nonwords in disconnected parts without blending"
+    },
+    {
+      "guid": "9cb19a4c2f3f45fd80f86bb6e681213e",
+      "type": "Selection",
+      "label": "Tended to transpose, add, or omit sounds or syllables"
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

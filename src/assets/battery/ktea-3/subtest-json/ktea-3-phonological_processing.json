@@ -1,0 +1,4388 @@
+{
+  "subtestId": 795,
+  "subtestGUID": "b6c66f2274f6455fa0bff49051463ec4",
+  "title": "Phonological Processing",
+  "displayName": "Phonological Processing",
+  "abbr": "pp",
+  "testType": "ktea3",
+  "testTitle": "KTEA-3",
+  "testDisplayName": "KTEA-3 Form A",
+  "normType": "ktea-3a",
+  "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+  "subtestType": "ktea3",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/ktea-3/phonological_processing",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "RequireGradeAndTermRule": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 25,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Language Processing",
+    "averageDuration": 12,
+    "minGradeLevel": 0,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee responds orally to items that require manipulation of the sounds within words."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Section 1: Blending",
+      "abbr": "Section 1: Blending",
+      "questions": 
+      [
+        {
+          "id": "ktea3a-phonologicalprocessing-samplea",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-samplea",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sample A. sunshine",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response <\u002fstrong>[sunshine]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect&nbsp;or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>What word do you make when you put sun...shine together?<\u002fstrong><\u002fspan>&nbsp;Gradually reduce the pause between the parts: <span class=\"speechBlue\"><strong>Sun..shine. Sun.shine.<\u002fstrong><\u002fspan>&nbsp;(Pause for response.) <span class=\"speechBlue\"><strong>Sun&hellip;shine makes the word <em>sunshine<\u002fem>. Let&rsquo;s&nbsp;try another one.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><em>Note<\u002fem>: In Phonological Processing, when reading target words in parts, with each part separated by ellipses (...), pause 1 second between&nbsp;parts of the word.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>I will say a word one part at a time. Listen carefully, and then put the parts together to make a whole word. Ready? Sun...shine.<\u002fstrong><\u002fspan> (Pause about 1 second between the parts of the word.) <span class=\"speechBlue\"><strong>What is the word?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\"><strong>Optional puppet instructions:<\u002fstrong>&nbsp;Introduce the puppet by saying, <strong><span class=\"speechBlue\">This is Pepper. Pepper says words in pieces. Pepper will say a word one part at a time. Listen carefully, and then put the parts together to make a whole word. Ready? Sun...shine.&nbsp;<\u002fspan><\u002fstrong>(Pause about 1 second between the parts of the word.)&nbsp;<span class=\"speechBlue\"><strong>What is the word?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "sunshine",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item1",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 1. mother",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response <\u002fstrong>[mother]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>What word do you make when you put muh...ther together?<\u002fstrong><\u002fspan> Gradually reduce the pause between the parts: <span class=\"speechBlue\"><strong>Muh..ther. Muh.ther.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Muh...ther makes the word <em>mother<\u002fem>. Let&rsquo;s try another one.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Listen carefully: muh&hellip;ther. What is the word?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "mother",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Blending",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item2",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 2. cupcake",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p>Use the following prompt as needed: <span class=\"speechBlue\"><strong>Ready? Listen.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>cup...cake<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "cupcake",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Blending",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item3",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 3. telephone",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p>Use the following prompt as needed:&nbsp;<span class=\"speechBlue\"><strong>Ready? Listen.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>tel...uh...phone<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "telephone",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Blending",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item4",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 4. surprise",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p>Use the following prompt as needed:&nbsp;<strong><span class=\"speechBlue\">Ready? Listen.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>sur...prise<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "surprise",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Blending",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item5",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 5. basketball",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p>Use the following prompt as needed:&nbsp;<span class=\"speechBlue\"><strong>Ready? Listen.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>bas...ket...ball<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "basketball",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Blending",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item6",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 6. wall",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Now I will say a word in <em>smaller<\u002fem> parts. Listen carefully, and then put the parts together to make a whole word. Ready?<\u002fstrong><\u002fspan> (Pause for response.)<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>/w/...aw.../l/<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\"><strong>Optional puppet instructions:<\u002fstrong>&nbsp;Say,&nbsp;<strong style=\"color: rgb(2, 149, 165);\">Now&nbsp;<\u002fstrong><span class=\"speechBlue\"><strong>Pepper will say a word in <em>smaller<\u002fem> parts. Listen carefully, and then put the parts together to make a whole word. Ready?<\u002fstrong><\u002fspan>&nbsp;(Pause for response.)<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\"><strong style=\"color: rgb(2, 149, 165);\">/w/...aw.../l/<\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "wall",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Blending",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item7",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 7. laugh",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p>Use the following prompt as needed:&nbsp;<span class=\"speechBlue\"><strong>Ready? Listen.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>/l/.../a/.../f/<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "laugh",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Blending",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item8",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 8. glad",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p>Use the following prompt as needed:&nbsp;<span class=\"speechBlue\"><strong>Ready? Listen.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>/g/.../l/.../a/.../d/<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "glad",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Blending",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item9",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 9. stretch",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p>Use the following prompt as needed:&nbsp;<span class=\"speechBlue\"><strong>Ready? Listen.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>/s/.../t/.../r/.../e/...ch<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "stretch",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Blending",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item10",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 10. agreement",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p>Use the following prompt as needed:&nbsp;<span class=\"speechBlue\"><strong>Ready? Listen.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>uh.../g/.../r/...ee.../m/.../e/.../n/.../t/<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "agreement",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Blending",
+              "isAutomatic": true
+            }
+          ]
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 3,
+        "description": "This section of the subtest discontinues after 3 consecutive scores of 0 points.",
+        "countsDemoItems": false
+      }
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Section 2: Rhyming",
+      "abbr": "Section 2: Rhyming",
+      "questions": 
+      [
+        {
+          "id": "ktea3a-phonologicalprocessing-sampleb",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-sampleb",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sample B. hat",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response&nbsp;<\u002fstrong>[hat]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>One of them doesn&rsquo;t sound like the others. Listen again: bee...knee...hat. <em>Bee<\u002fem> and <em>knee<\u002fem> rhyme, but <em>hat<\u002fem> sounds different.&nbsp;<\u002fstrong><\u002fspan>Teach further as needed, and then say, <span class=\"speechBlue\"><strong>Let<\u002fstrong><\u002fspan><strong style=\"color: rgb(2, 149, 165);\">&rsquo;<\u002fstrong><span class=\"speechBlue\"><strong>s try another one.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p>Point to each picture as you say its name. Pause about 1 second between each word.<\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>I will say three words. Two of them rhyme, but one doesn&rsquo;t. Which one doesn&rsquo;t rhyme with the others? Listen: bee<\u002fstrong><\u002fspan> (point)<span class=\"speechBlue\"><strong>...knee <\u002fstrong><\u002fspan>(point)<span class=\"speechBlue\"><strong>...hat <\u002fstrong><\u002fspan>(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "bee",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "knee",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "hat",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item11",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 11. horse",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response <\u002fstrong>[horse]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Listen again: dog...log...horse. <em>Dog<\u002fem> and <em>log<\u002fem> rhyme, but&nbsp;<em>horse<\u002fem> sounds different.<\u002fstrong><\u002fspan> Teach further as needed, and then say, <span class=\"speechBlue\"><strong>Let&rsquo;s&nbsp;try another one.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" />​<\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one doesn&rsquo;t rhyme with the others?&nbsp;<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Listen: dog...log...horse<\u002fspan><\u002fstrong> (point to each)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "dog",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "log",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "horse",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Rhyming",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item12",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 12. map",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one doesn&rsquo;t rhyme with the others?&nbsp;Listen: goat...map...coat<\u002fstrong><\u002fspan> (point to each)<strong style=\"color: rgb(2, 149, 165);\">.<\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "goat",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "coat",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "map",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Rhyming",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item13",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 13. book",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Use the following prompt as needed:&nbsp;<span class=\"speechBlue\"><strong>Which one doesn&rsquo;t rhyme with&nbsp;the others?<\u002fstrong><\u002fspan>&nbsp;<\u002fp>\r\n\r\n<p>Point to each picture as you say its name: <span class=\"speechBlue\"><strong>fan...book...man<\u002fstrong><\u002fspan>&nbsp;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "fan",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "man",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "book",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Rhyming",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-samplec",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-samplec",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sample C. hat",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response <\u002fstrong>[Any word or nonword besides&nbsp;<em>hat&nbsp;<\u002fem>that ends with the sound /at/ (e.g., bat, sat, gat)]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>That&rsquo;s right. You can say a real word or a made-up word. Let&rsquo;s try another one.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\"><em>Bat<\u002fem> rhymes with <em>hat<\u002fem>. So does <em>sat<\u002fem>.<\u002fspan><\u002fstrong> Teach further as needed, and then say, <strong><span class=\"speechBlue\">Let&rsquo;s try another one.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><strong><span class=\"speechBlue\"><em>Cat<\u002fem> and <em>zat<\u002fem> rhyme with <em>hat<\u002fem>. What&rsquo;s another word that rhymes with <em>hat<\u002fem>?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "bat",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "sat",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "gat",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "conditionalText": "Any real word or nonword response besides \"hat\" that rhymes with the sound /at/."
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item14",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 14. see",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response <\u002fstrong>[Any word or nonword&nbsp;besides <em>see <\u002fem>that ends&nbsp;with the sound /ee/&nbsp;(e.g., bee, he, ree)]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\"><em>Bee<\u002fem> rhymes with <em>see<\u002fem>. So does <em>he<\u002fem>.<\u002fspan><\u002fstrong> Teach further as needed, and then say, <strong><span class=\"speechBlue\">Let&rsquo;s try another one.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say a word that rhymes with <em>see<\u002fem>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "bee",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "he",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "ree",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "conditionalText": "Any word or nonword besides \"see\" that ends with the sound /ee/."
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Rhyming",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item15",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 15. mad",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p>Use the following prompt as needed: <span class=\"speechBlue\"><strong>Say a word that rhymes with...<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>mad<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "had",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "zad",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "conditionalText": "–/ad/"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Rhyming",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item16",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 16. money",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p>Use the following prompt as needed: <span class=\"speechBlue\"><strong>Say a word that rhymes with...<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>money<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "knee",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "zee",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "bunny",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "tunny",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "conditionalText": "–/ee/"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Rhyming",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item17",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 17. fur",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p>Use the following prompt as needed:&nbsp;<span class=\"speechBlue\"><strong>Say a word that rhymes with...<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>fur<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "stir",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "ker",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "conditionalText": "–/ur/"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Rhyming",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item18",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item18",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 18. lime",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p>Use the following prompt as needed: <span class=\"speechBlue\"><strong>Say a word that rhymes with...<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>lime<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "dime",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "rhyme",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "hime",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "conditionalText": "–/ime/"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Rhyming",
+              "isAutomatic": true
+            }
+          ]
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 3,
+        "description": "This section of the subtest discontinues after 3 consecutive scores of 0 points.",
+        "countsDemoItems": false
+      }
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Section 3: Sound Matching",
+      "abbr": "Section 3: Sound Matching",
+      "questions": 
+      [
+        {
+          "id": "ktea3a-phonologicalprocessing-sampled",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-sampled",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sample D. hat (net)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response <\u002fstrong>[net]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\"><em>Ne<u>t<\u002fu><\u002fem> ends with the same sound as <em>ha<u>t<\u002fu><\u002fem>. Listen: ne<u>t<\u002fu>...ha<u>t<\u002fu>.<\u002fspan><\u002fstrong> Teach further as needed, and then say, <strong><span class=\"speechBlue\">Let&rsquo;s try another one.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "topInstructionsHTML": "<p>For each item, point to each picture as you say its name, and pause about 1 second between each word.<\u002fp>\r\n\r\n<p>Emphasize the final sound of each stimulus word by either lengthening the final sound (e.g., <em>tr<u>eeee<\u002fu><\u002fem>) or exaggerating it (e.g., <em>ha<u>t<\u002fu><\u002fem>).<\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the picture of the hat and say,&nbsp;<span class=\"speechBlue\"><strong>This is a hat. One of these<\u002fstrong><\u002fspan>&nbsp;(gesture to the other pictures in the row)&nbsp;<span class=\"speechBlue\"><strong>ends with the same sound as&nbsp;<em>ha<u>t<\u002fu><\u002fem>. Which one is it? Listen.<\u002fstrong><\u002fspan>&nbsp;Point to each picture as you say, <span class=\"speechBlue\"><strong>pi<u>n<\u002fu>...ne<u>t<\u002fu>...hea<u>d<\u002fu>. Which one ends with the same sound as&nbsp;<em>ha<u>t<\u002fu><\u002fem>?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "pin",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "head",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "net",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item19",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item19",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 19. whistle (pencil)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong> [pencil]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong><em>Penci<u>l<\u002fu><\u002fem> ends with the same sound as <em>whist<u>l<\u002fu>e<\u002fem>. Listen: whist<u>l<\u002fu>e...penci<u>l<\u002fu>.<\u002fstrong><\u002fspan> Teach further as needed, and then say, <span class=\"speechBlue\"><strong>Let&rsquo;s try another one.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the picture of the whistle and say, <span class=\"speechBlue\"><strong>This is a whistle. One of these<\u002fstrong><\u002fspan> (gesture to&nbsp;the other pictures in the row) <span class=\"speechBlue\"><strong>ends with the same sound as <em>whist<u>l<\u002fu>e<\u002fem>. Which one is it?&nbsp;Listen.<\u002fstrong><\u002fspan> Point to each picture as you say, <span class=\"speechBlue\"><strong>bunn<u>y<\u002fu><\u002fstrong><\u002fspan> (/ee/)<span class=\"speechBlue\"><strong>...penci<u>l<\u002fu>&hellip;cu<u>p<\u002fu>. Which one ends&nbsp;with the same sound as <em>whist<u>l<\u002fu>e<\u002fem>?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "bunny",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "cup",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "pencil",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Sound Matching",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item20",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item20",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 20. dress (bus)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which of these ends with the same sound as <em>dre<u>ss<\u002fu><\u002fem>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>bu<u>s<\u002fu>...ro<u>p<\u002fu>e...po<u>t<\u002fu><\u002fstrong><\u002fspan> (point to each)<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "rope",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "pot",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "bus",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Sound Matching",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item21",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item21",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 21. pig (log)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which of these ends with the same sound as <em>pi<u>g<\u002fu><\u002fem>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>be<u>d<\u002fu>...soc<u>k<\u002fu>...log̲<\u002fstrong><\u002fspan> (point to each)<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "bed",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "sock",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "log",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Sound Matching",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item22",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item22",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 22. trash (fish)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which of these ends with the same sound as <em>tra<u>sh<\u002fu><\u002fem>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>fi<u>sh<\u002fu>...dru<u>m<\u002fu>...tr<u>ee<\u002fu><\u002fstrong><\u002fspan> (point to each)<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "drum",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "tree",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "fish",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Sound Matching",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item23",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item23",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 23. beak (sock)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which of these ends with the same sound as <em>bea<u>k<\u002fu><\u002fem>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>soc<u>k<\u002fu>...frog̲...be<u>d<\u002fu><\u002fstrong><\u002fspan> (point to each)<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "frog",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "bed",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "sock",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Sound Matching",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item24",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item24",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 24. stamp (sheep)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which of these ends with the same sound as <em>stam<u>p<\u002fu><\u002fem>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>sta<u>r<\u002fu>...an<u>t<\u002fu>...shee<u>p<\u002fu><\u002fstrong><\u002fspan> (point to each)<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "star",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "ant",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "sheep",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Sound Matching",
+              "isAutomatic": true
+            }
+          ]
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 3,
+        "description": "This section of the subtest discontinues after 3 consecutive scores of 0 points.",
+        "countsDemoItems": false
+      }
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Section 4: Deleting Sounds",
+      "abbr": "Section 4: Deleting Sounds",
+      "questions": 
+      [
+        {
+          "id": "ktea3a-phonologicalprocessing-samplee",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-samplee",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sample E. near – /n/",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response <\u002fstrong>[ear]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>If you take away <em>/n/<\u002fem> from&nbsp;<em>near<\u002fem>, what&rsquo;s left is&nbsp;<em>ear<\u002fem>.<\u002fstrong><\u002fspan> Teach further as needed, and then say, <span class=\"speechBlue\"><strong>Let&rsquo;s try another one.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>I&rsquo;ll say a word, and you say it back to me. <em>Near<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.)&nbsp;<span class=\"speechBlue\"><strong>Now say <em>near<\u002fem>, but don&rsquo;t say <em>/n/<\u002fem>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "ear",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-samplef",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-samplef",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sample F. plate – /t/",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong> [play]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>If you take away <em>/t/<\u002fem> from <em>plate<\u002fem>, what&rsquo;s left is <em>play<\u002fem>.<\u002fstrong><\u002fspan>&nbsp;Teach further as needed, and then say, <span class=\"speechBlue\"><strong>Let&rsquo;s try another one.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>plate<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>plate<\u002fem>, but don&rsquo;t say /<em>t<\u002fem>/<\u002fstrong>.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "play",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item25",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item25",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 25. cried – /d/",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response&nbsp;<\u002fstrong>[cry]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>If&nbsp;you take away <em>/d/<\u002fem> from <em>cried<\u002fem>, what&rsquo;s left is <em>cry<\u002fem>.<\u002fstrong>&nbsp;<\u002fspan>Teach further as needed, and then say, <span class=\"speechBlue\"><strong>Let&rsquo;s try another one.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>cried<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>cried<\u002fem>, but don&rsquo;t say <em>/d/<\u002fem>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "cry",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Deleting Sounds",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item26",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item26",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 26. ice – /s/",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>ice<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>ice<\u002fem>, but don&rsquo;t say <em>/s/<\u002fem>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "eye",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Deleting Sounds",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item27",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item27",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 27. hat – /h/",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>hat<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>hat<\u002fem>, but don&rsquo;t say <em>/h/<\u002fem>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "at",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Deleting Sounds",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item28",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item28",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 28. smell – /m/",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Say <em>smell<\u002fem>.<\u002fspan><\u002fstrong> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>smell<\u002fem>, but don&rsquo;t say <em>/m/<\u002fem>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "sell",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Deleting Sounds",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item29",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item29",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 29. floor – /l/",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>floor<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>floor<\u002fem>, but don&rsquo;t say <em>/l/<\u002fem>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "for",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Deleting Sounds",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item30",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item30",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 30. wives – /v/",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>wives<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>wives<\u002fem>, but don&rsquo;t say <em>/v/<\u002fem>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "wise",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Deleting Sounds",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item31",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item31",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 31. swamp – /m/",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>swamp<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>swamp<\u002fem>, but don&rsquo;t say <em>/m/<\u002fem>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "swap",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Deleting Sounds",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item32",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item32",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 32. hopped – /p/",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>hopped<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>hopped<\u002fem>, but don&rsquo;t say <em>/p/<\u002fem>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "hot",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Deleting Sounds",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item33",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item33",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 33. squat – /k/",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>squat<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>squat<\u002fem>, but don&rsquo;t say <em>/k/<\u002fem>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "swat",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Deleting Sounds",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item34",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item34",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 34. quip – /k/",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>quip<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>quip<\u002fem>, but don&rsquo;t say <em>/k/<\u002fem>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "whip",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Deleting Sounds",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item35",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item35",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 35. text – /k/",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>text<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>text<\u002fem>, but don&rsquo;t say <em>/k/<\u002fem>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "test",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Deleting Sounds",
+              "isAutomatic": true
+            }
+          ]
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 3,
+        "description": "This section of the subtest discontinues after 3 consecutive scores of 0 points.",
+        "countsDemoItems": false
+      }
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Section 5: Segmenting",
+      "abbr": "Section 5: Segmenting",
+      "questions": 
+      [
+        {
+          "id": "ktea3a-phonologicalprocessing-sampleg",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-sampleg",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sample G. sunshine",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response&nbsp;<\u002fstrong>[sun&hellip;shine]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Say sun&hellip;shine.<\u002fstrong><\u002fspan>&nbsp;(Pause for response.) Teach further as needed,&nbsp;and then say,<span class=\"speechBlue\"><strong>&nbsp;Let&rsquo;s try another one.<\u002fstrong><\u002fspan>&nbsp;<\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>I&rsquo;ll say a word, and you say it back to me. Sunshine.&nbsp;<\u002fstrong><\u002fspan>(Pause for response.)&nbsp;<span class=\"speechBlue\"><strong>Good.&nbsp;Now let&rsquo;s say the word in parts. If the word is&nbsp;<em>sunshine<\u002fem>,&nbsp;you should say,&nbsp;sun&hellip;shine.&nbsp;<\u002fstrong><\u002fspan>(Pause about 1 second between the parts.)&nbsp;<span class=\"speechBlue\"><strong>Try it. Say&nbsp;<em>sunshine&nbsp;<\u002fem>one part&nbsp;at a time.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\"><strong>Optional puppet instructions:<\u002fstrong>&nbsp;Say, <strong><span class=\"speechBlue\">Now put Pepper on your hand. You&rsquo;re going to make Pepper&nbsp;talk. I&rsquo;ll say a word, and then you make Pepper say it in pieces.<\u002fspan><\u002fstrong> Modify the&nbsp;instructions to ask how Pepper says each target word. For example, replace <span class=\"speechBlue\"><strong>Say <em>sunshine<\u002fem> one part&nbsp;at a time<\u002fstrong><\u002fspan> with <span class=\"speechBlue\"><strong>How does Pepper say <em>sunshine<\u002fem> one part at a time?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "sun…shine",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item36",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item36",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 36. doorknob",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct<\u002fstrong> <strong>response&nbsp;<\u002fstrong>[door...knob]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>If the word is <em>doorknob,<\u002fem> you should say,&nbsp;door...knob. Try it. Say door...knob<\u002fstrong><\u002fspan><strong style=\"color: rgb(2, 149, 165);\">.<\u002fstrong> Teach further&nbsp;as needed, and then say,<span class=\"speechBlue\"><strong> Let&rsquo;s try another one.<\u002fstrong><\u002fspan>&nbsp;<\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>doorknob<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>doorknob<\u002fem> one part at a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "door...knob"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item37",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item37",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 37. birdhouse",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>birdhouse<\u002fem>. <\u002fstrong><\u002fspan>(Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>birdhouse<\u002fem> one part at a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "bird...house"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item38",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item38",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 38. picnic",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>picnic<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <strong><span class=\"speechBlue\">Now say <em>picnic<\u002fem> one part at a time.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "pic…nic"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item39",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item39",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 39. banana",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response&nbsp;<\u002fstrong>[Breaks word into 3 syllables&nbsp;(e.g., buh&hellip;nan&hellip;uh)]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>If the word is <em>banana<\u002fem>, you should say,&nbsp;buh&hellip;nan&hellip;uh. Try it. Say buh&hellip;nan&hellip;uh. <\u002fstrong><\u002fspan>Teach&nbsp;further as needed, and then say, <span class=\"speechBlue\"><strong>Let&rsquo;s try another one.<\u002fstrong><\u002fspan>&nbsp;<\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>banana<\u002fem>. <\u002fstrong><\u002fspan>(Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>banana <\u002fem>one part at a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "Breaks word into 3 syllables (e.g., buh…nan…uh)"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item40",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item40",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 40. calculation",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>calculation<\u002fem>. <\u002fstrong><\u002fspan>(Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>calculation <\u002fem>one part at&nbsp;a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "Breaks word into 4 syllables (e.g., cal…kyoo…lay…shun)"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-sampleh",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-sampleh",
+          "subtestName": "Phonological Processing",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sample H. at",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong>&nbsp;[a t]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>If the word is&nbsp;<em>at,<\u002fem>&nbsp;you should say, a&hellip;t.&nbsp;Try it. Say a&hellip;t.<\u002fstrong><\u002fspan>&nbsp;Teach further as needed, and then say,<span class=\"speechBlue\"><strong>&nbsp;Let&rsquo;s try another one.<\u002fstrong><\u002fspan>&nbsp;<\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Now let&rsquo;s say words in&nbsp;<em>smaller<\u002fem>&nbsp;parts, one&nbsp;<em>sound<\u002fem>&nbsp;at a time. Say&nbsp;<em>at<\u002fem>.<\u002fstrong><\u002fspan><em>&nbsp;<\u002fem>(Pause for response.)&nbsp;<span class=\"speechBlue\"><strong>Good. If the word is&nbsp;<em>at<\u002fem>,<em>&nbsp;<\u002fem>you should say, a&hellip;t&nbsp;<\u002fstrong><\u002fspan>(pause&nbsp;about 1 second between the parts)<strong style=\"color: rgb(2, 149, 165);\">.<\u002fstrong>&nbsp;<span class=\"speechBlue\"><strong>Try it. Say&nbsp;<em>at<\u002fem>&nbsp;one sound at a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item41",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item41",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 41. go",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct<\u002fstrong> <strong>response&nbsp;<\u002fstrong>[g oh]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>If the word is<em> go, <\u002fem>you should say, g&hellip;oh.&nbsp;Try it. Say g&hellip;oh.<\u002fstrong><\u002fspan> Teach further as needed, and then say,<br />\r\n<span class=\"speechBlue\"><strong>Let&rsquo;s try another one.&nbsp;<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>go<\u002fem>.<\u002fstrong> <\u002fspan>(Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>go<\u002fem> one sound at a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "g oh"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item42",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item42",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 42. is",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>is<\u002fem>.<\u002fstrong><\u002fspan><em> <\u002fem>(Pause for response.) <span class=\"speechBlue\"><strong>Now say<em> is<\u002fem> one sound at a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": ""
+                },
+                {
+                  "score": 1,
+                  "label": "<p>ih z<\u002fp>\r\n"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item43",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item43",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 43. cat",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>cat<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>cat <\u002fem>one sound at a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": ""
+                },
+                {
+                  "score": 1,
+                  "label": "<p>k a t<\u002fp>\r\n"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item44",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item44",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 44. bath",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Say <em>bath<\u002fem>.<\u002fspan> <\u002fstrong>(Pause for response.)<strong> <span class=\"speechBlue\">Now say <em>bath <\u002fem>one sound at a time.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": ""
+                },
+                {
+                  "score": 1,
+                  "label": "<p>b a th<\u002fp>\r\n"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item45",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item45",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 45. rain",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>rain<\u002fem>. <\u002fstrong><\u002fspan>(Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>rain <\u002fem>one sound at a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": ""
+                },
+                {
+                  "score": 1,
+                  "label": "<p>r ay n<\u002fp>\r\n"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item46",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item46",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 46. lamp",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>lamp<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>lamp <\u002fem>one sound at a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": ""
+                },
+                {
+                  "score": 1,
+                  "label": "<p>l a m p<\u002fp>\r\n"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item47",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item47",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 47. spent",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>spent<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>spent&nbsp;<\u002fem>one sound at a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": ""
+                },
+                {
+                  "score": 1,
+                  "label": "<p>s p e n t<\u002fp>\r\n"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item48",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item48",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 48. sunflower",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>sunflower<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.)<span class=\"speechBlue\"><strong> Now say <em>sunflower<\u002fem> one sound at a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": ""
+                },
+                {
+                  "score": 1,
+                  "label": "<p>s uh n f l ow er<\u002fp>\r\n"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item49",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item49",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 49. lavender",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say <em>lavender<\u002fem>.<\u002fstrong><\u002fspan> (Pause for response.) <span class=\"speechBlue\"><strong>Now say <em>lavender <\u002fem>one sound at a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": ""
+                },
+                {
+                  "score": 1,
+                  "label": "<p>l a v e n d er<\u002fp>\r\n"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-phonologicalprocessing-item50",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/phonological_processing/ktea3a-phonologicalprocessing-item50",
+          "subtestName": "Phonological Processing",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 50. complexion",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Say&nbsp;<em>complexion<\u002fem>.<\u002fstrong><\u002fspan><em>&nbsp;<\u002fem>(Pause for response.)&nbsp;<span class=\"speechBlue\"><strong>Now say&nbsp;<em>complexion&nbsp;<\u002fem>one sound at&nbsp;a time.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useStimNotDottedLines": true,
+              "scoreGuide": 
+              [
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": ""
+                },
+                {
+                  "score": 1,
+                  "label": "<p>k&nbsp;uh&nbsp;m&nbsp;p&nbsp;l&nbsp;e&nbsp;k&nbsp;sh&nbsp;uh&nbsp;n<\u002fp>\r\n"
+                }
+              ]
+            },
+            "superType": "SentenceMarkupItems",
+            "type": "FormulatedSentences"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Fails to Repeat",
+              "guid": "7ee425c6f19242ef9f91953f8ccb493e",
+              "abbreviation": "fr"
+            }
+          ],
+          "imageExtension": "jpg",
+          "errorCategories": 
+          [
+            {
+              "label": "Segmenting",
+              "isAutomatic": true
+            }
+          ]
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 3,
+        "description": "This section of the subtest discontinues after 3 consecutive scores of 0 points.",
+        "countsDemoItems": true
+      }
+    }
+  ],
+  "errorCategories": 
+  [
+    {
+      "label": "Blending",
+      "isAutomatic": true
+    },
+    {
+      "label": "Rhyming",
+      "isAutomatic": true
+    },
+    {
+      "label": "Sound Matching",
+      "isAutomatic": true
+    },
+    {
+      "label": "Deleting Sounds",
+      "isAutomatic": true
+    },
+    {
+      "label": "Segmenting",
+      "isAutomatic": true
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

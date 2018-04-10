@@ -1,0 +1,291 @@
+{
+  "subtestId": 790,
+  "subtestGUID": "710b8e022b6e490b9a118f5ded13ae8d",
+  "title": "Writing Fluency",
+  "displayName": "Writing Fluency",
+  "abbr": "wf",
+  "testType": "ktea3",
+  "testTitle": "KTEA-3",
+  "testDisplayName": "KTEA-3 Form A",
+  "normType": "ktea-3a",
+  "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+  "subtestType": "WritingFluency",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/ktea-3/writing_fluency",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "RequireGradeAndTermRule": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 7,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 25,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Writing",
+    "averageDuration": 7,
+    "minGradeLevel": 3,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee writes one sentence about each picture presented in the Response Booklet and completes as many items as possible within a five-minute time limit."
+  },
+  "questions": 
+  [
+    {
+      "id": "ktea3-writingfluency-sampleab",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ktea-3/writing_fluency/ktea3-writingfluency-sampleab",
+      "subtestName": "Writing Fluency",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Samples A and B",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ktea-3/writing_fluency/ktea3-writingfluency-sampleab/ktea3-writingfluency-sampleabPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": 
+        [
+        ],
+        "superType": null,
+        "type": "namingStimuli"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "ktea3a-writingfluency-teachingitem1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ktea-3/writing_fluency/ktea3a-writingfluency-teachingitem1",
+      "subtestName": "Writing Fluency",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Teaching Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>That&rsquo;s good.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong>​<\u002fp>\r\n\r\n<p><em>Fragmented&nbsp;response:<\u002fem><br />\r\n<span class=\"speechBlue\"><strong>Be sure to write a good, short sentence that tells about this picture. For example, you could write <em>The rabbit is eating<\u002fem>. Try again. Write a complete sentence that tells what&rsquo;s happening in this picture.<\u002fstrong><\u002fspan> Continue administration.<\u002fp>\r\n\r\n<p><em>Lengthy response<\u002fem> (e.g.,&nbsp;<em>The white rabbit is eating a big carrot<\u002fem>)<em>:<\u002fem><br />\r\n<span class=\"speechBlue\"><strong>It is even better to write <em>The rabbit is eating<\u002fem> because it is a good, <em>short<\u002fem> sentence that tells about the picture.<\u002fstrong><\u002fspan> Continue administration.<\u002fp>\r\n",
+      "topInstructionsHTML": "<p>Point to the first teaching item and say, <span class=\"speechBlue\"><strong>Write a good, short sentence that tells what&rsquo;s happening in <em>this<\u002fem> picture.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "ktea3a-writingfluency-teachingitem2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ktea-3/writing_fluency/ktea3a-writingfluency-teachingitem2",
+      "subtestName": "Writing Fluency",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Teaching Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>That&rsquo;s good. Do you have any questions?&nbsp;<\u002fstrong><\u002fspan>Teach further as needed, and then continue administration.<\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong>​<\u002fp>\r\n\r\n<p><em>Fragmented&nbsp;response:<\u002fem><br />\r\n<span class=\"speechBlue\"><strong>Be sure to write a good, short sentence that tells about this picture. For example, you could write&nbsp;<em>The boy is reading<\u002fem>. Try again. Write a complete sentence that tells what&rsquo;s happening in this picture.<\u002fstrong><\u002fspan> Teach further as needed, and then continue administration.<\u002fp>\r\n\r\n<p><em>Lengthy response<\u002fem> (e.g., <em>The boy is reading at the table<\u002fem>)<em>:<\u002fem><br />\r\n<span class=\"speechBlue\"><strong>It is even better to write <em>The boy is reading<\u002fem> because it is a good, <em>short<\u002fem> sentence that tells about the picture.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Do you have any questions?<\u002fstrong><\u002fspan> Teach further as needed, and then continue administration.<\u002fp>\r\n\r\n<p>If the examinee does not write anything or writes very little on the teaching items, discontinue administration of Writing Fluency.<\u002fp>\r\n",
+      "topInstructionsHTML": "<p>Point to the second teaching item and say, <span class=\"speechBlue\"><strong>Now write a good, short sentence that tells what&rsquo;s happening in <em>this<\u002fem> picture.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "ktea3a-writingfluency-testitem",
+      "shouldUseTimer": true,
+      "maxTime": 300,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ktea-3/writing_fluency/ktea3a-writingfluency-testitem",
+      "subtestName": "Writing Fluency",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Test Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ktea-3/writing_fluency/ktea3a-writingfluency-testitem/ktea3a-writingfluency-testitemPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "maxScore": 999,
+          "isCalculationRequired": false,
+          "useTimeAsRawScore": false,
+          "hasSetErrors": false,
+          "hasRotationErrors": false,
+          "hasScorePopover": false,
+          "useWordCountTitle": true
+        },
+        "superType": null,
+        "type": "manual"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "observations": 
+  [
+    {
+      "guid": "89e231612d2a4f058f992e08140586c6",
+      "type": "Selection",
+      "label": "Many responses had grammar/structure errors",
+      "isFirstInGroup": true
+    },
+    {
+      "guid": "713634d7bd654c3781c527df5f362bb7",
+      "type": "Selection",
+      "label": "Transposed words within sentences"
+    },
+    {
+      "guid": "dbb8de6ad1c64e65bf67d67d7adbe4bf",
+      "type": "Selection",
+      "label": "Tended to omit word endings (-s, -ed, -ing)"
+    },
+    {
+      "guid": "90c8403eefd846b480acc6c2870d04b7",
+      "type": "Selection",
+      "label": "Responses indicated misinterpretation of the pictures"
+    },
+    {
+      "guid": "fc54f3aeec8d4b5194ac2775582ac813",
+      "type": "Selection",
+      "label": "Letter formation was slow and labored"
+    },
+    {
+      "guid": "6903ce1deb3d44a9b848794f03b20081",
+      "type": "Selection",
+      "label": "Responded slowly, but wrote good sentences"
+    },
+    {
+      "guid": "a86a797676b24776bf0e034b6a33ea60",
+      "type": "Selection",
+      "label": "Responded slowly, and sentences had grammar/structure problems"
+    },
+    {
+      "guid": "9b8ad8f35cc54565b782124a767f017a",
+      "type": "Selection",
+      "label": "Most responses were complete sentences",
+      "isFirstInGroup": true
+    },
+    {
+      "guid": "066fbca288aa4b599c893251fb8e8140",
+      "type": "Selection",
+      "label": "Responses were similar in structure (The boy is running. The dog is sleeping.)"
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

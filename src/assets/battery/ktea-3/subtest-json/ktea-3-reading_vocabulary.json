@@ -1,0 +1,5042 @@
+{
+  "subtestId": 786,
+  "subtestGUID": "e2c825b88c54480e86b432ed8eb834fe",
+  "title": "Reading Vocabulary",
+  "displayName": "Reading Vocabulary",
+  "abbr": "rv",
+  "testType": "ktea3",
+  "testTitle": "KTEA-3",
+  "testDisplayName": "KTEA-3 Form A",
+  "normType": "ktea-3a",
+  "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+  "subtestType": "ktea3",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/ktea-3/reading_vocabulary",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "startWritingClosed": true,
+  "reshowStimOnBluetoothReconnect": true,
+  "RequireGradeAndTermRule": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 25,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Reading",
+    "averageDuration": 8,
+    "minGradeLevel": 2,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee points to one of three words with a similar meaning as the target work or reads a sentence and selects the word that has a similar meaning as the target word."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Items 1-3",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "ktea3a-readingvocabulary-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item1",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 1. house (home)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response&nbsp;<\u002fstrong>[home]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>That&rsquo;s right. <em>Home<\u002fem><\u002fstrong><\u002fspan> (point) <strong><span class=\"speechBlue\">can mean the same as <em>house<\u002fem><\u002fspan><\u002fstrong> (point)<strong><span class=\"speechBlue\">, so the answer is <em>home<\u002fem>.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><em><strong>Home<\u002fstrong><\u002fem><\u002fspan> (point) <strong><span class=\"speechBlue\">can mean the same as <em>house<\u002fem><\u002fspan><\u002fstrong> (point)<span class=\"speechBlue\"><strong>, so the answer is <em>home<\u002fem>.<\u002fstrong><\u002fspan> Teach further as needed and then say, <span class=\"speechBlue\"><strong>Let&rsquo;s try another one.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Now I will ask you to read some words.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>This word<\u002fstrong><\u002fspan> (point to the word <em>house<\u002fem>) <strong><span class=\"speechBlue\">tells about this picture<\u002fspan><\u002fstrong> (point)<span class=\"speechBlue\"><strong>. The word is <em>house<\u002fem><\u002fstrong><\u002fspan> (point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>One of these words<\u002fstrong><\u002fspan> (point to the three words below the house) <strong><span class=\"speechBlue\">can also mean <em>house<\u002fem><\u002fspan><\u002fstrong> (point to the word <em>house<\u002fem>)<strong><span class=\"speechBlue\">. The words are: <em>door<\u002fem>,<em> home<\u002fem>,<em> ride<\u002fem><\u002fspan><\u002fstrong> (point to each word)<strong><span class=\"speechBlue\">. Which one of these words can mean <em>house<\u002fem>?<\u002fspan><\u002fstrong> (Pause for response.)<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "door",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "ride",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "home",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item2",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 2. see (look)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "correctInstructionsHTML": "<p><strong>Correct response&nbsp;<\u002fstrong>[look]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>That&#39;s right. The answer is <em>look<\u002fem>&nbsp;because <em>look<\u002fem><\u002fstrong><\u002fspan> (point)<span class=\"speechBlue\"> <strong>can mean the same as <em>see&nbsp;<\u002fem><\u002fstrong><\u002fspan>(point)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong>&nbsp;<\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect or no response:<\u002fstrong><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">The answer is <em>look<\u002fem> because <em>look <\u002fem><\u002fspan><\u002fstrong>(point)&nbsp;<span class=\"speechBlue\"><strong>can mean the same as <em>see<\u002fem><\u002fstrong><\u002fspan><em> <\u002fem>(point)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong> Teach&nbsp;further as needed and then say,<span class=\"speechBlue\"><strong> Let&rsquo;s try&nbsp;another one.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Here is the next one.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>This word<\u002fstrong><\u002fspan> (point to <em>see<\u002fem>) <span class=\"speechBlue\"><strong>tells about this picture<\u002fstrong><\u002fspan> (point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan> <span class=\"speechBlue\"><strong>The word&nbsp;is <em>see <\u002fem><\u002fstrong><\u002fspan>(point)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>One of these words<\u002fstrong><\u002fspan> (point to the three words below the boy)<span class=\"speechBlue\"><strong> can also mean the&nbsp;same as <em>see <\u002fem><\u002fstrong><\u002fspan>(point to <em>see<\u002fem>)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan> <span class=\"speechBlue\"><strong>The words are <em>step, feet, look<\u002fem><\u002fstrong><\u002fspan> (point to each word)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;<span class=\"speechBlue\"><strong>Which one of these words can mean <em>see?<\u002fem><\u002fstrong><\u002fspan><em> <\u002fem>(Pause for response.)<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "step",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "feet",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "look",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item3",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 3. hat (cap)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Now you try it. Which one of these words <\u002fstrong><\u002fspan>(point) <span class=\"speechBlue\"><strong>can mean the same as this one <\u002fstrong><\u002fspan>(point)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan> Use this prompt as needed.<\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "bat",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "man",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "cap",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Items 4-12",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "ktea3a-readingvocabulary-item4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item4",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 4. chicken (hen)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these words<\u002fstrong><\u002fspan> (point) <span class=\"speechBlue\"><strong>can mean the same as&nbsp;this one<\u002fstrong><\u002fspan> (point)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan> Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "egg",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "wing",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "hen",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item5",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 5. fill (pour)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these words<\u002fstrong><\u002fspan>&nbsp;(point)&nbsp;<span class=\"speechBlue\"><strong>can mean the same as&nbsp;this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan> Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "empty",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "low",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "pour",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item6",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 6. clean (wash)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these words<\u002fstrong><\u002fspan>&nbsp;(point)&nbsp;<span class=\"speechBlue\"><strong>can mean the same as&nbsp;this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan> Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "smell",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "great",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "wash",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item7",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 7. cook (make)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these words<\u002fstrong><\u002fspan>&nbsp;(point)&nbsp;<span class=\"speechBlue\"><strong>can mean the same as&nbsp;this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "look",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "like",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "make",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item8",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 8. hugging (holding)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these words<\u002fstrong><\u002fspan>&nbsp;(point)&nbsp;<span class=\"speechBlue\"><strong>can mean the same as&nbsp;this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "filling",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "bring",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "holding",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item9",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 9. cup (mug)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these words<\u002fstrong><\u002fspan>&nbsp;(point)&nbsp;<span class=\"speechBlue\"><strong>can mean the same as&nbsp;this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "pan",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "drink",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "mug",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item10",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 10. talk (say)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these words&nbsp;<\u002fstrong><\u002fspan>(point)&nbsp;<span class=\"speechBlue\"><strong>can mean the same as this one&nbsp;<\u002fstrong><\u002fspan>(point)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "friend",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "table",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "say",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item11",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 11. fast (quick)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these words&nbsp;<\u002fstrong><\u002fspan>(point)&nbsp;<span class=\"speechBlue\"><strong>can mean the same as this one&nbsp;<\u002fstrong><\u002fspan>(point)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "tame",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "animal",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "quick",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item12",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 12. have (own)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these words&nbsp;<\u002fstrong><\u002fspan>(point)&nbsp;<span class=\"speechBlue\"><strong>can mean the same as this one&nbsp;<\u002fstrong><\u002fspan>(point)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "hand",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "good",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "own",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Items A-B",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "ktea3a-readingvocabulary-samplea",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-samplea",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sample A. over (above)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Now I will ask you to read some sentences.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>Point to the item and say,<span class=\"speechBlue\"><strong> Let&rsquo;s do the first one together.<\u002fstrong><\u002fspan>&nbsp;<span class=\"speechBlue\"><strong>The question is, <em>Which word means over?<\u002fem> <em>The bird flew above the roof.&nbsp;<\u002fem>Which word in this sentence can mean <em>over<\u002fem>?<\u002fstrong><\u002fspan><em> <\u002fem>(Pause for response.) <span class=\"speechBlue\"><strong><em>Above<\u002fem><\u002fstrong><\u002fspan> (point)&nbsp;<span class=\"speechBlue\"><strong>can mean the same as <em>over<\u002fem><\u002fstrong><\u002fspan> (point)<span class=\"speechBlue\"><strong>, so the answer is <em>above.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "bird",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "flew",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "roof",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "above",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-sampleb",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-sampleb",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sample B. cold (icy)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Let&rsquo;s try another one. The question is,<em> Which word means cold?&nbsp;<\u002fem><\u002fstrong><\u002fspan><span class=\"speechBlue\"><strong><em>Her drink was icy and sweet. <\u002fem>Which word in this sentence can mean <em>cold<\u002fem>?<em>&nbsp;<\u002fem><\u002fstrong><\u002fspan>(Pause for response.)<span class=\"speechBlue\"> <strong>The answer is <em>icy <\u002fem>because <em>icy<\u002fem><\u002fstrong><\u002fspan><em> <\u002fem>(point)<span class=\"speechBlue\"><strong> can mean the same&nbsp;as <em>cold<\u002fem><\u002fstrong><\u002fspan> (point)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>When I show you the next screen, you will see more sentences. Read each question and&nbsp;sentence carefully, and then say or point to the answer.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Do you have any questions?<\u002fstrong> <\u002fspan>(Pause for response.) Teach further as needed, and then continue to the next screen.&nbsp;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "drink",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "sweet",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "icy",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Item 13",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "ktea3a-readingvocabulary-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item13",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 13. catch (grab)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan> (point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan> Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "ball",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "before",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "run",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "grab",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Item 14",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "ktea3a-readingvocabulary-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item14",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 14. near (by)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan> (point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan> Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Joe",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "in",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "line",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "by",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Item 15",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "ktea3a-readingvocabulary-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item15",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 15. cap (lid)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan> Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "fits",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "on",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "jar",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "lid",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Items 16-58",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "ktea3a-readingvocabulary-item16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item16",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 16. tiny (small)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan> Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "brown",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "kitten",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "sleeping",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "near",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "new",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "chair",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "small",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item17",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 17. rattled (shook)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan> (point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan> Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "window",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "strugggled",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "open",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "latch",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "shook",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item18",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item18",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 18. grin (smile)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan> Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "showed",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "felt",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "lucky",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "during",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "game",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "smile",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item19",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item19",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 19. suppose (guess)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan> Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "could",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "problem's",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "most",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "satisfying",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "answer",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "guess",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item20",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item20",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 20. brave (fearless)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "urging",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "jump",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "quickly",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "tested",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "nature",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "fearless",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item21",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item21",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 21. collapse (fail)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "single",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "careless",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "remark",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "after",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "years",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "trust",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "support",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "caused",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "partnership",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "fail",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item22",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item22",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 22. travel (ride)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "passenger",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "eager",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "near",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "coast",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "despite",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "many",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "hours",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "on",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "road",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "ride",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item23",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item23",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 23. spare (extra)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "young",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "brother",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "said",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "quietly",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "candle",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "burned",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "too",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "hot",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "quickly",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "extra",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item24",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item24",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 24. center (core)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "first",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "person",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "in",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "group",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "understand",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "problem",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "core",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item25",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item25",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 25. private (separate)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "waited",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "patiently",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "area",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "hear",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "explanation",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "recent",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "test",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "results",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "separate",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item26",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item26",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 26. damp (moist)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "rather",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "surge",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "new",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "growth",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "gloomy",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "weather",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "created",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "unattractive",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "garden",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "moist",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item27",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item27",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 27. narrow (thin)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "rowed",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "boat",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "easily",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "through",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "calm",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "canal",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "into",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "open",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "water",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "thin",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item28",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item28",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 28. redeem (exchange)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "would",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "advise",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "points",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "earned",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "new",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "gear",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "rather",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "entertainment",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "exchange",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item29",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item29",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 29. blunt (insensitive)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "comments",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "hard",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "work",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "would",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "leave",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "small",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "children",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "feeling",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "hurt",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "discouraged",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "insensitive",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item30",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item30",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 30. cruel (callous)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "despite",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "unexpected",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "remarks",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "closest",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "friends",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "eagerly",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "repaired",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "damages",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "tragedy",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "callous",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item31",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item31",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 31. urgent (pressing)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "appointment",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "new",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "lawyer",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "meant",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "pleading",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "break",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "hopeless",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "pressing",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item32",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item32",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 32. salvage (recover)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "unharmed",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "selfish",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "crew",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "agree",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "returning",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "home",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "recover",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item33",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item33",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 33. yearn (long)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "dramatic",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "weather",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "shift",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "made",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "young",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "builder",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "arrival",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "milder",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "days",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "long",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item34",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item34",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 34. anticipate (expect)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "mission",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "required",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "courage",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "young",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "soldier",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "letters",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "support",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "home",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "expect",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item35",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item35",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 35. remedy (solution)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "recall",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "another",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "serious",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "problem",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "vanished",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "quick",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "simple",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "solution",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item36",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item36",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 36. agile (nimble)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "mature",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "player",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "fiercely",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "competitive",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "experienced",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "opponent",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "nimble",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item37",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item37",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 37. burden (responsibility)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "despite",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "felt",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "work",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "vigorous",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "exercise",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Saturdays",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "kept",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "feeling",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "stable",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "responsibility",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item38",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item38",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 38. shrill (piercing)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "dramatic",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "color",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "plumage",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "bird",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "pleasing",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "song",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "piercing",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item39",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item39",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 39. arrogant (smug)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<strong style=\"color: rgb(2, 149, 165);\">.&nbsp;<\u002fstrong>Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "winner",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "late",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "ceremony",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "impolite",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "respected",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "judge",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "smug",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item40",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item40",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 40. placate (appease)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "organizer",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "devoted",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "fans",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "alternative",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "venue",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "performance",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "appease",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item41",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item41",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 41. miscreant (villain)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "playing",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "amateur",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "performer",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "erred",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "neglecting",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "monologue",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "best",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "established",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "credibility",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "villain",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item42",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item42",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 42. benefactor (donor)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "lacking",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "resources",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "remained",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "stubborn",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "funded",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "preservation",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "single",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "document",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "donor",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item43",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item43",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 43. rescind (annul)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "arson",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "policy",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "prevalent",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "disasters",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "produce",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "catastrophic",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "damages",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "annul",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item44",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item44",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 44. tangible (solid)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "afraid",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "discover",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "evidence",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "guilt",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "avoided",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "another",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "confrontation",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "deceitful",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "friend",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "solid",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item45",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item45",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 45. stipend (fee)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "terminate",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "project",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "shield",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "organization ",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "further",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "liability",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "fee",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item46",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item46",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 46. eminent (distinguished)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "first",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "appeared",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "merely",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "competent",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "professional",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "musician",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "quickly",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "became",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "composer",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "distinguished",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item47",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item47",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 47. pragmatic (logical)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "somewhat",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "practitioner",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "defend",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "implement",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "unusual",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "alternative",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "traditional",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "medicine",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "logical",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item48",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item48",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 48. exigent (demanding)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "drafted",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "comprehensive",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "budget",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "neglected ",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "task",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "proposing",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "interim",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "transportation ",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "solutions",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "demanding",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item49",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item49",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 49. levity (wit)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "helped",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "reassure",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "most",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "earnest",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "students",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "likely",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "pass",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "exam",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "anyway",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "wit",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item50",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item50",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 50. avarice (greed)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "leadership's",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "enthusiasm",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "ambitious",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "objective",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "double",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "mission's",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "scope",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "misunderstood",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "greed",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item51",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item51",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 51. dearth (shortage)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "conditions",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "worsening",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "predators",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "permitting",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "survival",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "smaller",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "creatures",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "little",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "comfort",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "shortage",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item52",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item52",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 52. genteel (refined)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "manner",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "soft",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "voice",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "preclude",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "strong",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "character",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "richly",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "deserved",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "recognition",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "refined",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item53",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item53",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 53. dormant (latent)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan> Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "dull",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "roommate",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "many",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "suspect",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "reserved",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "nature",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "hiding",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "skills",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "latent",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item54",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item54",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 54. paragon (model)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "integrity",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "receive",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "hearty",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "welcome",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "any",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "renowned",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "research",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "institution",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "model",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item55",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item55",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 55. furtive (sly)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "starving",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "desperate",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "brazen",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "predator",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "demonstrated",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "unpredictable",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "behavior",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "procuring",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "food",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "sly",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item56",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item56",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 56. ostensible (alleged)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "haughty",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "demeanor",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "made",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "motive",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "shocking",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "behavior",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "seem",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "even",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "contemptible",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "alleged",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item57",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item57",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 57. affectation (front)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan>&nbsp;Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "one's",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "manner",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "may",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "authentic",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "win",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "public's",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "loyalty",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "admiration",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "front",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-readingvocabulary-item58",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/reading_vocabulary/ktea3a-readingvocabulary-item58",
+          "subtestName": "Reading Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 58. trenchant (keen)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Try this one<\u002fstrong><\u002fspan>&nbsp;(point)<strong style=\"color: rgb(2, 149, 165);\">.<\u002fstrong> Use this prompt as needed.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "insight",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "celebrated",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "reputation",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "knowledge",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "military",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "policy",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "made",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "dreaded",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "opponent",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "keen",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 4,
+    "description": "This subtest discontinues after 4 consecutive scores of 0 points.",
+    "countsDemoItems": false
+  },
+  "PagedFirstItemsIncorrectReverseRule": {
+    "triggerNum": 3,
+    "reverseMessage": "This subtest reverses after an imperfect score on this item.",
+    "taskIncompleteDescriptionHtml": "",
+    "setStartQuestionIds": 
+    [
+      "ktea3a-readingvocabulary-item1",
+      "ktea3a-readingvocabulary-samplea"
+    ]
+  },
+  "SkipAdministeredItemsRule": true,
+  "GradeBasedStartingPointRule": {
+    "numPrevious": 0,
+    "showAllStaringPoints": true,
+    "startingPoints": 
+    [
+      {
+        "label": "Grades 1-3: Item 1",
+        "gradeLevels": 
+        [
+          "Grade 1"
+        ],
+        "questionId": "ktea3a-readingvocabulary-item1"
+      },
+      {
+        "label": "Grades 4-12+: Sample A",
+        "gradeLevels": 
+        [
+          "Grade 4"
+        ],
+        "questionId": "ktea3a-readingvocabulary-samplea"
+      }
+    ]
+  },
+  "observations": 
+  [
+    {
+      "guid": "1c1640e97bd240bfa22388fc249f08ec",
+      "type": "Selection",
+      "label": "Had difficulty understanding the sentences, seemed confused or said, \"That didn't make sense\"",
+      "isFirstInGroup": true
+    },
+    {
+      "guid": "001e0853060c42e0b4b60f2af8f0229c",
+      "type": "Selection",
+      "label": "Errors tended to be visually similar letters or length of word"
+    },
+    {
+      "guid": "c4cf26fa50bd4f2698c49293b8125766",
+      "type": "Selection",
+      "label": "Errors were typically the correct part of speech",
+      "isFirstInGroup": true
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "SC",
+      "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+      "abbreviation": "sc"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

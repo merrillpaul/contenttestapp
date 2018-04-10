@@ -1,0 +1,101 @@
+{
+   "normType": "ktea-3a",
+   "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+   "displayName": "KTEA-3 Form A",
+   "observations": [
+      {
+         "guid": "eca4e1fdaca249a598e4c50319443b43",
+         "label": "Did not sustain attention",
+         "type": "Selection",
+         "isFirstInGroup": true
+      },
+      {
+         "guid": "6212a77e095846c39a0bfb43946f42de",
+         "label": "Was easily distracted",
+         "type": "Selection"
+      },
+      {
+         "guid": "37e4bacc5e0142a391309a9189dd042b",
+         "label": "Impulsively responded incorrectly",
+         "type": "Selection"
+      },
+      {
+         "guid": "0ed1a20468ff4c37a84dfa84acb03e8e",
+         "label": "Made excessive corrections",
+         "type": "Selection"
+      },
+      {
+         "guid": "ba1174945aa04b4186d0188404c44b27",
+         "label": "Was reluctant to respond when uncertain",
+         "type": "Selection"
+      },
+      {
+         "guid": "254b42b002934e8f8e8249721ce8d820",
+         "label": "Frequently guessed at or skipped items",
+         "type": "Selection"
+      },
+      {
+         "guid": "a2d123340d4d4019ad0a74c43fb1de2c",
+         "label": "Gave up or fatigued easily",
+         "type": "Selection"
+      },
+      {
+         "guid": "ee737def831f446ebd2409c398c36b70",
+         "label": "Demonstrated low frustration tolerance",
+         "type": "Selection"
+      },
+      {
+         "guid": "2d9b0db6cf144966ac300a2c2411f3ad",
+         "label": "Lacked confidence, expected to fail, or needed encouragement",
+         "type": "Selection"
+      },
+      {
+         "guid": "251d2019dc274e03a5ee6b68aad224e9",
+         "label": "Frequently asked that instructions be repeated",
+         "type": "Selection"
+      },
+      {
+         "guid": "dd488b7e50df4b29a4ee831e1ca24934",
+         "label": "Had difficulty understanding instructions",
+         "type": "Selection"
+      },
+      {
+         "guid": "e88c862c17b74be4b91656653356a97d",
+         "label": "Needed reminders to work from left to right, or top to bottom",
+         "type": "Selection"
+      },
+      {
+         "guid": "70b3515f008a45adb396b77d19036bff",
+         "label": "Complained (\"I'm bored/tired/hungry\")",
+         "type": "Selection"
+      },
+      {
+         "guid": "6cccdd92482647bd8027a5a5743488b9",
+         "label": "Talked about irrelevant things",
+         "type": "Selection"
+      },
+      {
+         "guid": "02706e7602724ab4afe95ac94a3ca491",
+         "label": "Was uncooperative during testing",
+         "type": "Selection"
+      }
+   ],
+   "testType": "ktea3",
+   "title": "KTEA-3",
+   "gradeLevels": [
+      "Grade PK",
+      "Grade K",
+      "Grade 1",
+      "Grade 2",
+      "Grade 3",
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11",
+      "Grade 12+"
+   ]
+}

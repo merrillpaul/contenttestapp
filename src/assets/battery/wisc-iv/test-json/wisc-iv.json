@@ -1,0 +1,39 @@
+{
+   "normType": "wisc-iv",
+   "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+   "displayName": "WISC-IV",
+   "scales": [
+      {
+         "isSumScale": false,
+         "name": "Verbal Comprehension Index (VCI)",
+         "numberOfSubtestRequired": 3,
+         "abbr": "VCI"
+      },
+      {
+         "isSumScale": false,
+         "name": "Perceptual Reasoning Index (PRI)",
+         "numberOfSubtestRequired": 3,
+         "abbr": "PRI"
+      },
+      {
+         "isSumScale": false,
+         "name": "Working Memory Index (WMI)",
+         "numberOfSubtestRequired": 2,
+         "abbr": "WMI"
+      },
+      {
+         "isSumScale": false,
+         "name": "Processing Speed Index (PSI)",
+         "numberOfSubtestRequired": 2,
+         "abbr": "PSI"
+      },
+      {
+         "isSumScale": true,
+         "name": "Full Scale Intelligence Quotient (FSIQ)",
+         "numberOfSubtestRequired": 10,
+         "abbr": "FSIQ"
+      }
+   ],
+   "testType": "wais",
+   "title": "WISC-IV"
+}

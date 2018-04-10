@@ -1,0 +1,304 @@
+{
+  "subtestId": 80,
+  "subtestGUID": "b9f7a72b81108306e040a8c04201157d",
+  "title": "Coding",
+  "displayName": "Coding",
+  "abbr": "Coding",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": null,
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-iv/coding",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Processing Speed",
+    "averageDuration": 3,
+    "descriptionCS": "The child copies symbols that are paired with simple geometric shapes or numbers. Using a key, the child draws each symbol in its corresponding shape or box within a specified time limit."
+  },
+  "scoringScaleName": "Processing Speed Index (PSI)",
+  "scoringScaleAbbr": "PSI",
+  "isScaledScoreOptional": false,
+  "questions": 
+  [
+    {
+      "id": "wisciv-coding-sampleitems",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/coding/wisciv-coding-sampleitems",
+      "subtestName": "Coding",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Coding A: Sample Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child completes the sample items correctly, offer praise such&nbsp;as<span class=\"speechBlue\"> Yes<\u002fspan> or <span class=\"speechBlue\">Right<\u002fspan> and, finally, <span class=\"speechBlue\">Now you know how to do them.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child makes a mistake, correct the error immediately. Use the item to review the use of the key. Use explanations such as the following:<\u002fp>\r\n\r\n<p><span class=\"speechBlue\">You see, this is a cross<\u002fspan> (point to key)<span class=\"speechBlue\">,<\u002fspan> <span class=\"speechBlue\">and since it has a little circle in it you put the little circle in the cross here <\u002fspan>(point to sample item)<span class=\"speechBlue\">,<\u002fspan> or <span class=\"speechBlue\">This is a triangle <\u002fspan>(point to key) <span class=\"speechBlue\">and it has one line across in it<\u002fspan> (point to key)<span class=\"speechBlue\">,<\u002fspan> <span class=\"speechBlue\">so you put one line across in here<\u002fspan> (point to sample item)<span class=\"speechBlue\">.<\u002fspan><\u002fp>\r\n\r\n<p>Do not proceed with the test items until the child understands the task. &nbsp;If it is clear that the child will not be able to understand the task with further instruction, discontinue the subtest. &nbsp;<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/coding/wisciv-coding-sampleitems/wisciv-coding-sampleitemsPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "maxScore": 65,
+          "isCalculationRequired": false,
+          "useTimeAsRawScore": false,
+          "hasSetErrors": false,
+          "hasRotationErrors": false,
+          "hasScorePopover": false,
+          "useWordCountTitle": false
+        },
+        "superType": null,
+        "type": "manual"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-coding-testitemsa",
+      "shouldUseTimer": true,
+      "maxTime": 120,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/coding/wisciv-coding-testitemsa",
+      "subtestName": "Coding",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Coding A: Test Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/coding/wisciv-coding-testitemsa/wisciv-coding-testitemsaPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "maxScore": 59,
+          "isCalculationRequired": false,
+          "useTimeAsRawScore": false,
+          "hasSetErrors": false,
+          "hasRotationErrors": false,
+          "hasScorePopover": true,
+          "useWordCountTitle": false,
+          "timeBonusMinScore": 59,
+          "timeBonus": 
+          [
+            {
+              "startTime": 0,
+              "endTime": 85,
+              "bonusPoints": 6
+            },
+            {
+              "startTime": 86,
+              "endTime": 95,
+              "bonusPoints": 5
+            },
+            {
+              "startTime": 96,
+              "endTime": 100,
+              "bonusPoints": 4
+            },
+            {
+              "startTime": 101,
+              "endTime": 105,
+              "bonusPoints": 3
+            },
+            {
+              "startTime": 106,
+              "endTime": 110,
+              "bonusPoints": 2
+            },
+            {
+              "startTime": 111,
+              "endTime": 115,
+              "bonusPoints": 1
+            },
+            {
+              "startTime": 116,
+              "endTime": 120,
+              "bonusPoints": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "manual"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-coding-sampleitemsb",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/coding/wisciv-coding-sampleitemsb",
+      "subtestName": "Coding",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Coding B: Sample Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child completes the sample items correctly, offer praise such&nbsp;as<span class=\"speechBlue\"> Yes<\u002fspan> or <span class=\"speechBlue\">Right<\u002fspan> and, finally, <span class=\"speechBlue\">Now you know how to do them.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child makes a mistake on the sample items, correct the error immediately. Use the item to review the use of the key. Continue to help the child, if necessary, until the child correctly completes the sample items.&nbsp;Use explanations such as <span class=\"speechBlue\">You see, this is a 6. The 6 has this mark. So I draw that mark in the box<\u002fspan> (write the symbol)<span class=\"speechBlue\">.<\u002fspan><\u002fp>\r\n\r\n<div>Do not proceed with the test items until the child understands the task. &nbsp;If it is clear that the child will not be able to understand the task with further instruction, discontinue the subtest. &nbsp;<\u002fdiv>\r\n\r\n<div>&nbsp;<\u002fdiv>\r\n\r\n<div>&nbsp;<\u002fdiv>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/coding/wisciv-coding-sampleitemsb/wisciv-coding-sampleitemsbPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "maxScore": 119,
+          "isCalculationRequired": false,
+          "useTimeAsRawScore": false,
+          "hasSetErrors": false,
+          "hasRotationErrors": false,
+          "hasScorePopover": false,
+          "useWordCountTitle": false
+        },
+        "superType": null,
+        "type": "manual"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-coding-testitemsb",
+      "shouldUseTimer": true,
+      "maxTime": 120,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/coding/wisciv-coding-testitemsb",
+      "subtestName": "Coding",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Coding B: Test Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/coding/wisciv-coding-testitemsb/wisciv-coding-testitemsbPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "maxScore": 119,
+          "isCalculationRequired": false,
+          "useTimeAsRawScore": false,
+          "hasSetErrors": false,
+          "hasRotationErrors": false,
+          "hasScorePopover": false,
+          "useWordCountTitle": false
+        },
+        "superType": null,
+        "type": "manual"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "ageBasedSimpleSkipRules": 
+  [
+    {
+      "minAge": 6,
+      "maxAge": 7,
+      "itemsToSkip": 
+      [
+        "wisciv-coding-sampleitemsb",
+        "wisciv-coding-testitemsb"
+      ]
+    },
+    {
+      "minAge": 8,
+      "maxAge": 16,
+      "itemsToSkip": 
+      [
+        "wisciv-coding-sampleitems",
+        "wisciv-coding-testitemsa"
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

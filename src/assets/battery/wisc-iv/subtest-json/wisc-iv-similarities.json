@@ -1,0 +1,2932 @@
+{
+  "subtestId": 77,
+  "subtestGUID": "b9f7a33e1915eef5e040a8c042011539",
+  "title": "Similarities",
+  "displayName": "Similarities",
+  "abbr": "Similarities",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": null,
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-iv/similarities",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Verbal Comprehension",
+    "averageDuration": 8,
+    "descriptionCS": "The child is presented two words that represent common objects or concepts and describes how they are similar."
+  },
+  "scoringScaleName": "Verbal Comprehension Index (VCI)",
+  "scoringScaleAbbr": "VCI",
+  "isScaledScoreOptional": false,
+  "questions": 
+  [
+    {
+      "id": "wisciv-similarities-sampleitem",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-sampleitem",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Sample Item. Red-Blue",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response&nbsp;<\u002fstrong>[Any response with the word <em>colors<\u002fem>]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Let&rsquo;s try another one.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response&nbsp;<\u002fstrong>[Any response without the word <em>colors<\u002fem>&nbsp;or failure to respond]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Red and blue are both colors.&nbsp;<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-sampleitem/wisciv-similarities-sampleitemPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "sample",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "sample",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item1",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 1. Pen-Pencil",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Let&rsquo;s try another one.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>&dagger;Say,&nbsp;<span class=\"speechBlue\">A pen and a pencil are both things you write or draw with.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item1/wisciv-similarities-item1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Have (a pointed tip, erasers) ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Have (ink, lead) in them ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Same (shape, size); Straight; Long; Round",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Colors; Come in colors",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Things you (write, draw, color) with",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Writing utensils; Drawing tools",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(School, Office, Art) supplies",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "[Demonstrates writing]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item2",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 2. Milk-Water",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">Let&rsquo;s try another one.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>&dagger;Say, <span class=\"speechBlue\">Milk and water are both liquids or fluids, and you drink them.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item2/wisciv-similarities-item2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Wet; Have water ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "You can (pour, spill) them",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "In a (carton, jug)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Have vitamins",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "White; Cold",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Liquids; Fluids",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Good for you; Healthy; Nutritious",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Drinks; Beverages; Things you drink",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "[Demonstrates drinking]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item3",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 3. Apple-Banana",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item3/wisciv-similarities-item3Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Good for you",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Same color; Yellow",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Juicy; Chewy",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Round; Small; Soft",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Vegetables",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Food; Things you eat; Edible",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(Grow on, Come from) a tree",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Taste (good, sweet); Sweet",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Healthy; Nutritious; Have (minerals, vitamins)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Have (seeds, peels, skin)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Things you (peel, slice)\t\t",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Fruits",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item4",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 4. Shirt-Shoe",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item4/wisciv-similarities-item4Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Tie; Zip; Button",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Leather; Cloth; Made from fabric; Sewn",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Cost money; You buy them",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Soft; Same color",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Use them outside",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "[Points to shoes or shirt]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Dress ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Put them on; (Go on, Cover) your body",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Protect (you, your body); Keep you warm",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Fit on (your body, a person)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Clothes; Clothing; Apparel; Garments",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(Wear, Dress up in) them",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Part of your (dress, attire)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Part of a uniform",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item5",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 5. Butterfly-Bee",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item5/wisciv-similarities-item5Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(Like, Sit on, Stop on, Eat from) flowers",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(Make, Collect) honey",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "They sting",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Outside",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Animals; Creatures",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "They have wings; Things that fly",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Have (6 legs, segmented bodies)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(Come from, Live in) cocoons",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Collect (nectar, pollen); Pollinate flowers",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Have antennae",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Insects; Bugs",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item6",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 6. Cat-Mouse",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item6/wisciv-similarities-item6Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "House dwelling; Domestic; Live in a house",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Eat cheese; Steal food",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Same color; [Names any color]",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Play; You play with them",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Enemies; They (chase, hate) each other",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Pets; You pet them",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Have (whiskers, tails, fur) [Names a shared physical feature]",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Crawl; Run; Scratch [Names a shared behavior]",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Nocturnal; Can see in the dark; Active at night",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Both are small",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Mammals; Warm-blooded; Vertebrates",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Animals; Creatures; Animals with four legs",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Living things; Alive",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item7",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 7. Winter-Summer",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item7/wisciv-similarities-item7Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Parts of nature",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Vacations; Breaks",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Months",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Days; Weeks; Years",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Fun; Can go outside and play in them",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Have (clouds, sun, rain)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Windy; Cold",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(Times, Parts, Categories) of the year",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Weather; Change in weather; Climate",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Part of Spring, Summer, Winter, Fall [Must name all 4 seasons]",
+                  "triggersQuery": true
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Seasons; Seasons of the year",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Have solstices",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item8",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 8. Anger-Joy",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item8/wisciv-similarities-item8Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Something your mind controls ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Actions; Behaviors; Things you do",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(How, Ways) you are; Things you can be",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "You can have both; Can happen to you",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Signs; Looks",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Faces; Faces you make [Vague reference to face]",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Part of your (image, personality, temperament)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Parts of life",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Expressions; You can express both",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "How you feel; Ways you can feel",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Responses; Reactions; Attitudes",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Facial expressions; (Looks, Things that show) on your face",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Inside you",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Thoughts",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Emotions; Emotional (reactions, expressions, responses)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Feelings; (Signs, Expressions) of how you feel",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Moods; Mental states; The way you feel mentally",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item9",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 9. Elbow-Knee",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item9/wisciv-similarities-item9Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Move",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "They connect",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Bones",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Round; Curved; Pointed; Hard; Covered with skin",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Break; Get hurt; You can (hurt, fall on) both",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "You use them",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Help you bend; Bend; Bendable",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Body parts that connect bones",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Body parts that (move, are flexible)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Parts of limbs",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(Attached to, Part of) your body",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Have (sockets, ligaments, muscles, cartilage)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Bones that (connect, bend, move, hold together bones)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Help you move; Can move with them; Need both to move",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Jointed; Body parts with joints",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Body parts that (bend, flex); Places where you bend a limb",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Where your bones join up; Holds both parts of your arm or leg together; Middle part of a limb",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Work like (hinges, a ball-and-socket); Both pivot",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item10",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 10. Frown-Smile",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item10/wisciv-similarities-item10Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Movements; Actions; Acts",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Something you do; You make them",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "[Demonstrates frown and smile]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Faces; Looks on your (face, mouth)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Expressions; Reactions; Emotions; Feelings; Moods",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Body language; Gestures; Facial gestures",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "You make them when you are (sad and happy, upset and glad) ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "How you can tell if someone is (sad or happy, upset or glad)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Ways to shape your face; Face (movements, reactions, actions)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Facial expressions; Expressions you make with your (face, mouth, lips)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "How you show feelings with your (face, mouth, lips)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Show (emotions, moods, feelings); Signs of (emotions, moods, feelings)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Gestures to describe (feelings, emotions, moods)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Emotions you show physically",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item11",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 11. Painting-Statue",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item11/wisciv-similarities-item11Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Expressions; Feelings; Images",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "You (paint, draw, build) them",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Show (people, stories, figures, designs, decorations)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Collected; Bought; Antiques; Treasures",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Pictures; Drawings; Sculptures; Portraits",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Things you see; You can look at both",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Artistic; Creative",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Creations; Man-made; You make them",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(Forms, Types, Kinds) of expressions",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Express (ideas, emotions, feelings)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Symbols; Symbolic",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(Represent, Commemorate) something",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "In a museum; Could be masterpieces",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Artform; Artwork; (Works, Pieces, Kinds, Figures, Expressions) of art",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Artistic (expressions, depictions, creations); (Made, Created) by artists",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Art; Have to do with art",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Creative works",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item12",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 12. Lumber-Bricks",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item12/wisciv-similarities-item12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Construction",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Things you can use",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Hard; Heavy; Solid; Rough; Man-made; Strong; Stackable",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Natural products; Elements of the earth",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Materials; Resources; Supplies",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(Make, Build) things with them",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(For, Used in, Part of) buildings; Part of your house",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Things used to make a (house, building)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Used in construction; Building tools",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Parts of (foundations, walls, fences)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Construction (materials, supplies, products)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(Materials, Supplies, Products) used to build a house",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Materials you use to make a (building, structure, wall, fence)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item13",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 13. Poet-Painter",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item13/wisciv-similarities-item13Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Art; Have to do with art",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Show (feelings, emotions); Emotional",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Work with their (minds, hands); Put things on paper",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Inspire people ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Paint; Write; Use (utensils, pens, brushes)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Are famous people; Make lots of money",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Artistic; Talented; Creative; Imaginative; Expressive",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(Express, Illustrate, Convey) things; Convey their views",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Express (feelings, emotions) ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(Make, Design) things",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Make money from their art; Sell art",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Express themselves through art",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Artists; Masters of an art",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Create (art, artwork); Do creative things; Creators",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Jobs; Professions",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Make things that people (enjoy, appreciate)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item14",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 14. Mountain-Lake",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item14/wisciv-similarities-item14Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Places to (go, have fun, climb) ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Outside; In (forest, country, valley)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Have (rocks, snow, water, hills, animals)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Big; High; Wide",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Places on land; Part of the (earth, land, world)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Physical features",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Nature; Natural; Natural resources",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Land (masses, characteristics) ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "For (camping, recreation, vacation, tourists) ",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Land; Landmarks; On a map",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Scenery; Surroundings",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Formed by weather",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(Geographical, Topographical) features; Physical features of the (earth, world, land)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Landscapes; Land (features, formations)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Geography; Geographical (places, phenomena)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Part of the (terrain, earth's surface); Terrain",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Formed by (nature, glaciers, plate movement)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Part of (nature, the environment, the wilderness)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item15",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 15. Ice-Steam",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item15/wisciv-similarities-item15Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Wet; Moist ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Liquids",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Have temperature; Temperatures",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Can make each other",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Make (smoke, fog); Give off (mist, steam",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Water; Made of water; Created from water",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Temperature extremes ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Part of the water cycle ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(Forms, Phases, Stages) of matter",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Can become liquid",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Have chemicals in them",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(Stages, Phases) of water; Water in different (forms, states)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Water at extreme temperatures",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Physical changes in water",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item16",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 16. First-Last",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item16/wisciv-similarities-item16Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Places; Points ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "In a line",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Numerical order ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Have to do with (a name, time)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Numbers",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Competition; Race",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Show where (you are, something stands)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Get your turn",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Ends; At each end",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Rankings; Placements; Standings; Ratings",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Orders; Put things in order; Represent order",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "In a sequence; Have to do with a sequence",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Positions; Positions in a (race, game, contest)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Places in a (competition, sport, marathon, line)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Points in (time, a line, a race); Designated points",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "On a scale; Part of a number scale ",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Extremes; Extreme (placements, positions)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "End points; End points in a number sequence; Ends of (an order, a series, a line, a row)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Positions in a (series, sequence)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Exact opposite positions; Opposite places",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Part of a chronological sequence",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item17",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 17. Flood-Drought",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item17/wisciv-similarities-item17Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Related to water",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Tragedies; Problems; Bad conditions",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Harmful; Dangerous; Hazardous",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Seasonal; Come in a season; Seasons",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Affect (people, ground, nature, earth)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Have to do with (rain, precipitation); Related to (rain, precipitation)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(Problems, Accidents) involving (water, rain)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Weather (conditions, patterns); Related to (weather, climate)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Causes (devastation, disaster, destruction); Ruins (farming, crops)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(States, Conditions) of the land",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Extremes; They are too much of something",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Natural disasters; Natural disasters with water",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Severe weather; Weather tragedies",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Caused by (weather, nature, water)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Extreme forms of (weather, nature, water)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(Acts, Forces) of nature",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item18",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item18",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 18. Rubber-Paper",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item18/wisciv-similarities-item18Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Have many uses; Used in (school, an office) ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Can be (recycled, burned) ",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(School, Office) supplies; Tools; Utensils",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Rough; Smooth; Flexible; Thin",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Substances; Chemicals",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Materials; Physical materials; Materials you use ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "From wood",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Man made; Manufactured ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Used to make (things, products) ",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "By-products of trees; Tree products; Come from trees",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Products of natural resources; Made from nature; Taken from environment",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "By-products of plants",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item19",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item19",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 19. Salt-Water",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item19/wisciv-similarities-item19Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Elements; Chemicals; Minerals",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Resources; Substances; Materials",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Used for (hydration, crystallization) ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Organic (compounds, substances)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Dissolve; Can dissolve things",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "On the dinner table ",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Compounds; (Physical, Scientific) compounds ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Have (elements, molecules)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Consumed by people; Edible ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Good for our body",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Have (minerals, nutrients) ",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Natural substances; Made by nature",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Found in the ocean; Part of the sea",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Cooking materials; Used as ingredients",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Body perspires them",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Need them to live",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Chemical compounds",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Body needs them; Essential to body",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item20",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item20",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 20. Revenge-Forgiveness",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item20/wisciv-similarities-item20Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Types of resolutions",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Feelings; Emotions",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Thoughts; Attitudes; Expressions",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Have to do with you and another person",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Human traits",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(Results, Consequences, Outcomes) of being hurt",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Decisions; Choices; Options",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Ways of reacting; Reactions",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Acts; Actions ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Things you can (give, do) to someone",
+                  "triggersQuery": true
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(Choices you make, Things you can do) if someone does something bad to you",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Ways to (deal, cope) with problems; Solutions to problems",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Reactions to (anger, fighting, being hurt, bad things)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item21",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item21",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 21. Permission-Limitation",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item21/wisciv-similarities-item21Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(Parents, Teachers, Grownups) give them to you",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Something you are granted; Things given to you",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Needed for society",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Can’t have one without the other",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Things you (earn, ask for)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Things you (can, can’t) do",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Discipline measures",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Have to do with (authority, control)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Orders; Commands; Instructions; Directions",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Expectations of what you are to do; Set expectations",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Standards",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Have to do with (behavior, actions); Consequences of behavior",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Allow you to do things; Let you do stuff [Emphasis on permission]",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Restrictions; Restrain your activities; (Set, Put) limits [Emphasis on limitation]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Methods of control; Ways to control behavior",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Set ranges for (what you can do, how we behave)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Boundaries; Guidelines; Parameters",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Rules; Laws; Regulations; Levels of freedom",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Conditions of (approval, authorization, allowance)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item22",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item22",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 22. Reality-Dream",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item22/wisciv-similarities-item22Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Seem (real, true, factual, false, fictitious) ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Affect your life; Involve your future",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Boring; Exciting; Scary",
+                  "triggersQuery": true
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "In your (brain, head, mind); Deal with your (brain, head, mind)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Forms of thought",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Thoughts; Ideas; Feelings; Visions",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(Experienced, Visualized) by people",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(Picture, See, Experience) yourself in both",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "You can live in both; Ways you can live",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Places we can be; States of where you are",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(States, Levels) of consciousness; Levels of awareness",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(States, Frames) of mind; (Mental, Psychic) states",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Ways of (perceiving, viewing) the world; Ways we can see things",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Mind sets",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-similarities-item23",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/similarities/wisciv-similarities-item23",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 23. Space-Time",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/similarities/wisciv-similarities-item23/wisciv-similarities-item23Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Inevitable; Constant",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Uncontrollable; Something we cannot change",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Move; Involved in movement ",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "(Use, Take up, Fill) both",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Forces; Matter",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Part of (science, physics)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "In the universe; Natural wonders",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Unknown; Undiscovered",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Fly through both",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Big; Small; Fast; Long",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Measured; Measurement",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Affected by (gravity, relativity, mass)",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Infinite; Neither are absolute",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Limited; Things you run out of",
+                  "triggersQuery": true
+                },
+                {
+                  "text": "Abstract; Not physical; Can’t be seen or touched",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(Move, Travel) through both",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Settings",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Dimensions; Part of a continuum",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Things we are limited by",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Make up our existence",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 5,
+    "description": "This subtest discontinues after 5 consecutive scores of 0 points.",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 9,
+      "maxAge": 11,
+      "skipFromQuestionID": "wisciv-similarities-item1",
+      "skipToQuestionID": "wisciv-similarities-item3",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 12,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisciv-similarities-item1",
+      "skipToQuestionID": "wisciv-similarities-item5",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    },
+    {
+      "name": "Q",
+      "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+      "abbreviation": "Q"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

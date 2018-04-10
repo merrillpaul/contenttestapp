@@ -1,0 +1,4111 @@
+{
+  "subtestId": 86,
+  "subtestGUID": "b9f7ae0f2c46e96de040a8c042011657",
+  "title": "Picture Completion",
+  "displayName": "Picture Completion",
+  "abbr": "Picture Completion",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": null,
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-iv/picture_completion",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Perceptual Reasoning",
+    "averageDuration": 10,
+    "descriptionCS": "The child views a picture and then points to or names the important part missing within a specified time limit."
+  },
+  "scoringScaleName": "Perceptual Reasoning Index (PRI)",
+  "scoringScaleAbbr": "PRI",
+  "isScaledScoreOptional": true,
+  "questions": 
+  [
+    {
+      "id": "wisciv-picturecompletion-sample",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-sample",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Sample Item. Pencil",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong>&nbsp;[Lead; Point; Tip of pencil]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">That&rsquo;s right. The <\u002fspan>[<em>insert child&rsquo;s response<\u002fem>] <span class=\"speechBlue\">is missing.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Point to the place where the lead is missing and say,&nbsp;<span class=\"speechBlue\">You see, the lead is missing.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-sample/wisciv-picturecompletion-samplePrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Lead",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Point",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Tip of pencil",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item1",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item1",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "†Item 1. Jacket",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item1/wisciv-picturecompletion-item1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Sleeve",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Arm",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Arm piece",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "†Teaching",
+          "guid": "002e803ed1154e2c856ddab325125e86",
+          "abbreviation": "tc",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item2",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item2",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "†Item 2. Fox",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item2/wisciv-picturecompletion-item2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Ear",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "†Teaching",
+          "guid": "138f96cbf3674546b9c504d6ebefdd86",
+          "abbreviation": "tc",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item3",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item3",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 3. Hand",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Fingernails [plural]",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Finger",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Fingernail",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Nail",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Finger tip",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Fingernail polish",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item4",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item4",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 4. Cat",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Beard",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Mustache",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Hairs",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Whiskers",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly  (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item5",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item5",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 5. Bell",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Ball",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Circle thing",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Metal part",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Bell",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Handle",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Middle part",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Ringer",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Clacker",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Dinger",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Thing that makes it ring",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Ball (that hangs down, in the middle)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Inside of bell",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Gong",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item6",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item6",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 6. Jump",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Tie",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Bow tie",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Button",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Bow",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Clip",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Barrette",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Ribbon",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(Ponytail, Braid, Hair) thing",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Rubber band",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "String",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item7",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item7",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 7. Mirror",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "The doll",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Doll in girl's hand",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Baby doll in mirror",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Doll's reflection",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Doll in picture",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item8",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item8",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 8. Man",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Watch",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "[Points to own watch]",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Strap",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Band",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Wristband",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Thing that holds on the watch",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Watch buckle",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Part of the watch",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item9",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item9",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 9. Door",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Metal part",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Screws",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Gold thing",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Bolt",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Latch",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Knob",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Lock",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Hinge",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Thing that lets the door open",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item10",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item10",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 10. Leaf",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Patterns",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Ridges",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Marks",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Cracks",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Lines",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Ripples",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Stripes",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Scales",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Things on leaf",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Veins",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Things that carry water",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item11",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item11",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 11. Ladder",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Ladder",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Foot stool",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Legs",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Board",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Row",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Step",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Stair",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Rung",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item12",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item12",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 12. Dresser",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Peg",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Bar",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX) \t",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Handle",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Knob",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Pull thing",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Button",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Handlebar",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item13",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item13",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 13. Belt",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Dots ",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Markings",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Circles",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Things around the belt",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Belt lines",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Buttons",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)\t",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Holes",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Notches",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Dots that the belt goes through",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item14",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item14",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 14. Clock",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "1",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "The numbers are wrong",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "1 in 11",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "11 is missing 1",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "1 instead of 11",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Supposed to be two 1s",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item15",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item15",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 15. Face",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Eyebrows",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Makeup",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Piece of eyebrow",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Eyelashes",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Lashes",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Hair on eyelids",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Things on top of her eye",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Eye makeup",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item16",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item16",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 16. Dice",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "6",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Dot",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Dot in the wrong place",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Part of the dice",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Number on the dice",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)\t",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Sixth dot",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(Dot, Hole, Circle, Mark, Indent) for 6",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Only five dots on the 6",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item17",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item17",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 17. Bulb",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Circuit",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Connection",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "String",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Line",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "(Fuzzy, Curly, Spiral) thing",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Part where electricity goes",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Thing that lights up",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "It's not connected",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Filament",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Connecting Wire",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Spring",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Coil",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Electrode",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Squiggly thing that lights up",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Thing inside that makes it light up",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item18",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item18",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 18. Soccer",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Soccer ball",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Ball",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "He's not wearing the same on his shirt",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Soccer ball on (uniform, jersey, shirt, chest)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(Symbol, Logo, Design, Print) on shirt",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Soccer symbol",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item19",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item19",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 19. Bike",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Line",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Mark",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Shadow of bike ",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Treads",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Ridges",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Water",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Puddle",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Trail",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Track",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Water (line, mark)",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item20",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item20",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 20. Tree",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Lines",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Ripples",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Stripes",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Design",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Trunk",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Ridges",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Rings",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Age (rings, lines, marks, circles)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Circles",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Swirls",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(Round, Spiral) things",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Tree bands",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Lines in the tree",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item21",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item21",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 21. Scissors",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Part",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Hole",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Round thing",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Button",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Clip",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Screw",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Bolt",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Fastener",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Pin",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Nail",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Knob",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Nut",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Rivet",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Hinge",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Peg",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Nothing holding them together",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item22",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item22",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 22. Bridge",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Squiggles",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Waves",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Ripples",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Whitecaps",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Rapids",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Current",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "River's splash marks",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Rushing water",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Water's not moving",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Calm on one side",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "It's rough here but not here",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item23",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item23",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 23. Whistle",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Space on top",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Square thing",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Thing that makes it blow ",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Ball inside",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Opening",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Slot",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Hole",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Air space",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Thing that's cut out",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Part for wind",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item24",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item24",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 24. Band",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Lines on guitar",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Cord",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Wire",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)\t",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Guitar strings",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Strings",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Cords for guy on right",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item25",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item25",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 25. Pig",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Nose",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Snout",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Nostrils",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(Snout, Nose, Air) holes",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Holes",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Circles for nose",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Things to breathe",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item26",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item26",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 26. Bathtub",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Circle at the bottom",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)\t",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Drain",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Hole",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Place where the water goes out",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Plug",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Stopper",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item27",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item27",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 27. Bicycle",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Gear thing",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Wires that go on bike",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Cable",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Thing that makes bike move",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Black thing that goes around",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Chain",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item28",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item28",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 28. Thermometer",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Mercury",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Red",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Bottom place",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Thing on end is not colored",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Filled in red",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(Red, Alcohol) in the (bulb, ball, circle, dot)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Mercury at the bottom",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Liquid in the base",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Stuff in the bottom",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item29",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item29",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "*Item 29. Orange",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Seeds*",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "(All, Three, Two) put together",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Line",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Slice",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Spaces",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Membrane",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "White stuff",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Spoke",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Cut",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(Sector, Segment, Section) line",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Divider",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Separator",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Mark that splits it",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Section",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Segment",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Vein",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "7d6c2b7fa14240a68eb87eb24b125c61",
+          "abbreviation": "sd",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item30",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item30",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 30. Goldfish",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Lines",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Openings",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Neck things",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Gills",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Holes for it to breathe",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Lungs",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Things on side for it to breathe",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item31",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item31",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 31. Trellis",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Board",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Plank",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Stick",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Bar",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Piece of wood",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Part of fence",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Line",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Strip",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "One of the crossings",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)\t",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(Board, Slot, Strip, Piece) of the lattice",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Diagonal board",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Weave of fence",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item32",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item32",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 32. Market",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Names",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Words",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Signs",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Papers",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Stickers",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Don't have circles",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Cans are wrong",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Labels",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Covers",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Wrappers",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(Papers, Coverings, Stickers, Signs, Peel things) on cans",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Cans are plain tin",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item33",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item33",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 33. Profile",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Thing above his eye",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Eye",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Eyelash",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Eyebrow",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item34",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item34",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 34. Umbrella",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Wire",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Pole",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Arm",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Bar",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Prong",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Rod",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Metal part",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Connecting thing",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Bracket",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Rib",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Spoke",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Support wire",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Thing that (keeps it open, holds it up)",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item35",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item35",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 35. Water",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Water going up",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Water is calm",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Wake",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Waves",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Splash",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Current",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Trail",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Water shooting out from boat",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "The motor is not working",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item36",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item36",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 36. House",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Shadow",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Shade",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Shadow of tree",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Shade under tree",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item37",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item37",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 37. Family",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Buckle",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Clasp",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Clip",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Clamp",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Fastener",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Hook",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Latch",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Button",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Buckle on pants",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Suspender (buckle, clasp, clip, clamp, hook, fastener, latch, button)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Thing that holds up his overalls",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Part of suspenders",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-picturecompletion-item38",
+      "shouldUseTimer": true,
+      "maxTime": 20,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_completion/wisciv-picturecompletion-item38",
+      "subtestName": "Picture Completion",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": true,
+      "title": "Item 38. Shoe",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_completion/items_3-38Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Hole",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Loop",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                },
+                {
+                  "text": "Ring",
+                  "triggersQuery": false,
+                  "triggersShowMe": true
+                }
+              ],
+              "answersExplanation": "Points Incorrectly (PX)",
+              "answerGroupLabel": ""
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Eyelet",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Eye hole",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Shoelace hole",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Rim of lace hole",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Circle around lace",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Metal around hole",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Hole liner",
+                  "triggersQuery": false
+                }
+              ],
+              "answersExplanation": "Points Correctly (PC)",
+              "answerGroupLabel": "Correct verbal response, points correctly, or vague response + points correctly"
+            }
+          ],
+          "labels": {
+            "sharedCategoryLabel": "",
+            "othersLabel": "Samples"
+          }
+        },
+        "superType": null,
+        "type": "conceptList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 6,
+    "description": "This subtest discontinues after 6 consecutive scores of 0 points.",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 9,
+      "maxAge": 11,
+      "skipFromQuestionID": "wisciv-picturecompletion-item1",
+      "skipToQuestionID": "wisciv-picturecompletion-item5",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 12,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisciv-picturecompletion-item1",
+      "skipToQuestionID": "wisciv-picturecompletion-item10",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "Show Me",
+      "guid": "9b81012357fd4c4682b1998f880cfc57",
+      "abbreviation": "sm",
+      "isShowMe": true,
+      "isPopover": true
+    },
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

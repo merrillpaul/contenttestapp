@@ -1,0 +1,437 @@
+{
+  "subtestId": 801,
+  "subtestGUID": "89b83ae095684c72beab2b3a2365be00",
+  "title": "Object Naming Facility",
+  "displayName": "Object Naming Facility",
+  "abbr": "onf",
+  "testType": "ktea3",
+  "testTitle": "KTEA-3",
+  "testDisplayName": "KTEA-3 Form A",
+  "normType": "ktea-3a",
+  "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+  "subtestType": "ObjectNamingFacility",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/ktea-3/object_naming_facility",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "RequireGradeAndTermRule": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 25,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Language Processing",
+    "averageDuration": 3,
+    "minGradeLevel": 0,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee names pictured objects as quickly as possible."
+  },
+  "questions": 
+  [
+    {
+      "id": "ktea3-objectnamingfacility-practice",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ktea-3/object_naming_facility/ktea3-objectnamingfacility-practice",
+      "subtestName": "Object Naming Facility",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "†Practice Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ktea-3/object_naming_facility/ktea3-objectnamingfacility-practice/ktea3-objectnamingfacility-practicePrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "words": 
+          [
+            {
+              "label": "book"
+            },
+            {
+              "label": "bird"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "cat"
+            },
+            {
+              "label": "cup"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "cat"
+            },
+            {
+              "label": "cup"
+            },
+            {
+              "label": "book"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "bird"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "ObjectNamingFacility"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "ktea3-objectnamingfacility-trial1",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ktea-3/object_naming_facility/ktea3-objectnamingfacility-trial1",
+      "subtestName": "Object Naming Facility",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Trial 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ktea-3/object_naming_facility/ktea3-objectnamingfacility-trial1/ktea3-objectnamingfacility-trial1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "words": 
+          [
+            {
+              "label": "cat"
+            },
+            {
+              "label": "cup"
+            },
+            {
+              "label": "book"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "bird"
+            },
+            {
+              "label": "cat"
+            },
+            {
+              "label": "book"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "bird"
+            },
+            {
+              "label": "cat"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "cup"
+            },
+            {
+              "label": "bird"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "cat"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "book"
+            },
+            {
+              "label": "cup"
+            },
+            {
+              "label": "bird"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "bird"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "cup"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "cat"
+            },
+            {
+              "label": "book"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "book"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "cup"
+            },
+            {
+              "label": "bird"
+            },
+            {
+              "label": "cat"
+            },
+            {
+              "label": "book"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "ObjectNamingFacility"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "ktea3-objectnamingfacility-trial2",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ktea-3/object_naming_facility/ktea3-objectnamingfacility-trial2",
+      "subtestName": "Object Naming Facility",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Trial 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ktea-3/object_naming_facility/ktea3-objectnamingfacility-trial2/ktea3-objectnamingfacility-trial2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "words": 
+          [
+            {
+              "label": "cup"
+            },
+            {
+              "label": "book"
+            },
+            {
+              "label": "cat"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "bird"
+            },
+            {
+              "label": "cat"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "cat"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "bird"
+            },
+            {
+              "label": "book"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "cup"
+            },
+            {
+              "label": "book"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "cat"
+            },
+            {
+              "label": "cup"
+            },
+            {
+              "label": "book"
+            },
+            {
+              "label": "bird"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "bird"
+            },
+            {
+              "label": "book"
+            },
+            {
+              "label": "cup"
+            },
+            {
+              "label": "cat"
+            },
+            {
+              "label": "bird"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "cup"
+            },
+            {
+              "label": "bird"
+            },
+            {
+              "label": "book"
+            },
+            {
+              "label": "key"
+            },
+            {
+              "label": "ball"
+            },
+            {
+              "label": "cat"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "ObjectNamingFacility"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

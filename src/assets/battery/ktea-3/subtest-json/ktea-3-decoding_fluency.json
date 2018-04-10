@@ -1,0 +1,581 @@
+{
+  "subtestId": 798,
+  "subtestGUID": "16018d0bab5f4f1bb102b685298e4e94",
+  "title": "Decoding Fluency",
+  "displayName": "Decoding Fluency",
+  "abbr": "df",
+  "testType": "ktea3",
+  "testTitle": "KTEA-3",
+  "testDisplayName": "KTEA-3 Form A",
+  "normType": "ktea-3a",
+  "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+  "subtestType": "ktea3",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/ktea-3/decoding_fluency",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "RequireGradeAndTermRule": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 8,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 25,
+          "month": 11
+        }
+      },
+      {
+        "type": "mustFollow",
+        "data": 
+        [
+          {
+            "subtestGUID": "f2739e00f9a64224afab9bde2265f3d8",
+            "subtestName": "Nonsense Word Decoding",
+            "immediatelyFollowSubtest": false,
+            "requiredToFollow": true
+          }
+        ]
+      }
+    ],
+    "subtestCategory": "Reading Fluency",
+    "averageDuration": 1,
+    "minGradeLevel": 4,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee reads a list of nonsense words aloud as quickly as possible during two 15-second trials."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Items",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "ktea-3-df-seta-trial1",
+          "shouldUseTimer": true,
+          "maxTime": 15,
+          "warningTime": 5,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/decoding_fluency/ktea-3-df-seta-trial1",
+          "subtestName": "Decoding Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Trial 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/ktea-3/decoding_fluency/ktea-3-df-seta-trial1/ktea-3-df-seta-trial1Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "ip",
+                  "syllables": 
+                  [
+                    "ih p"
+                  ]
+                },
+                {
+                  "label": "vo",
+                  "syllables": 
+                  [
+                    "v oh"
+                  ]
+                },
+                {
+                  "label": "lem",
+                  "syllables": 
+                  [
+                    "l em"
+                  ]
+                },
+                {
+                  "label": "zad",
+                  "syllables": 
+                  [
+                    "z a d"
+                  ]
+                },
+                {
+                  "label": "trem",
+                  "syllables": 
+                  [
+                    "t r e m"
+                  ]
+                },
+                {
+                  "label": "snue",
+                  "syllables": 
+                  [
+                    "s n oo"
+                  ]
+                },
+                {
+                  "label": "miffel",
+                  "syllables": 
+                  [
+                    "MIF ful"
+                  ]
+                },
+                {
+                  "label": "streeve",
+                  "syllables": 
+                  [
+                    "s t r ee v"
+                  ]
+                },
+                {
+                  "label": "clube",
+                  "syllables": 
+                  [
+                    "c l oo b"
+                  ]
+                },
+                {
+                  "label": "bimmest",
+                  "syllables": 
+                  [
+                    "BIM ist"
+                  ]
+                },
+                {
+                  "label": "crame",
+                  "syllables": 
+                  [
+                    "k r ay m"
+                  ]
+                },
+                {
+                  "label": "blirping",
+                  "syllables": 
+                  [
+                    "BLURP ing"
+                  ]
+                },
+                {
+                  "label": "twaul",
+                  "syllables": 
+                  [
+                    "t w ah l",
+                    "t w aw l"
+                  ]
+                },
+                {
+                  "label": "explairing",
+                  "syllables": 
+                  [
+                    "ek SPLAIR ing"
+                  ]
+                },
+                {
+                  "label": "adrounded",
+                  "syllables": 
+                  [
+                    "ud ROUN did"
+                  ]
+                },
+                {
+                  "label": "frimb",
+                  "syllables": 
+                  [
+                    "f r i m"
+                  ]
+                },
+                {
+                  "label": "slortion",
+                  "syllables": 
+                  [
+                    "SLOR shun"
+                  ]
+                },
+                {
+                  "label": "knend",
+                  "syllables": 
+                  [
+                    "n e n d"
+                  ]
+                },
+                {
+                  "label": "snertation",
+                  "syllables": 
+                  [
+                    "snur TAY shun"
+                  ]
+                },
+                {
+                  "label": "clarimn",
+                  "syllables": 
+                  [
+                    "CLAIR im"
+                  ]
+                },
+                {
+                  "label": "thastleness",
+                  "syllables": 
+                  [
+                    "THASS ul nis"
+                  ]
+                },
+                {
+                  "label": "pneusen",
+                  "syllables": 
+                  [
+                    "NEW sin"
+                  ]
+                },
+                {
+                  "label": "wrescheous",
+                  "syllables": 
+                  [
+                    "RESH us",
+                    "RESH ee us"
+                  ]
+                },
+                {
+                  "label": "knecrid",
+                  "syllables": 
+                  [
+                    "NEK rid"
+                  ]
+                },
+                {
+                  "label": "famisaic",
+                  "syllables": 
+                  [
+                    "fam ih SAY ik",
+                    "fam ih ZAY ik"
+                  ]
+                },
+                {
+                  "label": "ropitial",
+                  "syllables": 
+                  [
+                    "roh PISH ul",
+                    "roh PISH ee ul"
+                  ]
+                },
+                {
+                  "label": "maignment",
+                  "syllables": 
+                  [
+                    "MAIN ment"
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "DecodingFluency"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea-3-df-seta-trial2",
+          "shouldUseTimer": true,
+          "maxTime": 15,
+          "warningTime": 5,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/decoding_fluency/ktea-3-df-seta-trial2",
+          "subtestName": "Decoding Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Trial 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/ktea-3/decoding_fluency/ktea-3-df-seta-trial2/ktea-3-df-seta-trial2Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "ib",
+                  "syllables": 
+                  [
+                    "ih b"
+                  ]
+                },
+                {
+                  "label": "yed",
+                  "syllables": 
+                  [
+                    "y e d"
+                  ]
+                },
+                {
+                  "label": "mip",
+                  "syllables": 
+                  [
+                    "m ih p"
+                  ]
+                },
+                {
+                  "label": "pog",
+                  "syllables": 
+                  [
+                    "p ah g",
+                    "p aw g"
+                  ]
+                },
+                {
+                  "label": "jull",
+                  "syllables": 
+                  [
+                    "j uh l"
+                  ]
+                },
+                {
+                  "label": "frop",
+                  "syllables": 
+                  [
+                    "f r ah p"
+                  ]
+                },
+                {
+                  "label": "zast",
+                  "syllables": 
+                  [
+                    "z a s t"
+                  ]
+                },
+                {
+                  "label": "frake",
+                  "syllables": 
+                  [
+                    "f r ay k"
+                  ]
+                },
+                {
+                  "label": "vapt",
+                  "syllables": 
+                  [
+                    "v a p t"
+                  ]
+                },
+                {
+                  "label": "quind",
+                  "syllables": 
+                  [
+                    "k w i n d"
+                  ]
+                },
+                {
+                  "label": "sprewful",
+                  "syllables": 
+                  [
+                    "SPROO ful"
+                  ]
+                },
+                {
+                  "label": "gobe",
+                  "syllables": 
+                  [
+                    "g oh b"
+                  ]
+                },
+                {
+                  "label": "squain",
+                  "syllables": 
+                  [
+                    "s k w ay n"
+                  ]
+                },
+                {
+                  "label": "glaining",
+                  "syllables": 
+                  [
+                    "GLAY ning"
+                  ]
+                },
+                {
+                  "label": "maystrum",
+                  "syllables": 
+                  [
+                    "MAY strum"
+                  ]
+                },
+                {
+                  "label": "conwrumple",
+                  "syllables": 
+                  [
+                    "con RUM pul"
+                  ]
+                },
+                {
+                  "label": "impannerous",
+                  "syllables": 
+                  [
+                    "im PAN ur us"
+                  ]
+                },
+                {
+                  "label": "gnutch",
+                  "syllables": 
+                  [
+                    "n u ch"
+                  ]
+                },
+                {
+                  "label": "etwirping",
+                  "syllables": 
+                  [
+                    "et WUR ping"
+                  ]
+                },
+                {
+                  "label": "psawn",
+                  "syllables": 
+                  [
+                    "s aw n"
+                  ]
+                },
+                {
+                  "label": "unshey",
+                  "syllables": 
+                  [
+                    "un SHAY"
+                  ]
+                },
+                {
+                  "label": "aberescent",
+                  "syllables": 
+                  [
+                    "ab ur ES ent"
+                  ]
+                },
+                {
+                  "label": "diappoy",
+                  "syllables": 
+                  [
+                    "DYE uh poy"
+                  ]
+                },
+                {
+                  "label": "glirpuitous",
+                  "syllables": 
+                  [
+                    "glur POO uh tus",
+                    "glur PYOO uh tus"
+                  ]
+                },
+                {
+                  "label": "antibimescent",
+                  "syllables": 
+                  [
+                    "an tye bim ES ent",
+                    "an tih bim ES ent"
+                  ]
+                },
+                {
+                  "label": "meislefim",
+                  "syllables": 
+                  [
+                    "MEE zul fim",
+                    "MEE sul fim"
+                  ]
+                },
+                {
+                  "label": "cyrileuchre",
+                  "syllables": 
+                  [
+                    "suh RIL yoo kur"
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "DecodingFluency"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            }
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    }
+  ],
+  "observations": 
+  [
+    {
+      "guid": "37b4098eca8a43818cec9483e32c41c7",
+      "type": "Selection",
+      "label": "Performance was generally slow and accurate",
+      "isFirstInGroup": true
+    },
+    {
+      "guid": "86d8ccb617dc4c03a0a8a1ecefe439a4",
+      "type": "Selection",
+      "label": "Performance was generally slow and inaccurate"
+    },
+    {
+      "guid": "4c5a4ffafa2d4c61a943c3673e108de7",
+      "type": "Selection",
+      "label": "Performance was generally fast and inaccurate"
+    },
+    {
+      "guid": "a2029b6c53ce411db938f6d173b6e001",
+      "type": "Selection",
+      "label": "Was slow to orient to the first word in each line of words"
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

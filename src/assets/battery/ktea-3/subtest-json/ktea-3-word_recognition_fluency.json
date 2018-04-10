@@ -1,0 +1,1198 @@
+{
+  "subtestId": 787,
+  "subtestGUID": "12dbd0c82bdd4c8a96bfc817e8c297c9",
+  "title": "Word Recognition Fluency",
+  "displayName": "Word Recognition Fluency",
+  "abbr": "wrf",
+  "testType": "ktea3",
+  "testTitle": "KTEA-3",
+  "testDisplayName": "KTEA-3 Form A",
+  "normType": "ktea-3a",
+  "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+  "subtestType": "ktea3",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/ktea-3/word_recognition_fluency",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "WordRecognitionFluencyBasalRule": true,
+  "WordRecognitionFluencyBasalRuleRequiredScore": 3,
+  "RequireGradeAndTermRule": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 25,
+          "month": 11
+        }
+      },
+      {
+        "type": "mustFollow",
+        "data": 
+        [
+          {
+            "subtestGUID": "5d46c925327b48168bd238a0e0f1bf4f",
+            "subtestName": "Letter & Word Recognition",
+            "immediatelyFollowSubtest": false,
+            "requiredToFollow": true
+          }
+        ]
+      }
+    ],
+    "subtestCategory": "Reading Fluency",
+    "averageDuration": 2,
+    "minGradeLevel": 2,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee reads a list of words aloud as quickly as possible during two 15-second trials."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Set A",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "ktea3-wordrecognitionfluency-seta-trial1",
+          "shouldUseTimer": true,
+          "maxTime": 15,
+          "warningTime": 5,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/word_recognition_fluency/ktea3-wordrecognitionfluency-seta-trial1",
+          "subtestName": "Word Recognition Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Set A, Trial 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/ktea-3/word_recognition_fluency/ktea3-wordrecognitionfluency-seta-trial1/ktea3-wordrecognitionfluency-seta-trial1Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "cat",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "but",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "hen",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "bit",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "pot",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "the",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "you",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "hop",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "all",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "us",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "make",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "will",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "say",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "him",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "fall",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "play",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "bed",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "my",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "did",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "get",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "look",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "this",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "some",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "love",
+                  "syllables": 
+                  [
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "WordRecognitionFluency"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3-wordrecognitionfluency-seta-trial2",
+          "shouldUseTimer": true,
+          "maxTime": 15,
+          "warningTime": 5,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/word_recognition_fluency/ktea3-wordrecognitionfluency-seta-trial2",
+          "subtestName": "Word Recognition Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Set A, Trial 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/ktea-3/word_recognition_fluency/ktea3-wordrecognitionfluency-seta-trial2/ktea3-wordrecognitionfluency-seta-trial2Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "go",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "fan",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "at",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "in",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "cut",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "run",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "see",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "no",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "bag",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "to",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "it",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "net",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "car",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "tap",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "girl",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "sun",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "be",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "or",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "we",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "baby",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "out",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "was",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "jump",
+                  "syllables": 
+                  [
+                  ]
+                },
+                {
+                  "label": "want",
+                  "syllables": 
+                  [
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "WordRecognitionFluency"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            }
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Set B",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "ktea3-wordrecognitionfluency-setb-trial1",
+          "shouldUseTimer": true,
+          "maxTime": 15,
+          "warningTime": 5,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/word_recognition_fluency/ktea3-wordrecognitionfluency-setb-trial1",
+          "subtestName": "Word Recognition Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Set B, Trial 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/ktea-3/word_recognition_fluency/ktea3-wordrecognitionfluency-setb-trial1/ktea3-wordrecognitionfluency-setb-trial1Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "and",
+                  "syllables": 
+                  [
+                    "a n d"
+                  ]
+                },
+                {
+                  "label": "he",
+                  "syllables": 
+                  [
+                    "h ee"
+                  ]
+                },
+                {
+                  "label": "this",
+                  "syllables": 
+                  [
+                    "th i s"
+                  ]
+                },
+                {
+                  "label": "have",
+                  "syllables": 
+                  [
+                    "h a v"
+                  ]
+                },
+                {
+                  "label": "very",
+                  "syllables": 
+                  [
+                    "v air ee"
+                  ]
+                },
+                {
+                  "label": "table",
+                  "syllables": 
+                  [
+                    "TAY bul"
+                  ]
+                },
+                {
+                  "label": "poke",
+                  "syllables": 
+                  [
+                    "p oh k"
+                  ]
+                },
+                {
+                  "label": "toothpaste",
+                  "syllables": 
+                  [
+                    "TOOTH payst"
+                  ]
+                },
+                {
+                  "label": "fifteen",
+                  "syllables": 
+                  [
+                    "fif TEEN"
+                  ]
+                },
+                {
+                  "label": "sure",
+                  "syllables": 
+                  [
+                    "sh ur"
+                  ]
+                },
+                {
+                  "label": "hours",
+                  "syllables": 
+                  [
+                    "OU urz"
+                  ]
+                },
+                {
+                  "label": "leftovers",
+                  "syllables": 
+                  [
+                    "LEFT oh vurz"
+                  ]
+                },
+                {
+                  "label": "magazine",
+                  "syllables": 
+                  [
+                    "MAG uh zeen"
+                  ]
+                },
+                {
+                  "label": "tongue",
+                  "syllables": 
+                  [
+                    "t uh ng"
+                  ]
+                },
+                {
+                  "label": "pleasure",
+                  "syllables": 
+                  [
+                    "PLEZH ur"
+                  ]
+                },
+                {
+                  "label": "comfortable",
+                  "syllables": 
+                  [
+                    "KUMF tur bul ",
+                    "KUM fer tuh bul"
+                  ]
+                },
+                {
+                  "label": "laboratory",
+                  "syllables": 
+                  [
+                    "LAB ruh tor ee / LAB ur uh tor ee ",
+                    "luh BOR uh tor ee"
+                  ]
+                },
+                {
+                  "label": "wilderness",
+                  "syllables": 
+                  [
+                    "WIL dur nis"
+                  ]
+                },
+                {
+                  "label": "forfeit",
+                  "syllables": 
+                  [
+                    "FOR fit"
+                  ]
+                },
+                {
+                  "label": "reservation",
+                  "syllables": 
+                  [
+                    "rez ur VAY shun"
+                  ]
+                },
+                {
+                  "label": "pigeon",
+                  "syllables": 
+                  [
+                    "PIJ un"
+                  ]
+                },
+                {
+                  "label": "bulged",
+                  "syllables": 
+                  [
+                    "b uh l j d"
+                  ]
+                },
+                {
+                  "label": "hypocrite",
+                  "syllables": 
+                  [
+                    "HIP uh krit"
+                  ]
+                },
+                {
+                  "label": "geyser",
+                  "syllables": 
+                  [
+                    "GYE zur",
+                    "GEE zur"
+                  ]
+                },
+                {
+                  "label": "prestige",
+                  "syllables": 
+                  [
+                    "press TEEZH ",
+                    "press TEEJ"
+                  ]
+                },
+                {
+                  "label": "perseverance",
+                  "syllables": 
+                  [
+                    "PUR suh VEER unts"
+                  ]
+                },
+                {
+                  "label": "renowned",
+                  "syllables": 
+                  [
+                    "rih NOWND"
+                  ]
+                },
+                {
+                  "label": "naive",
+                  "syllables": 
+                  [
+                    "nye EEV"
+                  ]
+                },
+                {
+                  "label": "officious",
+                  "syllables": 
+                  [
+                    "uh FISH us"
+                  ]
+                },
+                {
+                  "label": "perpetuate",
+                  "syllables": 
+                  [
+                    "per PEH choo ate"
+                  ]
+                },
+                {
+                  "label": "mediocre",
+                  "syllables": 
+                  [
+                    "MEE dee OH kur"
+                  ]
+                },
+                {
+                  "label": "prodigal",
+                  "syllables": 
+                  [
+                    "PROD uh gul"
+                  ]
+                },
+                {
+                  "label": "cordial",
+                  "syllables": 
+                  [
+                    "KOR jul"
+                  ]
+                },
+                {
+                  "label": "viscid",
+                  "syllables": 
+                  [
+                    "VIS id"
+                  ]
+                },
+                {
+                  "label": "nugatory",
+                  "syllables": 
+                  [
+                    "NOO guh tor ee"
+                  ]
+                },
+                {
+                  "label": "unctuous",
+                  "syllables": 
+                  [
+                    "UNGK chew us"
+                  ]
+                },
+                {
+                  "label": "heiress",
+                  "syllables": 
+                  [
+                    "AIR iss"
+                  ]
+                },
+                {
+                  "label": "vituperate",
+                  "syllables": 
+                  [
+                    "vye TOO pur ate",
+                    "vih TOO pur ate"
+                  ]
+                },
+                {
+                  "label": "anathematized",
+                  "syllables": 
+                  [
+                    "uh NATH uh muh tyzed"
+                  ]
+                },
+                {
+                  "label": "propitiate",
+                  "syllables": 
+                  [
+                    "pro PISH ee ATE"
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "WordRecognitionFluency"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3-wordrecognitionfluency-setb-trial2",
+          "shouldUseTimer": true,
+          "maxTime": 15,
+          "warningTime": 5,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/word_recognition_fluency/ktea3-wordrecognitionfluency-setb-trial2",
+          "subtestName": "Word Recognition Fluency",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Set B, Trial 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/ktea-3/word_recognition_fluency/ktea3-wordrecognitionfluency-setb-trial2/ktea3-wordrecognitionfluency-setb-trial2Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "in",
+                  "syllables": 
+                  [
+                    "i n"
+                  ]
+                },
+                {
+                  "label": "did",
+                  "syllables": 
+                  [
+                    "d i d"
+                  ]
+                },
+                {
+                  "label": "said",
+                  "syllables": 
+                  [
+                    "s e d"
+                  ]
+                },
+                {
+                  "label": "put",
+                  "syllables": 
+                  [
+                    "p o͝o t"
+                  ]
+                },
+                {
+                  "label": "nothing",
+                  "syllables": 
+                  [
+                    "NUH thing"
+                  ]
+                },
+                {
+                  "label": "shine",
+                  "syllables": 
+                  [
+                    "sh y n e"
+                  ]
+                },
+                {
+                  "label": "nighttime",
+                  "syllables": 
+                  [
+                    "NITE time"
+                  ]
+                },
+                {
+                  "label": "front",
+                  "syllables": 
+                  [
+                    "f r uh n t"
+                  ]
+                },
+                {
+                  "label": "unwelcome",
+                  "syllables": 
+                  [
+                    "un WEL kum"
+                  ]
+                },
+                {
+                  "label": "wouldn't",
+                  "syllables": 
+                  [
+                    "WOOD nt"
+                  ]
+                },
+                {
+                  "label": "chalkboard",
+                  "syllables": 
+                  [
+                    "CHAWK bord"
+                  ]
+                },
+                {
+                  "label": "cent",
+                  "syllables": 
+                  [
+                    "s e n t"
+                  ]
+                },
+                {
+                  "label": "chain",
+                  "syllables": 
+                  [
+                    "ch ay n"
+                  ]
+                },
+                {
+                  "label": "whistle",
+                  "syllables": 
+                  [
+                    "(H)WIS ul"
+                  ]
+                },
+                {
+                  "label": "bought",
+                  "syllables": 
+                  [
+                    "b aw t"
+                  ]
+                },
+                {
+                  "label": "knowledge",
+                  "syllables": 
+                  [
+                    "NOL ij"
+                  ]
+                },
+                {
+                  "label": "disappoint",
+                  "syllables": 
+                  [
+                    "dis uh POINT"
+                  ]
+                },
+                {
+                  "label": "cigar",
+                  "syllables": 
+                  [
+                    "sig AR"
+                  ]
+                },
+                {
+                  "label": "fierce",
+                  "syllables": 
+                  [
+                    "f ee r s"
+                  ]
+                },
+                {
+                  "label": "anxious",
+                  "syllables": 
+                  [
+                    "ANK shus"
+                  ]
+                },
+                {
+                  "label": "offend",
+                  "syllables": 
+                  [
+                    "uh FEND"
+                  ]
+                },
+                {
+                  "label": "recognition",
+                  "syllables": 
+                  [
+                    "REC ug NIH shun"
+                  ]
+                },
+                {
+                  "label": "argumentative",
+                  "syllables": 
+                  [
+                    "AR gyoo MEN tuh tiv"
+                  ]
+                },
+                {
+                  "label": "chaos",
+                  "syllables": 
+                  [
+                    "KAY ahs"
+                  ]
+                },
+                {
+                  "label": "bouquet",
+                  "syllables": 
+                  [
+                    "boo KAY ",
+                    "boh KAY"
+                  ]
+                },
+                {
+                  "label": "cyst",
+                  "syllables": 
+                  [
+                    "s i s t"
+                  ]
+                },
+                {
+                  "label": "melancholy",
+                  "syllables": 
+                  [
+                    "MEL un kah lee"
+                  ]
+                },
+                {
+                  "label": "penitentiary",
+                  "syllables": 
+                  [
+                    "PEN uh TEN shuh ree"
+                  ]
+                },
+                {
+                  "label": "incandescent",
+                  "syllables": 
+                  [
+                    "IN kun DES ent"
+                  ]
+                },
+                {
+                  "label": "decrepit",
+                  "syllables": 
+                  [
+                    "dih KREP it"
+                  ]
+                },
+                {
+                  "label": "negligible",
+                  "syllables": 
+                  [
+                    "NEG lij uh bul"
+                  ]
+                },
+                {
+                  "label": "nascent",
+                  "syllables": 
+                  [
+                    "NAY sent",
+                    "NAS ent"
+                  ]
+                },
+                {
+                  "label": "phlegmatic",
+                  "syllables": 
+                  [
+                    "fleg MAT ik"
+                  ]
+                },
+                {
+                  "label": "rhapsodic",
+                  "syllables": 
+                  [
+                    "rap SOD ik"
+                  ]
+                },
+                {
+                  "label": "physiological",
+                  "syllables": 
+                  [
+                    "FIZ ee uh LOJ ih kul"
+                  ]
+                },
+                {
+                  "label": "lachrymose",
+                  "syllables": 
+                  [
+                    "LAK rih mohs"
+                  ]
+                },
+                {
+                  "label": "avarice",
+                  "syllables": 
+                  [
+                    "AV ur iss"
+                  ]
+                },
+                {
+                  "label": "masochistic",
+                  "syllables": 
+                  [
+                    "MASS uh KISS tik"
+                  ]
+                },
+                {
+                  "label": "sycophant",
+                  "syllables": 
+                  [
+                    "SIK uh FUNT / SIK uh FANT",
+                    "SYE kuh FUNT / SYE kuh FANT"
+                  ]
+                },
+                {
+                  "label": "acquiesce",
+                  "syllables": 
+                  [
+                    "ak wee ES"
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "WordRecognitionFluency"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            }
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    }
+  ],
+  "SetRawScoreRule": {
+    "sets": 
+    [
+      {
+        "startQuestionId": "ktea3-wordrecognitionfluency-seta-trial1",
+        "endQuestionId": "ktea3-wordrecognitionfluency-seta-trial2"
+      },
+      {
+        "startQuestionId": "ktea3-wordrecognitionfluency-setb-trial1",
+        "endQuestionId": "ktea3-wordrecognitionfluency-setb-trial2"
+      }
+    ]
+  },
+  "GradeBasedStartingPointRule": {
+    "numPrevious": 1,
+    "showAllStaringPoints": true,
+    "startingPoints": 
+    [
+      {
+        "label": "Grades 1-2: Set A, Trial 1",
+        "gradeLevels": 
+        [
+          "Grade 1",
+          "Grade 2"
+        ],
+        "questionId": "ktea3-wordrecognitionfluency-seta-trial1"
+      },
+      {
+        "label": "Grades 3-12+: Set B, Trial 1",
+        "gradeLevels": 
+        [
+          "Grade 3"
+        ],
+        "questionId": "ktea3-wordrecognitionfluency-setb-trial1"
+      }
+    ]
+  },
+  "observations": 
+  [
+    {
+      "guid": "db4191e9dcbf426c91f88562f327d8da",
+      "type": "Selection",
+      "label": "Performance was generally slow and accurate",
+      "isFirstInGroup": true
+    },
+    {
+      "guid": "f1a64e36b024474197e54c1b75e993f1",
+      "type": "Selection",
+      "label": "Performance was generally slow and inaccurate"
+    },
+    {
+      "guid": "4d8cd80e4a6541f78fa64a33f00eba38",
+      "type": "Selection",
+      "label": "Performance was generally fast and inaccurate"
+    },
+    {
+      "guid": "4705dc0ea0df444099d5674d6ac17e97",
+      "type": "Selection",
+      "label": "Was slow to orient to the first word in each line of words"
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

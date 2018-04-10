@@ -1,0 +1,1768 @@
+{
+  "subtestId": 92,
+  "subtestGUID": "b9f7b132b974c1b4e040a8c0420116a9",
+  "title": "Word Reasoning",
+  "displayName": "Word Reasoning",
+  "abbr": "Word Reasoning",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": null,
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-iv/word_reasoning",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Verbal Comprehension",
+    "averageDuration": 10,
+    "descriptionCS": "The child identifies the common concept being described in a series of clues."
+  },
+  "scoringScaleName": "Verbal Comprehension Index (VCI)",
+  "scoringScaleAbbr": "VCI",
+  "isScaledScoreOptional": true,
+  "questions": 
+  [
+    {
+      "id": "wisciv-wordreasoning-dog",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-dog",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Sample Item A",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-dog/wisciv-wordreasoning-dogPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": true,
+              "question": "<p><strong><span class=\"speechBlue\">This is an animal that goes &ldquo;woof.&rdquo; What is it?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>Allow approximately 5 seconds for a response.<\u002fp>\r\n",
+              "correct": "<p>[Dog]: Say, <span class=\"speechBlue\"><strong>Right. A dog is an animal that goes &ldquo;woof.&rdquo; Let&rsquo;s try another one.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "wrong": "<p>Say, <strong><span class=\"speechBlue\">It is a dog. A dog is an animal that goes &ldquo;woof.&rdquo; Let&rsquo;s try another one.<\u002fspan><\u002fstrong><\u002fp>\r\n"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "html",
+          "behaviorName": "forcedChoice"
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": ">5 seconds",
+          "guid": "2e702a3efce144fd907ccf3926242e63",
+          "abbreviation": "mf",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-mop",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-mop",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Sample Item B",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-mop/wisciv-wordreasoning-mopPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "<p>\r\n\t<span class=\"speechBlue\">This has a long handle...What is it?<\u002fspan><\u002fp>\r\n<p>\r\n\t<span class=\"pointGray\">Allow approximately 5 seconds for a response.<\u002fspan><\u002fp>\r\n",
+              "correct": "<p>\r\n\t<span class=\"pointGray\">[Mop]: Say,&nbsp;<\u002fspan><span class=\"speechBlue\">Right. A mop has a long handle. Let&#39;s try another one.<\u002fspan><\u002fp>\r\n",
+              "wrong": "<p>\r\n\t<span class=\"pointGray\">Present the second clue.<\u002fspan><\u002fp>\r\n"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "<p>\r\n\t<span class=\"speechBlue\">This has a long handle, and is used with water to clean the floor. What is it?<\u002fspan><\u002fp>\r\n<p>\r\n\t<span class=\"pointGray\">Allow approximately 5 seconds for a response.<\u002fspan><\u002fp>\r\n",
+              "correct": "<p>\r\n\t<span class=\"pointGray\">[Mop]: Say,&nbsp;<\u002fspan><span class=\"speechBlue\">Right. A mop has a long handle, and is used with water to clean the floor. Let&#39;s try another one.<\u002fspan><\u002fp>\r\n",
+              "wrong": "<p>\r\n\t<span class=\"pointGray\">Say,<span class=\"speechBlue\">&nbsp;<\u002fspan><\u002fspan><span class=\"speechBlue\">It is a mop. A mop has a long handle, and is used with water to clean the floor.&nbsp;Let&#39;s try another one.<\u002fspan><\u002fp>\r\n"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "html",
+          "behaviorName": "forcedChoice"
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": ">5 seconds",
+          "guid": "da8f06d9841642568db398897fec57e1",
+          "abbreviation": "mf",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item1",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is used to dry yourself after a bath.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Towel; Hair-dryer; Blow-dryer; Rag; Cloth",
+            "incorrect": "Bathtub; Bathroom"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item2",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This has a knob and people can open it and walk through it.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Door; Screen door [Any specific door]; Gate",
+            "incorrect": "Door (knob, handle); Cabinet"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item3",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is the part of your head used to smell things.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Nose; Nostril",
+            "incorrect": "Face; Mind; Brain; Sense; Mouth; Tongue"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item4",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is an animal with a long trunk and big ears.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Elephant",
+            "incorrect": "Deer; Aardvark; Anteater"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item5",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is something you wear to cover your head.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Hat; Baseball hat [Any specific hat]; Hood; Cap; Helmet; Scarf; Wig; Hair; Bandana; Mask",
+            "incorrect": "Blanket; Towel"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item6",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is a room where people sleep.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Bedroom; Guest Room",
+            "incorrect": "Bed; Apartment; Hotel"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item7",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is on the ground after it rains...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it can make your clothes dirty.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Mud; Wet (grass, dirt); Puddles; Dirty water; Snow; Slush; Ice",
+            "incorrect": "Frost; Moisture; Grass; Water; Dirt; Clay"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item8",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This comes in many colors...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it is used on walls.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Paint; Wallpaper; Picture; Frame; Poster; Curtains; Fabric; Painting; Chalk",
+            "incorrect": "Rainbow; Fall leaves; Crayons; Markers; Pen"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item9",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is a place of learning...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it can have many things from the past in it.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "School; College; University; Classroom; Class; Museum; Library; Church",
+            "incorrect": "Laboratory; Book; Memory; Daycare; Home"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item10",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is up in the sky...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and you can only see these at night.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Stars; Northern Lights; Aurora borealis; Constellations; Planets; Satellite; Firefly",
+            "incorrect": "Sun; Moon; Clouds; Bats; Owls; Airplanes"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item11",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is what people do to make things \"like new\"...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and people do this to things that are broken.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Repair; Fix; Rebuild; Reassemble; Refurbish; Renovate; Restore; Put back together; Mend; Reconstruct; Repaint; Refurnish; Refinish ",
+            "incorrect": "Redo; Renew; Build; Upgrade; Clean; Refresh; Take it to the shop; Glue; Tape"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item12",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 12",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This can make food taste better...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it can be found in the ocean.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Salt",
+            "incorrect": "Water; Seaweed; Seasonings"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item13",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is found in nature...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it has water flowing from its mouth.",
+              "correct": "Correct ",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "River; Stream; Creek; Brook; Spring; Waterfall; Fountain; Harbor; Bay; Inlet",
+            "incorrect": "Ocean; Sea; Whale; Rain; Well; Canal"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item14",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 14",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "These are protected by skin and bones...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and they can sometimes be replaced.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Organ; Heart; [Any organ that can be replaced]; Tissue; Blood; Plasma; Nerves; Muscle; Arteries; Veins; Bone marrow [Any tissue that can be replaced]; Cartilage",
+            "incorrect": "Skin; Tonsils; Brain; Teeth; Bones; Operation; Body parts; Insides; Cell"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item15",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 15",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This can be broken...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it is written down to protect people.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Law; Rule; Contract; Policy; Will; Constitution; Declaration of Independence [Any specific historic document]; Treaty; Amendment; Agreement; Rights",
+            "incorrect": "Pledge; Insurance; Instructions"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item16",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 16",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This leads to new discoveries...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it involves a step-by-step process...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it may include experiments.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Science; Research; Scientific method; Inventing; Invention; Investigation; Biology [Any specific science]; Problem solving; Experimentation; Deductive reasoning; Hypothesis; Exploration; Technology; Theories",
+            "incorrect": "Lab tests; Testing; Projects; Microscopes; Learning; Teaching; Study"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item17",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 17",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This allows people to do or own something...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it is given by the government...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and people may have to take a test to get it.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Visa; License; Driver's license [Any specific license]; Permit; Green card; Citizenship; Scholarship; Grant; Naturalization; Patent; Copyright; Diploma; Degree",
+            "incorrect": "Welfare; Food stamps; Right to vote; Land grant; Job; Work; Grade"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item18",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item18",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 18",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is something most people want...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and conflict prevents it...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and governments try to keep it.",
+              "correct": "Correct ",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Peace; Freedom; Liberty; Law; Security; Control; Power; Order; Justice; Rights; Rules; Money; Wealth; Safety; Authority",
+            "incorrect": "Revolution; Ownership of land; Leadership; State; Country"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item19",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item19",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 19",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is something everything has...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it changes every year...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it can never decrease.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Age; Birthday; Height",
+            "incorrect": "Calendar; Years; Months; Weight; Size; Time; Growth; Skin; Weather; Temperature; Air"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item20",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item20",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 20",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This can't be touched ...",
+              "correct": "Correct ",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it can't go backward ...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it can't stop.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Time; Aging; Gravity; Earth's rotation; Light",
+            "incorrect": "Age; Wind; History; Future; Air; Year [Any specific unit of time]"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item21",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item21",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 21",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is a place...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it is protected from the weather...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it is found within something else.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Inside; Room; Bedroom [Any specific room]; Basement; Storm cellar; Attic; Indoors; Vault; Safe; Shelter; (Underground, Bomb, Fallout) shelter; Cave; Tunnel; Bunker",
+            "incorrect": "House; [Any specific building]; Underground; Harbor; Cove; Apartment; Store in a mall"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item22",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item22",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 22",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This can be a river...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and wars can change it...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and two countries can share it.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Boundary; Border; Border line; Territory (marker, line); Canal; Rio Grande [Any specific river border]",
+            "incorrect": "Dam; Bridge; Divide; Landmark; Wall; Nile [Any specific non-border river]; Split between"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item23",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item23",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 23",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This is made by people...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it can not be touched...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it has already happened.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "History; Past; Past (actions, thoughts, decisions, mistakes); Yesterday; Memories; Discoveries",
+            "incorrect": "News story; Future; War; Millennium; [Any historical event]; Baby; Birth"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-wordreasoning-item24",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/word_reasoning/wisciv-wordreasoning-item24",
+      "subtestName": "Word Reasoning",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 24",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/word_reasoning/items_1-24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "This has never been seen or done before...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it can make our lives better or easier...",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            },
+            {
+              "disableTextHighlight": false,
+              "shouldShowIncorrectItemsFirst": false,
+              "disableBlueFont": false,
+              "question": "and it is a product of the mind.",
+              "correct": "Correct",
+              "wrong": "Incorrect"
+            }
+          ],
+          "isClueTypeQuestion": true,
+          "dataType": "text",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "Discovery; Invention; Innovation; Technology; Imagination; Creativity; Dream",
+            "incorrect": "Hope; Happiness; Intergalactic travel [Any discovery that has not happened]; Thoughts; Learning; Peace; Idea; Telepathy; Information"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 5,
+    "description": "This subtest discontinues after 5 consecutive scores of 0 points.",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 10,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisciv-wordreasoning-item1",
+      "skipToQuestionID": "wisciv-wordreasoning-item5",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

@@ -1,0 +1,1769 @@
+{
+  "subtestId": 90,
+  "subtestGUID": "b9f7b132b973c1b4e040a8c0420116a9",
+  "title": "Arithmetic",
+  "displayName": "Arithmetic",
+  "abbr": "Arithmetic",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": null,
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-iv/arithmetic",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Working Memory",
+    "averageDuration": 8,
+    "descriptionCS": "The child mentally solves a series of orally presented arithmetic problems within a specified time limit."
+  },
+  "scoringScaleName": "Working Memory Index (WMI)",
+  "scoringScaleAbbr": "WMI",
+  "isScaledScoreOptional": true,
+  "questions": 
+  [
+    {
+      "id": "wisciv-arithmetic-birds",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-birds",
+      "subtestName": "Arithmetic",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 1. Birds",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong>&nbsp;[Correctly counts from 1 to 3]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">Let&rsquo;s try another one.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>&dagger;Say, <span class=\"speechBlue\"><strong>That&rsquo;s not quite right. Watch me and listen carefully.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>Point to each of the three birds (about one per second) from the child&rsquo;s left to right while counting aloud and then say, <strong><span class=\"speechBlue\">There are three birds. Let&rsquo;s try another one.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-birds/wisciv-arithmetic-birdsPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": "Counts from 1 to 3",
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-chicks",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-chicks",
+      "subtestName": "Arithmetic",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 2. Chicks",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong> [Correctly counts from 1 to 5]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Let&#39;s try another one.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>&dagger;Say,&nbsp;<span class=\"speechBlue\">That&#39;s not quite right. Watch me and listen carefully.<\u002fspan><\u002fp>\r\n\r\n<p>Point to each of the five chicks (about one per second) from the child&#39;s left to right while counting aloud and then say,&nbsp;<span class=\"speechBlue\">There are five chicks.&nbsp;Let&#39;s try another one.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-chicks/wisciv-arithmetic-chicksPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": "Counts from 1 to 5",
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-trees",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-trees",
+      "subtestName": "Arithmetic",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 3. Trees",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong> [Correctly counts from 1 to 10]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">Let&rsquo;s try another one.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>&dagger;Point and say, <span class=\"speechBlue\"><strong>That&rsquo;s not quite right. Watch me and listen carefully.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>Point to each of the 10 trees (about one per second) from the child&rsquo;s left to right while counting aloud and then say, <strong><span class=\"speechBlue\">There are ten trees. Let&rsquo;s try another one.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-trees/wisciv-arithmetic-treesPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": "Counts from 1 to 10",
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-butterflies",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-butterflies",
+      "subtestName": "Arithmetic",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 4. Butterflies",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-butterflies/wisciv-arithmetic-butterfliesPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            9
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-nuts",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-nuts",
+      "subtestName": "Arithmetic",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 5. Nuts",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-nuts/wisciv-arithmetic-nutsPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item6",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item6",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 6. Books",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item6/wisciv-arithmetic-item6Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            4
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item7",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item7",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 7. Crayons",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item7/wisciv-arithmetic-item7Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            5
+          ],
+          "responsesPerRow": 1,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item8",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item8",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 8. Cookies",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item8/wisciv-arithmetic-item8Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item9",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item9",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 9. Pieces",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item9/wisciv-arithmetic-item9Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item10",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item10",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 10. Pennies",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item10/wisciv-arithmetic-item10Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            6
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item11",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item11",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 11. Pencils",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item11/wisciv-arithmetic-item11Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            6
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item12",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item12",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 12. Candy",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item12/wisciv-arithmetic-item12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            7
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item13",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item13",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 13. Cars",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item13/wisciv-arithmetic-item13Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            15
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item14",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item14",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 14. Markers",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item14/wisciv-arithmetic-item14Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            14
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item15",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item15",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 15. Apples",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item15/wisciv-arithmetic-item15Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            9
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item16",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item16",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 16. Cows",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item16/wisciv-arithmetic-item16Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            5
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item17",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item17",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 17. Stickers",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item17/wisciv-arithmetic-item17Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            25
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item18",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item18",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 18. Balloons",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item18/wisciv-arithmetic-item18Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            7
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item19",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item19",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 19. Watching",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item19/wisciv-arithmetic-item19Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            6
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item20",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item20",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 20. Points",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item20/wisciv-arithmetic-item20Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            32
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item21",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item21",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 21. Ribbons",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item21/wisciv-arithmetic-item21Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            24
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item22",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item22",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 22. Pens",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item22/wisciv-arithmetic-item22Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": "20; 2 dimes",
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item23",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item23",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 23. Students",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item23/wisciv-arithmetic-item23Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            19
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item24",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item24",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 24. Magazines",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item24/wisciv-arithmetic-item24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item25",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item25",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 25. Change",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item25/wisciv-arithmetic-item25Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            7
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item26",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item26",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 26. Classrooms",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item26/wisciv-arithmetic-item26Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            20
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item27",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item27",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 27. Money",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item27/wisciv-arithmetic-item27Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            8.5
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item28",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item28",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 28. Drive",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item28/wisciv-arithmetic-item28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            60
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item29",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item29",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 29. Bicycle",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item29/wisciv-arithmetic-item29Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            30
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item30",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item30",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 30. Temperature",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item30/wisciv-arithmetic-item30Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item31",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item31",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 31. Game",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item31/wisciv-arithmetic-item31Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            34
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item32",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item32",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 32. Car wash",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item32/wisciv-arithmetic-item32Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            48
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item33",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item33",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 33. Flight",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item33/wisciv-arithmetic-item33Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": "2:00",
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-arithmetic-item34",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item34",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 34. Work",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/arithmetic/wisciv-arithmetic-item34/wisciv-arithmetic-item34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            40
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 4,
+    "description": "This subtest discontinues after 4 consecutive scores of 0 points.",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 6,
+      "maxAge": 7,
+      "skipFromQuestionID": "wisciv-arithmetic-birds",
+      "skipToQuestionID": "wisciv-arithmetic-trees",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "alternateQuestionID": "wisciv-arithmetic-trees",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 8,
+      "maxAge": 9,
+      "skipFromQuestionID": "wisciv-arithmetic-birds",
+      "skipToQuestionID": "wisciv-arithmetic-item9",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "alternateQuestionID": "wisciv-arithmetic-trees",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 10,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisciv-arithmetic-birds",
+      "skipToQuestionID": "wisciv-arithmetic-item12",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "alternateQuestionID": "wisciv-arithmetic-trees",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

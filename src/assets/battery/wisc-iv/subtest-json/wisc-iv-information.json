@@ -1,0 +1,3020 @@
+{
+  "subtestId": 89,
+  "subtestGUID": "b9f7ae0f2c47e96de040a8c042011657",
+  "title": "Information",
+  "displayName": "Information",
+  "abbr": "Information",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": null,
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-iv/information",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Verbal Comprehension",
+    "averageDuration": 5,
+    "descriptionCS": "The child answers questions that address a broad range of general knowledge topics."
+  },
+  "scoringScaleName": "Verbal Comprehension Index (VCI)",
+  "scoringScaleAbbr": "VCI",
+  "isScaledScoreOptional": true,
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Items",
+      "abbr": "Items",
+      "questions": 
+      [
+        {
+          "id": "wisciv-information-foot",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-foot",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 1. Foot",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-foot/wisciv-information-footPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Any other response]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Touches, points to, or otherwise indicates own or examiner’s foot]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "†Teaching",
+              "guid": "3744eab504324816bc197f2c3b7e8b3b",
+              "abbreviation": "tc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-nose",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-nose",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 2. Nose",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-nose/wisciv-information-nosePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Any other response]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Nose",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "†Teaching",
+              "guid": "e846a388324f4c47a6ce42e17b650c82",
+              "abbreviation": "tc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-eat",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-eat",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 3. Eat",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-eat/wisciv-information-eatPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Food; Plants; Animals",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Grass; Hay",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Dirt; Rocks [Names something inedible]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Apple; Meat; Cereal; Fruits [Names anything typically eaten by humans]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Breakfast; Lunch; Dinner; Snack",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-ears",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-ears",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 4. Ears",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-ears/wisciv-information-earsPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Verbally or physically indicates any number other than two]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "[Points to own or examiner’s ears]",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Verbally or physically indicates two]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Hears Wrong Word",
+              "guid": "e101095c29fe47649a237611b938d72c",
+              "abbreviation": "hw",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-old",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-old",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 5. Old",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-old/wisciv-information-oldPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Verbally or physically indicates incorrect age]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Verbally or physically indicates correct age]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-legs",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-legs",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 6. Legs",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-legs/wisciv-information-legsPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Verbally or physically indicates any other number]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Verbally or physically indicates four]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-thursday",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-thursday",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 7. Thursday",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-thursday/wisciv-information-thursdayPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Yesterday; Today; Tomorrow*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "[Names any other day]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Friday",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "1d8f61a9417f4fc3aa52e5f177445ad4",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-coins",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-coins",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 8. Coins",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-coins/wisciv-information-coinsPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Penny; Dime; Peso [Names one coin of legal tender, including foreign]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Token [Names any coin of non-legal tender]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Gold; Silver; Silver and gold coins",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "American; George Washington",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Quarter and dime; Shilling and nickel; Penny and silver dollar",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "[Names any two different coins of legal tender, including foreign]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "88be8a57a6c04ff6854a1c82031fe4a1",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-march",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-march",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 9. March",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-march/wisciv-information-marchPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Names any other month]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "April",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-boil",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-boil",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 10. Boil",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-boil/wisciv-information-boilPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Turn it on; Put it in a pot",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Stove; Oven; Fire",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Put it in hot water",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Boil eggs",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Describes any means of heating water]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Heat it; Expose it to heat",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Put it on the stove; Put it in the microwave",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Make it hot; Put it in something hot",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Turn the oven on; Put it in a hot pan",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Cook it; Steam it; Warm it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Make temperature up to (212, 100) degrees",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-week",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-week",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 11. Week",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-week/wisciv-information-weekPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Verbally or physically indicates five]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "[Verbally or physically indicates any other number]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "[Names less than seven weekdays]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A lot; Many",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Verbally or physically indicates seven]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "[Names all seven days]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "2993551fe628444abceb30b995618011",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-seasons",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-seasons",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 12. Seasons",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-seasons/wisciv-information-seasonsPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Names fewer than four seasons]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Football; Basketball; Baseball [Names sports season(s)] ",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Halloween; Christmas; Easter [Names holiday season(s)]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Duck; Deer; Quail; Rabbit [Names hunting season(s)] ",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Snow; Rain; Sun [Names type(s) of weather]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "January; Saturday [Names months or days]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Summer, (Fall, Autumn), Winter, Spring",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "8241a5e7f5784b3e82ca4500040531c0",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-dozen",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-dozen",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 13. Dozen",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-dozen/wisciv-information-dozenPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A baker’s dozen",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "[Verbally or physically indicates any other number]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Verbally or physically indicates 12]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-stomatch",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-stomatch",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 14. Stomach",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-stomatch/wisciv-information-stomatchPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "It’s an organ; Part of your body*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Food goes there; For your food",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It (growls, makes sounds, tells you) when you’re hungry",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Helps you eat",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Stomachache; It hurts",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Digests food; Part of digestive system; Prepares food for digestion",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Takes nutrients from food; Turns food into energy",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Breaks down, Processes, Grinds) food",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Holds, Absorbs, Mixes) food",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Makes acid",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Turns food to liquid",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "06215cd7da8f4960be698e2df5a44b2f",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-fossil",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-fossil",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 15. Fossil",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-fossil/wisciv-information-fossilPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Bone; Tooth; Bone in ground ",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Remains of a dead animal",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A (handprint, footprint)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Artifact; An animal artifact",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Dinosaur",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Rock; Stone; Minerals",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Prehistoric; From the past; An old thing",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Something (preserved, underground, compressed)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Pictures on stones; Something carved into rocks",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Brand of (clothes, watches) ",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A water fountain; Water comes out of it*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A picture",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Something organic that has (turned to stone, been preserved in rock)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something that has turned into (rock, stone)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Hardened, Petrified, Fossilized) bone",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Ancient, Prehistoric, Old) bone; A bone from a long time ago",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Image of a (leaf, footprint, animal, dinosaur) left in a rock",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "An (imprint, impression) of something in stone",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Print, Imprint) left by something from a long time ago",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Remains of something old; Remnant of something preserved by nature",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Evidence of something alive in the past",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A dinosaur bone; Footprint of a dinosaur",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Hears Wrong Word",
+              "guid": "3efe020088ab42e283523c69206c6998",
+              "abbreviation": "hw",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-columbus",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-columbus",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 16. Columbus",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-columbus/wisciv-information-columbusPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Discovered the world was round",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A (sailor, captain); Sailed in 1492",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Traveler; A guy who traveled the world",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Man who discovered electricity; Scientist",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Discovered (Asia, Boston); Founder of the United States; Sailed across America",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Man; Guy; Person",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "He met Native Americans",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Discoverer of (America, West Indies, the New World)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Sent by the Queen of Spain to establish a trade route",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Sailed to prove the world was round",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Sailed to America",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "An explorer; Sailed across the ocean to discover land",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Sailed with the (Niña, Pinta, Santa Maria)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "An explorer who went to find a better route to India; A man who wanted to explore the Indies",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-month",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-month",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 17. Month",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-month/wisciv-information-monthPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Names any other month]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Leap year",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "February",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-year",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-year",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 18. Year",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-year/wisciv-information-yearPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "366*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "[Names any other number]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "365, 365 1/4 [365 with any fraction or decimal]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "365 except on leap year there’s 366",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "6f7df9ae094a478a978dad0879f55c1e",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-oxygen",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-oxygen",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 19. Oxygen",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-oxygen/wisciv-information-oxygenPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Evaporation",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Breathing; Exhaling; Through your lungs",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "People; Our bodies; Your heart",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Rain; Cloud; Water",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Carbon dioxide",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Air pump",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Photosynthesis",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Plants; Trees; Leaves; Flowers",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-rust",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-rust",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 20. Rust",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-rust/wisciv-information-rustPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Air*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Water*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Rain; Getting wet ",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Acid; Acid rain",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Weather; Sun; Pollution",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Age; Time",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Oxidation; Oxygen",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A chemical reaction; Chemical changes",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Moisture; Moist air; Humidity",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "80b1c5e9628346f7a68f31d87a3b93ef",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-hieroglyphics",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-hieroglyphics",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 21. Hieroglyphics",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-hieroglyphics/wisciv-information-hieroglyphicsPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "(Greek, Arabic, Hebrew) writing",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Symbols; Pictures; Ancient drawings ",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Form of writing; Writing",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Letters; Alphabet",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Cave drawings; Rock carvings",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Things from Egypt",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Ancient (writing, letters, alphabet, symbols, words, language)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Picture writing; Writing systems that use pictures; Pictures used for communication",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Sacred (characters, symbols); Characters that have a hidden meaning; Symbols that represent words",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Writing used by (Egyptians, Chinese); Writing on pyramids",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Greek (picture writing, symbols); (Arabic, Hebrew) symbols ‡",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "‡ Query",
+              "guid": "23a6a930b6ba49208f376c567182cea4",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-population",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-population",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 22. Population",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-population/wisciv-information-populationPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Asia",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "[Names any other country or continent]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "China",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Population",
+              "guid": "6436878b8f274492b122f3098df4d4b7",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-ozone",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-ozone",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 23. Ozone",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-ozone/wisciv-information-ozonePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A layer; One of the layers on the earth; It’s around the (earth, planet)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Protects us from getting too hot",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Has holes due to pollution; Thing that pollution destroys",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Keeps air in",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Separates earth from space",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Earth’s crust; In the earth; Part of the earth",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Protects earth from (meteors, comets, asteroids)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Gases that keep the earth warm; Traps sunlight [Describes greenhouse effect]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "In space",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Part of atmosphere that blocks (radiation, UV rays); Part of atmosphere that protects the earth",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Protective layer on outside of earth",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Layer that protects us from UV rays",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Keeps sun’s rays out; Protects us from the sun; Protects the earth",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Blanket of gases that cover the earth; A layer of gas",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Atmosphere; Part of the atmosphere",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Three oxygen atoms; Layer of O₃",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-leaves",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-leaves",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 24. Leaves",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-leaves/wisciv-information-leavesPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Chemicals",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Cytoplasm",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Photosynthesis",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Food; Glucose; Nutrients",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Carbon dioxide; Oxygen; Water; Sun",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Tree; Seeds; Stems; Roots",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Weather; Seasons; Climate; Temperature",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Their genes",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Chlorophyll; Chloroplast",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Chemical that absorbs light",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Stuff that absorbs light for photosynthesis",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Color pigment",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-greece",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-greece",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 25. Greece",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-greece/wisciv-information-greecePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "[Names any other city]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Athens",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-barometer",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-barometer",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 26. Barometer",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-barometer/wisciv-information-barometerPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Measurement device",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Measures something in the air; For measurement ",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Measures (weather, humidity, rainfall, temperature, wind speed)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Compass",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "It measures (air, atmospheric, barometric) pressure",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A pressure gauge; Something that measures pressure",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It predicts changes in weather; Tells if it’s going to rain",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-darwin",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-darwin",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 27. Darwin",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-darwin/wisciv-information-darwinPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Developed a theory; Classified animals ",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A (scientist, biologist, writer, author)*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "President [Names any other occupation]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A man",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Developed theory of (evolution, survival of the fittest)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Studied natural selection",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Wrote (Origin of the Species, Descent of Man, Natural Selection)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Studied animals in the Galapagos Islands",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "43f7a3d1038a4371b7cdce0138004ea4",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-confucius",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-confucius",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 28. Confucius",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-confucius/wisciv-information-confuciusPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Chinese (man, ruler)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Writer",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A god; Chinese god",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Scientist; Explorer; King",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Man from (Greece, the Bible)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "An ancient man; A man; Person",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Confused person",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Chinese (philosopher, thinker)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Chinese religious leader; Chinese leader",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Chinese (educator, teacher, scholar)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Chinese man who wrote (simple phrases, proverbs); Chinese writer",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Religious (leader, teacher)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "He developed a form of (philosophy, religion); Philosopher; Wise man",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Man who wrote wise sayings",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-solstice",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-solstice",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 29. Solstice",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-solstice/wisciv-information-solsticePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Holiday; Celebration of winter",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Winter; Middle of Winter",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Change of seasons",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Sun’s position",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Angle of earth",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "When the sun is closest to us",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Day and night are the same length",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Days get shorter; Longest day of the year",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Sun behind the moon; Sun and moon lined up [Describes eclipse]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Day we set our clocks back",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Shortest day of winter; Longest night of the year; Day with the least sun",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "First day of winter",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "When days start getting longer",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "When the earth is (tilted, angled) farthest away from sun",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Sun lowest in the sky in northern hemisphere",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "December (20, 21, 22, 23)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-diamonds",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-diamonds",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 30. Diamonds",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-diamonds/wisciv-information-diamondsPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Coal; Charcoal",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Rock under pressure",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Heat; Pressure",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Rock; Stone; Quartz; Gems",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Crystal; Glass",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Lava under pressure and cooling; Melted lava",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Metal; Steel",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Earth; Ground",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Gems; Something precious",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Carbon; (Crystallized, Compressed) carbon; Carbon under pressure",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Transformed, Heated) coal; Coal under pressure; Compressed coal",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Graphite",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Charcoal under pressure",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-london",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-london",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 31. London",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-london/wisciv-information-londonPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A few hours by plane [Any number of hours]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A few thousand miles",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "[Names distance outside the acceptable ranges]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A long way; Really far; A lot of miles",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "3000–4000 miles",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "4800–6400 kilometers",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "fc761fcbaee14520a67de4113c99f0a6",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-information-fission",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-fission",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 32. Fission",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-fission/wisciv-information-fissionPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Bombardment of atoms with (neutrons, electrons)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Electricity comes from it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It makes atomic bombs explode ",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "An explosion",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Splitting of cells",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Friction caused between atomic particles",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It makes things radioactive; It’s (dangerous, bad, poisonous)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "When two atoms fuse; Like in the sun [Describes fusion]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Atoms split apart and release energy",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A source of radioactive energy",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Form of energy; Makes power",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "When the nucleus breaks down",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Separation of uranium atoms",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "An explosion of an atom",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-information-turpentine",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/information/wisciv-information-turpentine",
+          "subtestName": "Information",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 33. Turpentine",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/information/wisciv-information-turpentine/wisciv-information-turpentinePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Sap; Resin; Rosin*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Trees*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Plants; Part of a plant",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Oil; Tar; Rubber",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Minerals; Chemicals",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "(Fir, Pine, Conifer, Evergreen, Spruce) trees",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Sap of (fir, pine, conifer, evergreen, spruce) trees",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "597cf90d059a431085a7f01e2f25484f",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        }
+      ],
+      "hasInstructionsHtml": true
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 5,
+    "description": "This subtest discontinues after 5 consecutive scores of 0 points.",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 6,
+      "maxAge": 8,
+      "skipFromQuestionID": "wisciv-information-foot",
+      "skipToQuestionID": "wisciv-information-old",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "alternateQuestionID": "wisciv-information-old",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 9,
+      "maxAge": 11,
+      "skipFromQuestionID": "wisciv-information-foot",
+      "skipToQuestionID": "wisciv-information-boil",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "alternateQuestionID": "wisciv-information-old",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 12,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisciv-information-foot",
+      "skipToQuestionID": "wisciv-information-seasons",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "alternateQuestionID": "wisciv-information-old",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    },
+    {
+      "name": "Q",
+      "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+      "abbreviation": "Q"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

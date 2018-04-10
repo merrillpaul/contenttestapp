@@ -1,0 +1,1778 @@
+{
+  "subtestId": 788,
+  "subtestGUID": "cc6f4c4973e94323a0c7cad59144aa45",
+  "title": "Oral Expression",
+  "displayName": "Oral Expression",
+  "abbr": "oe",
+  "testType": "ktea3",
+  "testTitle": "KTEA-3",
+  "testDisplayName": "KTEA-3 Form A",
+  "normType": "ktea-3a",
+  "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+  "subtestType": "OralExpression",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/ktea-3/oral_expression",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "subtestStimFilename": "ktea-3-oral_expression-subtest-stim.jpg",
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 25,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Oral Language",
+    "averageDuration": 11,
+    "minGradeLevel": 0,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee responds orally with a complete sentence to describe each photograph. Later items require the use of one or two target words or a beginning phrase."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Item Group A",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "ktea3a-oralexpression-samplea",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-samplea",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sample A. A boy and his mother read a book.",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/ktea-3/oral_expression/ktea3a-oralexpression-samplea/ktea3a-oralexpression-sampleaPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item1",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 1. picture of girl eating",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Here is another picture. Say a good sentence that tells about <em>this&nbsp;<\u002fem>picture.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100%;\">\r\n\t<colgroup>\r\n\t\t<col width=\"150\" />\r\n\t\t<col width=\"330\" />\r\n\t<\u002fcolgroup>\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">Correct response:<\u002fth>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">&dagger;Incorrect response:<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td align=\"left\" valign=\"top\">\r\n\t\t\t<p><strong><span class=\"speechBlue\">Good.<\u002fspan><\u002fstrong><\u002fp>\r\n\t\t\t<\u002ftd>\r\n\t\t\t<td>\r\n\t\t\t<p>If the examinee doesn&rsquo;t respond, or if the response is a fragment, say, <span class=\"speechBlue\"><strong>What is happening in the picture?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n\t\t\t<p>If needed, say, <span class=\"speechBlue\"><strong>One good sentence that tells about this picture is <em>A girl is eating.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n\r\n\t\t\t<p>Give more specific instructional feedback as needed.<\u002fp>\r\n\t\t\t<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<p>&nbsp;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item2",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 2. picture of boy tying shoe",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Say a good sentence that tells about&nbsp;<em>this<\u002fem>&nbsp;picture.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100%;\">\r\n\t<colgroup>\r\n\t\t<col width=\"150\" />\r\n\t\t<col width=\"330\" />\r\n\t<\u002fcolgroup>\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\"><strong>Correct response:<\u002fstrong><\u002fth>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\"><strong>&dagger;Incorrect response:<\u002fstrong><\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td align=\"left\" valign=\"top\">\r\n\t\t\t<p><span class=\"speechBlue\"><strong>Good.<\u002fstrong><\u002fspan><\u002fp>\r\n\t\t\t<\u002ftd>\r\n\t\t\t<td align=\"left\" valign=\"top\">\r\n\t\t\t<p>If the examinee doesn&rsquo;t respond, or if the response is a fragment, say, <strong><span class=\"speechBlue\">What is happening in the picture?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n\t\t\t<p>If needed, say, <strong><span class=\"speechBlue\">One good sentence that tells about this picture is <em>The boy puts on his shoes.<\u002fem><\u002fspan><\u002fstrong><\u002fp>\r\n\r\n\t\t\t<p>Give more specific instructional feedback as needed.<\u002fp>\r\n\t\t\t<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<p>&nbsp;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item3",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 3. picture of girl washing hands",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Say a good sentence that tells about&nbsp;<em>this<\u002fem>&nbsp;picture.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item4",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 4. picture of girl mopping",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Say a good sentence that tells about&nbsp;<em>this<\u002fem>&nbsp;picture.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item5",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 5. picture of boy writing",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Say a good sentence that tells about <em>this<\u002fem> picture.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item6",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 6. picture of girl drinking",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Say a good sentence that tells about&nbsp;<em>this<\u002fem>&nbsp;picture.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Item Group B",
+      "abbr": "Item Group B",
+      "questions": 
+      [
+        {
+          "id": "ktea3a-oralexpression-item7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item7",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 7. car",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Say a good sentence that tells about <em>this<\u002fem> picture, and use the word&nbsp;<em>car <\u002fem><\u002fstrong><\u002fspan>(point to the word)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100%;\">\r\n\t<colgroup>\r\n\t\t<col width=\"150\" />\r\n\t\t<col width=\"330\" />\r\n\t<\u002fcolgroup>\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">Correct response:<\u002fth>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">&dagger;Incorrect response:<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td align=\"left\" valign=\"top\">\r\n\t\t\t<p><strong><span class=\"speechBlue\">Good.<\u002fspan><\u002fstrong><\u002fp>\r\n\t\t\t<\u002ftd>\r\n\t\t\t<td>\r\n\t\t\t<p>If the response doesn&rsquo;t include the word <em>car<\u002fem>, say,<span class=\"speechBlue\"><strong>&nbsp;Remember to use <em>car<\u002fem> in your sentence. Try again.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n\t\t\t<p>If the examinee doesn&rsquo;t respond, or if the response is a fragment, say, <span class=\"speechBlue\"><strong>What is happening in the picture?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n\t\t\t<p>If needed, say, <span class=\"speechBlue\"><strong>One good sentence that tells about this picture using the word <em>car<\u002fem> is <em>A young boy plays with his car.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n\r\n\t\t\t<p>Give more specific instructional feedback as needed.<\u002fp>\r\n\t\t\t<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item7/ktea3a-oralexpression-item7Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target word"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item8",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 8. cat",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Say a good sentence that tells about <em>this <\u002fem>picture, and use the word <em>cat<\u002fem><\u002fstrong><\u002fspan> (point to the word)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100%;\">\r\n\t<colgroup>\r\n\t\t<col width=\"150\" />\r\n\t\t<col width=\"330\" />\r\n\t<\u002fcolgroup>\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">Correct response:<\u002fth>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">&dagger;Incorrect response:<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td align=\"left\" valign=\"top\">\r\n\t\t\t<p><strong><span class=\"speechBlue\">Good.<\u002fspan><\u002fstrong><\u002fp>\r\n\t\t\t<\u002ftd>\r\n\t\t\t<td align=\"left\" valign=\"top\">\r\n\t\t\t<p>If the response doesn&rsquo;t include the word&nbsp;<em>cat<\u002fem>, say, <span class=\"speechBlue\"><strong>Remember to use <em>cat<\u002fem> in your sentence. Try again.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n\t\t\t<p>If the examinee doesn&rsquo;t respond, or if the response is a fragment, say, <span class=\"speechBlue\"><strong>What is happening in the picture?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n\t\t\t<p>If needed, say, <span class=\"speechBlue\"><strong>One good sentence&nbsp;that tells about this picture using the word <em>cat<\u002fem> is <em>The girl is holding a cat.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n\r\n\t\t\t<p>Give more specific instructional feedback&nbsp;as needed.<\u002fp>\r\n\t\t\t<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<p>&nbsp;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target word"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item9",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 9. flowers",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this <\u002fem>picture, and&nbsp;use the word) <em>flowers.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target word"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item10",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 10. birds",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this <\u002fem>picture, and&nbsp;use the word) <em>birds.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target word"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item11",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 11. tree",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this <\u002fem>picture, and&nbsp;use the word) <em>tree.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target word"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item12",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 12. finally",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this <\u002fem>picture, and&nbsp;use the word) <em>finally.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target word"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Item Group C",
+      "abbr": "Item Group C",
+      "questions": 
+      [
+        {
+          "id": "ktea3a-oralexpression-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item13",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 13. wet, splashing",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Say a good sentence that tells about <em>this<\u002fem> picture, and use the words <em>wet<\u002fem> and <em>splashing.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100%;\">\r\n\t<colgroup>\r\n\t\t<col width=\"150\" />\r\n\t\t<col width=\"330\" />\r\n\t<\u002fcolgroup>\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">Correct response:<\u002fth>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">&dagger;Incorrect response:<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td align=\"left\" valign=\"top\">\r\n\t\t\t<p><strong><span class=\"speechBlue\">Good.<\u002fspan><\u002fstrong><\u002fp>\r\n\t\t\t<\u002ftd>\r\n\t\t\t<td align=\"left\" valign=\"top\">\r\n\t\t\t<p>If the response doesn&rsquo;t include both <em>wet<\u002fem> and <em>splashing,<\u002fem> say, <span class=\"speechBlue\"><strong>Remember to use <em>wet<\u002fem> and <em>splashing<\u002fem> in your sentence. Try again.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n\t\t\t<p>If the examinee doesn&rsquo;t respond, or if the response is a fragment, say, <span class=\"speechBlue\"><strong>What is happening in the picture?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n\t\t\t<p>If needed, say, <span class=\"speechBlue\"><strong>One good sentence that tells about this picture using the words <em>wet<\u002fem> and <em>splashing<\u002fem> is <em>The girl is splashing and getting wet.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n\r\n\t\t\t<p>Give more specific instructional feedback as needed.<\u002fp>\r\n\t\t\t<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item13/ktea3a-oralexpression-item13Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target words"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item14",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 14. until",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this <\u002fem>picture, and&nbsp;use the word) <em>until.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><em>&lsquo;Til<\u002fem>&nbsp;is an acceptable contraction for&nbsp;<em>until<\u002fem>.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target word"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item15",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 15. above",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this <\u002fem>picture, and&nbsp;use the word) <em>above.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target word"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item16",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 16. talks",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this <\u002fem>picture, and&nbsp;use the word) <em>talks.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target word"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item17",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 17. points, smiling",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this <\u002fem>picture, and&nbsp;use the words) <em>points, smiling.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target words"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item18",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item18",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 18. when, waiting",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this <\u002fem>picture, and&nbsp;use the words) <em>when, waiting.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target words"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item19",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item19",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 19. without, and",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this <\u002fem>picture, and&nbsp;use the words) <em>without, and.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target words"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item20",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item20",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 20. taken, floating",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this <\u002fem>picture, and&nbsp;use the words) <em>taken, floating.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target words"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item21",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item21",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 21. but, are",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this <\u002fem>picture, and&nbsp;use the words) <em>but, are.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target words"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item22",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item22",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 22. chosen, helping",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this<\u002fem> picture, and&nbsp;use the words) <em>chosen, helping.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target words"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item23",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item23",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 23. carry, unless",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells about <em>this <\u002fem>picture, and&nbsp;use the words)<em> carry, unless.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not include target words"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item24",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item24",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 24. Even though",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Say a good sentence that tells what&rsquo;s happening in <em>this <\u002fem>picture, and&nbsp;<em>start <\u002fem>with the words <em>Even though.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100%;\">\r\n\t<colgroup>\r\n\t\t<col width=\"150\" />\r\n\t\t<col width=\"330\" />\r\n\t<\u002fcolgroup>\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">Correct response:<\u002fth>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">&dagger;Incorrect response:<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td align=\"left\" valign=\"top\">\r\n\t\t\t<p><strong><span class=\"speechBlue\">Good.<\u002fspan><\u002fstrong><\u002fp>\r\n\t\t\t<\u002ftd>\r\n\t\t\t<td>\r\n\t\t\t<p>If the response doesn&rsquo;t begin with <em>Even though<\u002fem>, say, <strong><span class=\"speechBlue\">Remember to start your sentence with <em>Even though<\u002fem>. Try again.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n\t\t\t<p>If the examinee doesn&rsquo;t respond, or if the response is a fragment, say, <strong><span class=\"speechBlue\">What is happening in the picture?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n\t\t\t<p>If needed, say, <strong><span class=\"speechBlue\">One good sentence that tells about this picture and starts with <em>Even though<\u002fem> is <em>Even though it&rsquo;s raining, they still walk to work.<\u002fem><\u002fspan><\u002fstrong><\u002fp>\r\n\r\n\t\t\t<p>Give more specific instructional feedback as needed.<\u002fp>\r\n\t\t\t<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<p>&nbsp;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item24/ktea3a-oralexpression-item24Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not begin with target word phrase"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item25",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item25",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 25. Whether or not",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells what&rsquo;s happening in <em>this&nbsp;<\u002fem>picture, and) <em>start<\u002fem> with the words <em>Whether or not.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><em>Whether or not<\u002fem>&nbsp;can be used to mean&nbsp;<em>regardless<\u002fem>&nbsp;or&nbsp;<em>whether<\u002fem>.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not begin with target word phrase"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item26",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item26",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 26. Although they had",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells what&rsquo;s happening in <em>this&nbsp;<\u002fem>picture, and) <em>start <\u002fem>with the words <em>Although they had.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><em>Although they had<\u002fem>&nbsp;requires past tense in the independent clause unless defined time periods are provided in both clauses.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not begin with target word phrase"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item27",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item27",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 27. Only if he",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells what&rsquo;s happening in <em>this&nbsp;<\u002fem>picture, and) <em>start <\u002fem>with the words<em> Only if he.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><em>Only if he<\u002fem> requires the main clause to be inverted, so that the subject&nbsp;comes after the verb (correct example: <em>Only if he rests will<strong> he get<\u002fstrong> better<\u002fem>).<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not begin with target word phrase"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "ktea3a-oralexpression-item28",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/oral_expression/ktea3a-oralexpression-item28",
+          "subtestName": "Oral Expression",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 28. If he had",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>(Say a good sentence that tells what&rsquo;s happening in <em>this&nbsp;<\u002fem>picture, and) <em>start <\u002fem>with the words<em> If he had.<\u002fem><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "taskErrors": 
+              [
+                {
+                  "label": "Does not begin with target word phrase"
+                },
+                {
+                  "label": "Does not include noun/pronoun and verb"
+                },
+                {
+                  "label": "Not related to the picture"
+                },
+                {
+                  "label": "Not logical and meaningful"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "OralExpression"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 5,
+    "description": "Oral expression consecutive zeroes discontinue rule",
+    "countsDemoItems": false,
+    "overlayMessageHtml": "<p>This subtest is to be discontinued if 5 consecutive items within a set are scored 0 for both Task and Grammar.<\u002fp>"
+  },
+  "BasalConsecutiveTaskZerosRule": {
+    "triggerNum": 2,
+    "reverseMessage": "This subtest reverses after a Task score of 0 on both of the first two items.",
+    "taskIncompleteDescriptionHtml": "<p>A Task score must be recorded for the first two items administered after a start point.<\u002fp>\r\n",
+    "setStartQuestionIds": 
+    [
+      "ktea3a-oralexpression-samplea",
+      "ktea3a-oralexpression-item7",
+      "ktea3a-oralexpression-item13"
+    ]
+  },
+  "SkipAdministeredItemsRule": true,
+  "SetRawScoreRule": {
+    "sets": 
+    [
+      {
+        "startQuestionId": "ktea3a-oralexpression-samplea",
+        "endQuestionId": "ktea3a-oralexpression-item23"
+      },
+      {
+        "startQuestionId": "ktea3a-oralexpression-item7",
+        "endQuestionId": "ktea3a-oralexpression-item28"
+      },
+      {
+        "startQuestionId": "ktea3a-oralexpression-item13",
+        "endQuestionId": "ktea3a-oralexpression-item28"
+      }
+    ]
+  },
+  "GradeBasedStartingPointRule": {
+    "numPrevious": 3,
+    "showAllStaringPoints": true,
+    "startingPoints": 
+    [
+      {
+        "label": "Grades PK-1: Set A, Sample A, then Items 1-23",
+        "gradeLevels": 
+        [
+          "Grade PK"
+        ],
+        "questionId": "ktea3a-oralexpression-samplea"
+      },
+      {
+        "label": "Grades 2-8: Set B, Items 7-28",
+        "gradeLevels": 
+        [
+          "Grade 2"
+        ],
+        "questionId": "ktea3a-oralexpression-item7"
+      },
+      {
+        "label": "Grades 9-12+: Set C, Items 13-28",
+        "gradeLevels": 
+        [
+          "Grade 9"
+        ],
+        "questionId": "ktea3a-oralexpression-item13"
+      }
+    ]
+  },
+  "StoppingPointWithStartingPointRule": {
+    "stoppingPointIds": 
+    [
+      "ktea3a-oralexpression-item23",
+      "ktea3a-oralexpression-item28",
+      "ktea3a-oralexpression-item28"
+    ],
+    "startingPointIds": 
+    [
+      "ktea3a-oralexpression-samplea",
+      "ktea3a-oralexpression-item7",
+      "ktea3a-oralexpression-item13"
+    ]
+  },
+  "htmlSnippets": {
+    "responsesWithErrors-ktea3a-oralexpression-item13": "<p><img class=\"media_library_image\" mediaid=\"6658\" src=\"battery/ktea-3/images/6658_512128_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item14": "<p><img class=\"media_library_image\" mediaid=\"6659\" src=\"battery/ktea-3/images/6659_512129_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item15": "<p><img class=\"media_library_image\" mediaid=\"6660\" src=\"battery/ktea-3/images/6660_512130_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item16": "<p><img class=\"media_library_image\" mediaid=\"6661\" src=\"battery/ktea-3/images/6661_512131_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item17": "<p><img class=\"media_library_image\" mediaid=\"6662\" src=\"battery/ktea-3/images/6662_512132_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item18": "<p><img class=\"media_library_image\" mediaid=\"6663\" src=\"battery/ktea-3/images/6663_512133_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item19": "<p><img class=\"media_library_image\" mediaid=\"6664\" src=\"battery/ktea-3/images/6664_512134_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item20": "<p><img class=\"media_library_image\" mediaid=\"6665\" src=\"battery/ktea-3/images/6665_512135_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item21": "<p><img class=\"media_library_image\" mediaid=\"6666\" src=\"battery/ktea-3/images/6666_512136_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item22": "<p><img class=\"media_library_image\" mediaid=\"6667\" src=\"battery/ktea-3/images/6667_512137_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item23": "<p><img class=\"media_library_image\" mediaid=\"6668\" src=\"battery/ktea-3/images/6668_512138_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item24": "<p><img class=\"media_library_image\" mediaid=\"6695\" src=\"battery/ktea-3/images/6695_512139_Qi_b.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item25": "<p><img class=\"media_library_image\" mediaid=\"6670\" src=\"battery/ktea-3/images/6670_512140_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item26": "<p><img class=\"media_library_image\" mediaid=\"6671\" src=\"battery/ktea-3/images/6671_512141_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item27": "<p><img class=\"media_library_image\" mediaid=\"6672\" src=\"battery/ktea-3/images/6672_512142_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item28": "<p><img class=\"media_library_image\" mediaid=\"6673\" src=\"battery/ktea-3/images/6673_512143_Qi.jpg\" /><\u002fp>",
+    "implicationsForIntervention": "<h3>Implications For Intervention<\u002fh3>\r\n\r\n<p>The Task and Grammar scores are independent of each other to help provide meaningful diagnostic information about the examinee&rsquo;s strengths and weaknesses. One examinee may have weaknesses in grammar but still convey meaningful ideas that meet the Task requirements. Another examinee may have strong grammar skills but have difficulty constructing logical and meaningful sentences. These examinees would have different instructional needs.<\u002fp>\r\n\r\n<p>If the examinee&rsquo;s performance suggests a possible grammar weakness, completing the error analysis will indicate whether the number of errors made by the examinee indicates a normative weakness and provide even greater specificity regarding the type of grammar instruction that may be helpful.<\u002fp>\r\n\r\n<p>Task comprehension is important for obtaining a valid estimate of the examinee&rsquo;s oral expression skills. Take full advantage of the teaching items to help ensure the examinee understands the task. Failure to do so may result in a&nbsp;score that misrepresents an examinee&rsquo;s grammar skills as described in the following two scenarios.<\u002fp>\r\n\r\n<ul>\r\n\t<li>If an examinee speaks in fragmented sentences (e.g., <em>a girl eating<\u002fem>) on most or all items because he or she does not understand that a complete sentence is required for the task, the subtest score may give a false&nbsp;impression that the examinee has a weakness in grammar. In this case, consider testing the limits after&nbsp;administration is completed to determine if the examinee can produce complete sentences with additional prompting.<\u002fli>\r\n\t<br />\r\n\t<li>If an examinee fails to use the target words on most or all of the items and produces grammatically correct&nbsp;but simple responses, the subtest score may overestimate the examinee&rsquo;s grammar skills. The target words are designed to increase the grammatical difficulty level of the items, so examinees who fail to use the target words may receive credit for Grammar for providing simpler responses than the items require. In this case, consider testing the limits after administration is completed to determine if the examinee can build sentences with the target words when given further instructions.<\u002fli>\r\n<\u002ful>",
+    "twoPointResponses-ktea3a-oralexpression-item10": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>They feed the <u>birds<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The lady is feeding the <u>birds<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>We fed the <u>birds<\u002fu> some bread.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The <u>birds<\u002fu> are getting fed.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Birds<\u002fu> are eating.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Look at the <u>birds<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>They are watching the <u>birds<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item11": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>A girl is climbing a <u>tree<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>That is a girl in a <u>tree<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl is hanging from the <u>tree<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A girl is sitting in a <u>tree<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A girl is hiding in a <u>tree<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She is stuck in the <u>tree<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A girl plays in a <u>tree<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>I can climb a <u>tree<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>That <u>tree<\u002fu> is big.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item12": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>A little girl <u>finally<\u002fu> throws her food away.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl <u>finally<\u002fu> found a trashcan.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She <u>finally<\u002fu> finishes her lunch and throws it away.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A little girl is <u>finally<\u002fu> taking out the trash.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>I&rsquo;m <u>finally<\u002fu> done with my food.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A girl has <u>finally<\u002fu> finished eating.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>After she ate, she <u>finally<\u002fu> threw her food away.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl is throwing something away <u>finally<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Finally<\u002fu>, I found a trashcan.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Finally<\u002fu>, the park is clean.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl said, &ldquo;<u>Finally<\u002fu>, I am done eating.&rdquo;<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl will drink her juice, and <u>finally<\u002fu> she will throw it in the trash can.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item13": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>The girl is getting <u>wet<\u002fu> by <u>splashing<\u002fu> water.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She is <u>wet<\u002fu> because she&rsquo;s <u>splashing<\u002fu> the water.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She&rsquo;s <u>splashing<\u002fu> water and getting <u>wet<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Splashing<\u002fu> water will always get you <u>wet<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The little girl is <u>wet<\u002fu> and she&rsquo;s <u>splashing<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She is <u>splashing<\u002fu> in the <u>wet<\u002fu> water. [Redundancy is not penalized]<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item14": "<p><em>&lsquo;Til<\u002fem>&nbsp;is an acceptable contraction for&nbsp;<em>until<\u002fem>.<\u002fp>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>They are not going to cross the street&nbsp;<u>&lsquo;til<\u002fu>&nbsp;the light is green.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Do not cross the street&nbsp;<u>until<\u002fu>&nbsp;the signal says walk.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Don&rsquo;t walk&nbsp;<u>until<\u002fu>&nbsp;a car passes.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The family is waiting&nbsp;<u>until<\u002fu>&nbsp;it is clear to cross the road.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Wait&nbsp;<u>until<\u002fu>&nbsp;it is clear to cross the street.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Wait&nbsp;<u>until<\u002fu>&nbsp;the light turns red.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>They are waiting on the sidewalk&nbsp;<u>until<\u002fu>&nbsp;the bus arrives.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Until<\u002fu>&nbsp;they can walk, they stand there and wait.<br />\r\n\t\t\t&nbsp;<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>",
+    "twoPointResponses-ktea3a-oralexpression-item15": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>The boy is&nbsp;<u>above<\u002fu>&nbsp;his dad&rsquo;s head.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>He holds the boy&nbsp;<u>above<\u002fu>&nbsp;his shoulders.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The boy is&nbsp;<u>above<\u002fu>&nbsp;his dad.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The dad can put his son&nbsp;<u>above<\u002fu>&nbsp;his head.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>This dad is holding his child&nbsp;<u>above<\u002fu>&nbsp;him.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Seeing the world from his father&rsquo;s shoulders made him feel&nbsp;<u>above<\u002fu>&nbsp;everything.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item16": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>The mom <u>talks<\u002fu> on the phone.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The mother <u>talks<\u002fu> a lot.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The woman <u>talks<\u002fu> as she plays with her daughter.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The lady <u>talks<\u002fu> on the phone while the baby plays with her toy.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Mom <u>talks<\u002fu> on her cell phone while her daughter pretends to talk on her toy phone.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The little girl plays with her toy while her mom <u>talks<\u002fu> on the phone.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>My baby <u>talks<\u002fu> when I&rsquo;m on the phone.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item17": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>The boy <u>points<\u002fu> at the clock while <u>smiling<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>He <u>points<\u002fu> and he is <u>smiling<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>He <u>points<\u002fu> while he is <u>smiling<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A boy is <u>smiling<\u002fu> while he <u>points<\u002fu> to the clock.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>While <u>smiling<\u002fu>, the boy <u>points<\u002fu> to the clock.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The <u>smiling<\u002fu> boy <u>points<\u002fu> to the clock.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The <u>smiling<\u002fu> boy made some good <u>points<\u002fu> as he explained how to tell time.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item18": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><u>When<\u002fu> they got there, their grandma and grandpa were <u>waiting<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>When<\u002fu> the children arrived, the grandparents were <u>waiting<\u002fu> for them.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>When<\u002fu> the kids got there, their grandparents stopped <u>waiting<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>When<\u002fu> the children saw their grandparents <u>waiting<\u002fu> for them, they ran into open arms.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The grandparents were done <u>waiting<\u002fu> <u>when<\u002fu> the children came.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The little kids stopped <u>waiting<\u002fu> <u>when<\u002fu> they got to their grandparents&rsquo; house.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The grandparents were <u>waiting<\u002fu> <u>when<\u002fu> the children arrived.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Grandma and grandpa were <u>waiting<\u002fu> for <u>when<\u002fu> we got there.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>When<\u002fu> they were <u>waiting<\u002fu> for the kids, they were happy.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The <u>waiting<\u002fu> grandparents were happy <u>when<\u002fu> the grandchildren arrived.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The kids have been <u>waiting<\u002fu> and they&rsquo;ll run <u>when<\u002fu> they see their grandparents.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item19": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><u>Without<\u002fu> imagination <u>and<\u002fu> ingenuity, the child cannot reach the magnets.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Without<\u002fu> the help of his mom, he reaches up <u>and<\u002fu> tries to grab the letter.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Without<\u002fu> help he can&rsquo;t reach because he&rsquo;s small <u>and<\u002fu> short.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Without<\u002fu> help the child can&rsquo;t <u>and<\u002fu> won&rsquo;t be able to reach the letters.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The boy cannot spell his name <u>without<\u002fu> the letters &ldquo;k&rdquo; <u>and<\u002fu> &ldquo;e.&rdquo;<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The boy cannot reach the letters <u>without<\u002fu> his mom <u>and<\u002fu> dad.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The boy couldn&rsquo;t reach the letters <u>and<\u002fu> he couldn&rsquo;t play <u>without<\u002fu> them.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The boy reaches up <u>and<\u002fu> gets one down <u>without<\u002fu> any help.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The child is too short <u>and<\u002fu> he cannot reach <u>without<\u002fu> a stool.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The boy wants to get the magnets <u>without<\u002fu> help, <u>and<\u002fu> he can&rsquo;t reach.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item20": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>She was <u>taken<\u002fu> by her father to go <u>floating<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl is <u>taken<\u002fu> by the current while <u>floating<\u002fu> in her tube.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl was <u>floating<\u002fu> when the picture was <u>taken<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl gets her picture <u>taken<\u002fu> while <u>floating<\u002fu> in the pool.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>After her mom has <u>taken<\u002fu> her picture, the girl begins <u>floating<\u002fu> around the water.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She hasn&rsquo;t <u>taken<\u002fu> swimming lessons, so she is using a <u>floating<\u002fu> device.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Even though she has <u>taken<\u002fu> swimming lessons, she likes <u>floating<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl had <u>taken<\u002fu> her <u>floating<\u002fu> device to go swimming in the pool.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She was <u>floating<\u002fu> when her tube was <u>taken<\u002fu> away.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>After the girl had <u>taken<\u002fu> a tube, she was able to go <u>floating<\u002fu> across the water.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>I have <u>taken<\u002fu> the tube and now I am <u>floating<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She had <u>taken<\u002fu> her towel off to go <u>floating<\u002fu> in the water.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She has <u>taken<\u002fu> to <u>floating<\u002fu> on the water.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl is <u>floating<\u002fu> on the <u>taken<\u002fu> floatie.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item21": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>All the kids <u>are<\u002fu> swinging <u>but<\u002fu> one.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>They <u>are<\u002fu> swinging, <u>but<\u002fu> she is not.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The kids <u>are<\u002fu> swinging <u>but<\u002fu> one girl is standing.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The little girl wanted to swing, <u>but<\u002fu> the swings <u>are<\u002fu> taken.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She wants to swing, <u>but<\u002fu> there <u>are<\u002fu> not enough swings.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The boy and girl <u>are<\u002fu> swinging <u>but<\u002fu> the other girl isn&rsquo;t.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>There <u>are<\u002fu> three children <u>but<\u002fu> only two swings.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>There <u>are<\u002fu> three kids, <u>but<\u002fu> only two <u>are<\u002fu> swinging.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Two of the children <u>are<\u002fu> swinging, <u>but<\u002fu> one is feeling left out.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Her friends <u>are<\u002fu> swinging, <u>but<\u002fu> she has to wait until it&rsquo;s her turn.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>But<\u002fu> <u>are<\u002fu> you going to let me swing on the swings?<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>But<\u002fu> <u>are<\u002fu> we going to take turns?<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item22": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>The man was <u>chosen<\u002fu> to start <u>helping<\u002fu> his wife.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The man is <u>chosen<\u002fu> to start <u>helping<\u002fu> his wife cook.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The woman has <u>chosen<\u002fu> to cut the peppers while the man is <u>helping<\u002fu> to cut the lettuce.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>He has <u>chosen<\u002fu> to be <u>helping<\u002fu> in the kitchen.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>He has <u>chosen<\u002fu> to give his wife a <u>helping<\u002fu> hand with dinner.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>They have <u>chosen<\u002fu> to work together by <u>helping<\u002fu> each other.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She has <u>chosen<\u002fu> the peppers and he is <u>helping<\u002fu> her.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>They have <u>chosen<\u002fu> fruits and vegetables and now they are <u>helping<\u002fu> each other cook.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>He&rsquo;s <u>helping<\u002fu> her cut the <u>chosen<\u002fu> vegetables.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Grandpa needs a <u>helping<\u002fu> hand, so he has <u>chosen<\u002fu> his wife.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The wife is <u>helping<\u002fu> her husband cook the dish they have <u>chosen<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>While he was <u>helping<\u002fu> cook, he was <u>chosen<\u002fu> to cut the peppers.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item23": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>She will have to <u>carry<\u002fu> the baby <u>unless<\u002fu> she gets the stroller.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Mom must <u>carry<\u002fu> the clothes <u>unless<\u002fu> someone offers to help.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She will <u>carry<\u002fu> the clothes up the stairs <u>unless<\u002fu> she drops them.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She will <u>carry<\u002fu> the laundry <u>unless<\u002fu> it is too heavy.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She cannot <u>carry<\u002fu> all of the laundry <u>unless<\u002fu> she has a basket.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She can&rsquo;t <u>carry<\u002fu> all that <u>unless<\u002fu> she gets help from her kids.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She will not <u>carry<\u002fu> the laundry <u>unless<\u002fu> she has to.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Laundry is difficult to <u>carry<\u002fu> <u>unless<\u002fu> you have a basket.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Unless<\u002fu> her washer is working, she&rsquo;ll have to <u>carry<\u002fu> the clothes to the laundromat.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Unless<\u002fu> she finds a basket to put the clothes in, she will have to <u>carry<\u002fu> them.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Unless<\u002fu> she gets help, she will have to <u>carry<\u002fu> all the laundry herself.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>I have to <u>carry<\u002fu> my clothing upstairs <u>unless<\u002fu> I want my mom to yell at me.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The kids don&rsquo;t help <u>carry<\u002fu> the laundry <u>unless<\u002fu> their mom asks them to.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item24": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><u>Even though<\u002fu> it had stopped raining, they both still carried umbrellas.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Even though<\u002fu> it is barely raining, they are both using umbrellas.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Even though<\u002fu> it is raining outside, people are still walking around.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Even though<\u002fu> they have cars, they are walking to work.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Even though<\u002fu> it rained, they didn&rsquo;t get wet.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item25": "<p><em>Whether or not<\u002fem> can be used to mean <em>regardless<\u002fem> or <em>whether<\u002fem>.<\u002fp>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><u>Whether or not<\u002fu> he has a magnifying glass, he can still see the butterfly.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Whether or not<\u002fu> the boy realized it, he was looking at a monarch butterfly.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Whether or not<\u002fu> the butterfly can see him, he can see the butterfly.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Whether or not<\u002fu> the butterfly is small, the boy can still see it with the microscope.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Whether or not<\u002fu> the butterfly likes it, the boy wants to play.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Whether or not<\u002fu> the butterfly flies away, the boy is still fascinated by it.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>",
+    "twoPointResponses-ktea3a-oralexpression-item26": "<p><em>Although they had<\u002fem> requires past tense in the independent clause unless defined time periods are provided in both clauses.<\u002fp>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><u>Although they had<\u002fu> shovels, it was still hard to dig.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Although they had<\u002fu> tools, the work took a long time.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Although they had<\u002fu> a lot of work to do, they got it done.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Although they had<\u002fu> a sidewalk already, they decided to build a new one.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Although they had<\u002fu> been digging all morning, there was still more work to do.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Although they had<\u002fu> been working all day, the sidewalk was far from being done.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Although they had<\u002fu> worked hard, it still wasn&rsquo;t done.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Although they had<\u002fu> a long day yesterday, they are still working today. [Time periods are specified]<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<p>&nbsp;<\u002fp>",
+    "twoPointResponses-ktea3a-oralexpression-item27": "<p><em>Only if he<\u002fem> requires the main clause to be inverted so that the subject comes after the verb.<\u002fp>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><u>Only if he<\u002fu> is very sick will his mom let him stay home.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Only if he<\u002fu> had a fever could he stay home from school.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Only if he<\u002fu> was not sick could he go to school.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Only if he<\u002fu> receives medication will he get better.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Only if he<\u002fu> gets better can he go outside to play.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Only if he<\u002fu> rests will the child get better.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Only if he<\u002fu> listens to the nurse will his temperature go down.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Only if he<\u002fu> had listened to his mother and brought a jacket in the cold would he not be sick.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>Only if he<\u002fu> hadn&rsquo;t gotten sick would he be at school.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>",
+    "twoPointResponses-ktea3a-oralexpression-item28": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><u>If he had<\u002fu> some help, it would be easier to carry the boxes.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>If he had<\u002fu> had some helpers, he wouldn&rsquo;t have had to carry all the boxes himself.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>If he had<\u002fu> something to help him hold all those boxes, that could be really helpful.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>If he had<\u002fu> a dolly, he wouldn&rsquo;t have to carry the boxes.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>If he had<\u002fu> a rolling cart, his job would be easier.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>If he had<\u002fu> more boxes, the stack would topple.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>If he had<\u002fu> bigger muscles, carrying those boxes would be easier.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>If he had<\u002fu> sense, he would use a dolly.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><u>If he had<\u002fu> a box of cookies, I would take it.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "scoringProcedure": "<h3>Scoring Procedure<\u002fh3>\r\n\r\n<p>The following procedures are recommended for scoring.<\u002fp>\r\n\r\n<ol>\r\n\t<li>Read through the scoring rules. Study the Structure and Word Form errors listed under Grammar Error Categories, so you are familiar with the kinds of errors to listen for when scoring Grammar. Refer to the Language Glossary chapter of the&nbsp;<em>KTEA&ndash;<\u002fem><em>3 Scoring Manual&nbsp;<\u002fem>for definitions and examples of unfamiliar grammar terms.<\u002fli>\r\n\t<br />\r\n\t<li>Apply the General Scoring Guidelines.<\u002fli>\r\n\t<br />\r\n\t<li>Consult the item-by-item scoring examples for the most common response types and how to score them.<\u002fli>\r\n\t<br />\r\n\t<li>Evaluate the response for Task criteria. If the response does not meet one of the criteria, you don&rsquo;t need to evaluate the remaining Task criteria for that item.<\u002fli>\r\n\t<br />\r\n\t<li>Score Task. Give credit for Task only if all Task criteria are met. Otherwise, score Task as 0.<\u002fli>\r\n\t<br />\r\n\t<li>Evaluate the response for Grammar errors (even if Task = 0).<\u002fli>\r\n\t<br />\r\n\t<li>Score Grammar. If you hear any grammar errors, score as 0. For this score, it does not matter if the error is a Structure error or a Word Form error.<\u002fli>\r\n\t<br />\r\n\t<li>Perform Error Analysis (optional). Decide whether Grammar errors fall&nbsp;under Structure or Word Form (or both).&nbsp;<\u002fli>\r\n<\u002fol>",
+    "generalScoringGuidelines": "<h3>General Scoring Guidelines<\u002fh3>\r\n\r\n<p>Use Mainstream American English as the standard when scoring grammar.<\u002fp>\r\n\r\n<p>Do not penalize for articulation errors (e.g., pronouncing <em>splashing<\u002fem> as <em>spashing<\u002fem>).<\u002fp>\r\n\r\n<p>Score the final response. If an examinee makes a false start or corrects a previous response, score what you interpret&nbsp;as the final response. When you give instructional feedback on a teaching item by rephrasing the item prompt as&nbsp;<em>What is happening in this picture?<\u002fem> and the examinee gives a better response, score this as the final response.<\u002fp>\r\n\r\n<p>Because punctuation is not provided in an oral response, independent clauses included as part of fused sentences&nbsp;or a run-on response may need to be parsed. If two or more sentences are given, or the response sounds like a&nbsp;fused sentence or a run-on with two or more independent clauses joined together, score according to the&nbsp;following procedure:<\u002fp>\r\n\r\n<ol>\r\n\t<li>Use your best judgment to parse the response into sentences. Independent clauses may be&nbsp;treated as separate sentences.<\u002fli>\r\n\t<br />\r\n\t<li>Choose the best sentence for scoring both Task and Grammar. Choose a sentence that&nbsp;includes the Target Word(s), even if the sentence includes grammar errors. If each sentence&nbsp;uses the same number of Target Words, or if none of the Target Words are used in any of&nbsp;the sentences, then score the one sentence that earns the highest score for Grammar.&nbsp;<\u002fli>\r\n<\u002fol>\r\n\r\n<p>Example A: &nbsp;<em>The girl splashes in the water. She might get <\u002fem><u>wet<\u002fu><em>.<\u002fem><\u002fp>\r\n\r\n<p>Only the second sentence includes a Target Word, so the second sentence is scored (Task = 0 for omitting one of the Target Words; Grammar = 1 for correct Structure and Word Form).<\u002fp>\r\n\r\n<p>Example B: &nbsp;<em>The girl <\u002fem><u>splashing<\u002fu><em> in the water. She might get <\u002fem><u>wet<\u002fu><em>.<\u002fem><\u002fp>\r\n\r\n<p>Each sentence includes only one of the Target Words so the Task score is the same for both (0). The first sentence&nbsp;would earn a 0 for Grammar (Task = 0 for omitting one of the Target Words; Grammar = 0 for Structure [omitted&nbsp;word]) but the second sentence would score a 1 for Grammar (Task = 0 for omitting one of the Target Words;&nbsp;Grammar = 1 for correct Structure and Word Form). As a result, only the second sentence should be scored.&nbsp;<\u002fp>\r\n\r\n<p>Example C: &nbsp;<em>The girl is <\u002fem><u>splashing<\u002fu><em> in the water. She might get <\u002fem><u>wet<\u002fu><em>.<\u002fem><\u002fp>\r\n\r\n<p>Each sentence includes one of the Target Words and earns the same score, so either sentence may be selected for&nbsp;scoring (Task = 0 for omitting one of the Target Words; Grammar = 1 for correct Structure and Word Form).<\u002fp>\r\n\r\n<p>Task and Grammar are scored independently of each other. Try not to let poor performance in one category&nbsp;influence the score for the other category.<\u002fp>\r\n\r\n<p>Some errors result in scores of 0 for both Task and Grammar for an item.<\u002fp>\r\n\r\n<ul>\r\n\t<li>If an examinee doesn&rsquo;t respond to an item, or if the response is incomprehensible (the meaning cannot be&nbsp;understood), score 0 for both Task and Grammar.<\u002fli>\r\n\t<br />\r\n\t<li>Misplacement of a part of the sentence can result in scores of 0 on both Task (because the sentence does not&nbsp;make sense) and Grammar (because the misplacement results in a sentence structure error).<\u002fli>\r\n<\u002ful>\r\n\r\n<p>Responses may be<\u002fp>\r\n\r\n<ul>\r\n\t<li>in the form of statements, commands, or questions; or<\u002fli>\r\n\t<br />\r\n\t<li>stated in the first person (pronoun <em>I<\u002fem>), second person (pronoun <em>you<\u002fem>, or a command with an implied <em>you<\u002fem> as&nbsp;the subject), or third person.<\u002fli>\r\n<\u002ful>",
+    "taskCriteria": "<h3>Task Criteria<\u002fh3>\r\n\r\n<p>Score 1 point for Task only if <strong>all<\u002fstrong> of the following criteria are met.<\u002fp>\r\n\r\n<ol>\r\n\t<li>Includes target word(s) (Items 7&ndash;28)<\u002fli>\r\n<\u002fol>\r\n\r\n<p style=\"margin-left: 40px;\">The response must include the target word(s) with no changes to the form of the&nbsp;target word(s).<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">Don&rsquo;t penalize if the examinee uses the target word in possessive form or as part of a&nbsp;contraction (e.g., <em>cat&rsquo;s<\u002fem>).<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">For items with a target word phrase, the phrase must be used exactly as presented. If the&nbsp;phrase was not used at the beginning of the response, or was altered in some way, score&nbsp;Task as 0.<\u002fp>\r\n\r\n<ol start=\"2\">\r\n\t<li>Includes noun/pronoun and verb<\u002fli>\r\n<\u002fol>\r\n\r\n<p style=\"margin-left: 40px;\">The response must include a verb and at least one noun or pronoun. The response may or may not be a complete sentence to earn the Task point.<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">For example, <em>His eats<\u002fem> is not a complete sentence because it lacks a subject, but it meets this&nbsp;Task criterion because it includes a pronoun and a verb.<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">This criterion requires the response to include sufficient content to allow the other Task&nbsp;scoring criteria to be applied fairly. However, it&rsquo;s also designed to be grammatically lenient&nbsp;to avoid double penalizing fragments under both Task and Grammar.<\u002fp>\r\n\r\n<ol start=\"3\">\r\n\t<li>Related to the picture<\u002fli>\r\n<\u002fol>\r\n\r\n<p style=\"margin-left: 40px;\">Picture interpretation issues are not penalized, so inaccurate descriptions of the pictures&nbsp;are acceptable. In addition to describing the picture, an examinee may describe events&nbsp;leading up to or following what is pictured, or may use the picture to create a context for&nbsp;the response.<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">Most errors result from examinees getting off task and discussing previously shown&nbsp;pictures or other topics, even after appropriate redirection from the examiner.<\u002fp>\r\n\r\n<ol start=\"4\">\r\n\t<li>Logical and meaningful<\u002fli>\r\n<\u002fol>\r\n\r\n<p style=\"margin-left: 40px;\">The response must be logical and describe something that is possible. Do you understand what the response means? Penalize if there are multiple possible interpretations of a response and you are confused about what was intended.<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">Additionally, the target word(s) must be used in a familiar or typical way&mdash;even if the words are not used well. The response must demonstrate that the examinee has a basic understanding of how to use the target word(s) and what the word(s) means. Don&rsquo;t penalize just because the target word(s) could have been used better. Ask yourself, &ldquo;Is the target word typically used this way in English?&rdquo;<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">Don&rsquo;t penalize if the examinee confuses a target word with a homophone (e.g., <em>peak<\u002fem>&nbsp;for <em>peek<\u002fem>).<\u002fp>",
+    "grammarCriteria": "<h3>Grammar Criteria<\u002fh3>\r\n\r\n<p>Score Grammar 1 point if the response contains no grammar errors. Grammar errors include all Structure and Word&nbsp;Form errors.<\u002fp>\r\n\r\n<p>When you score each response, trust your first impression and try not to over analyze the response. If it sounds&nbsp;right, it probably is.<\u002fp>\r\n\r\n<p>Don&rsquo;t penalize just because a response could be improved in some way. Only penalize for responses that are&nbsp;obviously unacceptable in everyday oral expression.<\u002fp>\r\n\r\n<p>If something doesn&rsquo;t sound right and you can&rsquo;t decide whether the response has a grammar error or is just&nbsp;awkward, ask yourself, &ldquo;Is it acceptable to speak this way in English?&rdquo; If not, it&rsquo;s an error.<\u002fp>\r\n\r\n<p>When scoring grammar, it is important that you focus only on the grammar of the sentence. Do not be distracted by&nbsp;the context of the sentence in relation to the picture. Some responses may seem incorrect either because they don&rsquo;t&nbsp;accurately describe the picture or because you believe that the meaning of the response is not what the examinee&nbsp;intended. However, do not penalize the grammar because the sentence does not accurately describe the picture.<\u002fp>",
+    "grammarErrorCategories": "<p>Refer to the Error Analysis Scoring chapter of the <em>KTEA&ndash;<\u002fem><em>3 Scoring Manual<\u002fem>&nbsp;for more information and examples of each category.<\u002fp>\r\n\r\n<h3>STRUCTURE<\u002fh3>\r\n\r\n<p>Sentence structure errors relate to how the sentence is organized. Structure errors include the following:<\u002fp>\r\n\r\n<ul>\r\n\t<li><strong>Fragment<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\"><em>A girl eating<\u002fem><\u002fp>\r\n\r\n<ul>\r\n\t<li><strong>Incorrect word order<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\"><em>The boy wants to know where is his chair.<\u002fem><\u002fp>\r\n\r\n<ul>\r\n\t<li><strong>Extra word(s)<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\"><em>Because he has a broken leg, so he can&rsquo;t go out.<\u002fem><\u002fp>\r\n\r\n<ul>\r\n\t<li><strong>Omitted word(s)<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\"><em>Mommy is talking the phone.<\u002fem><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\"><em>The first steps, she walked all the way across the room.<\u002fem><\u002fp>\r\n\r\n<ul>\r\n\t<li><strong>Incorrect part of speech<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\"><em>She is sitting quiet.<\u002fem> (<em>quiet<\u002fem> should be <em>quietly<\u002fem>)<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\"><em>The boy did great tying his shoes.<\u002fem> (<em>great<\u002fem> should be <em>well<\u002fem>)<\u002fp>\r\n\r\n<ul>\r\n\t<li><strong>Did not identify the subject when the verb form changed<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\"><em>A boy is smiling and points to the clock. (Correct: A boy is smiling and he points to the clock.)<\u002fem><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\"><em>A boy is playing with his grandmother and is happy. (Correct: A boy is playing with his grandmother and he&nbsp;is happy.)<\u002fem><\u002fp>\r\n\r\n<h3>WORD FORM<\u002fh3>\r\n\r\n<p>Word Form errors involve the form (tense, agreement, plurality) or usage of a word.<\u002fp>\r\n\r\n<p>In contexts where these words serve a broadly similar function, do not penalize when one of the following words is&nbsp;used in place of the other (accept either as correct): <em>that<\u002fem> vs. <em>which<\u002fem>; <em>who<\u002fem> vs. <em>whom<\u002fem>; <em>lay<\u002fem> vs. <em>lie<\u002fem>.<\u002fp>\r\n\r\n<p>Word Form errors include the following:<\u002fp>\r\n\r\n<ul>\r\n\t<li><strong>Slang and colloquial word usage<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\">Examples of errors include <em>gonna<\u002fem>, <em>ain&rsquo;t<\u002fem>, <em>anyways<\u002fem>.<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\"><em>&lsquo;Til<\u002fem> is an acceptable contraction for <em>until<\u002fem>.<\u002fp>\r\n\r\n<ul>\r\n\t<li><strong>Subject-verb disagreement<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\"><em><strong>People is<\u002fstrong> feeding the birds.<\u002fem><\u002fp>\r\n\r\n<ul>\r\n\t<li><strong>Incorrect verb form<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\"><em>He <strong>buyed<\u002fstrong> the pizza.<\u002fem><\u002fp>\r\n\r\n<ul>\r\n\t<li><strong>Lack of parallel structure<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\"><em>While they <strong>played<\u002fstrong> music, people <strong>talk<\u002fstrong>.<\u002fem><\u002fp>\r\n\r\n<ul>\r\n\t<li><strong>Incorrect noun or pronoun, unclear pronoun, or missing possessive<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\"><em>A <strong>childs<\u002fstrong> is doing homework.<\u002fem> (<em>childs<\u002fem> should be <em>child<\u002fem>)<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\"><em>The boy and <strong>her<\u002fstrong> mom are looking at birds.<\u002fem> (<em>her<\u002fem> is unclear)<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\"><em>He picked up the little girl toy.<\u002fem> (<em>girl<\u002fem> should be <em>girl&rsquo;s<\u002fem>)<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">Do not penalize for<\u002fp>\r\n\r\n<ul style=\"margin-left: 40px\">\r\n\t<li>Using <em>that<\u002fem> to refer to a person (<em>She was the one <strong>that<\u002fstrong> fed the cat<\u002fem>).<\u002fli>\r\n\t<br />\r\n\t<li>Using <em>they<\u002fem> or <em>their<\u002fem> to refer to a single person (<em>A child is doing <strong>their<\u002fstrong> homework<\u002fem>).<\u002fli>\r\n<\u002ful>\r\n\r\n<ul>\r\n\t<li><strong>Incorrect preposition or article<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\"><em>The girl is playing with her cat <strong>on<\u002fstrong> the garden.<\u002fem><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\"><em>He asked for <strong>a<\u002fstrong> iced tea.<\u002fem><\u002fp>\r\n\r\n<ul>\r\n\t<li><strong>Word meaning<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\"><em><strong>Unless<\u002fstrong> you don&rsquo;t help, I will have to carry all the laundry. <\u002fem>(<em>unless<\u002fem> is used to mean <em>if<\u002fem>)<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\"><em>If he had <strong>less<\u002fstrong> boxes, it wouldn&rsquo;t be so hard to carry them all. <\u002fem>(<em>less<\u002fem> is used to mean <em>fewer<\u002fem>)<\u002fp>\r\n\r\n<ul>\r\n\t<li><strong>Double negative<\u002fstrong><\u002fli>\r\n<\u002ful>\r\n\r\n<p style=\"margin-left: 40px;\"><em>She <strong>doesn&rsquo;t<\u002fstrong> want <strong>no<\u002fstrong> more.<\u002fem><\u002fp>",
+    "twoPointResponses-ktea3a-oralexpression-item1": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>A girl eats food.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She is eating.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A baby is eating and getting messy.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>I am eating spaghetti.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>It&rsquo;s time for dinner.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item2": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>The boy is putting on his shoes.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A baby puts on socks.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The boy is taking off his shoes.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A little boy is trying to get his shoes back on.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A boy is playing with shoes.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>I&rsquo;m putting my shoes on without socks.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The boy is sitting.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item3": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>She is washing her hands.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A girl is washing her hands with hot water.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She washes her hands.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>I can wash my hands when I go to the bathroom.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>You wash your hands with soap.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She is going to wash her hands.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl&rsquo;s in the bathroom washing her hands.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item4": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>She is mopping.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl mops the floor with suds.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The kid used a mop to clean the floor.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>I mopped.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Clean up this mess.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Sophia is cleaning the kitchen.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl likes playing with bubbles.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A girl sweeps the floor.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>This girl is painting.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item5": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>The boy is drawing.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The child colors.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>He is doing homework.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>He can write with a pencil.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Do your work.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item6": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>A girl is drinking.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl drinks.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>He is drinking water.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>That kid is getting a drink of water.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A boy is drinking from a water fountain.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl is taking a drink out of a drinking fountain.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A girl is trying to drink some water.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She is at the fountain.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>What is that girl doing drinking?<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item7": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>A boy is playing with the <u>car<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She was playing with a yellow <u>car<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The boy is driving a <u>car<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>He is rolling the <u>car<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>There&rsquo;s a boy that&rsquo;s making a <u>car<\u002fu> move.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>This is a boy, and he is playing with his <u>car<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>He has a <u>car<\u002fu> outside.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The <u>car<\u002fu> is getting played with.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The boy is having fun with the <u>car<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>I saw a little boy driving his <u>car<\u002fu> around.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The <u>car<\u002fu>&rsquo;s really fast.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item8": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>A girl is holding a <u>cat<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl hugs her <u>cat<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A girl is playing with a <u>cat<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She&rsquo;s squeezing the <u>cat<\u002fu> tightly.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The little girl is choking the <u>cat<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She loves that <u>cat<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A little girl found a <u>cat<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A girl is carrying her <u>cat<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>I love my <u>cat<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>My <u>cat<\u002fu> likes to run.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>Her <u>cat<\u002fu>&rsquo;s cute.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The <u>cat<\u002fu>&rsquo;s face is adorable.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "twoPointResponses-ktea3a-oralexpression-item9": "<div>&nbsp;<\u002fdiv>\r\n\r\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<thead>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"col\" style=\"text-align: left;\">2-Point Responses<\u002fth>\r\n\t\t<\u002ftr>\r\n\t<\u002fthead>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>The girl is watering the <u>flowers<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>A girl is planting her <u>flowers<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The little girl is helping her mom water the <u>flowers<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>This girl is growing her <u>flowers<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl is washing her <u>flowers<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She is taking care of her <u>flowers<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The girl is pouring water on the <u>flowers<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>She is putting water on the <u>flowers<\u002fu>.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>The <u>flowers<\u002fu> are pretty.<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<div>&nbsp;<\u002fdiv>",
+    "responsesWithErrors-ktea3a-oralexpression-item1": "<p><img class=\"media_library_image\" mediaid=\"6652\" src=\"battery/ktea-3/images/6652_512122_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item2": "<p><img class=\"media_library_image\" mediaid=\"6653\" src=\"battery/ktea-3/images/6653_512123_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item3": "<p><img class=\"media_library_image\" mediaid=\"6654\" src=\"battery/ktea-3/images/6654_512124_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item4": "<p><img class=\"media_library_image\" mediaid=\"6655\" src=\"battery/ktea-3/images/6655_512125_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item7": "<p><img class=\"media_library_image\" mediaid=\"6656\" src=\"battery/ktea-3/images/6656_512126_Qi.jpg\" /><\u002fp>",
+    "responsesWithErrors-ktea3a-oralexpression-item8": "<p><img class=\"media_library_image\" mediaid=\"6657\" src=\"battery/ktea-3/images/6657_512127_Qi.jpg\" /><\u002fp>"
+  },
+  "observations": 
+  [
+    {
+      "guid": "1dd5c7065f9342e0964c75c881f77526",
+      "type": "Selection",
+      "label": "Responses indicated misinterpretation of the pictures",
+      "isFirstInGroup": true
+    },
+    {
+      "guid": "84a479307d024d7c8be2628d6060daeb",
+      "type": "Selection",
+      "label": "Responses were often illogical or not meaningful"
+    },
+    {
+      "guid": "291af4c5e1bb4d678f6dc3ee9d549508",
+      "type": "Selection",
+      "label": "Had difficulty using the target words correctly"
+    },
+    {
+      "guid": "7018ab6254ef4190835d0ddffce65dd8",
+      "type": "Selection",
+      "label": "Frequently revised or reformulated response"
+    },
+    {
+      "guid": "5b2e92e770434b1aadfa0ff18739ec96",
+      "type": "Selection",
+      "label": "Had difficulty with word finding"
+    },
+    {
+      "guid": "b92103adb431419283c7a392ea20bdb2",
+      "type": "Selection",
+      "label": "Most responses were complete sentences",
+      "isFirstInGroup": true
+    },
+    {
+      "guid": "cec70746a22c4ba089a9a17405c0756d",
+      "type": "Selection",
+      "label": "Paused to consider response before speaking"
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    },
+    {
+      "name": "SC",
+      "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+      "abbreviation": "sc"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

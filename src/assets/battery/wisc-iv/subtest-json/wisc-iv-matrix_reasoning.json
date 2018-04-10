@@ -1,0 +1,1973 @@
+{
+  "subtestId": 83,
+  "subtestGUID": "b9f7ab50154b3b48e040a8c04201160b",
+  "title": "Matrix Reasoning",
+  "displayName": "Matrix Reasoning",
+  "abbr": "Matrix Reasoning",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": null,
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-iv/matrix_reasoning",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Perceptual Reasoning",
+    "averageDuration": 6,
+    "descriptionCS": "The child looks at an incomplete matrix and selects the missing portion from five response options."
+  },
+  "scoringScaleName": "Perceptual Reasoning Index (PRI)",
+  "scoringScaleAbbr": "PRI",
+  "isScaledScoreOptional": false,
+  "questions": 
+  [
+    {
+      "id": "wisciv-matrixreasoning-samplea",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-samplea",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Sample Item A",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Right. Let&#39;s try another one.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Let&#39;s look again. All of these butterflies are blue<\u002fspan> (point to butterflies in grid)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">This one <\u002fspan>(point to Response 1)<span class=\"speechBlue\"> is also blue, so it goes here<\u002fspan> (point to box with question mark)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">Let&#39;s try another one.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-samplea/wisciv-matrixreasoning-sampleaPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-sampleb",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-sampleb",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Sample Item B",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><span class=\"testPrompt\">Right. Let&rsquo;s try another one.<\u002fspan><\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Let&rsquo;s look again. These two light bulbs are yellow<\u002fspan> (point to yellow light bulbs)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">Here is a green light bulb<\u002fspan> (point to green light bulb in grid)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">We need another green light bulb like this one, so this one <\u002fspan>(point to Response 5) <span class=\"speechBlue\">goes here<\u002fspan> (point to box with question mark)<span class=\"speechBlue\">. Let&rsquo;s try another one.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-sampleb/wisciv-matrixreasoning-samplebPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            5
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-samplec",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-samplec",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Sample Item C",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Right. Let&rsquo;s try another one.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Let&rsquo;s look again. All of these boxes are blue and have a line through them going this way <\u002fspan>(point to boxes in grid)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">This one<\u002fspan> (point to Response 4) <span class=\"speechBlue\">is also blue and has the same line through it, so it goes here<\u002fspan> (point to box with question mark)<span class=\"speechBlue\">. Let&rsquo;s try another one.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-samplec/wisciv-matrixreasoning-samplecPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            4
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item1",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item2",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item3",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            4
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item4",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item5",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            5
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item6",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item7",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            4
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item8",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            4
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item9",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item10",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item11",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item12",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 12",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            5
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item13",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            4
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item14",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 14",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item15",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 15",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item16",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 16",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item17",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 17",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            5
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item18",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item18",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 18",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            4
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item19",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item19",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 19",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item20",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item20",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 20",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            4
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item21",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item21",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 21",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item22",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item22",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 22",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item23",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item23",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 23",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            5
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item24",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item24",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 24",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            4
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item25",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item25",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 25",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item26",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item26",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 26",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item27",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item27",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 27",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item28",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item28",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 28",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item29",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item29",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 29",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item30",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item30",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 30",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item31",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item31",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 31",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            5
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item32",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item32",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 32",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            4
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item33",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item33",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 33",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item34",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item34",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 34",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-matrixreasoning-item35",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/matrix_reasoning/wisciv-matrixreasoning-item35",
+      "subtestName": "Matrix Reasoning",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 35",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": null,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/matrix_reasoning/items_1-35Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            5
+          ],
+          "responsesPerRow": 5,
+          "numResponses": 5,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "imageList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "discontinueRuleXZerosOutOfY": {
+    "numQuestions": 5,
+    "numZeros": 4,
+    "description": "This subtest discontinues after 4 consecutive scores of 0 points or 4 scores of 0 in 5 questions."
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 6,
+      "maxAge": 8,
+      "skipFromQuestionID": "wisciv-matrixreasoning-item1",
+      "skipToQuestionID": "wisciv-matrixreasoning-item4",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "alternateQuestionID": "wisciv-matrixreasoning-item4",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 9,
+      "maxAge": 11,
+      "skipFromQuestionID": "wisciv-matrixreasoning-item1",
+      "skipToQuestionID": "wisciv-matrixreasoning-item7",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "alternateQuestionID": "wisciv-matrixreasoning-item4",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 12,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisciv-matrixreasoning-item1",
+      "skipToQuestionID": "wisciv-matrixreasoning-item11",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "alternateQuestionID": "wisciv-matrixreasoning-item4",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

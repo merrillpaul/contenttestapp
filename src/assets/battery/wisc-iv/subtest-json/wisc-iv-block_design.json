@@ -1,0 +1,1250 @@
+{
+  "subtestId": 76,
+  "subtestGUID": "b9f7a33e1914eef5e040a8c042011539",
+  "title": "Block Design",
+  "displayName": "Block Design",
+  "abbr": "Block Design",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": "BlockDesign",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-iv/block_design",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": {
+    "questionScoreIsHighestTrialScore": false,
+    "onlySkipSampleItems": false
+  },
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Perceptual Reasoning",
+    "averageDuration": 10,
+    "descriptionCS": "While viewing a constructed model or a picture, the child uses red-and-white blocks to re-create the design within a specified time limit."
+  },
+  "scoringScaleName": "Perceptual Reasoning Index (PRI)",
+  "scoringScaleAbbr": "PRI",
+  "isScaledScoreOptional": false,
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Items 1-4",
+      "abbr": "Items 1-4",
+      "questions": 
+      [
+        {
+          "id": "wisciv-blockdesign-item1",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item1",
+          "subtestName": "Block Design",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item1/wisciv-blockdesign-item1-546Prompts.html"
+                }
+              ],
+              "id": "wisciv-blockdesign-item1-546",
+              "title": "Item 1 Trial 1",
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "width": 2,
+                  "expected": {
+                    "blocks": 
+                    [
+                      5,
+                      0
+                    ],
+                    "rotation": 0
+                  },
+                  "layout": "wisc-iv",
+                  "is2x2WithTopRowOffset": false,
+                  "scores": 
+                  [
+                    {
+                      "minSeconds": 30,
+                      "maxSeconds": 30,
+                      "score": 2
+                    }
+                  ]
+                },
+                "superType": null,
+                "type": "blockDesign"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": true
+            },
+            {
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item1/wisciv-blockdesign-item1-547Prompts.html"
+                }
+              ],
+              "id": "wisciv-blockdesign-item1-547",
+              "title": "Item 1 Trial 2",
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "width": 2,
+                  "expected": {
+                    "blocks": 
+                    [
+                      5,
+                      0
+                    ],
+                    "rotation": 0
+                  },
+                  "layout": "wisc-iv",
+                  "is2x2WithTopRowOffset": false,
+                  "scores": 
+                  [
+                    {
+                      "minSeconds": 30,
+                      "maxSeconds": 30,
+                      "score": 1
+                    }
+                  ]
+                },
+                "superType": null,
+                "type": "blockDesign"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-blockdesign-item2",
+          "shouldUseTimer": true,
+          "maxTime": 45,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item2",
+          "subtestName": "Block Design",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item2/wisciv-blockdesign-item2-549Prompts.html"
+                }
+              ],
+              "id": "wisciv-blockdesign-item2-549",
+              "title": "Item 2 Trial 1",
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "width": 2,
+                  "expected": {
+                    "blocks": 
+                    [
+                      0,
+                      5,
+                      0,
+                      0
+                    ],
+                    "rotation": 0
+                  },
+                  "layout": "wisc-iv",
+                  "is2x2WithTopRowOffset": false,
+                  "scores": 
+                  [
+                    {
+                      "minSeconds": 45,
+                      "maxSeconds": 45,
+                      "score": 2
+                    }
+                  ]
+                },
+                "superType": null,
+                "type": "blockDesign"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": true
+            },
+            {
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item2/wisciv-blockdesign-item2-550Prompts.html"
+                }
+              ],
+              "id": "wisciv-blockdesign-item2-550",
+              "title": "Item 2 Trial 2",
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "width": 2,
+                  "expected": {
+                    "blocks": 
+                    [
+                      0,
+                      5,
+                      0,
+                      0
+                    ],
+                    "rotation": 0
+                  },
+                  "layout": "wisc-iv",
+                  "is2x2WithTopRowOffset": false,
+                  "scores": 
+                  [
+                    {
+                      "minSeconds": 45,
+                      "maxSeconds": 45,
+                      "score": 1
+                    }
+                  ]
+                },
+                "superType": null,
+                "type": "blockDesign"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-blockdesign-item3",
+          "shouldUseTimer": true,
+          "maxTime": 45,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item3",
+          "subtestName": "Block Design",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "trials": 
+          [
+            {
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item3/wisciv-blockdesign-item3-551Prompts.html"
+                }
+              ],
+              "id": "wisciv-blockdesign-item3-551",
+              "title": "Item 3 Trial 1",
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "width": 2,
+                  "expected": {
+                    "blocks": 
+                    [
+                      0,
+                      5,
+                      5,
+                      0
+                    ],
+                    "rotation": 0
+                  },
+                  "layout": "wisc-iv",
+                  "is2x2WithTopRowOffset": false,
+                  "scores": 
+                  [
+                    {
+                      "minSeconds": 45,
+                      "maxSeconds": 45,
+                      "score": 2
+                    }
+                  ]
+                },
+                "superType": null,
+                "type": "blockDesign"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": true
+            },
+            {
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item3/wisciv-blockdesign-item3-552Prompts.html"
+                }
+              ],
+              "id": "wisciv-blockdesign-item3-552",
+              "title": "Item 3 Trial 2",
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "width": 2,
+                  "expected": {
+                    "blocks": 
+                    [
+                      0,
+                      5,
+                      5,
+                      0
+                    ],
+                    "rotation": 0
+                  },
+                  "layout": "wisc-iv",
+                  "is2x2WithTopRowOffset": false,
+                  "scores": 
+                  [
+                    {
+                      "minSeconds": 45,
+                      "maxSeconds": 45,
+                      "score": 1
+                    }
+                  ]
+                },
+                "superType": null,
+                "type": "blockDesign"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": true
+            }
+          ]
+        },
+        {
+          "id": "wisciv-blockdesign-item4",
+          "shouldUseTimer": true,
+          "maxTime": 45,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item4",
+          "subtestName": "Block Design",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item4/wisciv-blockdesign-item4Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "width": 2,
+              "expected": {
+                "blocks": 
+                [
+                  5,
+                  3,
+                  5,
+                  5
+                ],
+                "rotation": 0
+              },
+              "layout": "wisc-iv",
+              "is2x2WithTopRowOffset": false,
+              "scores": 
+              [
+                {
+                  "minSeconds": 45,
+                  "maxSeconds": 45,
+                  "score": 4
+                }
+              ]
+            },
+            "superType": null,
+            "type": "blockDesign"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ],
+      "hasInstructionsHtml": true
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Items 5-10",
+      "abbr": "Items 5-10",
+      "questions": 
+      [
+        {
+          "id": "wisciv-blockdesign-item5",
+          "shouldUseTimer": true,
+          "maxTime": 45,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item5",
+          "subtestName": "Block Design",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item5/wisciv-blockdesign-item5Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "width": 2,
+              "expected": {
+                "blocks": 
+                [
+                  1,
+                  0,
+                  3,
+                  0
+                ],
+                "rotation": 0
+              },
+              "layout": "wisc-iv",
+              "is2x2WithTopRowOffset": false,
+              "scores": 
+              [
+                {
+                  "minSeconds": 45,
+                  "maxSeconds": 45,
+                  "score": 4
+                }
+              ]
+            },
+            "superType": null,
+            "type": "blockDesign"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-blockdesign-item6",
+          "shouldUseTimer": true,
+          "maxTime": 75,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item6",
+          "subtestName": "Block Design",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item6/wisciv-blockdesign-item6Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "width": 2,
+              "expected": {
+                "blocks": 
+                [
+                  5,
+                  5,
+                  1,
+                  2
+                ],
+                "rotation": 0
+              },
+              "layout": "wisc-iv",
+              "is2x2WithTopRowOffset": false,
+              "scores": 
+              [
+                {
+                  "minSeconds": 75,
+                  "maxSeconds": 75,
+                  "score": 4
+                }
+              ]
+            },
+            "superType": null,
+            "type": "blockDesign"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-blockdesign-item7",
+          "shouldUseTimer": true,
+          "maxTime": 75,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item7",
+          "subtestName": "Block Design",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item7/wisciv-blockdesign-item7Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "width": 2,
+              "expected": {
+                "blocks": 
+                [
+                  4,
+                  3,
+                  2,
+                  1
+                ],
+                "rotation": 0
+              },
+              "layout": "wisc-iv",
+              "is2x2WithTopRowOffset": false,
+              "scores": 
+              [
+                {
+                  "minSeconds": 75,
+                  "maxSeconds": 75,
+                  "score": 4
+                }
+              ]
+            },
+            "superType": null,
+            "type": "blockDesign"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-blockdesign-item8",
+          "shouldUseTimer": true,
+          "maxTime": 75,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item8",
+          "subtestName": "Block Design",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item8/wisciv-blockdesign-item8Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "width": 2,
+              "expected": {
+                "blocks": 
+                [
+                  5,
+                  1,
+                  4,
+                  5
+                ],
+                "rotation": 0
+              },
+              "layout": "wisc-iv",
+              "is2x2WithTopRowOffset": false,
+              "scores": 
+              [
+                {
+                  "minSeconds": 75,
+                  "maxSeconds": 75,
+                  "score": 4
+                }
+              ]
+            },
+            "superType": null,
+            "type": "blockDesign"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-blockdesign-item9",
+          "shouldUseTimer": true,
+          "maxTime": 75,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item9",
+          "subtestName": "Block Design",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 9",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item9/wisciv-blockdesign-item9Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "width": 2,
+              "expected": {
+                "blocks": 
+                [
+                  3,
+                  4,
+                  1,
+                  2
+                ],
+                "rotation": 0
+              },
+              "layout": "wisc-iv",
+              "is2x2WithTopRowOffset": false,
+              "scores": 
+              [
+                {
+                  "minSeconds": 31,
+                  "maxSeconds": 75,
+                  "score": 4
+                },
+                {
+                  "minSeconds": 21,
+                  "maxSeconds": 30,
+                  "score": 5
+                },
+                {
+                  "minSeconds": 11,
+                  "maxSeconds": 20,
+                  "score": 6
+                },
+                {
+                  "minSeconds": 1,
+                  "maxSeconds": 10,
+                  "score": 7
+                }
+              ]
+            },
+            "superType": null,
+            "type": "blockDesign"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-blockdesign-item10",
+          "shouldUseTimer": true,
+          "maxTime": 75,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item10",
+          "subtestName": "Block Design",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 10",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item10/wisciv-blockdesign-item10Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "width": 2,
+              "expected": {
+                "blocks": 
+                [
+                  2,
+                  3,
+                  1,
+                  2
+                ],
+                "rotation": 0
+              },
+              "layout": "wisc-iv",
+              "is2x2WithTopRowOffset": false,
+              "scores": 
+              [
+                {
+                  "minSeconds": 31,
+                  "maxSeconds": 75,
+                  "score": 4
+                },
+                {
+                  "minSeconds": 21,
+                  "maxSeconds": 30,
+                  "score": 5
+                },
+                {
+                  "minSeconds": 11,
+                  "maxSeconds": 20,
+                  "score": 6
+                },
+                {
+                  "minSeconds": 1,
+                  "maxSeconds": 10,
+                  "score": 7
+                }
+              ]
+            },
+            "superType": null,
+            "type": "blockDesign"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Items 11-14",
+      "abbr": "Items 11-14",
+      "questions": 
+      [
+        {
+          "id": "wisciv-blockdesign-item11",
+          "shouldUseTimer": true,
+          "maxTime": 120,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item11",
+          "subtestName": "Block Design",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 11",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item11/wisciv-blockdesign-item11Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "width": 3,
+              "expected": {
+                "blocks": 
+                [
+                  4,
+                  3,
+                  3,
+                  4,
+                  5,
+                  1,
+                  2,
+                  2,
+                  1
+                ],
+                "rotation": 0
+              },
+              "layout": "wisc-iv",
+              "is2x2WithTopRowOffset": false,
+              "scores": 
+              [
+                {
+                  "minSeconds": 71,
+                  "maxSeconds": 120,
+                  "score": 4
+                },
+                {
+                  "minSeconds": 51,
+                  "maxSeconds": 70,
+                  "score": 5
+                },
+                {
+                  "minSeconds": 31,
+                  "maxSeconds": 50,
+                  "score": 6
+                },
+                {
+                  "minSeconds": 1,
+                  "maxSeconds": 30,
+                  "score": 7
+                }
+              ]
+            },
+            "superType": null,
+            "type": "blockDesign"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-blockdesign-item12",
+          "shouldUseTimer": true,
+          "maxTime": 120,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item12",
+          "subtestName": "Block Design",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 12",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item12/wisciv-blockdesign-item12Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "width": 3,
+              "expected": {
+                "blocks": 
+                [
+                  1,
+                  2,
+                  1,
+                  4,
+                  3,
+                  4,
+                  2,
+                  2,
+                  1
+                ],
+                "rotation": 0
+              },
+              "layout": "wisc-iv",
+              "is2x2WithTopRowOffset": false,
+              "scores": 
+              [
+                {
+                  "minSeconds": 71,
+                  "maxSeconds": 120,
+                  "score": 4
+                },
+                {
+                  "minSeconds": 51,
+                  "maxSeconds": 70,
+                  "score": 5
+                },
+                {
+                  "minSeconds": 31,
+                  "maxSeconds": 50,
+                  "score": 6
+                },
+                {
+                  "minSeconds": 1,
+                  "maxSeconds": 30,
+                  "score": 7
+                }
+              ]
+            },
+            "superType": null,
+            "type": "blockDesign"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-blockdesign-item13",
+          "shouldUseTimer": true,
+          "maxTime": 120,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item13",
+          "subtestName": "Block Design",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 13",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item13/wisciv-blockdesign-item13Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "width": 3,
+              "expected": {
+                "blocks": 
+                [
+                  4,
+                  3,
+                  0,
+                  2,
+                  5,
+                  0,
+                  0,
+                  0,
+                  5
+                ],
+                "rotation": 45
+              },
+              "layout": "wisc-iv",
+              "is2x2WithTopRowOffset": false,
+              "scores": 
+              [
+                {
+                  "minSeconds": 71,
+                  "maxSeconds": 120,
+                  "score": 4
+                },
+                {
+                  "minSeconds": 51,
+                  "maxSeconds": 70,
+                  "score": 5
+                },
+                {
+                  "minSeconds": 31,
+                  "maxSeconds": 50,
+                  "score": 6
+                },
+                {
+                  "minSeconds": 1,
+                  "maxSeconds": 30,
+                  "score": 7
+                }
+              ]
+            },
+            "superType": null,
+            "type": "blockDesign"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-blockdesign-item14",
+          "shouldUseTimer": true,
+          "maxTime": 120,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/block_design/wisciv-blockdesign-item14",
+          "subtestName": "Block Design",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 14",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/block_design/wisciv-blockdesign-item14/wisciv-blockdesign-item14Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "width": 3,
+              "expected": {
+                "blocks": 
+                [
+                  4,
+                  4,
+                  3,
+                  2,
+                  0,
+                  3,
+                  2,
+                  1,
+                  1
+                ],
+                "rotation": 45
+              },
+              "layout": "wisc-iv",
+              "is2x2WithTopRowOffset": false,
+              "scores": 
+              [
+                {
+                  "minSeconds": 71,
+                  "maxSeconds": 120,
+                  "score": 4
+                },
+                {
+                  "minSeconds": 51,
+                  "maxSeconds": 70,
+                  "score": 5
+                },
+                {
+                  "minSeconds": 31,
+                  "maxSeconds": 50,
+                  "score": 6
+                },
+                {
+                  "minSeconds": 1,
+                  "maxSeconds": 30,
+                  "score": 7
+                }
+              ]
+            },
+            "superType": null,
+            "type": "blockDesign"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 3,
+    "description": "This subtest discontinues after 3 consecutive scores of 0 points.",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 8,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisciv-blockdesign-item1",
+      "skipToQuestionID": "wisciv-blockdesign-item3",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "Rotation >= 30°",
+      "guid": "ecef2b916282412d8acc39177a6f4cc5",
+      "abbreviation": "x",
+      "isPopover": true
+    },
+    {
+      "name": "Gap",
+      "guid": "59d1d86b711946a588bbe530faafbf35",
+      "abbreviation": "g",
+      "isPopover": true
+    },
+    {
+      "name": "Configuration Break",
+      "guid": "3ad3293115354a5bb392570a1b2bd0b6",
+      "abbreviation": null,
+      "isPopover": true
+    },
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

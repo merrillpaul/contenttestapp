@@ -1,0 +1,330 @@
+{
+  "subtestId": 88,
+  "subtestGUID": "b9fab3f17fd1dcebe040a8c042017d15",
+  "title": "Cancellation",
+  "displayName": "Cancellation",
+  "abbr": "Cancellation",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": "Cancellation",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-iv/cancellation",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Processing Speed",
+    "averageDuration": 4,
+    "descriptionCS": "The child scans both a random and a structured arrangement of pictures and marks target pictures within a specified time limit."
+  },
+  "scoringScaleName": "Processing Speed Index (PSI)",
+  "scoringScaleAbbr": "PSI",
+  "isScaledScoreOptional": true,
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Sample",
+      "abbr": "Sample",
+      "questions": 
+      [
+        {
+          "id": "wisciv-cancellation-sample",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/cancellation/wisciv-cancellation-sample",
+          "subtestName": "Cancellation",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sample Items",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/cancellation/wisciv-cancellation-sample/wisciv-cancellation-samplePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "maxScore": 100,
+              "isCalculationRequired": false,
+              "useTimeAsRawScore": false,
+              "hasSetErrors": false,
+              "hasRotationErrors": false,
+              "hasScorePopover": false,
+              "useWordCountTitle": false
+            },
+            "superType": null,
+            "type": "manual"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisciv-cancellation-practice1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/cancellation/wisciv-cancellation-practice1",
+          "subtestName": "Cancellation",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Practice Items",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "correctInstructionsHTML": "<p><strong>Correct response&nbsp;<\u002fstrong>[Marks four animals]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Offer praise such as <span class=\"speechBlue\">Yes<\u002fspan> or<span class=\"speechBlue\"> Right <\u002fspan>for each correctly marked animal. Then say, <span class=\"speechBlue\">That&rsquo;s right. Now you know how to do them.<\u002fspan><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>[Marks fewer than four animals or marks a non-animal]:&nbsp;Correct the error immediately as follows:<\u002fp>\r\n\r\n<p>If the child fails to mark an animal, say, <span class=\"speechBlue\">That&rsquo;s not quite right. Here is an animal<\u002fspan> (point to missed animal)<span class=\"speechBlue\">. Draw a line through each animal.<\u002fspan><\u002fp>\r\n\r\n<p>If the child incorrectly marks an object other than an animal, say,<span class=\"speechBlue\"> That&rsquo;s not quite right. Look here<\u002fspan> (point to error)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">This is not an animal<\u002fspan> (point to animals at top of page)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">You should mark only the animals. Do not mark anything else.<\u002fspan><\u002fp>\r\n\r\n<p>Using the practice, teach the task until the child understands. Do not proceed with the test items until the child understands the task. If it is clear that the child will not be able to understand the task with further instruction, discontinue the subtest.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/cancellation/wisciv-cancellation-practice1/wisciv-cancellation-practice1Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "maxScore": 100,
+              "isCalculationRequired": true,
+              "useTimeAsRawScore": false,
+              "hasSetErrors": false,
+              "hasRotationErrors": false,
+              "hasScorePopover": false,
+              "useWordCountTitle": false
+            },
+            "superType": null,
+            "type": "manual"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Random",
+      "abbr": "Random",
+      "questions": 
+      [
+        {
+          "id": "wisciv-cancellation-random",
+          "shouldUseTimer": true,
+          "maxTime": 45,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/cancellation/wisciv-cancellation-random",
+          "subtestName": "Cancellation",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 1. Random",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/cancellation/wisciv-cancellation-random/wisciv-cancellation-randomPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "maxScore": 64,
+              "isCalculationRequired": true,
+              "useTimeAsRawScore": false,
+              "hasSetErrors": false,
+              "hasRotationErrors": false,
+              "hasScorePopover": true,
+              "useWordCountTitle": false,
+              "timeBonusMinScore": 60,
+              "timeBonus": 
+              [
+                {
+                  "startTime": 45,
+                  "endTime": 45,
+                  "bonusPoints": 0
+                },
+                {
+                  "startTime": 40,
+                  "endTime": 44,
+                  "bonusPoints": 1
+                },
+                {
+                  "startTime": 35,
+                  "endTime": 39,
+                  "bonusPoints": 2
+                },
+                {
+                  "startTime": 30,
+                  "endTime": 34,
+                  "bonusPoints": 3
+                },
+                {
+                  "startTime": 0,
+                  "endTime": 29,
+                  "bonusPoints": 4
+                }
+              ]
+            },
+            "superType": null,
+            "type": "manual"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Structured",
+      "abbr": "Structured",
+      "questions": 
+      [
+        {
+          "id": "wisciv-cancellation-structured",
+          "shouldUseTimer": true,
+          "maxTime": 45,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/cancellation/wisciv-cancellation-structured",
+          "subtestName": "Cancellation",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 2. Structured",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/cancellation/wisciv-cancellation-structured/wisciv-cancellation-structuredPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "maxScore": 64,
+              "isCalculationRequired": true,
+              "useTimeAsRawScore": false,
+              "hasSetErrors": false,
+              "hasRotationErrors": false,
+              "hasScorePopover": true,
+              "useWordCountTitle": false,
+              "timeBonusMinScore": 60,
+              "timeBonus": 
+              [
+                {
+                  "startTime": 0,
+                  "endTime": 29,
+                  "bonusPoints": 4
+                },
+                {
+                  "startTime": 30,
+                  "endTime": 34,
+                  "bonusPoints": 3
+                },
+                {
+                  "startTime": 35,
+                  "endTime": 39,
+                  "bonusPoints": 2
+                },
+                {
+                  "startTime": 40,
+                  "endTime": 44,
+                  "bonusPoints": 1
+                },
+                {
+                  "startTime": 45,
+                  "endTime": 45,
+                  "bonusPoints": 0
+                }
+              ]
+            },
+            "superType": null,
+            "type": "manual"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

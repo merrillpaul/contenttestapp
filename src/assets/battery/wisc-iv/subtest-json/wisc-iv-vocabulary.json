@@ -1,0 +1,5619 @@
+{
+  "subtestId": 81,
+  "subtestGUID": "b9f7ab5015493b48e040a8c04201160b",
+  "title": "Vocabulary",
+  "displayName": "Vocabulary",
+  "abbr": "Vocabulary",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": null,
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-iv/vocabulary",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Verbal Comprehension",
+    "averageDuration": 8,
+    "descriptionCS": "For picture items, the child names pictures that are displayed on the Client Device. For verbal items, the child gives definitions for words that the examiner reads aloud."
+  },
+  "scoringScaleName": "Verbal Comprehension Index (VCI)",
+  "scoringScaleAbbr": "VCI",
+  "isScaledScoreOptional": false,
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Items 1-4",
+      "abbr": "Items 1-4",
+      "hideStimWhenLeavingItemGroup": true,
+      "questions": 
+      [
+        {
+          "id": "wisciv-vocabulary-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item1",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 1. Car",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item1/wisciv-vocabulary-item1prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item1/wisciv-vocabulary-item1prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Truck",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Car; Auto; Automobile",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item2",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 2. Flower",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item2/wisciv-vocabulary-item2prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item2/wisciv-vocabulary-item2prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Plant",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Flower; [Names a specific flower]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item3",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 3. Train",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item3/wisciv-vocabulary-item3prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item3/wisciv-vocabulary-item3prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Engine",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Train; Locomotive; Choo-choo",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item4",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 4. Bucket",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item4/wisciv-vocabulary-item4prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item4/wisciv-vocabulary-item4prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Basket",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Bucket; Pail ",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Items 5-36",
+      "abbr": "Items 5-36",
+      "questions": 
+      [
+        {
+          "id": "wisciv-vocabulary-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item5",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 5. Clock",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item5/wisciv-vocabulary-item5prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item5/wisciv-vocabulary-item5prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Time",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Makes a sound; Rings; Wakes you up",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Goes around",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Hangs on wall",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "An alarm clock",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Round; Circle",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "It goes tick-tock; It has (hands, a dial, numbers) [Names one feature]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It is for the time; What time is it?",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Tells you when to go (home, to school); Tells you when it’s morning and night",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A watch; A timer",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "It tells you the time; It (keeps, shows, measures) the time",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Tells you, Hands show you) hours and minutes",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It has hands that move around on a dial",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Has hands and goes tick-tock; Has numbers and hands [Names two features]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "†Teaching",
+              "guid": "10ef2d1c05bd40d8bffed35efab785b3",
+              "abbreviation": "tc",
+              "isPopover": true
+            },
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item6",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 6. Hat",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item6/wisciv-vocabulary-item6prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item6/wisciv-vocabulary-item6prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "For cowboys; Cowboy hat",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "[Demonstrates putting a hat on]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "You (wear it, put it on)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Keeps (sun, rain) off; Keeps your head warm",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Goes on your head",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Covers your hair; Keeps sun off your hair",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Round and has a top on it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A hat has a brim",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A head (cover, piece); A cap",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Wear it (to keep the rain off, when it’s cold)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Wear it on, Clothing for) your head",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Put it on to keep the sun out of your eyes; Wear it for shade",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Protects your head",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "†Teaching",
+              "guid": "49b0ab847ff94b4a91b63091d473333e",
+              "abbreviation": "tc",
+              "isPopover": true
+            },
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item7",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 7. Umbrella",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item7/wisciv-vocabulary-item7prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": 11,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item7/wisciv-vocabulary-item7prompt-9-11.html"
+            },
+            {
+              "minAge": 12,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item7/wisciv-vocabulary-item7prompt-12-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Has a handle and it’s round; Big round thing you can fold up [Names two features]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "(Hold, Carry, Open, Close) it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It holds rain",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Round; Plastic; Has a handle [Names one feature]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "[Demonstrates use of umbrella]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Keeps you from getting wet",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Something for the rain",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Carry it when it rains",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Put it over your head",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Put it up at the beach; Keeps you cool",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "You hold it up and [Demonstrates use of umbrella]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Keeps you from getting wet in the rain [Must contain rain]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Keeps rain off; Protects you from the rain",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Hold it over your head, Get under it) when it rains",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Keeps you out of the sun; Shields you from the sun",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Covers you so you won’t get (wet, hot)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item8",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 8. Cow",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item8/wisciv-vocabulary-item8prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item8/wisciv-vocabulary-item8prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Has (horns, four legs, spots, an udder); Eats grass; Travels in a herd [Names one feature]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It lives (on a farm, in a barn)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A calf",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Pet",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It (walks, eats)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "(Makes, Produces) milk",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "(Makes, Produces) meat",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Something that goes “moo”",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Like a bull but much smaller",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Angus; Longhorn; Brahma",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Has (horns and four legs, spots and an udder); Travels in a herd and eats grass [Names two features]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "An animal; A mammal",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It gives milk and meat to you; You milk it and eat it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "An animal that produces (milk, meat); A farm animal",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item9",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 9. Bicycle",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item9/wisciv-vocabulary-item9prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": 11,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item9/wisciv-vocabulary-item9prompt-9-11.html"
+            },
+            {
+              "minAge": 12,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item9/wisciv-vocabulary-item9prompt-12-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Bike; Cycle; Ten Speed",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A toy; To play with",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It drives",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Has a (seat, basket, horn)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Has (wheels, pedals, handlebars, chain, brakes) [Names one feature]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Go places on it; Travel with it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "You (pedal, ride) it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Human powered",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It is like a (motorcycle with pedals, car for kids)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Something that you ride for exercise",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Use it for transportation",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Sit on it and ride places with it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Vehicle; Human-powered vehicle; Two-wheeled vehicle with pedals",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Thing you ride that is better than walking and helps you save time",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something you get around on with (wheels, pedals, handlebars, chain, seat, brakes) [Describes transportation and names one feature]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It’s got (wheels and pedals, handlebars and a chain, a seat and brakes) [Names two features]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item10",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 10. Alphabet",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item10/wisciv-vocabulary-item10prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item10/wisciv-vocabulary-item10prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Words that make up words; Words in a certain order",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Something that’s in your name",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "You can learn it at school",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "All capitals",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "There’s a song about it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Alphabet soup",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "ABC’s; A to Z",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "You have to know the alphabet to (read, write)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "You (spell, write) with it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Letters; Letters in a certain (order, sequence)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Song with letters in it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "[Recites or sings all or part of the alphabet]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Symbols we use to make words in our language; Letters in a certain order that form words",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Used to (read, make) words; ABC’s help you learn to (read, write, spell) words",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "All the letters; (24–28) letters; Letters from A to Z",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Letters, ABC’s) you use to write with",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "The letters of a language; Letter-based system",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Signs, Symbols) that stand for different sounds; The consonants and vowels",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "The names of the letters",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Letters used to communicate on paper",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item11",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 11. Leave",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item11/wisciv-vocabulary-item11prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item11/wisciv-vocabulary-item11prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Say goodbye",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "[Describes leaf]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "People going home",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Lose",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Going to the (store, park, zoo)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Put something down",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Walk out",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Go; Flee; Run away",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "No longer be where you were at; Remove yourself from an area",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Leave where you are; Go somewhere",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "(Leave, Get out of) the house",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "(Military, Sick, Maternity) leave",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Dismiss; Disperse",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Move",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Parents go out and leave you with a babysitter; You leave something behind",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Depart; Abandon; Desert; Exit; Vacate; Evacuate",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "The opposite of stay; You're not staying, you're going",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Go, Get) away",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Forget behind; Neglect to take something along",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Put an object somewhere and walk away from it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Go to another place; Go somewhere else; Go and not come back",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Absent from something",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Walk (away, off)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Hears Wrong Word",
+              "guid": "2bed7f1d40d04f5a868b55debab7a458",
+              "abbreviation": "hw",
+              "isPopover": true
+            },
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item12",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 12. Brave",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item12/wisciv-vocabulary-item12prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item12/wisciv-vocabulary-item12prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Force yourself to do something",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Strong; Tough; Good; Smart",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "You’ll do anything somebody asks you; Can do anything",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Just do it; Always try to do it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A baseball team",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Not a (crybaby, chicken)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Save someone in danger; Protect people",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Do something challenging",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Risk; Do risky things",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Stand up to; You’ll stand up to the bully",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "An Indian",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Like when I get a shot, I am brave [Specific example]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A person that does something that others see as heroic; A hero",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Confident; Not panicked",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Have heart; Strong heart",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Courageous; Bold; Daring; Fearless; Valiant; Having guts",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Stand up for (something you believe in, your country)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Not (afraid, scared, a coward)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "An Indian warrior",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Willing to risk your life; Sacrifice yourself for others",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Do something no one else dares to do",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "You’re scared, but you do it anyway; Facing your fears",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Face danger; Do dangerous things",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item13",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 13. Thief",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item13/wisciv-vocabulary-item13prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item13/wisciv-vocabulary-item13prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Someone the police try to catch",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Person who wears a mask over their face",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A bad guy; Villain",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "They go to jail",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Steals; Robs; Takes stuff",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A person who (does illegal things, breaks the law)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Someone who breaks in",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A burglar; A robber; A stealer",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Someone who (steals, robs, takes stuff)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Breaks into your house and (takes things, robs you)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A criminal; A crook; An outlaw",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item14",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 14. Obey",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item14/wisciv-vocabulary-item14prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item14/wisciv-vocabulary-item14prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Do something; Do a good job",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Do something you shouldn’t have; Talk back",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Obey (your parents, the law); If you don’t obey, you get in trouble",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "You don’t follow the rules; Someone asks you to do something but you don’t",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Be nice",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Behave; Cooperate",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Listen; Pay attention; Follow",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Do what your (parent, teacher) says",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "When your mom tells you to clean your room and you do it [Specific example]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something you are told to do",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Respect; Don’t disrespect; Honor",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Comply with; Abide by; Mind; Do what you are told",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Follow (instructions, directions, rules); Accept (commands, orders)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "If someone asks you to do something, you do it; Don’t say no, just do it",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item15",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 15. Island",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item15/wisciv-vocabulary-item15prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item15/wisciv-vocabulary-item15prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "It’s in the (water, sea, ocean); A place with water",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Land; Place",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Take a boat to an island; Place you go if your boat crashes",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Get stranded on it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Something that is deserted",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Something that comes out of the water",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Beach; Ocean",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Place with (sand, trees, volcanoes)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Place to (play, relax, have fun, fish)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Out in the middle of the (sea, ocean); Surrounded by water",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Place in the ocean; Land in the water",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "An area in the middle of the ocean",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Made by a volcano",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Body of land",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Like (Bahamas, Hawaii)",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Land that is (surrounded by water, covered by water on all sides); A place with water all around it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(A place, Land) in the ocean made from a volcano",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Land in the middle of the ocean; Place in the middle of the water with (rocks, trees)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Land broken off from other lands; Something that does not have land around it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A little ground that is in the ocean; Surrounded by water and has trees",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item16",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 16. Pest",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item16/wisciv-vocabulary-item16prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item16/wisciv-vocabulary-item16prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Someone that is mean to you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A kind of pet",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Being (bad, mean)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Acting stupid",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Annoying, Aggravating; Bothersome; Distracting",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A troublemaker",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Someone who (is rude, never shares, gets away with things) [Specific example]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Something you don’t (like, want)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Mosquitoes; Flies; Termites; Rodents [Specific example]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A brat; A pain in the neck; My little brother",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Something that (is annoying, bothers you)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Someone who (gets on your nerves, irritates you)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Someone who (provokes, aggravates) you",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "An annoyance; A bother; A nuisance; An irritant",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item17",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 17. Nonsense",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item17/wisciv-vocabulary-item17prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item17/wisciv-vocabulary-item17prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A lie; Hard to believe; Don’t believe it; Don’t think it’s true",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Not worth explaining; Worthless",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Weird; Odd; Strange",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "When we do something wrong",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "You get your mother mad",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Money",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Silly; Goofy; Crazy; Ridiculous; Foolish",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Stupid; Not smart",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Something that doesn’t need to be done",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Somebody trying to be funny",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Like you have no sense",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Acting (silly, stupid, crazy); Being foolish",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Irrelevant; Not appropriate",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Not going to happen; Not really true; Make-believe",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Fooling, Horsing) around",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Don’t know what you’re talking about",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "They tell you it’s a talking dog, that’s nonsense [Specific example]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Foolishness; Silliness; Stupidity",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something that is foolish",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Silly stuff; Something that is silly",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something that is not (reasonable, understandable, comprehensible, logical)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something that doesn’t have any meaning; Gibberish",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something that (makes no sense, is absurd)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something that is stupid and could never happen",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something that is (a waste of time, unimportant)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item18",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item18",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 18. Ancient",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item18/wisciv-vocabulary-item18prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item18/wisciv-vocabulary-item18prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "History",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Ancient writings",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "From (Egyptians, Romans)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Valuable",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "An old person; A legend",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Mysterious; Secret",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Heirloom",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Rare; Not everywhere",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Historical; Prehistoric",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Long time ago",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Made a long time ago; Antique",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Out of date; Before our time",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Arrowhead; Mummy",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Been here for (109 years, a long time)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Old; (Very, Really) old",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Archaic; Antiquated",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A person who lived a long time ago; Something that existed thousands of years ago",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "An ancient ancestor who lived in the Stone Age",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something (from the past, very historical)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Happened a long time ago",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Opposite of modern",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item19",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item19",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 19. Mimic",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item19/wisciv-vocabulary-item19prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item19/wisciv-vocabulary-item19prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Person that talks with their hands",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Bothers someone; Annoying thing",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Someone that talks a lot",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Stutter or mumble",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Act like someone",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Copycat; Repeat",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Pretend",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Tease; Make fun of",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Mime; Someone that copies you",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Someone mimics you by trying to do your voice",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "When someone says \"Hi\" and someone says the same thing [Specific example]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Follow",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Mock; Impersonate; Imitate",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Repeat what somebody (does, says)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Say exactly what someone else does",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Copy; Duplicate",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item20",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item20",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 20. Absorb",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item20/wisciv-vocabulary-item20prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item20/wisciv-vocabulary-item20prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Soak",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Hold in; Retain",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Learn; Gain knowledge",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Look at; Watch; Observe; Examine; Investigate",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "When water goes up into the clouds [Describes evaporation]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Let in; Go into",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Fill up",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Goes away; Disappears",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Mix; Combine; Put together",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Absorb wetness, like grass absorbs water; If you absorb something in school, you learn it [Usage example without sponge]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Bring in [No indication of moisture]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Examine closely",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Collect; Gather",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Take away",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Like a sponge",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Pick up; Dry up",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Takes water away—water gets inside it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Consume; Become part of",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Soak up; Suck it in; Drink up; Sink in; Draw in; Pull in; Take in",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Bring in moisture",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A sponge absorbs (water, liquid) [Must contain sponge]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "When you use a paper towel, it absorbs water like a sponge [Usage example with sponge]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item21",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item21",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 21. Fable",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item21/wisciv-vocabulary-item21prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item21/wisciv-vocabulary-item21prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "It’s like a Mother Goose rhyme",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Like a knight fighting a dragon",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A true story",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A film",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A lesson; A proverb",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Fictional; Not real; Something made up",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Something you read",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "The Fox and the Grapes; The Tortoise and the Hare [Specific example]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A book",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A story that (teaches you a lesson, has a moral)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A tale that uses animals as characters",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A story that is (not true, make-believe)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A (fairytale, folktale, tall tale); A myth; A legend",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A story",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A tale Aesop made up",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item22",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item22",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 22. Migrate",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item22/wisciv-vocabulary-item22prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item22/wisciv-vocabulary-item22prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Season; Seasonal",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "(Birds, Bats, Butterflies) do it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Some animals migrate",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Like a migrant worker",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Leave; Go somewhere",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Go in a different direction",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Bears sleep all winter [Describes hibernate]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Move",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Go somewhere (due to the weather, when it gets cold)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Go to another place; Leave one place to go to another",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Fly south; Birds go south",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Immigrate; When people come to America from other places; Leaving your country",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "When animals hunt for food in a new place",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Don’t stay in one place very long",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Go someplace for a certain amount of time",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Move back and forth between places; Go somewhere for a time and return",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Movement of people or animals (so needs can be met, for more favorable conditions, when seasons change)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Birds go south for the winter; Fish go upstream to lay eggs in calmer water [Specific example]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Leaving your country to (work, settle, live) in a new place",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Move from one place to another; Relocate to a different place",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item23",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item23",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 23. Precise",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item23/wisciv-vocabulary-item23prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item23/wisciv-vocabulary-item23prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Brief; Succinct*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Almost (accurate, perfect)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Sure of something",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Means yes; Agree with someone",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A guess; An estimate",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Exactly",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "To the point",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Real detailed",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Perfect",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Right; Correct",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Specific",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Accurate",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Exact; Exact (measurement, amount)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Exactly (right, correct, to the point)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Right on the (nose, money)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Clearly expressed",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "100% right; Absolutely right",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Hears Wrong Word",
+              "guid": "2b7b54c8e1c64b4e81b983d7f525bd06",
+              "abbreviation": "hw",
+              "isPopover": true
+            },
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item24",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item24",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 24. Transparent",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item24/wisciv-vocabulary-item24prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item24/wisciv-vocabulary-item24prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Invisible; Someone who disappears",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "You can see it; Way of seeing",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Able to pass through",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Like a mirror; Reflection",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Copy; Exactly alike",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Hard to see through; Unclear",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Look through; See out",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Like a window; Transparent window",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Visible",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Sheet that goes on an overhead projector [Describes transparency]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "See through; You can see through it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Obvious",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Clear; Sheer",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Allows light through",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Not opaque",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item25",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item25",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 25. Seldom",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item25/wisciv-vocabulary-item25prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item25/wisciv-vocabulary-item25prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Very few; Small amount",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Alone; Lonely",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Happens frequently; Common",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Quiet; Peaceful; Calm",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Rare; Scarce; Uncommon",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Sometimes; Occasionally",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Not regularly",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Not much",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Hardly; Barely",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Once in awhile; Every now and then",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Not done every day; Not all the time",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Not likely",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Not often; Doesn’t happen (often, much)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Hardly ever; Almost never",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Rarely; Infrequently; Infrequent",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Not usually; Not ordinarily",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item26",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item26",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 26. Rivalry",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item26/wisciv-vocabulary-item26prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item26/wisciv-vocabulary-item26prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Between two teams; Schools have them",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Tension between two people",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Like having a rival",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Enemy",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Not like someone",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Team; Group",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Mad; Jealous; Mean",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Get back at someone; Revenge",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Fight; Conflict; Opponents going against each other",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Compete",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Opponent; Competitor; Adversary",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Squabbling between brothers and sisters",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A duel",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Two countries play each other; Battle with an enemy",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "When you challenge someone",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Fighting between two families; Feud",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Competition; Contest",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Continual dispute; Ongoing fight",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "When two people try to top one another",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Two (teams, people) competing",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Like when two (teams, schools) want to be the best",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item27",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item27",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 27. Strenuous",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item27/wisciv-vocabulary-item27prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item27/wisciv-vocabulary-item27prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Strong; Tough; Powerful; Vigorous",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Constant; Continual; Goes on and on",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Tedious",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Overpowering",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Painful for your muscles",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Hard; Difficult; Rigorous; Laborious; Demanding",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "For a long period of time; Over and over",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A lot of pressure",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Draining; Tiring; Exhausting",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Stressful; Nerve-racking",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A strain",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Stretches your limits; You struggle through",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Exercise is strenuous",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Requiring great (effort, energy, exertion)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Grueling; Straining; Arduous",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something that is too (hard, difficult, tiring) to do",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Need a lot of (power, strength) to do it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It’s hard for a long time and takes a toll on you",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Physically (demanding, difficult)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item28",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item28",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 28. Foresight",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item28/wisciv-vocabulary-item28prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item28/wisciv-vocabulary-item28prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Future",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "You see (something happen, what’s going on)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Look into",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Different way of seeing something",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Can’t see up close; Farsighted; Related to your eyes",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "See into time",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Anticipate",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Foreshadow",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Preview",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Prescience; Prescient",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Predict; Foresee; Envision",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Know something before it happens; Premonition",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Plan, Think) ahead; (Plan, Think) forward",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Look, See) forward; (Look, See) into the future",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item29",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item29",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 29. Unanimous",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item29/wisciv-vocabulary-item29prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item29/wisciv-vocabulary-item29prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Whole",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Clearly decided; Obvious outcome",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Almost everyone agrees",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A majority; More than half",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Obvious; Well known",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Huge; Big; A large amount",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Vote; A good vote",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "The whole group with one idea",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Everyone decides on one thing",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "No objections",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Everybody",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "To agree on something",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A unanimous vote",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "In complete agreement; Everyone agrees",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "All in favor of",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Everyone shares the same view",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Chosen without question",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Unopposed; Without disagreement",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Obvious who won, like 50 to 0 [Describes unanimous vote]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Everyone votes the same way",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "All the same",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item30",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item30",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 30. Amendment",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item30/wisciv-vocabulary-item30prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item30/wisciv-vocabulary-item30prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Rule that is written down",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Rights; Freedom",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "The Constitution",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Freedom of (the press, speech)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A law; A bill",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A rule; A document",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Revise; Change; Adapt",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "An addition",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It’s a part of the Constitution; The Bill of Rights",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Adding something extra on; To add",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Fix something",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A bill that states laws and rights we have",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Modification; Alteration; Revision; Correction",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "An improvement; A change for the better",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A change made to a (bill, law, document)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something that’s added on after the thing’s finished",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "An addition to the Constitution",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(A change in, An addition to) a bill to make it better",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item31",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item31",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 31. Compel",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item31/wisciv-vocabulary-item31prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item31/wisciv-vocabulary-item31prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Threaten",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Wanting to do something",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Obligation",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "(Stop, Keep) from doing something",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Moves you emotionally; Touching",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Urge; Goad; Prompt",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Persuade; Convince; Influence",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Encourage; Motivate; Inspire",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Try to get someone to do something; Push to do something",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "When you make something happen",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "In the army when they give you an order",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "You’re drawn to it; Tempted",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Feel (a need, an urge) to do something [Describes compulsion]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Make someone do something",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Drive someone on; Driven to do something",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Force; Coerce",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Act upon someone to make them decide",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Pressure someone to do something",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item32",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item32",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 32. Affliction",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item32/wisciv-vocabulary-item32prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item32/wisciv-vocabulary-item32prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Have something that is bothering you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A problem; A trial",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Something wrong with the mind",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "To cause pain; To hurt someone [Describes inflict or infliction]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Conflict; Disagreement; Argument",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Cause something to happen",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Did something to upset someone",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Affects you; Has an effect on someone",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Something that’s wrong with (you, someone)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "A (wound, cut); An injury",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Misfortune",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Like a paralysis; A broken arm",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Something bad that is wrong",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "To get hurt; Someone harms you",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something that hurts",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A burden you must bear",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Some kind of disorder",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A (handicap, defect, disability, sickness, disease)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something that causes pain; Suffering; Pain",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "There’s something wrong with you, like you lost an arm [Specific example]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Hears Wrong Word",
+              "guid": "cb02dfff6a08404c99b8d40604933338",
+              "abbreviation": "hw",
+              "isPopover": true
+            },
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item33",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item33",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 33. Imminent",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item33/wisciv-vocabulary-item33prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item33/wisciv-vocabulary-item33prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Close",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Can replace your “excellency” [Describes eminent or eminence]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Might happen",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Obvious",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Ever present",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Famous; Important",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Inevitable; Unavoidable; Unstoppable",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "It’s going to happen",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Immediately; Immediate",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Soon; Pressing",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Very close",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Definite; Certain",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Threatening",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Likely; Probable",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Impending; About to occur",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Getting closer in time; Will happen any minute",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Hovering; Looming",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Something bad is about to happen",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Hears Wrong Word",
+              "guid": "86e8626128f94bd09edf2d3ee13ba831",
+              "abbreviation": "hw",
+              "isPopover": true
+            },
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item34",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item34",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 34. Aberration",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item34/wisciv-vocabulary-item34prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item34/wisciv-vocabulary-item34prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Strange; Weird",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Foolish",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A ghost",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A (deviation, departure)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Abnormal",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Something (different, unusual)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Unexpected",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Change",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Character flaw",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "A (deviation, change, shift) from normal",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A departure from the typical",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Abnormal alteration",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A lapse in mental state",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item35",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item35",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 35. Garrulous",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item35/wisciv-vocabulary-item35prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item35/wisciv-vocabulary-item35prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Argues too much",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Talk too fast",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Talkative; Loquacious; Chatty",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Bothersome; Irritating; Annoying",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "(Talks, Speaks) too much",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Boring; Exhausting",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Talkative and (irritating, boring, tiring)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Speaks so much that it (bothers, bores, annoys) others",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Wordy and rambling",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Talks a lot about nothing",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        },
+        {
+          "id": "wisciv-vocabulary-item36",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item36",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 36. Dilatory",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": 8,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item36/wisciv-vocabulary-item36prompt--8.html"
+            },
+            {
+              "minAge": 9,
+              "maxAge": null,
+              "filepath": "battery/wisc-iv/vocabulary/wisciv-vocabulary-item36/wisciv-vocabulary-item36prompt-9-.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Lazy",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Mandatory",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Diligent; Hard-working; Determined",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Has to do with eyes; Dilating eyes",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Can’t make up your mind",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "You can’t get started",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Slow; Sluggish",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Tardy; Late",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Causing delay; Holding things up",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "A pokey person",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "Q",
+              "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+              "abbreviation": "Q"
+            }
+          ]
+        }
+      ],
+      "hasInstructionsHtml": true
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 5,
+    "description": "This subtest discontinues after 5 consecutive scores of 0 points.",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 6,
+      "maxAge": 8,
+      "skipFromQuestionID": "wisciv-vocabulary-item1",
+      "skipToQuestionID": "wisciv-vocabulary-item5",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "alternateQuestionID": "wisciv-vocabulary-item5",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 9,
+      "maxAge": 11,
+      "skipFromQuestionID": "wisciv-vocabulary-item1",
+      "skipToQuestionID": "wisciv-vocabulary-item7",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "alternateQuestionID": "wisciv-vocabulary-item5",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 12,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisciv-vocabulary-item1",
+      "skipToQuestionID": "wisciv-vocabulary-item9",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "alternateQuestionID": "wisciv-vocabulary-item5",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

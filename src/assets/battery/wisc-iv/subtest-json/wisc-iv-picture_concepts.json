@@ -1,0 +1,1614 @@
+{
+  "subtestId": 79,
+  "subtestGUID": "b9f7a72b810f8306e040a8c04201157d",
+  "title": "Picture Concepts",
+  "displayName": "Picture Concepts",
+  "abbr": "Picture Concepts",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": null,
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-iv/picture_concepts",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Perceptual Reasoning",
+    "averageDuration": 8,
+    "descriptionCS": "The child is presented with two or three rows of pictures and chooses one picture from each row to form a group\r\nwith a common characteristic."
+  },
+  "scoringScaleName": "Perceptual Reasoning Index (PRI)",
+  "scoringScaleAbbr": "PRI",
+  "isScaledScoreOptional": false,
+  "questions": 
+  [
+    {
+      "id": "wisciv-pictureconcepts-samplea",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-samplea",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Sample Item A",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Ask,&nbsp;<span class=\"speechBlue\">Why do they go together?<\u002fspan> If the child does not respond &ldquo;trees,&rdquo; say,<span class=\"speechBlue\"> <\u002fspan><span class=\"speechBlue\">They go together because they are both trees. Let&rsquo;s try another one.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">This shade tree<\u002fspan> (point to Response 2) <span class=\"speechBlue\">goes with this pine tree<\u002fspan> (point to Response 3)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">They are both trees. Let&rsquo;s try another one.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-samplea/wisciv-pictureconcepts-sampleaPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2,
+            3
+          ],
+          "responsesPerRow": 2,
+          "numResponses": 4,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-sampleb",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-sampleb",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Sample Item B",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Ask,&nbsp;<span class=\"speechBlue\">Why do they go together?<\u002fspan> If the child does not respond &ldquo;animals,&rdquo; say, <span class=\"speechBlue\">The squirrel goes with the bird because they are both animals. Let&rsquo;s try another one.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">This squirrel<\u002fspan> (point to Response 1) <span class=\"speechBlue\">goes with this bird<\u002fspan> (point to Response 3)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">They are both animals. Let&rsquo;s try another one.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-sampleb/wisciv-pictureconcepts-samplebPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1,
+            3
+          ],
+          "responsesPerRow": 2,
+          "numResponses": 4,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item1",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/items_1_-_12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1,
+            3
+          ],
+          "responsesPerRow": 2,
+          "numResponses": 4,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item2",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/items_1_-_12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2,
+            4
+          ],
+          "responsesPerRow": 2,
+          "numResponses": 4,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item3",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/items_1_-_12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1,
+            4
+          ],
+          "responsesPerRow": 2,
+          "numResponses": 4,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item4",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/items_1_-_12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1,
+            4
+          ],
+          "responsesPerRow": 2,
+          "numResponses": 4,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item5",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/items_1_-_12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2,
+            3
+          ],
+          "responsesPerRow": 2,
+          "numResponses": 4,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item6",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/items_1_-_12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3,
+            5
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 6,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item7",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/items_1_-_12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1,
+            6
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 6,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item8",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/items_1_-_12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2,
+            6
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 6,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item9",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/items_1_-_12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3,
+            5
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 6,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item10",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/items_1_-_12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2,
+            4
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 6,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item11",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/items_1_-_12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1,
+            5
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 6,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item12",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 12",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/items_1_-_12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3,
+            4
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 6,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item13",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3,
+            5,
+            7
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 9,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item14",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 14",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1,
+            6,
+            9
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 9,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item15",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 15",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2,
+            6,
+            8
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 9,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item16",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 16",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3,
+            5,
+            8
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 9,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item17",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 17",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2,
+            4,
+            9
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 9,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item18",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item18",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 18",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1,
+            8,
+            10
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 12,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item19",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item19",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 19",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3,
+            6,
+            11
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 12,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item20",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item20",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 20",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2,
+            6,
+            7
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 9,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item21",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item21",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 21",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3,
+            4,
+            7
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 9,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item22",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item22",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 22",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2,
+            7,
+            9
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 12,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item23",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item23",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 23",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3,
+            5,
+            12
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 12,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item24",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item24",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 24",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1,
+            7,
+            12
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 12,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item25",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item25",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 25",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2,
+            8,
+            10
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 12,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item26",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item26",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 26",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            4,
+            5,
+            9
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 12,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item27",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item27",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 27",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1,
+            6,
+            7
+          ],
+          "responsesPerRow": 3,
+          "numResponses": 9,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-pictureconcepts-item28",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/picture_concepts/wisciv-pictureconcepts-item28",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 28",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/picture_concepts/item_13_-_28Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2,
+            8,
+            10
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 12,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "picConcepts"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 5,
+    "description": "This subtest discontinues after 5 consecutive scores of 0 points.",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 9,
+      "maxAge": 11,
+      "skipFromQuestionID": "wisciv-pictureconcepts-item1",
+      "skipToQuestionID": "wisciv-pictureconcepts-item5",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 12,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisciv-pictureconcepts-item1",
+      "skipToQuestionID": "wisciv-pictureconcepts-item7",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual deficiency",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

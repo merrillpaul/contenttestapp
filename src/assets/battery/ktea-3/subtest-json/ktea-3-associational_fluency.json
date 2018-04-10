@@ -1,0 +1,152 @@
+{
+  "subtestId": 793,
+  "subtestGUID": "87a9c34b68894c468eca0bbd588862ba",
+  "title": "Associational Fluency",
+  "displayName": "Associational Fluency",
+  "abbr": "af",
+  "testType": "ktea3",
+  "testTitle": "KTEA-3",
+  "testDisplayName": "KTEA-3 Form A",
+  "normType": "ktea-3a",
+  "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+  "subtestType": "ktea3",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/ktea-3/associational_fluency",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "RequireGradeAndTermRule": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 4,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 25,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Oral Language",
+    "averageDuration": 3,
+    "minGradeLevel": 0,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee says as many words as possible in 60 seconds that belong to a given semantic category."
+  },
+  "questions": 
+  [
+    {
+      "id": "ktea3a-associationalfluency-item1",
+      "shouldUseTimer": true,
+      "maxTime": 60,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ktea-3/associational_fluency/ktea3a-associationalfluency-item1",
+      "subtestName": "Associational Fluency",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 1 - Naming foods",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ktea-3/associational_fluency/ktea3a-associationalfluency-item1/ktea3a-associationalfluency-item1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "useCreditNoCredit": true,
+          "numColumns": 4,
+          "timeInterval": 15
+        },
+        "superType": null,
+        "type": "verbalFluency"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "ktea3a-associationalfluency-item2",
+      "shouldUseTimer": true,
+      "maxTime": 60,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ktea-3/associational_fluency/ktea3a-associationalfluency-item2",
+      "subtestName": "Associational Fluency",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 2 - Naming colors",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ktea-3/associational_fluency/ktea3a-associationalfluency-item2/ktea3a-associationalfluency-item2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "useCreditNoCredit": true,
+          "numColumns": 4,
+          "timeInterval": 15
+        },
+        "superType": null,
+        "type": "verbalFluency"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

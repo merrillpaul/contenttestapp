@@ -1,0 +1,147 @@
+{
+  "subtestId": 792,
+  "subtestGUID": "3d2e5c51a2dd481e83ff6e17545267ca",
+  "title": "Math Fluency",
+  "displayName": "Math Fluency",
+  "abbr": "mf",
+  "testType": "ktea3",
+  "testTitle": "KTEA-3",
+  "testDisplayName": "KTEA-3 Form A",
+  "normType": "ktea-3a",
+  "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+  "subtestType": "ktea3",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/ktea-3/math_fluency",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "RequireGradeAndTermRule": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 25,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Mathematics",
+    "averageDuration": 2,
+    "minGradeLevel": 2,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee writes answers to as many addition, subtraction, multiplication, and division problems as possible in 60 seconds."
+  },
+  "questions": 
+  [
+    {
+      "id": "ktea3a-mathfluency-items",
+      "shouldUseTimer": true,
+      "maxTime": 60,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ktea-3/math_fluency/ktea3a-mathfluency-items",
+      "subtestName": "Math Fluency",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Test Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ktea-3/math_fluency/ktea3a-mathfluency-items/ktea3a-mathfluency-itemsPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "maxScore": 96,
+          "isCalculationRequired": false,
+          "useTimeAsRawScore": false,
+          "hasSetErrors": false,
+          "hasRotationErrors": false,
+          "hasScorePopover": false,
+          "useWordCountTitle": false
+        },
+        "superType": null,
+        "type": "manual"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "observations": 
+  [
+    {
+      "guid": "7b3f03b8e51546e495c591e57bf07f85",
+      "type": "Selection",
+      "label": "Performance was generally slow and accurate",
+      "isFirstInGroup": true
+    },
+    {
+      "guid": "9f59f009cb43491daae6d82fede6afa9",
+      "type": "Selection",
+      "label": "Performance was generally slow and inaccurate"
+    },
+    {
+      "guid": "a5760c1564ce432089403b2b30021c94",
+      "type": "Selection",
+      "label": "Performance was generally fast and inaccurate"
+    },
+    {
+      "guid": "35caba2b7cee46bfba54bcada4a73f10",
+      "type": "Selection",
+      "label": "Answered items selectively by avoiding specific operations"
+    },
+    {
+      "guid": "336699d76adf45f5b5d7267112699327",
+      "type": "Selection",
+      "label": "Counted on fingers"
+    },
+    {
+      "guid": "bff2529a5ea14f8b8db864489d6b2c13",
+      "type": "Selection",
+      "label": "Made errors due to wrong operation, or did not attend to sign of operation"
+    },
+    {
+      "guid": "750f9489fd3545df81167cc27f7fab08",
+      "type": "Selection",
+      "label": "Made errors due to retrieving the wrong math fact (answered 8 x 6 = 56, retrieving answer for 8 x 7)"
+    },
+    {
+      "guid": "3c60cfaec2504e53b4a857da15c36bcc",
+      "type": "Selection",
+      "label": "Numeral formation was slow and labored"
+    },
+    {
+      "guid": "c08d218963b74831b7bfe4f205c5f0e2",
+      "type": "Selection",
+      "label": "Transposed numerals (wrote 21 for 12)"
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

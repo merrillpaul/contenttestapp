@@ -1,0 +1,494 @@
+{
+  "subtestId": 802,
+  "subtestGUID": "0fbb3b6bad1c4894b1a4c2994e3583eb",
+  "title": "Letter Naming Facility",
+  "displayName": "Letter Naming Facility",
+  "abbr": "lnf",
+  "testType": "ktea3",
+  "testTitle": "KTEA-3",
+  "testDisplayName": "KTEA-3 Form A",
+  "normType": "ktea-3a",
+  "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+  "subtestType": "ObjectNamingFacility",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/ktea-3/letter_naming_facility",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "RequireGradeAndTermRule": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 5,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 25,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Language Processing",
+    "averageDuration": 2,
+    "minGradeLevel": 1,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee names a combination of upper and lowercase letters as quickly as possible."
+  },
+  "questions": 
+  [
+    {
+      "id": "ktea3a-letternamingfacility-practice",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ktea-3/letter_naming_facility/ktea3a-letternamingfacility-practice",
+      "subtestName": "Letter Naming Facility",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "†Practice Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ktea-3/letter_naming_facility/ktea3a-letternamingfacility-practice/ktea3a-letternamingfacility-practicePrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "letters": 
+          [
+            {
+              "label": "T"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "s"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "LetterNamingFacility"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "ktea3a-letternamingfacility-trial1",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ktea-3/letter_naming_facility/ktea3a-letternamingfacility-trial1",
+      "subtestName": "Letter Naming Facility",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Trial 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ktea-3/letter_naming_facility/ktea3a-letternamingfacility-trial1/ktea3a-letternamingfacility-trial1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "letters": 
+          [
+            {
+              "label": "v"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "D"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "LetterNamingFacility"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "ktea3a-letternamingfacility-trial2",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/ktea-3/letter_naming_facility/ktea3a-letternamingfacility-trial2",
+      "subtestName": "Letter Naming Facility",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Trial 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/ktea-3/letter_naming_facility/ktea3a-letternamingfacility-trial2/ktea3a-letternamingfacility-trial2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "letters": 
+          [
+            {
+              "label": "p"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "T"
+            },
+            {
+              "label": "s"
+            },
+            {
+              "label": "D"
+            },
+            {
+              "label": "p"
+            },
+            {
+              "label": "C"
+            },
+            {
+              "label": "v"
+            },
+            {
+              "label": "T"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "LetterNamingFacility"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    }
+  ],
+  "CumulativeScoreDiscontinueRules": 
+  [
+    {
+      "minScore": 11,
+      "questionId": "ktea3a-letternamingfacility-practice"
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

@@ -1,0 +1,5855 @@
+{
+  "subtestId": 799,
+  "subtestGUID": "53367b50f4c449369c7d5c2b20af897e",
+  "title": "Spelling",
+  "displayName": "Spelling",
+  "abbr": "sp",
+  "testType": "ktea3",
+  "testTitle": "KTEA-3",
+  "testDisplayName": "KTEA-3 Form A",
+  "normType": "ktea-3a",
+  "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+  "subtestType": "WordPronunciation",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/ktea-3/spelling",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "RequireGradeAndTermRule": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 5,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 25,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Writing",
+    "averageDuration": 7,
+    "minGradeLevel": 1,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee writes single letters that represent sounds or spells words from dictation."
+  },
+  "singleCardItemLists": 
+  [
+    {
+      "title": "Items",
+      "DiscontinueConsecutiveZerosRule": {
+        "numZeros": 4
+      },
+      "startingItemListDisplayIndex": 1,
+      "GradeBasedReverseRule": {
+        "numberFullScores": 3,
+        "ascendingOrder": true,
+        "startPoints": 
+        [
+          {
+            "minGrade": "Grade K",
+            "startQuestionId": "ktea3a-spelling-item1",
+            "label": "Grades K-1: Item 1"
+          },
+          {
+            "minGrade": "Grade 2",
+            "startQuestionId": "ktea3a-spelling-item4",
+            "label": "Grade 2: Item 4"
+          },
+          {
+            "minGrade": "Grade 3",
+            "startQuestionId": "ktea3a-spelling-item12",
+            "label": "Grades 3-4: Item 12"
+          },
+          {
+            "minGrade": "Grade 5",
+            "startQuestionId": "ktea3a-spelling-item22",
+            "label": "Grades 5-6: Item 22"
+          },
+          {
+            "minGrade": "Grade 7",
+            "startQuestionId": "ktea3a-spelling-item27",
+            "label": "Grade 7: Item 27"
+          },
+          {
+            "minGrade": "Grade 8",
+            "startQuestionId": "ktea3a-spelling-item32",
+            "label": "Grade 8: Item 32"
+          },
+          {
+            "minGrade": "Grade 9",
+            "startQuestionId": "ktea3a-spelling-item37",
+            "label": "Grades 9-12+: Item 37"
+          }
+        ]
+      },
+      "DiscontinueRollupRule": {
+      },
+      "type": "ErrorAnalysis",
+      "questions": 
+      [
+        {
+          "id": "ktea3a-spelling-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item1",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "†Item 1. b or B",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><em>Note<\u002fem>: On Items 1&ndash;3, do not say the name of the letter; only say the <u>sound<\u002fu> it makes.<\u002fp>\r\n\r\n<p>If starting here, say, <span class=\"speechBlue\"><strong>Now I will ask you to write some letters and words.&nbsp;<\u002fstrong><\u002fspan>Open the Response Booklet to the Spelling page with the appropriate start point and place it in front of the examinee. Give the examinee a pencil with an eraser.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Find the picture of the ball<\u002fstrong><\u002fspan> (point to the picture in the Response Booklet)<span class=\"speechBlue\"><strong>. Next to the picture, write the letter that makes the /b/ sound in <em>ball<\u002fem><\u002fstrong><\u002fspan> (point to the line for Item 1)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>Correct response: <span class=\"speechBlue\">That&rsquo;s right.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><strong>Incorrect or no response:&nbsp;<\u002fstrong><span class=\"speechBlue\"><strong>What letter makes the /b/ sound?<\u002fstrong><\u002fspan> If the examinee doesn&rsquo;t say <em>b<\u002fem>,&nbsp;say, <span class=\"speechBlue\"><strong>The letter <em>b <\u002fem>makes the /b/ sound. Let&rsquo;s try another one.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "b or B",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item2",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 2. a or A",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<div><span class=\"speechBlue\"><strong>Now look at the apple<\u002fstrong><\u002fspan> (point to the picture in the Response Booklet)<span class=\"speechBlue\"><strong>. Next to the picture, write the letter that makes the /a/ sound in <em>apple<\u002fem><\u002fstrong><\u002fspan> (point to the line for Item 2)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fdiv>\r\n",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "a or A",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item3",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 3. p or P",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<div><span class=\"speechBlue\"><strong>Now look at the pig<\u002fstrong><\u002fspan> (point to the picture in the Response Booklet)<span class=\"speechBlue\"><strong>. Next to the picture, write the letter that makes the /p/ sound in <em>pig<\u002fem><\u002fstrong><\u002fspan> (point to the line for Item 3)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fdiv>\r\n",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "p or P",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item4",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 4. the",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p>​If starting here, say,&nbsp;<strong style=\"color: rgb(2, 149, 165);\">Now I want you to write a word.&nbsp;<\u002fstrong>Open the Response Booklet to the Spelling page with the appropriate start point and place it in front of the examinee. Give the examinee a pencil with an eraser.&nbsp;​<span class=\"speechBlue\"><strong>Look at <em>the<\u002fem><\u002fstrong><\u002fspan> (pronounce <em>thuh<\u002fem>) <span class=\"speechBlue\"><strong>frog<\u002fstrong><\u002fspan> (point to the picture in the Response Booklet)<span class=\"speechBlue\"><strong>. Next to the picture, write the word <em>the<\u002fem><\u002fstrong><\u002fspan> (pronounce <em>thuh<\u002fem>, point to the line for Item 4)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "the",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "the",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Consonant digraph (th)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item5",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 5. cat",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<div><span class=\"speechBlue\"><strong>Here is a <em>cat<\u002fem><\u002fstrong><\u002fspan> (point to the picture in the Response Booklet)<span class=\"speechBlue\"><strong>.<br />\r\nNext to the picture, write the word <em>cat<\u002fem><\u002fstrong><\u002fspan> (point to the line for Item 5)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fdiv>\r\n",
+              "skillsAnalysisLabel": "cat",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "cat",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (c)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (a)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (t)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item6",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 6. sun",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<div><strong><span class=\"speechBlue\">Look at the <em>sun<\u002fem><\u002fspan><\u002fstrong> (point to the picture in the Response Booklet)<span class=\"speechBlue\"><strong>.<br />\r\nNext to the picture, write the word <em>sun<\u002fem>.<\u002fstrong><\u002fspan><\u002fdiv>\r\n",
+              "skillsAnalysisLabel": "sun",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "sun",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (s)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (u)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (n)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item7",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 7. hot",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Now I will say a word, use it in a sentence, and say the word again.&nbsp;Then I want you to write the word. If you&rsquo;re not sure how to spell a word,&nbsp;just take a guess. Write the first word here<\u002fstrong><\u002fspan>&nbsp;(point to the space for Item 7&nbsp;in&nbsp;the Response Booklet)<span class=\"speechBlue\"><strong style=\"color: rgb(2, 149, 165);\">.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong style=\"color: rgb(2, 149, 165);\">Hot. My soup is <em>hot<\u002fem>. Hot.<\u002fstrong><\u002fp>\r\n",
+              "skillsAnalysisLabel": "hot",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "hot",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (h)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (t)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item8",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 8. me",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><strong style=\"color: rgb(2, 149, 165);\">Me. Let&nbsp;<em>me<\u002fem>&nbsp;help you. Me.<\u002fstrong><\u002fp>\r\n",
+              "skillsAnalysisLabel": "me",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "me",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (m)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Long vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item9",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 9. up",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Up. The cat climbed <em>up <\u002fem>the tree. Up.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "up",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "up",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Short vowel (u)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (p)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item10",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 10. nap",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><strong style=\"color: rgb(2, 149, 165);\">Nap. The baby is taking a&nbsp;<em>nap<\u002fem>. Nap.<\u002fstrong><\u002fp>\r\n",
+              "skillsAnalysisLabel": "nap",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "nap",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (n)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (a)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (p)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item11",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 11. dog",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Dog. My <em>dog<\u002fem> likes walks. Dog.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "dog",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "dog",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (d)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (g)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item12",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 12. pet",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p>If starting here, say,&nbsp;<span class=\"speechBlue\"><strong>Now I will say a word, use it in a sentence, and say the word again.&nbsp;Then I want you to write the word. If you&rsquo;re not sure how to spell a word,&nbsp;just take a guess. <\u002fstrong><\u002fspan>Open the Response Booklet to the Spelling page with the appropriate start point and place it in front of the examinee. Give the examinee a pencil with an eraser.&nbsp;<span class=\"speechBlue\"><strong>Write the first word here<\u002fstrong><\u002fspan>&nbsp;(point to the space for Item 12 in&nbsp;the Response Booklet)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Pet. My dog is my only&nbsp;<em>pet<\u002fem>. Pet.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "pet",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "pet",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (p)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (t)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item13",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 13. you",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>You. I am talking to <em>you<\u002fem>. You.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "you",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "you",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (y)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Vowel team/Diphthong (ou)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item14",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 14. as",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><strong><span class=\"speechBlue\">As. We sang <em>as<\u002fem> we drove along. As.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "skillsAnalysisLabel": "as",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "as",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Short vowel (a)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (s)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Hard/Soft C, G, S",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item15",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 15. hit",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Hit. I <em>hit<\u002fem> the ball. Hit.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "hit",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "hit",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (h)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (i)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (t)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item16",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 16. do",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Do. I will <em>do<\u002fem> my work. Do.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "do",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "do",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (d)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item17",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 17. bath",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Bath. They gave the baby a <em>bath<\u002fem>. Bath.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "bath",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "bath",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (b)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (a)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Consonant digraph (th)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item18",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item18",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 18. so",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>So. I was tired, <em>so<\u002fem> I went to bed. So.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "so",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "so",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (s)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Long vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item19",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item19",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 19. book",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Book. I like to read that <em>book<\u002fem>. Book.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "book",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "book",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (b)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Vowel team/Diphthong (oo)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (k)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item20",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item20",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 20. was",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Was. The apple <em>was<\u002fem> red. Was.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "was",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "was",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (w)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (a)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (s)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Hard/Soft C, G, S",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item21",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item21",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 21. home",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Home. The dog ran <em>home<\u002fem>. Home.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "home",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "home",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (h)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Long vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (m)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Silent letter (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item22",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item22",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 22. farm",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p>If starting here, say, <span class=\"speechBlue\"><strong>Now I will say a word, use it in a sentence, and say the word again.&nbsp;Then I want you to write the word. If you&rsquo;re not sure how to spell a word,&nbsp;just take a guess. <\u002fstrong><\u002fspan>Open the Response Booklet to the Spelling page with the appropriate start point and place it in front of the examinee. Give the examinee a pencil with an eraser.&nbsp;<span class=\"speechBlue\"><strong>Write the first word here<\u002fstrong><\u002fspan> (point to the line for Item 22 in&nbsp;the Response Booklet)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Farm. The pigs live on the <em>farm<\u002fem>. Farm.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "farm",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "farm",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (f)",
+              "isAutomatic": false
+            },
+            {
+              "label": "R-controlled vowel (a)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (r)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (m)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item23",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item23",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 23. of",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Of. He is captain <em>of<\u002fem> the team. Of.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "of",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "of",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Unpredictable pattern (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (f)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item24",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item24",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 24. open",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Open. The store will <em>open<\u002fem> at noon. Open.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "open",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "open",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Long vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (p)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (en)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item25",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item25",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 25. what",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>What. <em>What<\u002fem> is that? What.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "what",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "what",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Consonant digraph (wh)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (a)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (t)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item26",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item26",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 26. phone",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Phone. Answer the <em>phone<\u002fem>, please. Phone.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "phone",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "phone",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Consonant digraph (ph)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Long vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (n)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Silent letter (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item27",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item27",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 27. very",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p>If starting here, say,&nbsp;<span class=\"speechBlue\"><strong>Now I will say a word, use it in a sentence, and say the word again.&nbsp;Then I want you to write the word. If you&rsquo;re not sure how to spell a word,&nbsp;just take a guess. <\u002fstrong><\u002fspan>Open the Response Booklet to the Spelling page with the appropriate start point and place it in front of the examinee. Give the examinee a pencil with an eraser.&nbsp;<span class=\"speechBlue\"><strong>Write the first word here<\u002fstrong><\u002fspan>&nbsp;(point to the line for Item 27 in&nbsp;the Response Booklet)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Very. I am <em>very<\u002fem> happy. Very.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "very",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "very",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (v)",
+              "isAutomatic": false
+            },
+            {
+              "label": "R-controlled vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (r)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Long vowel (y)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item28",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item28",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 28. went",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Went. My friend <em>went<\u002fem> home. Went.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "went",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "went",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (w)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Medial/Final blend (nt)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item29",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item29",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 29. said",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Said. My teacher <em>said<\u002fem> I could go. Said.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "said",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "said",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (s)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (ai)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (d)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item30",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item30",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 30. dry",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Dry. Is the laundry <em>dry<\u002fem>? Dry.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "dry",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "dry",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Initial blend (dr)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Long vowel (y)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item31",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item31",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 31. don't",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><strong style=\"color: rgb(2, 149, 165);\">Don&rsquo;t. They&nbsp;<em>don&rsquo;t<\u002fem>&nbsp;go shopping very often. Don&rsquo;t.<\u002fstrong><\u002fp>\r\n",
+              "skillsAnalysisLabel": "don't",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "don't",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (d)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Long vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (n)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (_'t)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item32",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item32",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 32. better",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p>If starting here, say, <span class=\"speechBlue\"><strong>Now I will say a word, use it in a sentence, and say the word again. Then I want you to write the word. If you&rsquo;re not sure how to spell a word, just take a guess. <\u002fstrong><\u002fspan>Open the Response Booklet to the Spelling page with the appropriate start point and place it in front of the examinee. Give the examinee a pencil with an eraser.&nbsp;<span class=\"speechBlue\"><strong>Write the first word here<\u002fstrong><\u002fspan> (point to the line for Item 32 in&nbsp;the Response Booklet)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Better. Do you like dogs <em>better<\u002fem> than cats? Better.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "better",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "better",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (b)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (tt)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (er)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item33",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item33",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 33. people",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>People. Most <em>people<\u002fem> like cherries. People.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "people",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "people",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (p)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (eo)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (p)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (le)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item34",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item34",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 34. graded",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Graded. The teacher <em>graded<\u002fem> our homework. Graded.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "graded",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "graded",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Initial blend (gr)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Long vowel (a)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (d)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ed)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item35",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item35",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 35. dressing",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Dressing. They were <em>dressing<\u002fem> for the party. Dressing.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "dressing",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "dressing",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Initial blend (dr)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (ss)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ing)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item36",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item36",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 36. spoken",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Spoken. Have you <em>spoken<\u002fem> to the teacher? Spoken.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "spoken",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "spoken",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Initial blend (sp)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Long vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (k)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (en)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item37",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item37",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 37. germ",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p>If starting here, say,&nbsp;<span class=\"speechBlue\"><strong>Now I will say a word, use it in a sentence, and say the word again.&nbsp;Then I want you to write the word. If you&rsquo;re not sure how to spell a word,&nbsp;just take a guess. <\u002fstrong><\u002fspan>Open the Response Booklet to the Spelling page with the appropriate start point and place it in front of the examinee. Give the examinee a pencil with an eraser.&nbsp;<span class=\"speechBlue\"><strong>Write the first word here<\u002fstrong><\u002fspan>&nbsp;(point to the line for Item 37&nbsp;in&nbsp;the Response Booklet)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Germ. A <em>germ<\u002fem> can be dangerous. Germ.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "germ",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "germ",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (g)",
+              "isAutomatic": false
+            },
+            {
+              "label": "R-controlled vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (r)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (m)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Hard/Soft C, G, S",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item38",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item38",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 38. would",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Would. <em>Would<\u002fem> you please help me? Would.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "would",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "would",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (w)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Vowel team/Diphthong (ou)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Silent letter (l)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (d)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item39",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item39",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 39. waited",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Waited. We <em>waited<\u002fem> for the movie to start. Waited.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "waited",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "waited",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (w)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Vowel team/Diphthong (ai)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (t)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ed)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item40",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item40",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 40. reached",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Reached. I <em>reached<\u002fem> up to catch the ball. Reached.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "reached",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "reached",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (r)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Vowel team/Diphthong (ea)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Consonant digraph (ch)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ed)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item41",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item41",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 41. she's",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>She&rsquo;s. Do you know where <em>she&rsquo;s<\u002fem> going? She&rsquo;s.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "she's",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "she's",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Consonant digraph (sh)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Long vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (_'s)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Hard/Soft C, G, S",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item42",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item42",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 42. while",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>While. I played a game <em>while<\u002fem> I waited. While.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "while",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "while",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Consonant digraph (wh)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Long vowel (i)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (l)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Silent letter (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item43",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item43",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 43. roasted",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Roasted. The corn <em>roasted<\u002fem> over the fire. Roasted.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "roasted",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "roasted",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (r)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Vowel team/Diphthong (oa)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Medial/Final blend (st)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ed)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item44",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item44",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 44. wrongly",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Wrongly. They were <em>wrongly<\u002fem> blamed for the mistake. Wrongly.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "wrongly",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "wrongly",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Consonant digraph (wr)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Consonant digraph (ng)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ly)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item45",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item45",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 45. bridge",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Bridge. We crossed the <em>bridge<\u002fem>. Bridge.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "bridge",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "bridge",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Initial blend (br)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (i)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Consonant digraph (dg)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Silent letter (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item46",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item46",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 46. worried",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Worried. The children <em>worried<\u002fem> about their cat. Worried.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "worried",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "worried",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (w)",
+              "isAutomatic": false
+            },
+            {
+              "label": "R-controlled vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (rr)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (i)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ed)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item47",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item47",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 47. knocked",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Knocked. I <em>knocked<\u002fem> on the door. Knocked.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "knocked",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "knocked",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Silent letter (k)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (n)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Consonant digraph (ck)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ed)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item48",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item48",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 48. construction",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Construction. The building is under <em>construction<\u002fem>. Construction.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "construction",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "construction",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Prefix/Word beginning (con)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Medial/Final blend (str)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (u)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (c)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (tion)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item49",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item49",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 49. squirted",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Squirted. The orange <em>squirted<\u002fem> when I bit into it. Squirted.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "squirted",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "squirted",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Initial blend (squ)",
+              "isAutomatic": false
+            },
+            {
+              "label": "R-controlled vowel (i)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (r)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (t)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ed)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item50",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item50",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 50. physical",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Physical. The doctor performed a <em>physical<\u002fem> exam. Physical.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "physical",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "physical",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Prefix/Word beginning (phys)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ic)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (al)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Hard/Soft C, G, S",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item51",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item51",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 51. hungrier",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Hungrier. I have never felt <em>hungrier<\u002fem> than I do now. Hungrier.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "hungrier",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "hungrier",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (h)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (u)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Consonant digraph (ng)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (r)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (i)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (er)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item52",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item52",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 52. misfortune",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Misfortune. Keep hoping, even in <em>misfortune<\u002fem>. Misfortune.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "misfortune",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "misfortune",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Prefix/Word beginning (mis)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (f)",
+              "isAutomatic": false
+            },
+            {
+              "label": "R-controlled vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (r)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (tune)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item53",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item53",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 53. definition",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Definition. No one knew the <em>definition<\u002fem> of the word. Definition.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "definition",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "definition",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (d)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (f)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (i)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (n)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (i)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (tion)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item54",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item54",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 54. irregular",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Irregular. This job requires <em>irregular<\u002fem> hours. Irregular.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "irregular",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "irregular",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Prefix/Word beginning (ir)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (r)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (g)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Long vowel (u)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (l)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ar)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item55",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item55",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 55. splitting",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Splitting. We watched the man <em>splitting<\u002fem> logs. Splitting.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "splitting",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "splitting",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Initial blend (spl)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (i)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (tt)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ing)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item56",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item56",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 56. schedule",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Schedule. They read tomorrow&rsquo;s <em>schedule<\u002fem>. Schedule.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "schedule",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "schedule",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Initial blend (sch)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (d)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (ule)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item57",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item57",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 57. appreciate",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Appreciate. I <em>appreciate<\u002fem> your hard work. Appreciate.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "appreciate",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "appreciate",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Prefix/Word beginning (ap)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Medial/Final blend (pr)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Long vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (ci)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ate)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item58",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item58",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 58. exhaust",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Exhaust. The bus&rsquo;s <em>exhaust<\u002fem> was dirty. Exhaust.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "exhaust",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "exhaust",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Prefix/Word beginning (ex)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Silent letter (h)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Vowel team/Diphthong (au)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Medial/Final blend (st)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item59",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item59",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 59. desperate",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Desperate. They were <em>desperate<\u002fem> to join the game. Desperate.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "desperate",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "desperate",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (d)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Medial/Final blend (sp)",
+              "isAutomatic": false
+            },
+            {
+              "label": "R-controlled vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (r)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (ate)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item60",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item60",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 60. regretted",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Regretted. They <em>regretted<\u002fem> their cruel words. Regretted.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "regretted",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "regretted",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Prefix/Word beginning (re)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Medial/Final blend (gr)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (tt)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ed)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item61",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item61",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 61. exaggerate",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Exaggerate. Some players <em>exaggerate<\u002fem> their abilities. Exaggerate.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "exaggerate",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "exaggerate",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Prefix/Word beginning (ex)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (a)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (gg)",
+              "isAutomatic": false
+            },
+            {
+              "label": "R-controlled vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (r)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ate)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item62",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item62",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 62. consensus",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Consensus. The committee reached a <em>consensus<\u002fem>. Consensus.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "consensus",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": "",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "consensus",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Prefix/Word beginning (con)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (s)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (n)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (s)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (u)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (s)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Hard/Soft C, G, S",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item63",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item63",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 63. deceive",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Deceive. The lie was meant to <em>deceive<\u002fem> you. Deceive.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "deceive",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "deceive",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Prefix/Word beginning (de)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (c)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Vowel team/Diphthong (ei)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (v)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Silent letter (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Hard/Soft C, G, S",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item64",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item64",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 64. definitely",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Definitely. They <em>definitely<\u002fem> will arrive by noon. Definitely.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "definitely",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "definitely",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (d)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (f)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (i)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (n)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (ite)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ly)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item65",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item65",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 65. accommodate",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Accommodate. This room can <em>accommodate<\u002fem> 10 people. Accommodate.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "accommodate",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "accommodate",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Prefix/Word beginning (ac)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (c)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (mm)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (d)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ate)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item66",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item66",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 66. poignant",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Poignant. This movie tells a <em>poignant<\u002fem> story. Poignant.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "poignant",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "poignant",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (p)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Vowel team/Diphthong (oi)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Silent letter (g)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (n)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ant)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item67",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item67",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 67. mnemonic",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Mnemonic. I used a <em>mnemonic<\u002fem> to help me remember. Mnemonic.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "mnemonic",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "mnemonic",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Silent letter (m)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (n)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (m)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (n)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (ic)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item68",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item68",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 68. liaison",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Liaison. A lawyer will act as the <em>liaison<\u002fem> between the parties involved. Liaison.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "liaison",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "liaison",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (l)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (i)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Vowel team/Diphthong (ai)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (son)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Hard/Soft C, G, S",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        },
+        {
+          "id": "ktea3a-spelling-item69",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/spelling/ktea3a-spelling-item69",
+          "subtestName": "Spelling",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 69. hemorrhage",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "message": "<p><span class=\"speechBlue\"><strong>Hemorrhage. Pressure was applied to stop the <em>hemorrhage<\u002fem>. Hemorrhage.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "skillsAnalysisLabel": "hemorrhage",
+              "contextualButtonPresent": true,
+              "scoreButtons": 
+              [
+                {
+                  "score": 0,
+                  "label": null,
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                },
+                {
+                  "score": 1,
+                  "label": "hemorrhage",
+                  "shouldHighlightButton": false,
+                  "useRedButton": false
+                }
+              ]
+            },
+            "superType": "SingleCardItems",
+            "type": "StackScoringRow"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "errorCategories": 
+          [
+            {
+              "label": "Single/Double consonant (h)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Short vowel (e)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Single/Double consonant (m)",
+              "isAutomatic": false
+            },
+            {
+              "label": "R-controlled vowel (o)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Unpredictable pattern (rr)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Silent letter (h)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Suffix/Inflection (age)",
+              "isAutomatic": false
+            },
+            {
+              "label": "Hard/Soft C, G, S",
+              "isAutomatic": false
+            },
+            {
+              "label": "Syllable insertions/omissions",
+              "isAutomatic": false
+            },
+            {
+              "label": "Nonphonetic",
+              "isAutomatic": false
+            },
+            {
+              "label": "Whole word",
+              "isAutomatic": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": 
+  [
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 4,
+    "description": "This subtest discontinues after 4 consecutive scores of 0 points.",
+    "countsDemoItems": false
+  },
+  "FirstItemsIncorrectReverseRule": {
+    "numItemsToTrigger": 3,
+    "numItemsToResume": 3
+  },
+  "errorCategories": 
+  [
+    {
+      "label": "Single/Double consonant",
+      "isAutomatic": false
+    },
+    {
+      "label": "Initial blend",
+      "isAutomatic": false
+    },
+    {
+      "label": "Medial/Final blend",
+      "isAutomatic": false
+    },
+    {
+      "label": "Consonant digraph",
+      "isAutomatic": false
+    },
+    {
+      "label": "Short vowel",
+      "isAutomatic": false
+    },
+    {
+      "label": "Long vowel",
+      "isAutomatic": false
+    },
+    {
+      "label": "Vowel team/Diphthong",
+      "isAutomatic": false
+    },
+    {
+      "label": "R-controlled vowel",
+      "isAutomatic": false
+    },
+    {
+      "label": "Silent letter",
+      "isAutomatic": false
+    },
+    {
+      "label": "Prefix/Word beginning",
+      "isAutomatic": false
+    },
+    {
+      "label": "Suffix/Inflection",
+      "isAutomatic": false
+    },
+    {
+      "label": "Hard/Soft C, G, S",
+      "isAutomatic": false
+    },
+    {
+      "label": "Unpredictable pattern",
+      "isAutomatic": false
+    },
+    {
+      "label": "Syllable insertions/omissions",
+      "isAutomatic": false
+    },
+    {
+      "label": "Nonphonetic",
+      "isAutomatic": false
+    },
+    {
+      "label": "Whole word",
+      "isAutomatic": false
+    }
+  ],
+  "htmlSnippets": {
+    "0-pt-ktea3a-spelling-item1": "<p>Child gives an incorrect response. <span class=\"speechBlue\">What letter makes the /b/ sound?<\u002fspan> If the examinee doesn&#39;t say <em>b<\u002fem>, say, <span class=\"speechBlue\">The letter <em>b<\u002fem>&nbsp;<\u002fspan><span style=\"color: rgb(2, 149, 165);\">makes the /b/ sound. Let&#39;s try another one.&nbsp;<\u002fspan><\u002fp>"
+  },
+  "observations": 
+  [
+    {
+      "guid": "edfb1e27ceca4ee48a57e57a6144f760",
+      "type": "Selection",
+      "label": "Errors were mostly phonetic: all sounds represented and in the correct order",
+      "isFirstInGroup": true
+    },
+    {
+      "guid": "9c4d2a85083d442596f56a87e7ab85ba",
+      "type": "Selection",
+      "label": "Errors were mostly nonphonetic: letters misordered, or sounds missing or added"
+    },
+    {
+      "guid": "b37bc59962ce4772b65dfe197a178a33",
+      "type": "Selection",
+      "label": "Errors reflected incorrect orthographic representation (lite for light, fone for phone)"
+    },
+    {
+      "guid": "f9be400eeaa245919c9ac941052df1db",
+      "type": "Selection",
+      "label": "Made letter reversal errors (b for d)"
+    },
+    {
+      "guid": "f3ad21b42de8467780226df780ca853c",
+      "type": "Selection",
+      "label": "Letter formation was slow and labored"
+    },
+    {
+      "guid": "622caa72254e42a7aa5b580f936dc5fd",
+      "type": "Selection",
+      "label": "Spacing between letters was too close or too far away"
+    },
+    {
+      "guid": "696c15fef1514caf9fe570854e1229da",
+      "type": "Selection",
+      "label": "Letter formation was difficult to read"
+    },
+    {
+      "guid": "0130f9d301794ce3b33b69aa187a77b4",
+      "type": "Selection",
+      "label": "Seemed to know when a word was misspelled (said, \"That doesn't look right,\" or, \"I know that's not right\")",
+      "isFirstInGroup": true
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

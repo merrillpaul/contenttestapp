@@ -1,0 +1,357 @@
+{
+  "subtestId": 85,
+  "subtestGUID": "b9f7ae0f2c45e96de040a8c042011657",
+  "title": "Symbol Search",
+  "displayName": "Symbol Search",
+  "abbr": "Symbol Search",
+  "testType": "wais",
+  "testTitle": "WISC-IV",
+  "testDisplayName": "WISC-IV",
+  "normType": "wisc-iv",
+  "testGUID": "bd451bc0ee253d9be040a8c0420111e3",
+  "subtestType": null,
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-iv/symbol_search",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Processing Speed",
+    "averageDuration": 3,
+    "descriptionCS": "The child scans a search group and indicates whether the target symbol(s) matches any of the symbols in the search group within a specified time limit."
+  },
+  "scoringScaleName": "Processing Speed Index (PSI)",
+  "scoringScaleAbbr": "PSI",
+  "isScaledScoreOptional": false,
+  "questions": 
+  [
+    {
+      "id": "wisciv-symbolsearch-samplea",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/symbol_search/wisciv-symbolsearch-samplea",
+      "subtestName": "Symbol Search",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Symbol Search A: Sample Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/symbol_search/wisciv-symbolsearch-samplea/wisciv-symbolsearch-sampleaPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "maxScore": 130,
+          "isCalculationRequired": false,
+          "useTimeAsRawScore": false,
+          "hasSetErrors": false,
+          "hasRotationErrors": false,
+          "hasScorePopover": false,
+          "useWordCountTitle": false
+        },
+        "superType": null,
+        "type": "manual"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-symbolsearch-practicea",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/symbol_search/wisciv-symbolsearch-practicea",
+      "subtestName": "Symbol Search",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Symbol Search A: Practice Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Offer praise such as <span class=\"speechBlue\">Yes<\u002fspan> or <span class=\"speechBlue\">Right<\u002fspan> for each correctly completed practice item. Then say, <span class=\"speechBlue\">Now you know how to do them.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Correct the error immediately, as follows:<\u002fp>\r\n\r\n<p>If the child incorrectly marks NO on the first practice item, say,&nbsp;<span class=\"speechBlue\">That&rsquo;s not quite right. Look here<\u002fspan> (point to target symbol)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">Here is the shape. Now look over here<\u002fspan> (point to matching symbol in search group)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">Here is the same shape. The shapes are the same, so you should mark the YES box.<\u002fspan><\u002fp>\r\n\r\n<p>If the child incorrectly marks YES on the second practice item, say,&nbsp;<span class=\"speechBlue\">That&rsquo;s not quite right. Look here <\u002fspan>(point to target symbol)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">Here is the shape. Now look over here<\u002fspan> (point to search group)<span class=\"speechBlue\">. None of these shapes is the same, so you should mark the NO box.<\u002fspan><\u002fp>\r\n\r\n<p>Do not proceed to the test items until the child understands the task. &nbsp;If it is clear that the child will not be able to understand the task with further instruction, discontinue the subtest.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/symbol_search/wisciv-symbolsearch-practicea/wisciv-symbolsearch-practiceaPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "maxScore": 100,
+          "isCalculationRequired": false,
+          "useTimeAsRawScore": false,
+          "hasSetErrors": false,
+          "hasRotationErrors": false,
+          "hasScorePopover": false,
+          "useWordCountTitle": false
+        },
+        "superType": null,
+        "type": "manual"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-symbolsearch-testa",
+      "shouldUseTimer": true,
+      "maxTime": 120,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/symbol_search/wisciv-symbolsearch-testa",
+      "subtestName": "Symbol Search",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Symbol Search A: Test Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/symbol_search/wisciv-symbolsearch-testa/wisciv-symbolsearch-testaPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "maxScore": 45,
+          "isCalculationRequired": true,
+          "useTimeAsRawScore": false,
+          "hasSetErrors": false,
+          "hasRotationErrors": false,
+          "hasScorePopover": false,
+          "useWordCountTitle": false
+        },
+        "superType": null,
+        "type": "manual"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-symbolsearch-sampleb",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/symbol_search/wisciv-symbolsearch-sampleb",
+      "subtestName": "Symbol Search",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Symbol Search B: Sample Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/symbol_search/wisciv-symbolsearch-sampleb/wisciv-symbolsearch-samplebPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "maxScore": 100,
+          "isCalculationRequired": false,
+          "useTimeAsRawScore": false,
+          "hasSetErrors": false,
+          "hasRotationErrors": false,
+          "hasScorePopover": false,
+          "useWordCountTitle": false
+        },
+        "superType": null,
+        "type": "manual"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-symbolsearch-practiceb",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/symbol_search/wisciv-symbolsearch-practiceb",
+      "subtestName": "Symbol Search",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Symbol Search B: Practice Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Offer praise such as <span class=\"speechBlue\">Yes<\u002fspan> or <span class=\"speechBlue\">Right <\u002fspan>for each correctly completed practice item. Then say, <span class=\"speechBlue\">Now you know how to do them.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Correct the error immediately, as follows:&nbsp;<\u002fp>\r\n\r\n<p>If the child incorrectly marks NO on the first practice item, say, <span class=\"speechBlue\">That&rsquo;s not quite right. Look here<\u002fspan> (point to target symbol)<span class=\"speechBlue\">. Here is the shape. Now look over here <\u002fspan>(point to matching symbol in search group)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">Here is the same shape. The shapes are the same, so you should mark the YES box.<\u002fspan><\u002fp>\r\n\r\n<p>If the child incorrectly marks YES on the second practice item, say, <span class=\"speechBlue\">That&rsquo;s not quite right. Look here <\u002fspan>(point to target group)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">Here are the shapes. Now look over here<\u002fspan> (point to search group)<span class=\"speechBlue\">. None of the shapes are the same, so you should mark the NO box. <\u002fspan><\u002fp>\r\n\r\n<p>Do not proceed with the test items until the child understands the task. If it is clear that the child will not be able to understand the task with further instructions, discontinue the subtest.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/symbol_search/wisciv-symbolsearch-practiceb/wisciv-symbolsearch-practicebPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "maxScore": 100,
+          "isCalculationRequired": false,
+          "useTimeAsRawScore": false,
+          "hasSetErrors": false,
+          "hasRotationErrors": false,
+          "hasScorePopover": false,
+          "useWordCountTitle": false
+        },
+        "superType": null,
+        "type": "manual"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisciv-symbolsearch-testb",
+      "shouldUseTimer": true,
+      "maxTime": 120,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-iv/symbol_search/wisciv-symbolsearch-testb",
+      "subtestName": "Symbol Search",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Symbol Search B: Test Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-iv/symbol_search/wisciv-symbolsearch-testb/wisciv-symbolsearch-testbPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "maxScore": 60,
+          "isCalculationRequired": true,
+          "useTimeAsRawScore": false,
+          "hasSetErrors": false,
+          "hasRotationErrors": false,
+          "hasScorePopover": false,
+          "useWordCountTitle": false
+        },
+        "superType": null,
+        "type": "manual"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "ageBasedSimpleSkipRules": 
+  [
+    {
+      "minAge": 6,
+      "maxAge": 7,
+      "itemsToSkip": 
+      [
+        "wisciv-symbolsearch-practiceb",
+        "wisciv-symbolsearch-sampleb",
+        "wisciv-symbolsearch-testb"
+      ]
+    },
+    {
+      "minAge": 8,
+      "maxAge": 16,
+      "itemsToSkip": 
+      [
+        "wisciv-symbolsearch-practicea",
+        "wisciv-symbolsearch-samplea",
+        "wisciv-symbolsearch-testa"
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

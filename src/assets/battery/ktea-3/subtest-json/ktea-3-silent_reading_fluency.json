@@ -1,0 +1,4221 @@
+{
+  "subtestId": 791,
+  "subtestGUID": "87b17e9e31094c35b5bcbc355951151f",
+  "title": "Silent Reading Fluency",
+  "displayName": "Silent Reading Fluency",
+  "abbr": "srf",
+  "testType": "ktea3",
+  "testTitle": "KTEA-3",
+  "testDisplayName": "KTEA-3 Form A",
+  "normType": "ktea-3a",
+  "testGUID": "c310e1a7dcad457d85b84c51c3753da3",
+  "subtestType": "ktea3",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/ktea-3/silent_reading_fluency",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "RequireGradeAndTermRule": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 25,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Reading Fluency",
+    "averageDuration": 3,
+    "minGradeLevel": 2,
+    "maxGradeLevel": 13,
+    "descriptionCS": "The examinee silently reads simple sentences and marks yes or no to indicate whether the statement is  true or false, completing as many items as possible within a two-minute time limit."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Sample Items",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "ktea3a-silentreading-sampleab",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-sampleab",
+          "subtestName": "Silent Reading Fluency",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Samples A and B",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-sampleab/ktea3a-silentreading-sampleabPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": true,
+      "title": "Teaching Items",
+      "abbr": null,
+      "singleCardItemLists": 
+      [
+        {
+          "title": "Teaching Items",
+          "itemGroups": 
+          [
+            {
+              "shouldSuppressCoverSheet": true,
+              "shouldSuppressScore": true,
+              "isOptional": true,
+              "title": "Teaching Items",
+              "abbr": null,
+              "questions": 
+              [
+                {
+                  "id": "ktea3a-silentreading-teach1",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-teach1",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Teaching Item 1",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Sample",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do cows fly?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-teach2",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-teach2",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Teaching Item 2",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Sample",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do trains swim?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-teach3",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-teach3",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Teaching Item 3",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Sample",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do balls roll?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-teach4",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-teach4",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Teaching Item 4",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Sample",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is green a color?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                }
+              ],
+              "hasInstructionsHtml": true
+            }
+          ]
+        }
+      ],
+      "questions": 
+      [
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Test Items",
+      "abbr": null,
+      "singleCardItemLists": 
+      [
+        {
+          "title": "Test Items",
+          "shouldUseTimer": true,
+          "maxTime": 120,
+          "warningTime": null,
+          "DiscontinueAtSelectedQuestionRule": true,
+          "type": "SilentReading",
+          "itemGroups": 
+          [
+            {
+              "shouldSuppressCoverSheet": true,
+              "shouldSuppressScore": false,
+              "isOptional": false,
+              "title": "Test Items",
+              "abbr": null,
+              "questions": 
+              [
+                {
+                  "id": "ktea3a-silentreading-test1",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test1",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 1",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do some dogs bark?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test2",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test2",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 2",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do flowers jump?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test3",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test3",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 3",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Can babies cry?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test4",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test4",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 4",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do bees buzz?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test5",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test5",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 5",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do plants grow?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test6",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test6",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 6",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do pencils drive cars?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test7",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test7",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 7",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is the sun bright?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test8",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test8",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 8",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do fish swim?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test9",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test9",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 9",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do cats have wings?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test10",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test10",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 10",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are some knives sharp?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test11",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test11",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 11",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do tables run?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test12",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test12",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 12",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is a circle round?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test13",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test13",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 13",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do hens lay eggs?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test14",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test14",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 14",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do some doors open and close?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test15",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test15",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 15",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do babies write books?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test16",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test16",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 16",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do birds have beaks?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test17",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test17",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 17",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are books made of ice?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test18",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test18",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 18",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do bananas have teeth?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test19",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test19",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 19",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Can people sit on chairs?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test20",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test20",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 20",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do some cows give milk?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test21",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test21",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 21",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do boats have arms and legs?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test22",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test22",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 22",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is a kitten a baby cat?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test23",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test23",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 23",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do heavy rocks float on water?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test24",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test24",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 24",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do horses live in sinks?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test25",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test25",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 25",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is a square a shape?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test26",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test26",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 26",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do spiders have legs?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test27",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test27",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 27",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are strawberries a kind of fruit?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test28",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test28",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 28",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Does paper breathe air?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test29",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test29",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 29",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do some people use an umbrella when it rains?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test30",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test30",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 30",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Does honey taste salty?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test31",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test31",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 31",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do elephants have stripes?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test32",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test32",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 32",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do cows sleep in beds?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test33",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test33",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 33",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is water hot when it boils?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test34",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test34",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 34",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do balls have straight sides?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test35",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test35",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 35",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do all shoes tie with buttons?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test36",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test36",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 36",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do people see with their arms?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test37",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test37",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 37",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are some windows made with glass?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test38",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test38",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 38",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are there fish that live in the ocean?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test39",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test39",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 39",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do people blink their eyes?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test40",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test40",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 40",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is a blanket made of steel?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test41",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test41",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 41",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Does the human body have bones?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test42",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test42",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 42",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do bubbles blow in the wind?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test43",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test43",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 43",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Does ice melt when it gets hot?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test44",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test44",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 44",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do frogs have feathers?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test45",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test45",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 45",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do students read while they sleep?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test46",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test46",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 46",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are sidewalks used for walking?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test47",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test47",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 47",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are flies smaller than lions?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test48",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test48",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 48",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are pillows softer than bricks?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test49",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test49",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 49",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do buildings have ears?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test50",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test50",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 50",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are baby dogs called cows?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test51",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test51",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 51",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are apples larger than ants?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test52",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test52",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 52",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Can glass break?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test53",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test53",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 53",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do some people keep dogs as pets?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test54",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test54",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 54",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Can the moon fit in someone's pocket?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test55",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test55",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 55",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do some teachers work in schools?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test56",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test56",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 56",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do people wear shoes on their backs?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test57",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test57",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 57",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do most people walk on eight legs?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test58",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test58",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 58",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are clocks used for telling time?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test59",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test59",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 59",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do people hold phones with their noses?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test60",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test60",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 60",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Does a flying bird have wings?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test61",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test61",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 61",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are raindrops bigger than puddles?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test62",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test62",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 62",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do people store things in boxes?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test63",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test63",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 63",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are some foods cooked in ovens?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test64",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test64",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 64",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do all people sleep on the ceiling?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test65",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test65",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 65",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are some cars driven on roads?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test66",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test66",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 66",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are teachers older than babies?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test67",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test67",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 67",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is a hat worn on the head?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test68",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test68",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 68",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do people keep snowflakes as pets?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test69",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test69",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 69",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do elephants have long trunks?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test70",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test70",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 70",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do people have toes on their feet?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test71",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test71",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 71",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do clouds float in the air?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test72",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test72",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 72",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are scissors used for cutting?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test73",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test73",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 73",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are flowers taller than buildings?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test74",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test74",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 74",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do people move their legs when walking?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test75",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test75",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 75",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do fish wear coats to keep warm?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test76",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test76",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 76",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are mountains bigger than hills?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test77",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test77",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 77",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do people smell with their noses?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test78",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test78",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 78",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is a bus a type of animal?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test79",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test79",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 79",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Does fire burn under water?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test80",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test80",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 80",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do sheep live in the ocean?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test81",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test81",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 81",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are horses ridden by people?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test82",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test82",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 82",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are socks and shoes worn on the feet?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test83",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test83",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 83",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Are teeth used for chewing?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test84",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test84",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 84",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do cats walk on the ground with their paws?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test85",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test85",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 85",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is ice hot when it freezes?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test86",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test86",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 86",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do snakes wear shoes?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test87",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test87",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 87",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do people speak softly when they whisper?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test88",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test88",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 88",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is a house a kind of vegetable?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test89",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test89",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 89",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do all people nap with their eyes open?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test90",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test90",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 90",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is money used to buy things?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test91",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test91",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 91",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do bears live in apartment buildings?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test92",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test92",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 92",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is a feather heavier than a book?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test93",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test93",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 93",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Does ice cream melt when left in the sun?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test94",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test94",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 94",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is a knee part of an arm?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test95",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test95",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 95",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do people take showers to stay dry?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test96",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test96",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 96",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do dogs drink water?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test97",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test97",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 97",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do people smile with their elbows?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test98",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test98",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 98",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Can staples be used to keep several pieces of paper together?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test99",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test99",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 99",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do spiders catch cars in the webs they spin?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test100",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test100",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 100",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": " Do people use water when washing dishes?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test101",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test101",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 101",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do students usually wear swimsuits to class?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test102",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test102",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 102",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is a vegetable something that a person can eat?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test103",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test103",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 103",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do horses use a knife and fork to eat hay?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test104",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test104",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 104",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is breakfast the meal some people eat in the morning?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test105",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test105",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 105",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is a mother younger than her child?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test106",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test106",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 106",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Can a man hold an entire ocean in his hands?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test107",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test107",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 107",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is your mouth the place where your tongue is found?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test108",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test108",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 108",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Do people put food in a refrigerator to keep it hot?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test109",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test109",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 109",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Is an apple something a person might find at the grocery store?",
+                      "answer": "Yes"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                },
+                {
+                  "id": "ktea3a-silentreading-test110",
+                  "shouldUseTimer": false,
+                  "forceReloadBefore": false,
+                  "baseUrl": "battery/ktea-3/silent_reading_fluency/ktea3a-silentreading-test110",
+                  "subtestName": "Silent Reading Fluency",
+                  "usesStims": false,
+                  "shouldShowStimTouches": false,
+                  "isWritingRequired": false,
+                  "title": "Test Item 110",
+                  "nameElements": 
+                  [
+                  ],
+                  "questionType": "Score",
+                  "isTeachingItem": false,
+                  "useTimedSwitch": false,
+                  "isShowInstruction": false,
+                  "useDashboard": false,
+                  "hideStimWhenLeavingItem": false,
+                  "promptBlocks": 
+                  [
+                  ],
+                  "suppressInstructionCard": false,
+                  "predefinedBehavior": {
+                    "data": {
+                      "prompt": "Does walking usually help someone go long distances faster than riding in a car?",
+                      "answer": "No"
+                    },
+                    "superType": null,
+                    "type": "SilentReading"
+                  },
+                  "contextualEventBtn": 
+                  [
+                  ]
+                }
+              ],
+              "hasInstructionsHtml": true
+            }
+          ]
+        }
+      ],
+      "questions": 
+      [
+      ]
+    }
+  ],
+  "MaxErrorsOnSCILDiscontinueRule": {
+    "description": "Discontinue triggered after 3 or more errors in the Teaching Items.",
+    "numErrors": 3,
+    "questionId": "ktea3a-silentreading-teach1",
+    "numQuestions": 4,
+    "useCorrectIncorrectDiscontinueText": true
+  },
+  "observations": 
+  [
+    {
+      "guid": "c5db5ad7271242f7a453af79b39a6b0c",
+      "type": "Selection",
+      "label": "Used finger to track when reading items on the page",
+      "isFirstInGroup": true
+    },
+    {
+      "guid": "fe0610beebdb40fba0f39d41115c2b12",
+      "type": "Selection",
+      "label": "Saw ambiguity in many items, or had difficulty answering yes or no"
+    },
+    {
+      "guid": "eac46ebd56ab4a5baab52e62bf2e9256",
+      "type": "Selection",
+      "label": "Performance was generally slow and accurate"
+    },
+    {
+      "guid": "764ee8c8cbc04304a9d1330a5faf0afa",
+      "type": "Selection",
+      "label": "Performance was generally slow and inaccurate"
+    },
+    {
+      "guid": "884567f95b4f49aab05883bb9eefbae3",
+      "type": "Selection",
+      "label": "Performance was generally fast and inaccurate"
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "SC",
+      "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+      "abbreviation": "sc"
+    }
+  ],
+  "shouldShowStartPoints": null
+}
