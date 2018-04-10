@@ -11,7 +11,8 @@ const TESTS = [
   'gfta-2',
   'wiat-iii',
   'wisc-iv',
-  'ktea-3'
+  'ktea-3',
+  'ravlt'
 ];
 
 const NORMAL_CHANNEL = 'Production'
