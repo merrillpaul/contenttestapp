@@ -10,7 +10,8 @@ const TESTS = [
   'cms',
   'gfta-2',
   'wiat-iii',
-  'wisc-iv'
+  'wisc-iv',
+  'ktea-3'
 ];
 
 const NORMAL_CHANNEL = 'Production'
@@ -91,6 +92,8 @@ export class HomePage {
     });
     alert.present();
   }
+
+
 
   async downloadContent() {
     if(this.platform.is('core')) {
