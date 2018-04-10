@@ -1,0 +1,305 @@
+{
+  "subtestId": 502,
+  "subtestGUID": "bcb71215adf548389c7e1a1bdf7de8db",
+  "title": "Dot Locations 2",
+  "displayName": "Dot Locations 2",
+  "abbr": null,
+  "testType": "cms",
+  "testTitle": "CMS",
+  "testDisplayName": "CMS",
+  "normType": "cms",
+  "testGUID": "169dcf9d14c145dd9a8703bd695a9d9b",
+  "subtestType": "cms",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/cms/dot_locations_2",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 5,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      },
+      {
+        "type": "delay",
+        "minDelayMinutes": 25,
+        "maxDelayMinutes": 35,
+        "timerMetadata": 
+        [
+          {
+            "duration": 99,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "expire"
+          },
+          {
+            "duration": 10,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "ready"
+          },
+          {
+            "duration": 25,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "wait"
+          }
+        ]
+      },
+      {
+        "type": "mustFollow",
+        "data": 
+        [
+          {
+            "subtestGUID": "89114949a1b149c78eee073bd377528e",
+            "subtestName": "Dot Locations",
+            "immediatelyFollowSubtest": false,
+            "requiredToFollow": true
+          }
+        ]
+      }
+    ],
+    "subtestCategory": "Learning and Memory",
+    "averageDuration": 2,
+    "descriptionCS": "The examinee is asked to recall the dot locations from the learning trials of the Dot Locations subtest."
+  },
+  "questions": 
+  [
+    {
+      "id": "cms-dotlocations2-delayedrecall58",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/dot_locations_2/cms-dotlocations2-delayedrecall58",
+      "subtestName": "Dot Locations 2",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Long Delay",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/dot_locations_2/cms-dotlocations2-delayedrecall58/cms-dotlocations2-delayedrecall58Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 6,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 4,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 7,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "P",
+          "guid": "eb7c6a7597694902a017391974b8429c",
+          "abbreviation": "P"
+        },
+        {
+          "name": "R",
+          "guid": "c973a426598d48b3a5a2395535685c1c",
+          "abbreviation": "R"
+        }
+      ]
+    },
+    {
+      "id": "cms-dotlocations2-delayedrecall916",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/dot_locations_2/cms-dotlocations2-delayedrecall916",
+      "subtestName": "Dot Locations 2",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Long Delay",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/dot_locations_2/cms-dotlocations2-delayedrecall916/cms-dotlocations2-delayedrecall916Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 8,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 5,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 14,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "ageBasedSimpleSkipRules": 
+  [
+    {
+      "minAge": 5,
+      "maxAge": 8,
+      "itemsToSkip": 
+      [
+        "cms-dotlocations2-delayedrecall916"
+      ]
+    },
+    {
+      "minAge": 9,
+      "maxAge": 16,
+      "itemsToSkip": 
+      [
+        "cms-dotlocations2-delayedrecall58"
+      ]
+    }
+  ],
+  "IncompleteItemRule": {
+    "description": "<p>Record all chip placements before continuing to the next trial. If the examinee has not placed all chips on the Response Grid, say,&nbsp;<span class=\"speechBlue\">Place all the chips on the grid. If you can&#39;t remember where to put them, make your best guess.<\u002fspan><\u002fp>\r\n"
+  },
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

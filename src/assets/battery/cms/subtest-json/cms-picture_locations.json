@@ -1,0 +1,1493 @@
+{
+  "subtestId": 500,
+  "subtestGUID": "6848e6eaaa68454fa69b56ab5f968e71",
+  "title": "Picture Locations",
+  "displayName": "Picture Locations",
+  "abbr": null,
+  "testType": "cms",
+  "testTitle": "CMS",
+  "testDisplayName": "CMS",
+  "normType": "cms",
+  "testGUID": "169dcf9d14c145dd9a8703bd695a9d9b",
+  "subtestType": "cms",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/cms/picture_locations",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": {
+    "questionScoreIsHighestTrialScore": false,
+    "onlySkipSampleItems": false
+  },
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 5,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Learning and Memory",
+    "averageDuration": 5,
+    "descriptionCS": "The examinee is shown pictures placed in various locations within a rectangle. The stimulus is removed from view, and the examinee is asked to place the Response Chips on the Response Grid in the same locations as the pictures appeared."
+  },
+  "questions": 
+  [
+    {
+      "id": "cms-picturelocations916-iditem",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-iditem",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Identification Item",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/cms-picturelocations916-iditem/cms-picturelocations916-iditemPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 0,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            }
+          ],
+          "correctLocations": 
+          [
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-teachingitemexp",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-teachingitemexp",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Teaching Item",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/cms-picturelocations916-teachingitemexp/cms-picturelocations916-teachingitemexpPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 0,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            }
+          ],
+          "correctLocations": 
+          [
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-sampleitem",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-sampleitem",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Sample Item",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Provide verbal encouragement. Remove the chip from the Response Grid and place it with the other chips in front of the examinee.<\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response: <\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s not quite right. Let&#39;s try it again.<\u002fspan><\u002fp>\r\n\r\n<p>Swipe back and readminister the Sample Item until the examinee responds correctly.&nbsp;Then remove the chip from the Response Grid and place it with the other chips in front of the examinee.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/cms-picturelocations916-sampleitem/cms-picturelocations916-sampleitemPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 1,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item1",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/cms-picturelocations916-item1/cms-picturelocations916-item1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 1,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item2",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/cms-picturelocations916-item2/cms-picturelocations916-item2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 1,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item3",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/cms-picturelocations916-item3/cms-picturelocations916-item3Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 2,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item4",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/items_4-12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 2,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item5",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/items_4-12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 3,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 5,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item6",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/items_4-12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 3,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item7",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/items_4-12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 4,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 5,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item8",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/items_4-12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 4,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item9",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/items_4-12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 5,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 1,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 4,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item10",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/items_4-12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 5,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 1,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item11",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/items_4-12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 6,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 1,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 5,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 7,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item12",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 12",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/items_4-12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 6,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 7,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item13",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/cms-picturelocations916-item13/cms-picturelocations916-item13Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 7,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 7,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 12,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 15,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item14",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 14",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/cms-picturelocations916-item14/cms-picturelocations916-item14Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 7,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 1,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 12,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item15",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 15",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/cms-picturelocations916-item15/cms-picturelocations916-item15Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 8,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 1,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 5,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 12,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 14,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-picturelocations916-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/picture_locations/cms-picturelocations916-item16",
+      "subtestName": "Picture Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 16",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/picture_locations/cms-picturelocations916-item16/cms-picturelocations916-item16Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 8,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 5,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 14,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "ageBasedSimpleSkipRules": 
+  [
+    {
+      "minAge": 5,
+      "maxAge": 8,
+      "itemsToSkip": 
+      [
+        "cms-picturelocations916-item11",
+        "cms-picturelocations916-item12",
+        "cms-picturelocations916-item13",
+        "cms-picturelocations916-item14",
+        "cms-picturelocations916-item15",
+        "cms-picturelocations916-item16"
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

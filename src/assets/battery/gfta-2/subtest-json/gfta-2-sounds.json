@@ -1,0 +1,5877 @@
+{
+  "subtestId": 757,
+  "subtestGUID": "e800dc1be9734b4496fbcbe79824a471",
+  "title": "Sounds",
+  "displayName": "Sounds",
+  "abbr": "Sounds",
+  "testType": "gfta",
+  "testTitle": "GFTA-2",
+  "testDisplayName": "GFTA-2",
+  "normType": "gfta-2",
+  "testGUID": "c4df32245cab4659954f9286c8e2ee67",
+  "subtestType": "Sounds",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/gfta-2/sounds",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 2,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 21,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Language",
+    "averageDuration": 10,
+    "descriptionCS": "A systematic means of assessing an individual's articulation of the consonant sounds of Standard American English."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": false,
+      "isOptional": false,
+      "shouldSuppressScore": false,
+      "title": "Sounds in Words",
+      "abbr": "siw",
+      "isUsingCustomIButton": true,
+      "baseUrl": "battery/gfta-2/sounds/sounds_in_words",
+      "questions": 
+      [
+        {
+          "id": "gfta2-soundsinwords-picture1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture1",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture1/gfta2-soundsinwords-picture1Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "house",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_h",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "serif_a_upsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_s",
+                      "scorable": true
+                    }
+                  ]
+                },
+                {
+                  "label": "tree",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_t",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_r",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "lower_i",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "window",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_w",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_d",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "lower_o",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "5fd0cfabf2b44313a8d90eb705a843fa",
+              "abbreviation": "cu1",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture2",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture2/gfta2-soundsinwords-picture2Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "telephone",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_t",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "epsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_f",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "lower_o",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "f1e1928864304e02b6296e096deb2d8a",
+              "abbreviation": "cu2",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture3",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture3/gfta2-soundsinwords-picture3Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "cup",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_k",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_p",
+                      "scorable": true
+                    }
+                  ]
+                },
+                {
+                  "label": "knife",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "serif_a_upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_f",
+                      "scorable": true
+                    }
+                  ]
+                },
+                {
+                  "label": "spoon",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_s",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_p",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "lower_u",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "7e4996edf5754e66ae55daabebc7ae78",
+              "abbreviation": "cu3",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture4",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture4/gfta2-soundsinwords-picture4Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "girl",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_g",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "reversed_r_epsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "ball",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_b",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "open_o",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "81cad054b11a44eebbfb1857be6a66de",
+              "abbreviation": "cu4",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture5",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture5/gfta2-soundsinwords-picture5Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "wagon",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_w",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_g",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "shovel",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "esh",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_v",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "874664578a404eb0978176a049d7e134",
+              "abbreviation": "cu5",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture6",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture6/gfta2-soundsinwords-picture6Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "monkey",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_m",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_k",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "lower_i",
+                      "scorable": true
+                    }
+                  ]
+                },
+                {
+                  "label": "banana",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_b",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_e",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "df14b460b0c24fe7b8562c15494d31b9",
+              "abbreviation": "cu6",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture7",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture7/gfta2-soundsinwords-picture7Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "zipper",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_p",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_r_e",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "efa63fe14714493197712137498619a7",
+              "abbreviation": "cu7",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture8",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture8/gfta2-soundsinwords-picture8Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "scissors",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_s",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_r_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "9aed67aec44a4ce8a613fe703c7b7f1d",
+              "abbreviation": "cu8",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture9",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 9",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture9/gfta2-soundsinwords-picture9Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "duck",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_d",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_k",
+                      "scorable": true
+                    }
+                  ]
+                },
+                {
+                  "label": "quack",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_k",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_w",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_k",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "yellow",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_j",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "epsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_o",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "f9c8058655ff47ef8e70d0c194fd9d8a",
+              "abbreviation": "cu9",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture10",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 10",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture10/gfta2-soundsinwords-picture10Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "vacuum",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_v",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_k",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_j",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_u",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_m",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "9244e950e5fc4272ac472b44fcb88b90",
+              "abbreviation": "cu10",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture11",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 11",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture11/gfta2-soundsinwords-picture11Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "watch",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_w",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_a",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ech",
+                      "scorable": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "8eb6158a539940dcaf3a49efe35142eb",
+              "abbreviation": "cu11",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture12",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 12",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture12/gfta2-soundsinwords-picture12Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "plane",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_p",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_l",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "lower_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "4aac882c4e41484f98ad1ce73b888bdb",
+              "abbreviation": "cu12",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture13",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 13",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture13/gfta2-soundsinwords-picture13Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "swimming",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_s",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_w",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_m",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "2ccaaa196322437db6825740422361b4",
+              "abbreviation": "cu13",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture14",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 14",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture14/gfta2-soundsinwords-picture14Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "watches",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_w",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_a",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ech",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "b479937fffb64559af2592cb8af68823",
+              "abbreviation": "cu14",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture15",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 15",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture15/gfta2-soundsinwords-picture15Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "lamp",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_m",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_p",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "c62b6219139046e8869f0b8ba36dbb4d",
+              "abbreviation": "cu15",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture16",
+          "subtestName": "Sounds",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 16",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture16/gfta2-soundsinwords-picture16Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "car",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_k",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_a",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_r",
+                      "scorable": true
+                    }
+                  ]
+                },
+                {
+                  "label": "blue",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_b",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_l",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "lower_u",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "8c74b89b57b34f67bb41fb86d6f20957",
+              "abbreviation": "cu16",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "gfta2-soundsinwords-picture17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture17",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 17",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture17/gfta2-soundsinwords-picture17Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "rabbit",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_r",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_b",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_t",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "carrot",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_k",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_r",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_t",
+                      "scorable": true
+                    }
+                  ]
+                },
+                {
+                  "label": "orange",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "open_o",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_r",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "edj",
+                      "scorable": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "a14de8c67c85403e9a02e1913fc51e51",
+              "abbreviation": "cu17",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture18",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture18",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 18",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture18/gfta2-soundsinwords-picture18Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "fishing",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_f",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "esh",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "df9c5d716b0b4bd4a57ee495505044fe",
+              "abbreviation": "cu18",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture19",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture19",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 19",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture19/gfta2-soundsinwords-picture19Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "chair",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "ech",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "epsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_r",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "88c14b2d2051433f9946b274546864a8",
+              "abbreviation": "cu19",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture20",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture20",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 20",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture20/gfta2-soundsinwords-picture20Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "feather",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_f",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "epsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eth",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_r_e",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "d8d2060b26ba4b6587990b579a6fe4b5",
+              "abbreviation": "cu20",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture21",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture21",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 21",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture21/gfta2-soundsinwords-picture21Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "pencils",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_p",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "epsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_s",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "this",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "eth",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_s",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "ebdf22a70b364fc6b7086583b299221c",
+              "abbreviation": "cu21",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture22",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture22",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 22",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture22/gfta2-soundsinwords-picture22Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "bathtub",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_b",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "theta",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "lower_t",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_b",
+                      "scorable": true
+                    }
+                  ]
+                },
+                {
+                  "label": "bath",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_b",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "theta",
+                      "scorable": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "4e3627fb6176422498f0c1173a5c898a",
+              "abbreviation": "cu22",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture23",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture23",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 23",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture23/gfta2-soundsinwords-picture23Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "ring",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_r",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": true
+                    }
+                  ]
+                },
+                {
+                  "label": "finger",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_f",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "lower_g",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "reversed_r_epsilon",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "thumb",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "theta",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_m",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "fd2f30b1c5d246eb9d44cd9846593c2d",
+              "abbreviation": "cu23",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture24",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture24",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 24",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture24/gfta2-soundsinwords-picture24Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "jumping",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "edj",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_m",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_p",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "f2f05a056d4a4d25b5e654c797c4220a",
+              "abbreviation": "cu24",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture25",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture25",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 25",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture25/gfta2-soundsinwords-picture25Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "pajamas",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_p",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "edj",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_m",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "fdfe3a38353d46f6a3d4f3b69459e412",
+              "abbreviation": "cu25",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture26",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture26",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 26",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture26/gfta2-soundsinwords-picture26Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "flowers",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_f",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_l",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "serif_a_upsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_w",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_r_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "79e0632213a84d709373acefab544fb1",
+              "abbreviation": "cu26",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture27",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture27",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 27",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture27/gfta2-soundsinwords-picture27Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "brush",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_b",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_r",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "esh",
+                      "scorable": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "cf01066bc6524a3e9017fb00300b7c41",
+              "abbreviation": "cu27",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture28",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture28",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 28",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture28/gfta2-soundsinwords-picture28Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "drum",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_d",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_r",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_m",
+                      "scorable": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "197a299b93b54139a8e5c441b1914144",
+              "abbreviation": "cu28",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture29",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture29",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 29",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture29/gfta2-soundsinwords-picture29Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "frog",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_f",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_r",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "open_o",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_g",
+                      "scorable": true
+                    }
+                  ]
+                },
+                {
+                  "label": "green",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_g",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_r",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "lower_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "cd89eeedd63648c198783490b0145926",
+              "abbreviation": "cu29",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture30",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture30",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 30",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture30/gfta2-soundsinwords-picture30Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "clown",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_k",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_l",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "serif_a_upsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": true
+                    }
+                  ]
+                },
+                {
+                  "label": "balloons",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_b",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": true
+                    },
+                    {
+                      "phoneme": "lower_u",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "3371559e565c4b0ca05300f1bf2a0e89",
+              "abbreviation": "cu30",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture31",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture31",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 31",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture31/gfta2-soundsinwords-picture31Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "crying",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_k",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_r",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "serif_a_upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "3bb9f26e8f4345d88c3a603911f4abc5",
+              "abbreviation": "cu31",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture32",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture32",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 32",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture32/gfta2-soundsinwords-picture32Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "glasses",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_g",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_l",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_s",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "af75faa9bab047f2b708a870a16e2edb",
+              "abbreviation": "cu32",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture33",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture33",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 33",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture33/gfta2-soundsinwords-picture33Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "slide",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_s",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_l",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "serif_a_upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_d",
+                      "scorable": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "2a3b8606df5d4b9287af2944a55ef44c",
+              "abbreviation": "cu33",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinwords-picture34",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinwords-picture34",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Picture 34",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinwords-picture34/gfta2-soundsinwords-picture34Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "stars",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_s",
+                        "scorable": true
+                      },
+                      {
+                        "phoneme": "lower_t",
+                        "scorable": true
+                      }
+                    ],
+                    {
+                      "phoneme": "lower_a",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_r",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "five",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_f",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "serif_a_upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_v",
+                      "scorable": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "6eff0ec8498e4218a0fc0a229524aba9",
+              "abbreviation": "cu34",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "isOptional": true,
+      "shouldSuppressScore": true,
+      "title": "Sounds in Sentences",
+      "abbr": "sis",
+      "questions": 
+      [
+        {
+          "id": "gfta2-soundsinsentences-abadnightforjerry-story1-picture35",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-story1-picture35",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A Bad Night for Jerry - Story 1, Picture 35",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-story1-picture35/gfta2-soundsinsentences-abadnightforjerry-story1-picture35Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-abadnightforjerry-story1-picture36",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-story1-picture36",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A Bad Night for Jerry - Story 1, Picture 36",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-story1-picture36/gfta2-soundsinsentences-abadnightforjerry-story1-picture36Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-abadnightforjerry-story1-picture37",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-story1-picture37",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A Bad Night for Jerry - Story 1, Picture 37",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-story1-picture37/gfta2-soundsinsentences-abadnightforjerry-story1-picture37Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-abadnightforjerry-story1-picture38",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-story1-picture38",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A Bad Night for Jerry - Story 1, Picture 38",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-story1-picture38/gfta2-soundsinsentences-abadnightforjerry-story1-picture38Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-abadnightforjerry-story1-picture39",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-story1-picture39",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A Bad Night for Jerry - Story 1, Picture 39",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-story1-picture39/gfta2-soundsinsentences-abadnightforjerry-story1-picture39Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-abadnightforjerry-picture35",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-picture35",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A Bad Night for Jerry - Picture 35",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-picture35/gfta2-soundsinsentences-abadnightforjerry-picture35Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "Jerry",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "edj",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "epsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_r",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_i",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "playing",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_p",
+                        "scorable": false
+                      },
+                      {
+                        "phoneme": "lower_l",
+                        "scorable": false
+                      }
+                    ],
+                    {
+                      "phoneme": "lower_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_j",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "drum",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_d",
+                        "scorable": false
+                      },
+                      {
+                        "phoneme": "lower_r",
+                        "scorable": false
+                      }
+                    ],
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_m",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "ball",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_b",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "open_o",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "wagon",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_w",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_g",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "much",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_m",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ech",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "noise",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "open_o_upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-abadnightforjerry-picture36",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-picture36",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A Bad Night for Jerry - Picture 36",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-picture36/gfta2-soundsinsentences-abadnightforjerry-picture36Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "taking",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_t",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_k",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "bath",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_b",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "theta",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "loses",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_u",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "soap",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_s",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_o",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_p",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "floor",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_f",
+                        "scorable": false
+                      },
+                      {
+                        "phoneme": "lower_l",
+                        "scorable": false
+                      }
+                    ],
+                    {
+                      "phoneme": "lower_o",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_r",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-abadnightforjerry-picture37",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-picture37",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A Bad Night for Jerry - Picture 37",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-picture37/gfta2-soundsinsentences-abadnightforjerry-picture37Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "brushing",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_b",
+                        "scorable": false
+                      },
+                      {
+                        "phoneme": "lower_r",
+                        "scorable": false
+                      }
+                    ],
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "esh",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "toothpaste",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_t",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_u",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "theta",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_p",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_s",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_t",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "blue",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_b",
+                        "scorable": false
+                      },
+                      {
+                        "phoneme": "lower_l",
+                        "scorable": false
+                      }
+                    ],
+                    {
+                      "phoneme": "lower_u",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "pajamas",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_p",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "edj",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_m",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-abadnightforjerry-picture38",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-picture38",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A Bad Night for Jerry - Picture 38",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-picture38/gfta2-soundsinsentences-abadnightforjerry-picture38Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "yawns",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_j",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_o",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "yellow",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_j",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "epsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_o",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "light",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "serif_a_upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_t",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "gfta2-soundsinsentences-abadnightforjerry-picture39",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-picture39",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A Bad Night for Jerry - Picture 39",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-abadnightforjerry-picture39/gfta2-soundsinsentences-abadnightforjerry-picture39Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "sleeping",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_s",
+                        "scorable": false
+                      },
+                      {
+                        "phoneme": "lower_l",
+                        "scorable": false
+                      }
+                    ],
+                    {
+                      "phoneme": "lower_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_p",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "daddy",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_d",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_d",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_i",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "covers",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_k",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_r_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "sheet",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "esh",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_t",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-jackandrachel-story2-picture40",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-story2-picture40",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Jack and Rachel - Story 2, Picture 40",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-story2-picture40/gfta2-soundsinsentences-jackandrachel-story2-picture40Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-jackandrachel-story2-picture41",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-story2-picture41",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Jack and Rachel - Story 2, Picture 41",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-story2-picture41/gfta2-soundsinsentences-jackandrachel-story2-picture41Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-jackandrachel-story2-picture42",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-story2-picture42",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Jack and Rachel - Story 2, Picture 42",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-story2-picture42/gfta2-soundsinsentences-jackandrachel-story2-picture42Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-jackandrachel-story2-picture43",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-story2-picture43",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Jack and Rachel - Story 2, Picture 43",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-story2-picture43/gfta2-soundsinsentences-jackandrachel-story2-picture43Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-jackandrachel-picture40",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-picture40",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Jack and Rachel - Picture 40",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-picture40/gfta2-soundsinsentences-jackandrachel-picture40Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "Jack",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "edj",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_k",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "Rachel",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_r",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ech",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "going",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_g",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_o",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "fishing",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_f",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "esh",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "glasses",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_g",
+                        "scorable": false
+                      },
+                      {
+                        "phoneme": "lower_l",
+                        "scorable": false
+                      }
+                    ],
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_s",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "shirt",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "esh",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "reversed_r_epsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_t",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "zipper",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_p",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_r_e",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-jackandrachel-picture41",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-picture41",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Jack and Rachel - Picture 41",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-picture41/gfta2-soundsinsentences-jackandrachel-picture41Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "bridge",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_b",
+                        "scorable": false
+                      },
+                      {
+                        "phoneme": "lower_r",
+                        "scorable": false
+                      }
+                    ],
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "edj",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "noise",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "open_o_upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_z",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "dog",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_d",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "open_o",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_g",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "chasing",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "ech",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_s",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eng",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "frog",
+                  "phonemes": 
+                  [
+                    [
+                      {
+                        "phoneme": "lower_f",
+                        "scorable": false
+                      },
+                      {
+                        "phoneme": "lower_r",
+                        "scorable": false
+                      }
+                    ],
+                    {
+                      "phoneme": "open_o",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_g",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-jackandrachel-picture42",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-picture42",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Jack and Rachel - Picture 42",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-picture42/gfta2-soundsinsentences-jackandrachel-picture42Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "catch",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_k",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ech",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "fish",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_f",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "esh",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "four",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_f",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_o",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_r",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "five",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_f",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "serif_a_upper_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_v",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "thirteen",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "theta",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_r_e",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_t",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_i",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_n",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "they",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "eth",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_e",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "laugh",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_l",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_f",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "very",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "epsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_r",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_i",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        },
+        {
+          "id": "gfta2-soundsinsentences-jackandrachel-picture43",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-picture43",
+          "subtestName": "Sounds",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Jack and Rachel - Picture 43",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/gfta-2/sounds/gfta2-soundsinsentences-jackandrachel-picture43/gfta2-soundsinsentences-jackandrachel-picture43Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Sounds",
+            "data": {
+              "words": 
+              [
+                {
+                  "label": "Jack's",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "edj",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "ash",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_k",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_s",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "house",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_h",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "serif_a_upsilon",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "lower_s",
+                      "scorable": false
+                    }
+                  ]
+                },
+                {
+                  "label": "mother",
+                  "phonemes": 
+                  [
+                    {
+                      "phoneme": "lower_m",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_v",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "eth",
+                      "scorable": false
+                    },
+                    {
+                      "phoneme": "turned_r_e",
+                      "scorable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "isOptional": true,
+      "shouldSuppressScore": true,
+      "title": "Stimulability",
+      "abbr": "stim",
+      "isUsingCustomSpeechBubble": true,
+      "baseUrl": "battery/gfta-2/sounds/stimulability",
+      "questions": 
+      [
+        {
+          "id": "gfta-stimulability-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/gfta-2/sounds/gfta-stimulability-item1",
+          "subtestName": "Sounds",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "item1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "type": "Stimulability",
+            "data": {
+              "savedSounds": 
+              [
+                {
+                  "sound": 
+                  [
+                    "lower_p"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "pig",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_p",
+                        "upper_i"
+                      ]
+                    },
+                    {
+                      "word": "apple",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "ash",
+                        "lower_p",
+                        "turned_e"
+                      ]
+                    },
+                    {
+                      "word": "soup",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "lower_u",
+                        "lower_p"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_m"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "milk",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_m",
+                        "upper_i"
+                      ]
+                    },
+                    {
+                      "word": "yummy",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "turned_v",
+                        "lower_m",
+                        "lower_i"
+                      ]
+                    },
+                    {
+                      "word": "room",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "lower_u",
+                        "lower_m"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_n"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "knee",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_n",
+                        "lower_i"
+                      ]
+                    },
+                    {
+                      "word": "peanuts",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "lower_i",
+                        "lower_n",
+                        "turned_e"
+                      ]
+                    },
+                    {
+                      "word": "can",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "ash",
+                        "lower_n"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_w"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "wet",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_w",
+                        "epsilon"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_h"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "hot",
+                      "position": "inital",
+                      "syllable": 
+                      [
+                        "lower_h",
+                        "lower_a"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_b"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "bed",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_b",
+                        "epsilon"
+                      ]
+                    },
+                    {
+                      "word": "baby",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "lower_e",
+                        "lower_b",
+                        "lower_i"
+                      ]
+                    },
+                    {
+                      "word": "job",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "lower_a",
+                        "lower_b"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_g"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "give",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_g",
+                        "upper_i"
+                      ]
+                    },
+                    {
+                      "word": "baggy",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "ash",
+                        "lower_g",
+                        "lower_i"
+                      ]
+                    },
+                    {
+                      "word": "dog",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "open_o",
+                        "lower_g"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_k"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "cat",
+                      "position": "inital",
+                      "syllable": 
+                      [
+                        "lower_k",
+                        "ash"
+                      ]
+                    },
+                    {
+                      "word": "yucky",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "turned_v",
+                        "lower_k",
+                        "lower_i"
+                      ]
+                    },
+                    {
+                      "word": "make",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "lower_e",
+                        "lower_k"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_f"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "face",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_f",
+                        "lower_e"
+                      ]
+                    },
+                    {
+                      "word": "coffee",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "open_o",
+                        "lower_f",
+                        "lower_i"
+                      ]
+                    },
+                    {
+                      "word": "laugh",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "ash",
+                        "lower_f"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_d"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "deer",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_d",
+                        "upper_i"
+                      ]
+                    },
+                    {
+                      "word": "ladder",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "ash",
+                        "lower_d",
+                        "turned_e"
+                      ]
+                    },
+                    {
+                      "word": "had",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "ash",
+                        "lower_d"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "eng"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "longest",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "open_o",
+                        "eng",
+                        "lower_e"
+                      ]
+                    },
+                    {
+                      "word": "sing",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "upper_i",
+                        "eng"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_j"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "you",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_j",
+                        "lower_u"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_t"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "top",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_t",
+                        "lower_a"
+                      ]
+                    },
+                    {
+                      "word": "guitar",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "upper_i",
+                        "lower_t",
+                        "lower_a"
+                      ]
+                    },
+                    {
+                      "word": "light",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "serif_a_upper_i",
+                        "lower_t"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "esh"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "ship",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "esh",
+                        "lower_i"
+                      ]
+                    },
+                    {
+                      "word": "dishes",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "upper_i",
+                        "esh",
+                        "upper_i"
+                      ]
+                    },
+                    {
+                      "word": "mash",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "lower_m",
+                        "ash",
+                        "esh"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "ech"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "cheese",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "ech",
+                        "lower_i"
+                      ]
+                    },
+                    {
+                      "word": "matches",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "ash",
+                        "ech",
+                        "upper_i"
+                      ]
+                    },
+                    {
+                      "word": "catch",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "ash",
+                        "ech"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_l"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "like",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_l",
+                        "serif_a_upper_i"
+                      ]
+                    },
+                    {
+                      "word": "below",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "upper_i",
+                        "lower_l",
+                        "lower_o"
+                      ]
+                    },
+                    {
+                      "word": "fell",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "epsilon",
+                        "lower_l"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_r"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "ran",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_r",
+                        "ash"
+                      ]
+                    },
+                    {
+                      "word": "carry",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "ash",
+                        "lower_r",
+                        "lower_i"
+                      ]
+                    },
+                    {
+                      "word": "door",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "lower_o",
+                        "lower_r"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "edj"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "just",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "edj",
+                        "turned_v"
+                      ]
+                    },
+                    {
+                      "word": "pages",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "lower_e",
+                        "edj",
+                        "upper_i"
+                      ]
+                    },
+                    {
+                      "word": "cage",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "lower_e",
+                        "edj"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "theta"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "thought",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "theta",
+                        "open_o"
+                      ]
+                    },
+                    {
+                      "word": "Cathy",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "ash",
+                        "theta",
+                        "lower_i"
+                      ]
+                    },
+                    {
+                      "word": "both",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "lower_o",
+                        "theta"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_v"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "vase",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_v",
+                        "lower_e"
+                      ]
+                    },
+                    {
+                      "word": "cover",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "turned_v",
+                        "lower_v",
+                        "turned_e"
+                      ]
+                    },
+                    {
+                      "word": "have",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "ash",
+                        "lower_v"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_s"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "sun",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_s",
+                        "turned_v"
+                      ]
+                    },
+                    {
+                      "word": "messy",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "epsilon",
+                        "lower_s",
+                        "lower_i"
+                      ]
+                    },
+                    {
+                      "word": "miss",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "upper_i",
+                        "lower_s"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_z"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "zoo",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_z",
+                        "lower_u"
+                      ]
+                    },
+                    {
+                      "word": "fuzzy",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "turned_v",
+                        "lower_z",
+                        "lower_i"
+                      ]
+                    },
+                    {
+                      "word": "have",
+                      "position": "final",
+                      "syllable": 
+                      [
+                        "ash",
+                        "lower_v"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "eth"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "that",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "eth",
+                        "ash"
+                      ]
+                    },
+                    {
+                      "word": "other",
+                      "position": "medial",
+                      "syllable": 
+                      [
+                        "turned_v",
+                        "eth",
+                        "turned_e"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_b",
+                    "lower_l"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "black",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_b",
+                        "lower_l",
+                        "ash"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_b",
+                    "lower_r"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "broke",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_b",
+                        "lower_r",
+                        "lower_o"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_d",
+                    "lower_r"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "drink",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_d",
+                        "lower_r",
+                        "upper_i"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_f",
+                    "lower_l"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "flew",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_f",
+                        "lower_l",
+                        "lower_u"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_f",
+                    "lower_r"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "fruit",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_f",
+                        "lower_r",
+                        "lower_u"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_g",
+                    "lower_l"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "glass",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_g",
+                        "lower_l",
+                        "ash"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_g",
+                    "lower_r"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "grass",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_g",
+                        "lower_r",
+                        "ash"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_k",
+                    "lower_l"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "close",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_k",
+                        "lower_l",
+                        "lower_o"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_k",
+                    "lower_r"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "crash",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_k",
+                        "lower_r",
+                        "epsilon"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_k",
+                    "lower_w"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "quit",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_k",
+                        "lower_w",
+                        "upper_i"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_p",
+                    "lower_l"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "play",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_p",
+                        "lower_l",
+                        "lower_e"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_s",
+                    "lower_l"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "slip",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_s",
+                        "lower_l",
+                        "upper_i"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_s",
+                    "lower_p"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "spot",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_s",
+                        "lower_p",
+                        "lower_a"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_s",
+                    "lower_t"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "stop",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_s",
+                        "lower_t",
+                        "lower_a"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_s",
+                    "lower_w"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "switch",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_s",
+                        "lower_w",
+                        "upper_i"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "sound": 
+                  [
+                    "lower_t",
+                    "lower_r"
+                  ],
+                  "positions": 
+                  [
+                    {
+                      "word": "truck",
+                      "position": "initial",
+                      "syllable": 
+                      [
+                        "lower_t",
+                        "lower_r",
+                        "turned_v"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Cues",
+              "guid": "b67c71da82734f4fb5fcbf2a91c2935d",
+              "abbreviation": "cus",
+              "isPopover": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+  ]
+}

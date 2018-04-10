@@ -1,0 +1,977 @@
+{
+  "subtestId": 498,
+  "subtestGUID": "89114949a1b149c78eee073bd377528e",
+  "title": "Dot Locations",
+  "displayName": "Dot Locations",
+  "abbr": null,
+  "testType": "cms",
+  "testTitle": "CMS",
+  "testDisplayName": "CMS",
+  "normType": "cms",
+  "testGUID": "169dcf9d14c145dd9a8703bd695a9d9b",
+  "subtestType": "cms",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/cms/dot_locations",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 5,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Learning and Memory",
+    "averageDuration": 3,
+    "descriptionCS": "The examinee is shown a stimulus item consisting of blue dots placed in various locations within a box. The stimulus is then removed from view, and the examinee places Response Chips on the Response Grid in the same locations as the blue dots appeared in the stimulus item."
+  },
+  "questions": 
+  [
+    {
+      "id": "cms-dotlocations-trial1carda",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/dot_locations/cms-dotlocations-trial1carda",
+      "subtestName": "Dot Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Trial 1 (Card A)",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/dot_locations/cms-dotlocations-trial1carda/cms-dotlocations-trial1cardaPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 6,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 4,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 7,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "png"
+    },
+    {
+      "id": "cms-dotlocations-trial2carda",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/dot_locations/cms-dotlocations-trial2carda",
+      "subtestName": "Dot Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Trial 2 (Card A)",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/dot_locations/cms-dotlocations-trial2carda/cms-dotlocations-trial2cardaPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 6,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 4,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 7,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "png"
+    },
+    {
+      "id": "cms-dotlocations-trial3carda",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/dot_locations/cms-dotlocations-trial3carda",
+      "subtestName": "Dot Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Trial 3 (Card A)",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/dot_locations/cms-dotlocations-trial3carda/cms-dotlocations-trial3cardaPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 6,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 4,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 7,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "png"
+    },
+    {
+      "id": "cms-dotlocations-trial4cardb",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/dot_locations/cms-dotlocations-trial4cardb",
+      "subtestName": "Dot Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Trial 4 (Card B): Not Scored",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/dot_locations/cms-dotlocations-trial4cardb/cms-dotlocations-trial4cardbPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 6,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 1,
+              "chipColor": "#EC3B22"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#EC3B22"
+            },
+            {
+              "cellIndex": 4,
+              "chipColor": "#EC3B22"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#EC3B22"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#EC3B22"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#EC3B22"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "png"
+    },
+    {
+      "id": "cms-dotlocations-immediaterecallcarda",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/dot_locations/cms-dotlocations-immediaterecallcarda",
+      "subtestName": "Dot Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Immediate Recall (Card A)",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/dot_locations/cms-dotlocations-immediaterecallcarda/cms-dotlocations-immediaterecallcardaPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 4,
+          "totalChipCount": 6,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 4,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 7,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "cms-dotlocations-trial1cardc",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/dot_locations/cms-dotlocations-trial1cardc",
+      "subtestName": "Dot Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Trial 1 (Card C)",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/dot_locations/cms-dotlocations-trial1cardc/cms-dotlocations-trial1cardcPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 8,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 5,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 14,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "png"
+    },
+    {
+      "id": "cms-dotlocations-trial2cardc",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/dot_locations/cms-dotlocations-trial2cardc",
+      "subtestName": "Dot Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Trial 2 (Card C)",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/dot_locations/cms-dotlocations-trial2cardc/cms-dotlocations-trial2cardcPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 8,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 5,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 14,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "png"
+    },
+    {
+      "id": "cms-dotlocations-trial3cardc",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/dot_locations/cms-dotlocations-trial3cardc",
+      "subtestName": "Dot Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Trial 3 (Card C)",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/dot_locations/cms-dotlocations-trial3cardc/cms-dotlocations-trial3cardcPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 8,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 5,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 14,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "png"
+    },
+    {
+      "id": "cms-dotlocations-trial4cardd",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/dot_locations/cms-dotlocations-trial4cardd",
+      "subtestName": "Dot Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Trial 4 (Card D): Not Scored",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/dot_locations/cms-dotlocations-trial4cardd/cms-dotlocations-trial4carddPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 8,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#EC3B22"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#EC3B22"
+            },
+            {
+              "cellIndex": 7,
+              "chipColor": "#EC3B22"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#EC3B22"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#EC3B22"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#EC3B22"
+            },
+            {
+              "cellIndex": 12,
+              "chipColor": "#EC3B22"
+            },
+            {
+              "cellIndex": 14,
+              "chipColor": "#EC3B22"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "png"
+    },
+    {
+      "id": "cms-dotlocations-immediaterecalltrialc",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/cms/dot_locations/cms-dotlocations-immediaterecalltrialc",
+      "subtestName": "Dot Locations",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Immediate Recall (Card C)",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/cms/dot_locations/cms-dotlocations-immediaterecalltrialc/cms-dotlocations-immediaterecalltrialcPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 8,
+          "isPerChip": true,
+          "hasInteractiveStim": false,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#40C842"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 5,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 14,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "ageBasedSimpleSkipRules": 
+  [
+    {
+      "minAge": 5,
+      "maxAge": 8,
+      "itemsToSkip": 
+      [
+        "cms-dotlocations-immediaterecalltrialc",
+        "cms-dotlocations-trial1cardc",
+        "cms-dotlocations-trial2cardc",
+        "cms-dotlocations-trial3cardc",
+        "cms-dotlocations-trial4cardd"
+      ]
+    },
+    {
+      "minAge": 9,
+      "maxAge": 16,
+      "itemsToSkip": 
+      [
+        "cms-dotlocations-immediaterecallcarda",
+        "cms-dotlocations-trial1carda",
+        "cms-dotlocations-trial2carda",
+        "cms-dotlocations-trial3carda",
+        "cms-dotlocations-trial4cardb"
+      ]
+    }
+  ],
+  "IncompleteItemRule": {
+    "description": "<p>Record all chip placements before continuing to the next trial. If the examinee has not placed all chips on the Response Grid, say,&nbsp;<span class=\"speechBlue\">Place all the chips on the grid. If you can&#39;t remember where to put them, make your best guess.<\u002fspan><\u002fp>\r\n"
+  },
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}
